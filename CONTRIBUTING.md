@@ -36,6 +36,17 @@ Here is a screenshot of that.
 
 If you are solving any other issue make your own PR. don't need to follow this temoplate.
 
+--- 
+
+# Make an issue and build a component you want to build.
+
+Here is a link to the figma UI kit. [Figma File](https://www.figma.com/file/0eqV7t3UKKM14UeqCSfOZb/Essential-UI---Figma-Ui-Kit-(Community)?node-id=688%3A1988)
+
+Take a screenshot of the component you want to build from the figma file. Make sure the component is not already built.
+
+Then create an issue using the `New Component` issue template. Get assigned and build it.
+
+This is super easy. 👍 
 ---
 # FAQ
 
