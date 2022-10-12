@@ -55,6 +55,11 @@ A great resource to learn the fundamentals of HTML is [W3 Schools](https://www.w
 
 &nbsp;&nbsp;&nbsp;&nbsp;CSS stands for Cascading Style Sheets and they are what gives style to the HTML elements. The presentation of a piece of software is very important to the end user experience and it is often dictated by the CSS, but have no fear getting started is easy (mastering it is altogether different). Just like with HTML othere are some great resources on the web to help you start writing your first CSS, among them are [***Mozilla's intorductory guide***](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started) and once again our friends at [***W3 Schools***](https://www.w3schools.com/css/). As for a intro to CSS video [***Web Dev Simplified***](https://www.youtube.com/watch?v=1PnVor36_40) has a great video to show you the basics.
 
+<div align="center">
+
+[![https://www.youtube.com/watch?v=1PnVor36_40](https://img.youtube.com/vi/1PnVor36_40/hqdefault.jpg)](https://www.youtube.com/watch?v=1PnVor36_40)
+</div>
+
 ## TailWind
 <div align="center">
 <img  src="https://miro.medium.com/max/720/1*PRQTp9ABhgNngUNFHtZS7w.png" alt="https://miro.medium.com/max/720/1*PRQTp9ABhgNngUNFHtZS7w.png" width="480"/>
