@@ -51,27 +51,29 @@ A great resource to learn the fundamentals of HTML is [W3 Schools](https://www.w
 
 ## CSS
 
+&nbsp;&nbsp;&nbsp;&nbsp;CSS stands for Cascading Style Sheets and they are what gives style to the HTML elements. The presentation of a piece of software is very important to the end user experience and it is often dictated by the CSS, but have no fear getting started is easy (mastering it is altogether different). Just like with HTML othere are some great resources on the web to help you start writing your first CSS, among them are [***Mozilla's intorductory guide***](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started) and once again our friends at [***W3 Schools***](https://www.w3schools.com/css/). 
+
 <img src="https://heretto.com/wp-content/uploads/2020/12/CSS-Feature-Image-1080x675.jpg" alt="https://heretto.com/wp-content/uploads/2020/12/CSS-Feature-Image-1080x675.jpg" width="480"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;CSS stands for Cascading Style Sheets and they are what gives style to the HTML elements. The presentation of a piece of software is very important to the end user experience and it is often dictated by the CSS, but have no fear getting started is easy (mastering it is altogether different). Just like with HTML othere are some great resources on the web to help you start writing your first CSS, among them are [***Mozilla's intorductory guide***](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started) and once again our friends at [***W3 Schools***](https://www.w3schools.com/css/). As for a intro to CSS video [***Web Dev Simplified***](https://www.youtube.com/watch?v=1PnVor36_40) has a great video to show you the basics.
+As for an intro to CSS video [***Web Dev Simplified***](https://www.youtube.com/watch?v=1PnVor36_40) has a great video to show you the basics.
 
 <div align="center">
 
 [![https://www.youtube.com/watch?v=1PnVor36_40](https://img.youtube.com/vi/1PnVor36_40/hqdefault.jpg)](https://www.youtube.com/watch?v=1PnVor36_40)
 </div>
 
-## TailWind
+## Tailwind
 <div align="center">
 <img  src="https://miro.medium.com/max/720/1*PRQTp9ABhgNngUNFHtZS7w.png" alt="https://miro.medium.com/max/720/1*PRQTp9ABhgNngUNFHtZS7w.png" width="480"/>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;TailWind is the newest and most exciting piece to the puzzle so far. It is a CSS framework that takes some of the utility of the most useful CSS classes and lets you use them very easily. Whenever you are creating an HTML element you can specify much of the style and behavior by passing a whole host of classes directly into the class attribute of your HTML, this means that you can quickly and efficiently style each element. Tailwind is also very efficient on size, removing unused classes automatically.
+&nbsp;&nbsp;&nbsp;&nbsp;Tailwind is the newest and most exciting piece to the puzzle so far. It is a CSS framework that takes some of the utility of the most useful CSS classes and lets you use them very easily. Whenever you are creating an HTML element you can specify much of the style and behavior by passing a whole host of classes directly into the class attribute of your HTML, this means that you can quickly and efficiently style each element. Tailwind is also very efficient on size, removing unused classes automatically.
 
-Here is a link to the TailWind Documentation, starting with a [page that shows the difference between traditional HTML and CSS and the use of TailWind](https://tailwindcss.com/docs/utility-first).
+Here is a link to the Tailwind Documentation, starting with a [page that shows the difference between traditional HTML and CSS and the use of Tailwind](https://Tailwindcss.com/docs/utility-first).
 
-If you are interested here is the [TailWind Git](https://github.com/tailwindlabs/tailwindcss).
+If you are interested here is the [Tailwind Git](https://github.com/Tailwindlabs/Tailwindcss).
 
-Here is a video to introduce you to TailWind and to get you started with one of [the most convenient CSS frameworks around!](https://www.youtube.com/watch?v=UBOj6rqRUME)
+Here is a video to introduce you to Tailwind and to get you started with one of [the most convenient CSS frameworks around!](https://www.youtube.com/watch?v=UBOj6rqRUME)
 
 <div align="center">
 
