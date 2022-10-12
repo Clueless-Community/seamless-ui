@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-One need to make this component using `HTML` and `CSS`. I would suggest to use [Tailwind Playgrounds](https://play.tailwindcss.com/) to make things faster and quicker.
+One need to make this component using `HTML` and `Tailwind CSS`. I would suggest to use [Tailwind Playgrounds](https://play.tailwindcss.com/) to make things faster and quicker.
 
 Here is a reference to the component. 
 #### Add image here
