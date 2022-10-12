@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 20px;
+    background-color: black;
+}
+button{
+    width: 200px;
+    padding: 15px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.text{
+   text-align: left;
+   display: block;
+   margin-right: auto;
+   margin-left: 30px;
+   width: 200px;
+}
+i{
+   display: block;
+   margin-left:auto ;
+   margin-right: auto;
+   width: 50%;
+}
+
+
