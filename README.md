@@ -1,5 +1,5 @@
 
-<h1 align='center'>The Opn-sourced UI Kit you always wanted. ⭐</h1>
+<h1 align='center'>The Open-sourced UI Kit you always wanted. ⭐</h1>
 <p align='center'> <b>This an open-sourced UI library built using HTML and CSS and maintained by Clueless Community</b> <p>
 
 --- 
