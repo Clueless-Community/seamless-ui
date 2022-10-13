@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #one:checked ~ .button label.one {
+        width: 35px;
+      }
+      #two:checked ~ .button label.two {
+        width: 35px;
+      }
+      #one:checked ~ .button label.two {
+        width: 15px;
+      }
+      #two:checked ~ .button label.one {
+        width: 15px;
+      }
+      #two:checked ~ .main-card {
+        margin-left: -100%;
+      }
+      body::before {
+        clip-path: inset(47% 0 0 0);
+        z-index: -1;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Card Sider</title>
+  </head>
+
+  <body
+    class="min-h-screen w-[100%] flex items-center justify-center bg-[#f2f2f2] relative before:content-[''] before:absolute before:w-[100%] before:h-[100%] before:bg-[#ff676d]"
+  >
+    <!-- contianer -->
+    <div class="max-w-[950px] overflow-x-hidden w-[100%] py-[80px]">
+      <input class="hidden" type="radio" name="dot" id="one" />
+      <input class="hidden" type="radio" name="dot" id="two" />
+      <!-- main div -->
+      <div
+        style="transition: all 1s ease"
+        class="main-card w-[200%] flex justify-evenly"
+      >
+        <!-- cards -->
+        <div
+          class="w-[calc(100%/2-10px)] flex-wrap flex justify-between mx-[20px]"
+        >
+          <!-- card 1 -->
+          <div
+            style="transition: all 0.4s ease"
+            class="w-[95%] mt-[20px] sm:mb-[10px] sm:w-[calc(100%/2-10px)] md:w-[calc(100%/3-10px)] card ml-[5px] hover:translate-y-[-15px] p-[30px] rounded-[24px] bg-white"
+          >
+            <!-- content -->
+            <div class="flex flex-col items-center justify-center text-center">
+              <div
+                class="w-[130px] bg-[#ff676d] p-[3px] h-[130px] mb-[14px] rounded-[50%]"
+              >
+                <img
+                  class="object-cover border-4 border-solid border-white rounded-[50%] h-[100%] w-[100%]"
+                  src="./images/bill.jpg"
+                />
+              </div>
+              <div class="text-[20px] font-medium">
+                <div class="font-medium">Bill Gates</div>
+                <div class="text-[15px] text-[#ff676d]">Founder, Microsoft</div>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div
+            style="transition: all 0.4s ease"
+            class="w-[95%] mt-[20px] sm:mb-[10px] sm:w-[calc(100%/2-10px)] md:w-[calc(100%/3-10px)] card ml-[5px] hover:translate-y-[-15px] p-[30px] rounded-[24px] bg-white"
+          >
+            <!-- content -->
+            <div class="flex flex-col items-center justify-center text-center">
+              <div
+                class="w-[130px] bg-[#ff676d] p-[3px] h-[130px] mb-[14px] rounded-[50%]"
+              >
+                <img
+                  class="object-cover border-4 border-solid border-white rounded-[50%] h-[100%] w-[100%]"
+                  src="./images/jeff.jpg"
+                />
+              </div>
+              <div class="text-[20px] font-medium">
+                <div class="font-medium">Jeff Bezos</div>
+                <div class="text-[15px] text-[#ff676d]">Founder, Amazon</div>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div
+            style="transition: all 0.4s ease"
+            class="w-[95%] mt-[20px] sm:mb-[10px] sm:w-[calc(100%/2-10px)] md:w-[calc(100%/3-10px)] card ml-[5px] hover:translate-y-[-15px] p-[30px] rounded-[24px] bg-white"
+          >
+            <!-- content -->
+            <div class="flex flex-col items-center justify-center text-center">
+              <div
+                class="w-[130px] bg-[#ff676d] p-[3px] h-[130px] mb-[14px] rounded-[50%]"
+              >
+                <img
+                  class="object-cover border-4 border-solid border-white rounded-[50%] h-[100%] w-[100%]"
+                  src="./images/steve.jpg"
+                />
+              </div>
+              <div class="text-[20px] font-medium">
+                <div class="font-medium">Steve Jobs</div>
+                <div class="text-[15px] text-[#ff676d]">Founder, Apple</div>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div
+            style="transition: all 0.4s ease"
+            class="w-[95%] mt-[20px] sm:mb-[10px] sm:w-[calc(100%/2-10px)] md:w-[calc(100%/3-10px)] card ml-[5px] hover:translate-y-[-15px] p-[30px] rounded-[24px] bg-white"
+          >
+            <!-- content -->
+            <div class="flex flex-col items-center justify-center text-center">
+              <div
+                class="w-[130px] bg-[#ff676d] p-[3px] h-[130px] mb-[14px] rounded-[50%]"
+              >
+                <img
+                  class="object-cover border-4 border-solid border-white rounded-[50%] h-[100%] w-[100%]"
+                  src="./images/mark.jpg"
+                />
+              </div>
+              <div class="text-[20px] font-medium">
+                <div class="font-medium">Mark Zuckerburg</div>
+                <div class="text-[15px] text-[#ff676d]">Founder, Meta</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- cards -->
+        <div
+          style="width: calc(100% / 2 - 10px)"
+          class="flex-wrap flex justify-between mx-[20px]"
+        >
+          <!-- card 1 -->
+          <div
+            style="transition: all 0.4s ease"
+            class="w-[95%] mt-[20px] sm:mb-[10px] sm:w-[calc(100%/2-10px)] md:w-[calc(100%/3-10px)] card ml-[5px] hover:translate-y-[-15px] p-[30px] rounded-[24px] bg-white"
+          >
+            <!-- content -->
+            <div class="flex flex-col items-center justify-center text-center">
+              <div
+                class="w-[130px] bg-[#ff676d] p-[3px] h-[130px] mb-[14px] rounded-[50%]"
+              >
+                <img
+                  class="object-cover border-4 border-solid border-white rounded-[50%] h-[100%] w-[100%]"
+                  src="./images/bill.jpg"
+                />
+              </div>
+              <div class="text-[20px] font-medium">
+                <div class="font-medium">Bill Gates</div>
+                <div class="text-[15px] text-[#ff676d]">Founder, Microsoft</div>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div
+            style="transition: all 0.4s ease"
+            class="w-[95%] mt-[20px] sm:mb-[10px] sm:w-[calc(100%/2-10px)] md:w-[calc(100%/3-10px)] card ml-[5px] hover:translate-y-[-15px] p-[30px] rounded-[24px] bg-white"
+          >
+            <!-- content -->
+            <div class="flex flex-col items-center justify-center text-center">
+              <div
+                class="w-[130px] bg-[#ff676d] p-[3px] h-[130px] mb-[14px] rounded-[50%]"
+              >
+                <img
+                  class="object-cover border-4 border-solid border-white rounded-[50%] h-[100%] w-[100%]"
+                  src="./images/jeff.jpg"
+                />
+              </div>
+              <div class="text-[20px] font-medium">
+                <div class="font-medium">Jeff Bezos</div>
+                <div class="text-[15px] text-[#ff676d]">Founder, Amazon</div>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div
+            style="transition: all 0.4s ease"
+            class="w-[95%] mt-[20px] sm:mb-[10px] sm:w-[calc(100%/2-10px)] md:w-[calc(100%/3-10px)] card ml-[5px] hover:translate-y-[-15px] p-[30px] rounded-[24px] bg-white"
+          >
+            <!-- content -->
+            <div class="flex flex-col items-center justify-center text-center">
+              <div
+                class="w-[130px] bg-[#ff676d] p-[3px] h-[130px] mb-[14px] rounded-[50%]"
+              >
+                <img
+                  class="object-cover border-4 border-solid border-white rounded-[50%] h-[100%] w-[100%]"
+                  src="./images/steve.jpg"
+                />
+              </div>
+              <div class="text-[20px] font-medium">
+                <div class="font-medium">Steve Jobs</div>
+                <div class="text-[15px] text-[#ff676d]">Founder, Apple</div>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div
+            style="transition: all 0.4s ease"
+            class="w-[95%] mt-[20px] sm:mb-[10px] sm:w-[calc(100%/2-10px)] md:w-[calc(100%/3-10px)] card ml-[5px] hover:translate-y-[-15px] p-[30px] rounded-[24px] bg-white"
+          >
+            <!-- content -->
+            <div class="flex flex-col items-center justify-center text-center">
+              <div
+                class="w-[130px] bg-[#ff676d] p-[3px] h-[130px] mb-[14px] rounded-[50%]"
+              >
+                <img
+                  class="object-cover border-4 border-solid border-white rounded-[50%] h-[100%] w-[100%]"
+                  src="./images/mark.jpg"
+                />
+              </div>
+              <div class="text-[20px] font-medium">
+                <div class="font-medium">Mark Zuckerburg</div>
+                <div class="text-[15px] text-[#ff676d]">Founder, Meta</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex m-[20px] button">
+        <label
+          for="one"
+          class="one w-[15px] h-[15px] bg-white mx-[4px] rounded-[20px] w-[35px]"
+        ></label>
+        <label
+          for="two"
+          class="two w-[15px] h-[15px] bg-white mx-[4px] rounded-[20px]"
+        ></label>
+      </div>
+    </div>
+  </body>
+  <footer class="bg-white px-[5px] py-[2px] text-[#ff676f] font-medium absolute bottom-[10px]">
+    Made with 💖 by
+    <a
+      class="underline"
+      href="https://www.linkedin.com/in/abhi-jain-1b42421ba/"
+      target="_blank"
+      >Abhi Jain</a
+    >
+  </footer>
+</html>
