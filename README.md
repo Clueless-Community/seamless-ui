@@ -66,6 +66,7 @@ We want to build the best and most simple UI Kit for fronted development, which 
     </a>
 </div>
 
+---
 ## Having a problem?
 
 Join our community discord server and ask younr question. We are always there to solve your queris and problem. 
