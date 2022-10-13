@@ -26,9 +26,9 @@ Hacktoberfest is an annual festival hosted by DigitalOcean that takes place in t
 
 We recommend you to go through the [CONTRIBUTING.md](https://github.com/Clueless-Community/web-ui-kit/blob/main/CONTRIBUTING.md) file, where we have guided you step by step to make your contribution.
 
-Once the pull request is merged, you will be given points according to the difficulty of the contribution. If you top the leaderboard you will be winning amazing swags and t-shirts from `ClueLess`
 
 ## What is the purpose of this project?
+    
 
 We want to build the best and most simple UI Kit for fronted development, which you can use irrespective of stack you are using, be it a plain HTML CSS static page or React, Vue or Angular. One should be always able to use this UI kit.
 
