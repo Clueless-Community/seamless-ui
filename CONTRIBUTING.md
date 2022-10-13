@@ -4,8 +4,7 @@
 Do check our [First Contribution](https://github.com/Clueless-Community/first-contribution) repository, where we have provided the guidelines to set up Git and how to make a pull request !
 
 ---
-
-# How to contribute?
+# How to contribute? ( You must use tailwind CSS )
 ## Using Tailwind playground.
 
 One can easily make a contribution in this repository without setting this up locally. If you are building a new UI component then follow the steps written below.
