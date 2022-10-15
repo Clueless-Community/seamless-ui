@@ -26,17 +26,12 @@ Hacktoberfest is an annual festival hosted by DigitalOcean that takes place in t
 
 We recommend you to go through the [CONTRIBUTING.md](https://github.com/Clueless-Community/web-ui-kit/blob/main/CONTRIBUTING.md) file, where we have guided you step by step to make your contribution.
 
-<<<<<<< HEAD
 Once the pull request is merged, you will be given points according to the difficulty of the contribution. If you top the leaderboard you will be winning amazing swags and t-shirts from `ClueLess`
-
-=======
-Once the pull request is merged, you will be given points accroding to the difficulty of the contribution. If you top the leaderboard you will be winnning amazing swags and t-shirts from `ClueLess`
 ---
 ## Don't know about Tailwind CSS ,HTML and git and github.
     
 #### Here is a guide for you to started with all of these. [click this link to get started](https://github.com/Clueless-Community/web-ui-kit/blob/main/Tutorial.md)
 ---
->>>>>>> upstream
 ## What is the purpose of this project?
     
 
