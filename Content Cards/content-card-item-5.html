@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      /* @type {import('tailwindcss').Config} */
+      tailwind.config = {
+        theme: {
+          extend: {
+            // ...
+            height: {
+              "260px": "260px",
+            },
+            width: {
+              "731px": "731px",
+              "346px": "346px",
+              "245px": "245px",
+            },
+            colors: {
+              linkBlue: "#1855CB",
+              slateText: "#858585",
+              date: "#BDBDBD",
+            },
+            borderRadius: {
+              "20px": "20px",
+            },
+          },
+        },
+        plugins: [],
+      };
+    </script>
+    <title>Horizontal Content</title>
+  </head>
+  <body>
+    <div class="m-5 w-731px h-260px">
+      <!--Card 1-->
+      <div class="w-full md:max-w-48 md:flex">
+        <div
+          class="h-48 md:h-auto md:w-245px flex-none bg-cover md:rounded-t-none md:rounded-l-20px text-center overflow-hidden"
+          style="
+            background-image: url('https://images.unsplash.com/photo-1526038335545-4b96864eaee7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHNtYXJ0cGhvbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60');
+          "
+          title="Mountain"
+        ></div>
+        <div
+          class="pl-12 border-r border-b border-l border-gray-400 md:border-l-0 md:border-t md:border-gray-400 bg-white rounded-b md:rounded-b-none md:rounded-r-20px pb-4 flex flex-col justify-between leading-normal"
+        >
+          <div class="mb-3.5">
+            <p class="text-sm text-date flex items-center pt-6">20 JUNE 2019</p>
+            <div class="text-gray-900 font-semibold w-96 text-2xl mb-2 pt-5">
+              Life Tips From Top Ten Adventure Travellers
+            </div>
+            <p class="text-slateText w-346px text-base pt-3.5">
+              Slate helps you see how many more days work to reach.
+            </p>
+          </div>
+          <div class="pb-2 w-48 text-sm font-medium">
+            <a href="#" class="text-linkBlue mr-3">Google</a>
+            <a href="#" class="text-linkBlue mr-3">Trending</a>
+            <a href="#" class="text-linkBlue">New</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- https://play.tailwindcss.com/wp0ymKpt0G -->
