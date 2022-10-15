@@ -22,6 +22,9 @@ Hacktoberfest is an annual festival hosted by DigitalOcean that takes place in t
 
 ---
 
+## Important Note
+This is not a repo where you can come and dump any UI code. You need to make proper components from the [Figma File](https://www.figma.com/file/0eqV7t3UKKM14UeqCSfOZb/Essential-UI---Figma-Ui-Kit-(Community)?node-id=315%3A449), which maintains proper design system and will be converted to a proper UI library along the way. We have just started out. 
+
 ## How to contribute?
 
 We recommend you to go through the [CONTRIBUTING.md](https://github.com/Clueless-Community/web-ui-kit/blob/main/CONTRIBUTING.md) file, where we have guided you step by step to make your contribution.
