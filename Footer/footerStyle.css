@@ -1,0 +1,55 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+.footer .col{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.footer .col.add{
+    line-height: 1;
+    margin: 5px 0;
+}
+.footer .foo-logo{
+    height: 60px;
+    width: 60px;
+}
+.footer h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footer a{
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #458b0c;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.footer a:hover{
+    color: #113510;
+}
+.footer .icons i{
+    margin: 0 10px 0 0;
+}
+.footer .play{
+    display: flex;
+    padding: 20px 0;
+}
+.footer .play img{
+    height: 8vh;
+    width: 30vh;
+    padding-right: 10px;
+
+}
+.footer .visa{
+    height: 5vh;
+    width: 30vh;
+    max-width: 40%;
+    max-height: 30%;
+}
