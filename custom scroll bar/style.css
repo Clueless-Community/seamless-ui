@@ -1,0 +1,18 @@
+::-webkit-scrollbar{
+    width: 20rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 1rem;
+    border: 0.5rem solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: aliceblue;
+}
