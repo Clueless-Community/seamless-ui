@@ -1,0 +1,65 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: #666565;
+}
+
+*
+ {
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    font-family: arial;
+    background: #FFFFFF;
+    text-align: center;
+  }
+  
+  #wrap {
+    padding-top: 20px;
+  }
+  
+  button {
+    margin-right: 20px;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border: 1px solid silver;
+    border-radius: 50px;
+    background: white;
+    transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+  }
+  
+  button:hover {
+    border-color: black;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+  
+  button.green:hover {
+    background: rgb(130, 250, 130);
+  }
+  button.red:hover {
+    background: rgb(250, 130, 130);
+  }
+  button.blue:hover {
+    color: white;
+    background: rgb(0, 130, 250);
+  }
