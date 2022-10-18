@@ -1,5 +1,52 @@
+<style>
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color:  rgb(154, 220, 241);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex {
+  width: 80%;
+  max-width: 820px;
+  background-color: #ccffff  ;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.text-gray-500 {
+  background-color: rgb(20, 134, 165);
+}
+
+.ml-4 {
+  background-color: rgb(20, 134, 165);
+}
+
+
+
+  </style>
 <section class="text-gray-600 body-font relative">
     <div class="container px-5 py-24 mx-auto">
+      <form>
       <div class="flex flex-col text-center w-full mb-12">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Contribute to ClueLess Community now.</p>
@@ -27,6 +74,7 @@
           <div class="p-2 w-full">
             <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
           </div>
+        
           <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
             <a class="text-indigo-500">clueless@email.com</a>
             <p class="leading-normal my-5">1000+ Followers 
@@ -55,8 +103,11 @@
                 </svg>
               </a>
             </span>
+            <div class="credit">Made with <span style="color:tomato">❤</span> by <a href="https://www.learningrobo.com/">Learning Robo</a></div>
+          </div>
           </div>
         </div>
       </div>
+    </form>
     </div>
   </section>
