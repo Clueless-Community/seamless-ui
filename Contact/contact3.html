@@ -1,78 +1,43 @@
 
-        * {
-            box-sizing: border-box;
-        }
-        #container {
-            width: 800px;
-            height: 590px;
-            
-            
-        }
-      
-       #img {
-            height: 500px;
-            width: 350px;
-        }
-
-        #form {
-            width: 600px;
-            height: 535px;
-        }
-
-    
+       
 
 
-    <div id="container" class="flex flex-row mt-2 mb-12 w-auto pl-6 pt-6 pb-3 ml-5  border-solid border-gray-200 border-2  bg-gray-100 ">
+    <div class="mt-2 mb-12 mr-52 flex max-w-fit  flex-row border-2 border-solid border-gray-200 bg-gray-100 pl-6 pt-6 pb-3">
+  <img src="https://www.avenatech.ca/wp-content/uploads/2020/06/two-woman-and-one-man-looking-at-the-laptop-1036641-1024x1024.jpg " class="w-52" alt="#" />
 
+  <form class="w-96 rounded bg-white px-12 pt-6 pb-8 shadow-md">
+    <h1 class="text-1.5xl mb-5 text-center font-bold">Book Appointment</h1>
 
-        <img src="dp.png" alt="#" id="img"  >
+    <div class="mb-4">
+      <label class="mb-2 block text-sm font-bold text-gray-700" for="name"> Name * </label>
+      <input class="focus:shadow-outline h-12 w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 placeholder-black shadow-md focus:outline-none" id="name" type="text" placeholder="Full Name *" />
+    </div>
+    <div class="mb-6">
+      <label class="mb-2 block text-sm font-bold text-gray-700" for="email"> Email </label>
+      <input class="focus:shadow-outline h-12 w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 placeholder-black shadow-md focus:outline-none" id="email" type="email" placeholder="example@gmail.com" />
+    </div>
 
-
-
-        <form class="  rounded bg-white px-12 pt-6 pb-8 shadow-md  " id="form">
-            <h1 class="font-bold text-center mb-5 text-1.5xl">Book Appointment</h1>
-
-            <div class="mb-4 ">
-                <label class="mb-2 block text-sm font-bold text-gray-700" for="name"> Name * </label>
-                <input
-                    class="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700  focus:outline-none shadow-md h-12 placeholder-black"
-                    id="name" type="text" placeholder="Full Name *" />
-            </div>
-            <div class="mb-6">
-                <label class="mb-2 block text-sm font-bold text-gray-700" for="email"> Email </label>
-                <input
-                    class="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700  focus:outline-none shadow-md h-12 placeholder-black"
-                    id="email" type="email" placeholder="example@gmail.com" />
-            </div>
-
-            <div class="mb-4">
-                <label for="department">Department *</label>
-                <select
-                    class="form-select m-0 block w-full rounded border border-solid border-gray-300 bg-white bg-clip-padding bg-no-repeat px-3 py-1.5 text-base font-normal text-gray-700 transition ease-in-out    focus:outline-none shadow-md h-12">
-                    <option value="">Please Select</option>
-                    <option value="ee">EE</option>
-                    <option value="me">ME</option>
-                </select>
-            </div>
-            <div class="mb-4">
-                <label for="time">Time *</label>
-                <select
-                    class="form-select m-0 block w-full rounded border border-solid border-gray-300 bg-white bg-clip-padding bg-no-repeat px-3 py-1.5 text-base font-normal text-gray-700 transition ease-in-out    focus:outline-none shadow-md h-12 ">
-                    <option value="1">4:00 Available</option>
-                    <option value="2">5:00 Available</option>
-                    <option value="3">6:00 Available</option>
-                </select>
-            </div>
-            <div
-                class="mb-4 mt-5 text-center bg-blue-700 text-white border-solid rounded-md border-2 border-gray-300 p-1.5 shadow-md h-12  ">
-                <button class="text-sm">Book Appointment</button>
-            </div>
-
-           
-        </form>
-      
+    <div class="mb-4">
+      <label for="department">Department *</label>
+      <select class="form-select m-0 block h-12 w-full rounded border border-solid border-gray-300 bg-white bg-clip-padding bg-no-repeat px-3 py-1.5 text-base font-normal text-gray-700 shadow-md transition ease-in-out focus:outline-none">
+        <option value="">Please Select</option>
+        <option value="ee">EE</option>
+        <option value="me">ME</option>
+      </select>
+    </div>
+    <div class="mb-4">
+      <label for="time">Time *</label>
+      <select class="form-select m-0 block h-12 w-full rounded border border-solid border-gray-300 bg-white bg-clip-padding bg-no-repeat px-3 py-1.5 text-base font-normal text-gray-700 shadow-md transition ease-in-out focus:outline-none">
+        <option value="1">4:00 Available</option>
+        <option value="2">5:00 Available</option>
+        <option value="3">6:00 Available</option>
+      </select>
+    </div>
+    <div class="mb-4 mt-5 h-12 rounded-md border-2 border-solid border-gray-300 bg-blue-700 p-1.5 text-center text-white shadow-md">
+      <button class="text-sm">Book Appointment</button>
+    </div>
+  </form>
 </div>
-
 
 
 
