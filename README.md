@@ -7,8 +7,8 @@
 ### Hacktoberfest
 
 You can contribute to this project under [Hacktoberfest 2022](https://hacktoberfest.com/) 💫
-
-![https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
+<a href="https://hacktoberfest.com">
+![https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)</a>
 
 Hacktoberfest 2022 is finally here, and we're pretty excited about it. We think it's a great time to encourage, recognise and reward developers in the community who dedicate their time to creating for others.
 
