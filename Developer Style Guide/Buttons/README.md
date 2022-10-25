@@ -1,7 +1,6 @@
 # 📒 Developer style guide for Buttons
 
-<img width="605" alt="Screenshot 2022-10-25 at 8 32 40 PM" src="https://user-images.githubusercontent.com/91758830/197823712-fdfb3883-f709-4b0a-bc6a-fa7021129acc.png">
-
+<img width="605" alt="Screenshot 2022-10-25 at 8 32 40 PM" src="https://user-images.githubusercontent.com/91758830/197834178-e1f3b49b-5f5e-40e3-99cb-630ef6d4517d.png">
 
 ## Types of button 🔽
 
@@ -18,13 +17,13 @@
 
 ### Color 🎨
 
-| Color            | Primary     | Secondary   | Success      | Alert         | Error      | Disabled    |
-| ---------------- | ----------- | ----------- | ------------ | ------------- | ---------- | ----------- |
+| Color | Primary | Secondary | Success | Alert | Error | Disabled |
+| --- | --- | --- | --- | --- | --- | --- |
 | Code in Tailwind | bg-blue-600 | bg-gray-200 | bg-green-600 | bg-yellow-500 | bg-red-500 | bg-gray-400 |
 
 ### Font
 
-For all buttons font is : **`font-semibold`**
+For all buttons font is : **`font-medium`**
 
 ### Hover Color
 
@@ -52,17 +51,17 @@ Every type of button has two variants `Normal` and `Rounded`.
 
 |  | Padding | Border Radius | Text Size |
 | --- | --- | --- | --- |
-| Small | px-4 & py-2 | rounded-md | text-lg |
-| Medium | px-6 & py-3 | rounded-md | text-lg |
-| Large | px-8 & py-4 | rounded-lg | text-xl |
+| Small | px-4 & py-2 | rounded-md | text-sm |
+| Medium | px-6 & py-3 | rounded-md | text-md |
+| Large | px-8 & py-4 | rounded-lg | text-lg |
 
 ### Primary Rounded button guidelines :
 
 |  | Padding | Border Radius | Text Size |
 | --- | --- | --- | --- |
-| Small | px-4 & py-2 | rounded-full | text-lg |
-| Medium | px-6 & py-3 | rounded-full | text-lg |
-| Large | px-8 & py-4 | rounded-full | text-xl |
+| Small | px-4 & py-2 | rounded-full | text-sm |
+| Medium | px-6 & py-3 | rounded-full | text-md |
+| Large | px-8 & py-4 | rounded-full | text-lg |
 
 `Exceptions` : The square button and only icon/ SVG button has a padding x and y same and, it equals the padding Y ( `py` ) of the normal buttons of the same size.
 
@@ -84,17 +83,17 @@ Every type of button has two variants `Normal` and `Rounded`.
 
 |  | Padding | Border Radius | Text Size |
 | --- | --- | --- | --- |
-| Small | px-4 & py-2 | rounded-md | text-lg |
-| Medium | px-6 & py-3 | rounded-md | text-lg |
-| Large | px-8 & py-4 | rounded-lg | text-xl |
+| Small | px-4 & py-2 | rounded-md | text-sm |
+| Medium | px-6 & py-3 | rounded-md | text-md |
+| Large | px-8 & py-4 | rounded-lg | text-lg |
 
 ### Secondary Rounded button guidelines :
 
 |  | Padding | Border Radius | Text Size |
 | --- | --- | --- | --- |
-| Small | px-4 & py-2 | rounded-full | text-lg |
-| Medium | px-6 & py-3 | rounded-full | text-lg |
-| Large | px-8 & py-4 | rounded-full | text-xl |
+| Small | px-4 & py-2 | rounded-full | text-sm |
+| Medium | px-6 & py-3 | rounded-full | text-md |
+| Large | px-8 & py-4 | rounded-full | text-lg |
 
 `Exceptions` : The square button and only icon/ SVG button has a padding x and y same and, it equals the padding Y ( `py` ) of the normal buttons of the same size.
 
@@ -118,24 +117,58 @@ This is the way we have all the buttons.
 
 Like in the `Primary/button.html` file you can find all the buttons of different size like this which maintains the design system above and also have a disabled state.
 
-Want to see this buttons in action? Try copy pasting this code in [Tailwind Playground]([https://play.tailwindcss.com/](https://play.tailwindcss.com/)). 💥
+Want to see this buttons in action? Try copy pasting this code in [Tailwind Playground](https://play.tailwindcss.com/). 💥
 
 ```html
 <!-- Small -->
 
-<button class="bg-blue-600 px-4 py-2 rounded-md text-white font-semibold text-lg hover:bg-blue-700 transition-all disabled:bg-gray-400">Button</button>
+<button class="bg-blue-600 px-4 py-2 rounded-md text-white text-sm font-medium  hover:bg-blue-700 transition-all disabled:bg-gray-400">Button</button>
 
 <!-- Medium -->
 
-<button class="bg-blue-600 px-6 py-3 rounded-md text-white font-semibold text-lg hover:bg-blue-700 transition-all disabled:bg-gray-400" >Button</button>
+<button class="bg-blue-600 px-6 py-3 rounded-md text-white text-md font-medium  hover:bg-blue-700 transition-all disabled:bg-gray-400" >Button</button>
 
 <!-- Large -->
 
-<button class="bg-blue-600 px-8 py-4 rounded-md text-white font-semibold text-xl hover:bg-blue-700 transition-all disabled:bg-gray-400">Button</button>
+<button class="bg-blue-600 px-8 py-4 rounded-lg text-white text-lg font-medium  hover:bg-blue-700 transition-all disabled:bg-gray-400">Button</button>
+```
+
+---
+
+## Icon guidelines:
+
+Mostly all the icons are taken from → [Hero Icons](https://heroicons.com/)
+
+`Icon-text-gap` :  We follow a convention of equal margin between the text and the icon as padding in y  axis `px`. and always the margin is given from the side of icon.
+
+|  | Width | Type |
+| --- | --- | --- |
+| Small | w-4 & h-4 | Hero Icons mini |
+| Medium | w-5 & h-5 | Hero Icons mini |
+| Large | w-6 & h-6 | Hero Icons filled |
+
+### Example :
+
+This is the `Secondary/text_icon_front_button.html` . <br />
+Want to see this buttons in action? Try copy pasting this code in [Tailwind Playground](https://play.tailwindcss.com/). 💥
+
+```html
+<button class="flex text-sm items-center rounded-md border-2 border-blue-600 px-4 py-2 font-medium text-blue-600 transition-all hover:bg-blue-600 hover:text-white">
+    <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 0 20 20" 
+    fill="currentColor" 
+    class="h-4 w-4 mr-2"
+    >
+      <path d="M10 3.75a2 2 0 10-4 0 2 2 0 004 0zM17.25 4.5a.75.75 0 000-1.5h-5.5a.75.75 0 000 1.5h5.5zM5 3.75a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5a.75.75 0 01.75.75zM4.25 17a.75.75 0 000-1.5h-1.5a.75.75 0 000 1.5h1.5zM17.25 17a.75.75 0 000-1.5h-5.5a.75.75 0 000 1.5h5.5zM9 10a.75.75 0 01-.75.75h-5.5a.75.75 0 010-1.5h5.5A.75.75 0 019 10zM17.25 10.75a.75.75 0 000-1.5h-1.5a.75.75 0 000 1.5h1.5zM14 10a2 2 0 10-4 0 2 2 0 004 0zM10 16.25a2 2 0 10-4 0 2 2 0 004 0z" />
+    </svg>
+
+    <span>Settings</span>
+</button>
 ```
 
 ---
 
 ## Having some problem ? 😕
 
-If you still have a problem understanding this please join our [discord server]([https://discord.gg/zrVMjGW8sB](https://discord.gg/zrVMjGW8sB)) to get help.
+If you still have a problem understanding this please join our [discord server](https://discord.gg/zrVMjGW8sB) to get help.
