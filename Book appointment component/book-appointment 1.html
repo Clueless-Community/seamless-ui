@@ -1,51 +1,41 @@
-<div class="w-full sm:w-11/12 md:w-6/12 lg:w-5/12 xl:w-3/12 mx-auto bg-white rounded-2xl p-6 md:p-8 xl:p-10">
-    <h1 class="text-2xl font-bold text-center mb-8">Book Appointment</h1>
+<div class="mx-auto w-full rounded-2xl bg-white p-6 sm:w-11/12 md:w-6/12 md:p-8 lg:w-5/12 xl:w-3/12 xl:p-10">
+    <h1 class="mb-8 text-center text-2xl font-bold">Book Appointment</h1>
     <form action="">
-        <div class="w-full mb-3">
-            <div class="relative">
-                <label for="name" class="leading-7 font-bold text-sm text-gray-600 text-lg">Name *</label>
-                <input type="text" id="name" name="name"
-                    class="w-full bg-gray-100 mt-2 rounded-xl border border-gray-200 font-semibold text-base outline-none text-gray-700 py-3 px-4 placeholder:gray-500 placeholder:font-semibold"
-                    placeholder="Full Name *" required>
-            </div>
+      <div class="mb-3 w-full">
+        <div class="relative">
+          <label for="name" class="text-lg font-bold leading-7 text-gray-600">Name *</label>
+          <input type="text" id="name" name="name" class="placeholder:gray-500 mt-2 w-full rounded-xl border border-gray-200 bg-gray-100 py-3 px-4 text-base font-semibold text-gray-700 outline-none placeholder:font-semibold" placeholder="Full Name *" required />
         </div>
-        <div class="w-full mb-3">
-            <div class="relative">
-                <label for="email" class="leading-7 font-bold text-sm text-gray-600 text-lg">Email address *</label>
-                <input type="text" id="email" name="email"
-                    class="w-full bg-gray-100 mt-2 rounded-xl border border-gray-200 font-semibold text-base outline-none text-gray-700 py-3 px-4 placeholder:gray-500 placeholder:font-semibold"
-                    placeholder="example@gmail.com" required>
-            </div>
+      </div>
+      <div class="mb-3 w-full">
+        <div class="relative">
+          <label for="email" class="text-lg font-bold leading-7 text-gray-600">Email address *</label>
+          <input type="text" id="email" name="email" class="placeholder:gray-500 mt-2 w-full rounded-xl border border-gray-200 bg-gray-100 py-3 px-4 text-base font-semibold text-gray-700 outline-none placeholder:font-semibold" placeholder="example@gmail.com" required />
         </div>
-        <div class="w-full mb-2">
-            <div class="relative">
-                <label for="department" class="leading-7 font-bold text-sm text-gray-600 text-lg">Department
-                    *</label>
-                <select id="department" name="department"
-                    class="w-full form-select  block bg-gray-100 mt-2 rounded-xl border border-gray-200 font-semibold text-base bg-clip-padding bg-no-repeat outline-none text-gray-700 py-3 px-4 placeholder:gray-500 placeholder:font-semibold"
-                    required>
-                    <option>Please Select</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
-            </div>
+      </div>
+      <div class="mb-2 w-full">
+        <div class="relative">
+          <label for="department" class="text-lg font-bold leading-7 text-gray-600">Department *</label>
+          <select id="department" name="department" class="form-select placeholder:gray-500 mt-2 block w-full rounded-xl border border-gray-200 bg-gray-100 bg-clip-padding bg-no-repeat py-3 px-4 text-base font-semibold text-gray-700 outline-none placeholder:font-semibold" required>
+            <option>Please Select</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
         </div>
-        <div class="w-full mb-2">
-            <div class="relative">
-                <label for="time" class="leading-7 font-bold text-sm text-gray-600 text-lg">Time
-                    *</label>
-                <select id="time" name="time"
-                    class="w-full form-select block bg-gray-100 mt-2 rounded-xl border border-gray-200 font-semibold text-base outline-none text-gray-700 py-3 px-4 placeholder:gray-500 placeholder:font-semibold"
-                    required>
-                    <option>4:00 Available</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
-            </div>
+      </div>
+      <div class="mb-2 w-full">
+        <div class="relative">
+          <label for="time" class="text-lg font-bold leading-7 text-gray-600">Time *</label>
+          <select id="time" name="time" class="form-select placeholder:gray-500 mt-2 block w-full rounded-xl border border-gray-200 bg-gray-100 py-3 px-4 text-base font-semibold text-gray-700 outline-none placeholder:font-semibold" required>
+            <option>4:00 Available</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
         </div>
-        <button type="submit" class="w-full bg-blue-500 py-3 px-4 font-bold text-neutral-100 rounded-xl mt-6">Book
-            Appointment</button>
+      </div>
+      <button type="submit" class="mt-6 w-full rounded-xl bg-blue-500 py-3 px-4 font-bold text-neutral-100">Book Appointment</button>
     </form>
-</div>
+  </div>
+  
