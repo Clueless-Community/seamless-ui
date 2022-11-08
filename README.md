@@ -44,8 +44,8 @@ We want to build the best and most simple UI Kit for fronted development, which 
 <h2 align="center"> Project Contributors </h2> 
 
 <div align="center">
-    <a href="https://github.com/Clueless-Community/web-ui-kit/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=Clueless-Community/web-ui-kit" />
+    <a href="https://github.com/Clueless-Community/seamless-ui/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=Clueless-Community/seamless-ui" />
     </a>
 </div>
 
