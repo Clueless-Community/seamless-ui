@@ -1,0 +1,69 @@
+# Content Card Design System ⭐
+
+
+
+## General convention to follow :
+
+### **Border-radius** :
+
+| small | medium | large |
+| --- | --- | --- |
+| rounded-md | rounded-lg | rounded-xl |
+
+### **Border :**
+
+- border thickness : `border-2`
+- border color : `border-gray-200`
+- border focus color : `focus:border-blue-600`
+
+### **Background color :**
+
+The normal background color of any input field is `bg-gray-100`
+
+### **Paddings :**
+
+| small | medium | large |
+| --- | --- | --- |
+| p-2 | p-3 | p-5 |
+
+### Font :
+
+| small | medium | large |
+| --- | --- | --- |
+| text-sm | text-md | text-lg |
+
+### Width :
+
+With is always set to full `w-full` so that the user can use the external div to control the width of the input box easily.
+
+---
+
+### Disabled State :
+
+In the disabled state we use a background color with `bg-gray-300`
+
+### Buttons :
+
+We need to use the already built buttons for this. **[Buttons](https://github.com/Clueless-Community/seamless-ui/tree/main/Buttons)** 🔗 . Don’t use any buttons outside this.
+
+### Icons :
+
+Icons must be used from **[Heroicons](https://heroicons.com/)** 🖇️
+
+**Note :** You need to use a solid 24X24 SVG form heroicons.
+
+## Example Code :
+
+This is the example code of the `email.html`
+
+```html
+<!-- small -->
+
+<input type="email" class="focus:border-blue-600 border-2 border-gray-200 w-10/12 rounded-md bg-gray-100 p-2 text-sm text-gray-600 placeholder-gray-400 disabled:bg-gray-300 disabled:border-gray-300" placeholder="Email *" />
+
+<!-- medium -->
+<input type="email" class="focus:border-blue-600 border-2 border-gray-200 w-10/12 rounded-lg bg-gray-100 p-3 text-md text-gray-600 placeholder-gray-400 disabled:bg-gray-300 disabled:border-gray-300" placeholder="Email *" />
+
+<!-- large -->
+<input type="email" class="focus:border-blue-600 border-2 border-gray-200 w-10/12 rounded-xl bg-gray-100 p-5 text-lg text-gray-600 placeholder-gray-400 disabled:bg-gray-300 disabled:border-gray-300" placeholder="Email *" />
+```
