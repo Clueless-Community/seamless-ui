@@ -1,6 +1,6 @@
 
 <h1 align='center'>SeamLess UI Kit you always wanted.⭐</h1>
-<p align='center'> <b>This an open-sourced UI library built using HTML and CSS and maintained by Clueless Community</b> <p>
+<p align='center'> <b>This an open-sourced UI library built using HTML and CSS and maintained by Clueless Community</b><p>
 
 ## Important Note
 This is not a repo where you can come and dump any UI code. You need to make proper components from the [Figma File](https://www.figma.com/file/0eqV7t3UKKM14UeqCSfOZb/Essential-UI---Figma-Ui-Kit-(Community)?node-id=315%3A449), which maintains proper design system and will be converted to a proper UI library along the way. We have just started out. 
