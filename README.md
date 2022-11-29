@@ -3,13 +3,14 @@
 <p align='center'> <b>This an open-sourced UI library built using HTML and CSS and maintained by Clueless Community</b><p>
 
 ## Important Note
+
 This is not a repo where you can come and dump any UI code. You need to make proper components from the [Figma File](https://www.figma.com/file/0eqV7t3UKKM14UeqCSfOZb/Essential-UI---Figma-Ui-Kit-(Community)?node-id=315%3A449), which maintains proper design system and will be converted to a proper UI library along the way. We have just started out. 
 
 ## How to contribute?
 
 We recommend you to go through the [CONTRIBUTING.md](https://github.com/Clueless-Community/web-ui-kit/blob/main/CONTRIBUTING.md) file, where we have guided you step by step to make your contribution.
 
-Once the pull request is merged, you will be given points according to the difficulty of the contribution. If you top the leaderboard you will be winning amazing swags and t-shirts from `ClueLess`
+##### Once the pull request is merged, you will be given points according to the difficulty of the contribution. If you top the leaderboard you will be winning amazing swags and t-shirts from `ClueLess`
 ---
 ## Don't know about Tailwind CSS ,HTML and git and github.
     
