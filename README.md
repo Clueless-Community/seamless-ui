@@ -2,6 +2,21 @@
 <h1 align='center'>SeamLess UI Kit you always wanted⭐</h1>
 <p align='center'> <b>This an open-sourced UI library built using HTML and CSS and maintained by Clueless Community</b><p>
 
+<h1 align='center'>Contribute to CodePeak 2022</h1>
+
+![codepeak-readme-cover](https://user-images.githubusercontent.com/91758830/205308086-df454271-2d7a-4158-a743-4359a18e8038.jpeg)
+
+
+
+## About CodePeak 
+CODE PEAK is a month-long program that helps students understand the paradigm of Open Source contribution and gives them real-world software development experience. The event targets first-timers who wish to participate in Free and Open Source(FOSS) Contributions and the experienced developers who want to show their skills by contributing to real-world projects.
+
+## Rewards
+Do you know we are sponsering CodePeak 2022 : 
+1. Top 5 contributors of CodePeak will get an amazing swag kit from us. ( Which includes a t-shirt, stickers and custom printed cheatsheets and much more.)
+2. Top Contributors of ClueLess projects may get an opportunity to work with ClueLess.  
+3. Top 5 winners will be both featured on ClueLess official website as well as social media handles.
+
 ## Important Note
 
 This is not a repo where you can come and dump any UI code. You need to make proper components from the [Figma File](https://www.figma.com/file/0eqV7t3UKKM14UeqCSfOZb/Essential-UI---Figma-Ui-Kit-(Community)?node-id=315%3A449), which maintains proper design system and will be converted to a proper UI library along the way. We have just started out. 
