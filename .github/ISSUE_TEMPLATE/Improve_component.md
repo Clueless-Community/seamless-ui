@@ -11,7 +11,7 @@ Need to improve this component on `\<Component name>\src\<File Name.html>`
 
 ## Improvements required :
 
-## Any refernce image?
+## Any reference image?
   
 ## Any external reference?
   
