@@ -1,32 +1,16 @@
-<header class="bg-white antialiased text-slate-900 px-4">
-  <div class="container mx-auto flex justify-between h-20 items-center">
+<nav class="bg-white px-6 py-4 text-slate-900 antialiased shadow-lg">
+  <div class="container mx-auto flex items-center justify-between flex-row-reverse md:flex-row">
     <div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="w-6 h-6"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
-        />
-      </svg>
+      <button class="rounded-md border border-blue-600 p-3 text-blue-600 transition-all hover:border-blue-600 hover:bg-blue-600 hover:text-white disabled:bg-gray-600">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
+        </svg>
+      </button>
     </div>
-    <a class="w-28 lg:w-32 flex items-center" href="/">
-      <img
-        src="https://i.ibb.co/HBJbGDD/logo-1.png"
-        class="h-auto w-full object-contain object-center"
-        alt="Header Logo"
-      />
+    <a class="flex items-center" href="/">
+      <img src="https://i.ibb.co/jGMgp7r/seamless-ui.png" class="h-auto w-16 object-contain object-center" alt="Header Logo" />
+      <p class="text-lg font-semibold">SeamLess UI</p>
     </a>
-    <a
-      class="bg-blue-700 text-white font-semibold text-sm px-4 py-2 rounded-full"
-      href="#"
-      >Get Started</a
-    >
+    <buttton class="rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-blue-700 hidden md:block " href="#">Get Started</button>
   </div>
-</header>
+</nav>
