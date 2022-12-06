@@ -18,13 +18,49 @@ Such as the number of comments for an article or how much time has passed by sin
 
 ## General must known design system guideline :
 
+### Color 🎨
+
+| Color | Blue | Gray | Red | Green | Yellow | Purple |
+| --- | --- | --- | --- | --- | --- | --- |
+| Code in Tailwind | bg-blue-100 | bg-gray-100 | bg-red-100 | bg-green-100 | bg-yellow-100 | bg-purple-100 |
+
+Color of `bg` is generally used as shade of 100 / 700 
+
+Color of `text` will depend on the `bg` color
+| Background | Dark | Light |
+| --- | --- | --- |
+| Text | Light | Dark |
+| Code in Tailwind | text-white | text-[color]-800 |
+
+`Note` : Color of the text `[color]` will depend on the color of the background
+
 ### Font
 
-For all buttons font is : **`font-medium`**
+For all Badges font is : **`font-medium`**
 
 ### Border Radius 🔲
 
 The normal border-radius for the components are `rounded`.
+
+### Normal badge guidelines :
+
+|  | Padding | Border Radius | Text Size |
+| --- | --- | --- | --- |
+| Small | px-4 & py-2 | rounded-full | text-sm |
+| Medium | px-6 & py-3 | rounded-full | text-md |
+| Large | px-8 & py-4 | rounded-full | text-lg |
+
+### Rounded badge guidelines :
+
+|  | Padding | Border Radius | Text Size |
+| --- | --- | --- | --- |
+| Small | px-4 & py-2 | rounded-full | text-sm |
+| Medium | px-6 & py-3 | rounded-full | text-md |
+| Large | px-8 & py-4 | rounded-full | text-lg |
+
+`Exceptions` : The square badge and only icon/ SVG badge has a padding x and y same and, it equals the padding Y ( `py` ) of the normal badge of the same size.
+
+---
 
 ## Icon guidelines:
 
