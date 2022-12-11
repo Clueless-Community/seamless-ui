@@ -1,4 +1,4 @@
-<footer class="px-44 bg-slate-900 text-white ">
+<footer class="px-12 md:px-24 bg-slate-900 text-white ">
     <div class="bg-blue-600 inline-flex rounded-full p-4 absolute right-24">
         <button class="up text-white">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -8,8 +8,8 @@
         </button>
     </div>
 
-    <div class="content flex justify-between pt-24">
-        <div class="bali">
+    <div class="content grid grid-cols-1 gap-12 lg:grid-cols-3 pt-12 te">
+        <div class="bali mx-auto">
             <div class="text-3xl font-semibold mb-6">
                 <h1>Bali</h1>
             </div>
@@ -38,7 +38,7 @@
             </div>
         </div>
 
-        <div class="morocco">
+        <div class="morocco mx-auto">
             <div class="text-3xl font-semibold mb-6">
                 <h1>Morocco</h1>
             </div>
@@ -65,7 +65,7 @@
             </div>
         </div>
 
-        <div class="srilanka">
+        <div class="srilanka mx-auto">
             <div class="text-3xl font-semibold mb-6">
                 <h1>Sri Lanka</h1>
             </div>
@@ -93,25 +93,28 @@
         </div>
     </div>
 
-    <div class="sign-up px-4 flex justify-center items-center mt-10 bg-gray-600 py-4 rounded-xl">
-        <h1 class="text-2xl font-semibold">Newsletter Sign Up</h1>
-        <div class="ml-16 w-8/12 bg-white py-2 px-6 rounded-md flex justify-between">
-            <input type="text" placeholder="Enter your email here." class="bg-transparent w-8/12" />
-            <button type="submit" class="bg-blue-600 py-2 px-6 rounded-md">
+    <div class="px-3 sign-up grid grid-cols-1 lg:grid-cols-7 text-center mt-10 bg-gray-600 py-4 rounded-xl">
+        <h1 class="lg:col-span-2 text-2xl font-semibold mb-4 lg:my-2">Newsletter Sign Up</h1>
+        <div class="lg:col-span-5 mx-4 bg-white py-2 px-6 rounded-md flex justify-between">
+            <input type="text" placeholder="Enter your email here." class="bg-transparent md:w-8/12" />
+            <button type="submit" class="hidden sm:block bg-blue-600 py-2 px-4 lg:px-6 rounded-md">
                 Submit
             </button>
         </div>
+        <button type="submit" class="sm:hidden bg-blue-600 mt-4 py-2 mx-4 rounded-md">
+            Submit
+        </button>
     </div>
 
-    <div class="mt-8 px-24 py-8">
-        <div class="flex flex-row items-center justify-between">
+    <div class="mt-8 px-16 lg:px-24 py-8">
+        <div class="grid grid-cols-3 sm:grid-cols-5 gap-6">
             <div><img
                     src="https://res.cloudinary.com/atharva7/image/upload/v1666859658/samples/Logo_LIFT_icrenk.png"></img>
             </div>
-            <div>
+            <div class="col-span-2 grid place-items-center">
                 <p class="text-sm text-white">&COPY; Lift Media. All Rights Reserved.</p>
             </div>
-            <div class="flex flex-row w-40 justify-between">
+            <div class="col-span-3 sm:col-span-2 flex flex-row mx-auto w-48 lg:w-40 justify-between items-center">
                 <span class="border border-gray-500 rounded-full p-2  "><svg class="w-6 h-6  fill-white"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path
