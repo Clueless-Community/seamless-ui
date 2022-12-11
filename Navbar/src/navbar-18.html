@@ -1,34 +1,33 @@
-<div class="flex h-[100vh] items-center justify-center">
-    <div class="m-auto grid h-[120px] w-[90%] grid-rows-2 self-center">
-      <div class="flex w-[100%] items-center justify-evenly bg-[#aec4f5] text-center text-[#3b5397]">
-        <p class="text-[14px] font-medium leading-[16.94px]">Get the offer of 50% on your first 3 orders</p>
-       
+<div class="flex items-center justify-center">
+  <div class="grid h-[120px] w-full grid-rows-2">
+    <div class="flex items-center justify-evenly bg-[#aec4f5] text-center text-[#3b5397]">
+      <p class="text-[14px] font-medium leading-[16.94px]">Get the offer of 50% on your first 3 orders</p>
+    </div>
+    <div class="flex items-center justify-between mx-6 bg-[#ffffff] text-center text-[#414852] font-semibold">
+      <div class="flex items-center justify-center gap-2 font-semibold ">
+        <img src="https://i.ibb.co/cchk5Mp/logo.png" alt="logo" class="mr-2 h-9" />
+          <p class="text-lg font-semibold">Designedge</p>
       </div>
-      <div class="flex w-[100%] items-center justify-evenly bg-[#ffffff] text-center text-[#414852] font-semibold">
-        <div class="flex items-center justify-center gap-2 font-semibold ">
-          <img
-        src="https://i.ibb.co/cchk5Mp/logo.png"
-        alt="logo"
-        class="mr-2 h-9" />
-          <p class="text-lg">Designedge</p>
-        </div>
-        <div class="flex gap-5 text-[16px] leading-[16px] pt-3">
-          <p> Home </p>
-          <p class="flex gap-1">
-            Products <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-          </p>
-          <p>About</p>
-          <p> Contact </p>
-        </div>
-        <div class="flex items-center justify-evenly gap-4">
-          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
-          <div class="relative">
-            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
-            <p class="absolute right-0 top-[15px] h-[10px] w-[10px] rounded-full bg-[#D7503D]"></p>
-          </div> 
-        </div>
-        <div class="flex items-center gap-2 -ml-10">
-         <p>Annete Black</p>
+      <div class="md:flex hidden items-center ">
+        <h2 class="font-semibold cursor-pointer ">Collection</h2>
+        <button id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation" class="font-semibold px-5 md:px-6 inline-flex items-center "type="button">Products 
+          <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none"
+          stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <h2 class="mr-7 font-semibold">About</h2>
+        <h2 class="font-semibold">Contacts</h2>
+      </div>
+      <div class="flex items-center justify-evenly gap-4">
+        <svg class="h-6 w-6 hidden md:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+        <div class="relative">
+          <svg class="h-6 w-6 hidden md:block mr-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+          <p class="absolute right-5 top-[15px] h-[10px] w-[10px] rounded-full hidden md:block bg-[#D7503D]"></p>
+        </div> 
+      </div>
+      <div class="flex items-center gap-2 -ml-10">
+         <p class="hidden lg:block">Annete Black</p>
           <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <path d="M40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 8.9543 8.9543 0 20 0C31.0457 0 40 8.9543 40 20Z" fill="url(#pattern0)" />
             <path d="M40 34C40 37.3137 37.3137 40 34 40C30.6863 40 28 37.3137 28 34C28 30.6863 30.6863 28 34 28C37.3137 28 40 30.6863 40 34Z" fill="#22C55E" />
@@ -36,7 +35,7 @@
               <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
                 <use xlink:href="#image0_2012_4105" transform="scale(0.005)" />
               </pattern>
-              <image
+              <image 
                 id="image0_2012_4105"
                 width="200"
                 height="200"
@@ -44,8 +43,8 @@
               />
             </defs>
           </svg>
-          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
-        </div>
+          <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg
       </div>
     </div>
   </div>
+</div>
