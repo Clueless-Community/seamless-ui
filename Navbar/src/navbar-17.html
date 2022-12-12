@@ -1,43 +1,35 @@
-<div class="relative flex min-h-screen flex-col justify-between overflow-hidden bg-gray-200 py-6 sm:py-12">
-    <div class="relative  ring-gray-200 m-10 sm:rounded-lg bg-blue-900 ">
-        <div class="m-2 px-8 flex justify-between bg-blue-900 text-white">
-            <div class="flex">
-                <div class="my-2 bg-white text-blue-700 p-2 rounded-full">
-                    <!-- <P class="bg-blue-800 text-white p-4 rounded-full font-medium ">L</P> -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
-                    </svg>
-                </div>
-
-                <h2 class="mt-4 ml-2 font-semibold text-lg">Designedge</h2>
-               
+<nav>
+    <div class="relative flex flex-col justify-between">
+      <div class="relative bg-blue-900">
+        <div class="m-2 flex justify-between bg-blue-900 px-6 text-white">
+          <div class="flex">
+            <div class="my-2 rounded-full bg-white p-2 text-blue-700">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+              </svg>
             </div>
-            <div class="flex">
-                <h2 class="m-4 font-normal ">collection</h2>
-                <button id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation"
-                    class=" focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center  "
-                    type="button">Products <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none"
-                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg></button>
-                <h2 class="m-4 font-normal">About</h2>
+            <h2 class="mt-3 ml-2 mr-3 text-lg font-semibold">Designedge</h2>
+          </div>
+          <div class="hidden md:flex">
+            <h2 class="mt-4 cursor-pointer font-normal">Collection</h2>
+            <button id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation" class="mx-3 inline-flex items-center text-center lg:mx-8" type="button">
+              Products
+              <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <h2 class="mt-4 cursor-pointer font-normal">About</h2>
+          </div>
+          <div class="flex">
+            <input class="w-23 ml-5 mt-3 hidden h-8 rounded-lg border border-solid border-gray-400 bg-clip-padding px-3 py-1.5 text-base font-normal text-gray-700 sm:block" type="text" placeholder="search" />
+            <div class="ml-2 mt-3 h-8 cursor-pointer rounded-lg bg-blue-600 px-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-8 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+              </svg>
             </div>
-            <div class="flex">
-             <input
-                    class="ml-5 h-8 mt-3 px-3 py-1.5 w-23 rounded-lg text-base font-normal text-gray-700 bg-clip-padding border border-solid border-gray-400 "
-                    type="text" placeholder="search">
-                    <div class="m-2 bg-blue-700 px-4 h-8 rounded">
-                    <!-- <P class="bg-blue-800 text-white p-4 rounded-full font-medium ">L</P> -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-8">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-</svg>
-
-                </div>
-                </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
