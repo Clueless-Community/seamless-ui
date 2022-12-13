@@ -1,22 +1,31 @@
-   <div className=' w-full flex justify-evenly items-center mt-4'>
-      <h1 className='text-2xl font-bold text-black ml-5'>BrandName</h1>
-      <div className='flex flex-col space-y-3'>
-        <div className='flex'>
-          <input placeholder='Search' className='w-[400px] text-black font-semibold block px-4 py-2 bg-gray-100 border border-slate-300 text-md rounded-l-md placeholder-slate-600 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 placeholder:text-sm placeholder:font-semibold' type="text" />
-          {/* Category */}
-          <div className=' flex justify-between items-center text-black font-normal px-4 py-2 bg-gray-100 border border-slate-300 text-md  placeholder-slate-600 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 placeholder:text-sm placeholder:font-semibold'>
-            <input placeholder='Category' className='w-28 bg-gray-100 text-black font-normal block px-4 py-2 text-md placeholder-slate-600 outline-none placeholder:text-sm placeholder:font-semibold' type="dropdown" />
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-            </svg>
-          </div>
-          <button className='text-white hover:cursor-pointer hover:bg-blue-500 px-4 py-2 bg-blue-600 text-lg font-normal rounded-r-md'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-          </svg>
-          </button>
-        </div>
+<nav class=" py-5 dark:bg-white sm:px-4 shadow-md">
+  <div class=' w-full flex justify-between items-center mt-4'>
+    <h1 class='text-2xl font-bold text-black ml-2'>BrandName</h1>
+    <div id="Categories" class="m-3 flex max-w-fit items-center rounded-lg border border-gray-300 bg-gray-50 text-sm text-gray-500 focus:border-blue-500 focus:ring-blue-500">
+      <div class="w-60 items-center">
+        <input type="search" class="form-control w-full min-w-0 flex-auto rounded border-gray-300 px-3 text-base font-bold text-gray-600 focus:bg-white focus:text-gray-700 focus:outline-none" placeholder="Search"/>
       </div>
-      <h1 className='text-lg font-medium '>Explore</h1>
-      <h1 className='text-lg font-normal text-gray-500'>Login</h1>
-      <h1 className='text-lg font-normal text-gray-500'>Sign-up</h1>
+
+      <div>
+        <select id="Categories" class="text-gray mr-3 border-l border-gray-300 bg-gray-50 p-2.5 text-base font-bold">
+          <option selected>Category</option>
+          <option value="01">First</option>
+          <option value="02">Second</option>
+          <option value="03">Third</option>
+          <option value="04">Fourth</option>
+        </select>
+      </div>
+
+      <div class="rounded-r-lg bg-blue-700 p-2.5">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="h-6 w-6">
+          <path stroke="white" stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/>
+        </svg>
+      </div>
     </div>
+    <div class='w-56 flex justify-between items-center'>
+      <button class=' text-base font-semibold text-gray-500 hover:text-gray-400'>Explore</button>
+      <button class='text-base font-semibold text-gray-500 hover:text-gray-400'>Login</button>
+      <button class="bg-blue-600 px-4 py-2 rounded-full text-white text-sm font-medium  hover:bg-blue-700 transition-all disabled:bg-gray-400">Sign Up</button>
+    </div>
+  </div>
+</nav>
