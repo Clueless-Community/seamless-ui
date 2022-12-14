@@ -1,31 +1,33 @@
-<nav class=" py-5 dark:bg-white sm:px-4 shadow-md">
-  <div class=' w-full flex justify-between items-center mt-4'>
-    <h1 class='text-2xl font-bold text-black ml-2'>BrandName</h1>
-    <div id="Categories" class="m-3 flex max-w-fit items-center rounded-lg border border-gray-300 bg-gray-50 text-sm text-gray-500 focus:border-blue-500 focus:ring-blue-500">
-      <div class="w-60 items-center">
-        <input type="search" class="form-control w-full min-w-0 flex-auto rounded border-gray-300 px-3 text-base font-bold text-gray-600 focus:bg-white focus:text-gray-700 focus:outline-none" placeholder="Search"/>
-      </div>
+<nav>
+  <div class="flex items-center justify-between px-[30px] py-[24px] sm:px-[50px] lg:px-[100px]">
+    <p class="text-[20px] font-bold leading-[32px] tracking-[0.1px] text-[#252B42] lg:text-[24px]">BrandName</p>
+    <div class="hidden md:block">
+      <div id="Categories" class="flex max-w-fit items-center rounded-l-[5px] bg-gray-50 text-sm text-gray-500 focus:border-blue-500 focus:ring-blue-500">
+        <div class="items-center">
+          <input type="search" class="form-control h-[45px] w-[180px] min-w-0 flex-auto rounded-l-[5px] border border-[#E6E6E6] px-3 pl-[24px] text-base font-bold text-gray-600 placeholder:text-[14px] placeholder:font-normal placeholder:text-[#737373] focus:bg-white focus:text-gray-700 focus:outline-none lg:h-[58px] lg:w-[236px]" placeholder="Search" />
+        </div>
 
-      <div>
-        <select id="Categories" class="text-gray mr-3 border-l border-gray-300 bg-gray-50 p-2.5 text-base font-bold">
-          <option selected>Category</option>
-          <option value="01">First</option>
-          <option value="02">Second</option>
-          <option value="03">Third</option>
-          <option value="04">Fourth</option>
-        </select>
-      </div>
+        <div>
+          <select id="Categories" class="text-gray h-[45px] w-[120px] border border-[#E6E6E6] bg-gray-50 p-2.5 pl-[24px] text-base font-normal lg:h-[58px] lg:w-[155px]">
+            <option selected class="text-[14px] text-[#252B42]">Category</option>
+            <option value="01">First</option>
+            <option value="02">Second</option>
+            <option value="03">Third</option>
+            <option value="04">Fourth</option>
+          </select>
+        </div>
 
-      <div class="rounded-r-lg bg-blue-700 p-2.5">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="h-6 w-6">
-          <path stroke="white" stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/>
-        </svg>
+        <div class="flex h-[45px] w-[40px] cursor-pointer items-center justify-center rounded-r-[5px] bg-[#1855CB] text-white lg:h-[58px] lg:w-[60px]">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+          </svg>
+        </div>
       </div>
     </div>
-    <div class='w-56 flex justify-between items-center'>
-      <button class=' text-base font-semibold text-gray-500 hover:text-gray-400'>Explore</button>
-      <button class='text-base font-semibold text-gray-500 hover:text-gray-400'>Login</button>
-      <button class="bg-blue-600 px-4 py-2 rounded-full text-white text-sm font-medium  hover:bg-blue-700 transition-all disabled:bg-gray-400">Sign Up</button>
+    <div class="flex items-center gap-x-[21px]">
+      <p class="hidden text-[14px] font-semibold leading-[24px] tracking-[0.2px] text-[#252B42] sm:block">Explore</p>
+      <p class="text-[14px] font-semibold leading-[24px] tracking-[0.2px] text-[#737373]">Login</p>
+      <p class="text-[14px] font-semibold leading-[24px] tracking-[0.2px] text-[#737373]">Sign Up</p>
     </div>
   </div>
 </nav>
