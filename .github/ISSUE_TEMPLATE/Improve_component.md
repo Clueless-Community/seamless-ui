@@ -2,7 +2,7 @@
 name: Improve Component
 about: 'Need to design the functionality / design of and existing component'
 title: Improve <Name>
-labels: codepeak22
+labels: codepeak 22
 assignees: ''
 
 ---

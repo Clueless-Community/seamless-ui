@@ -1,0 +1,127 @@
+# 📒 Developer style guide for Tables
+
+![image](https://user-images.githubusercontent.com/83635276/207536154-5c0d60e1-90ed-4a9c-a27d-3619a1a4074d.png)
+
+## Types of Tables 🔽
+
+1. Primary Table Dark
+2. Primary Table Light
+2. Hoverable Primary Table
+
+---
+
+## General must known design system guideline :
+
+### Color 🎨
+
+|  | Border Dark | Border Light | Backgroung Dark | Backgroung Light |
+| --- | --- | --- | --- | --- |
+| Code in Tailwind | border-slate-800 |  | bg-[#252B42] / bg-[#202537] | bg-gray-100 / bg-white |
+
+Color of `bg` is generally used as shade of 100 / 700 
+
+Color of `text` will depend on the `bg` color
+| Background | Dark | Light |
+| --- | --- | --- |
+| Text | Light | Dark |
+| Code in Tailwind | text-white | text-[color]-800 |
+
+`Note` : Color of the text `[color]` will depend on the color of the background
+
+### Font
+
+For Table font is : **`font-medium`**
+
+For Table head font is : **`font-bold`**
+
+### Border Radius 🔲
+
+Border radius of each table is `none`. Donot need to give any border radius class as well. 
+
+### **Paddings :**
+
+Generally for the padding we use. `px-6 py-4`
+
+### Normal table guidelines :
+
+|  | Padding | Margin | Text Size |
+| --- | --- | --- | --- |
+| Small | px-6 | mx-6 | text-sm |
+| Large | px-8 | mx-8 | text-lg |
+
+---
+
+## Example of Primary Table 👇
+
+This is the way we have all the Tables. 
+
+This is the example code of the `Tables/src/table_primary.html`
+
+Want to see this table in action? Try copy pasting this code in [Tailwind Playground](https://play.tailwindcss.com/). 💥
+
+```html
+<div class="flex flex-col">
+	<div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+		<div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+			<div class="overflow-hidden">
+				<table class="min-w-full border">
+					<thead class="border-b-2 bg-white">
+						<tr>
+							<th scope="col" class="border-r px-6 py-4 text-left font-bold">
+								#
+							</th>
+							<th scope="col" class="border-r px-6 py-4 text-left font-bold">
+								First Name
+							</th>
+							<th scope="col" class="border-r px-6 py-4 text-left font-bold">
+								Last Name
+							</th>
+							<th scope="col" class="border-r px-6 py-4 text-left font-bold">
+								Position
+							</th>
+							<th scope="col" class="px-6 py-4 text-left font-bold">Phone</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="border-b-2 bg-gray-100">
+							<td class="whitespace-nowrap border-r px-6 py-4">1</td>
+							<td class="whitespace-nowrap border-r px-6 py-4">John</td>
+							<td class="whitespace-nowrap border-r px-6 py-4">Doe</td>
+							<td class="whitespace-nowrap border-r px-6 py-4">CEO, Founder</td>
+							<td class="whitespace-nowrap px-6 py-4">+3 555 68 70</td>
+						</tr>
+						<tr class="border-b-2 bg-white">
+							<td class="whitespace-nowrap border-r px-6 py-4">2</td>
+							<td class="whitespace-nowrap border-r px-6 py-4">John</td>
+							<td class="whitespace-nowrap border-r px-6 py-4">Doe</td>
+							<td class="whitespace-nowrap border-r px-6 py-4">CEO, Founder</td>
+							<td class="whitespace-nowrap px-6 py-4">+3 555 68 70</td>
+						</tr>
+						<tr class="border-b-2 bg-gray-100">
+							<td class="whitespace-nowrap border-r px-6 py-4">3</td>
+							<td class="whitespace-nowrap border-r px-6 py-4">John</td>
+							<td class="whitespace-nowrap border-r px-6 py-4">Doe</td>
+							<td class="whitespace-nowrap border-r px-6 py-4">CEO, Founder</td>
+							<td class="whitespace-nowrap px-6 py-4">+3 555 68 70</td>
+						</tr>
+						<tr class="border-b-2 bg-white">
+							<td class="whitespace-nowrap border-r px-6 py-4">4</td>
+							<td class="whitespace-nowrap border-r px-6 py-4">John</td>
+							<td class="whitespace-nowrap border-r px-6 py-4">Doe</td>
+							<td class="whitespace-nowrap border-r px-6 py-4">CEO, Founder</td>
+							<td class="whitespace-nowrap px-6 py-4">+3 555 68 70</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+```
+
+---
+
+## Having some problem ? 😕
+
+If you still have a problem understanding this please join our [discord server](https://discord.gg/zrVMjGW8sB) to get help.
