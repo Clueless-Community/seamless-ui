@@ -1,4 +1,4 @@
-<div class="w-100vh m-4 h-64 border border-gray-100 px-32 py-10">
+<div class="w-100vh m-4 hidden h-80 border border-gray-100 px-6 py-10 md:block lg:px-32">
   <!-- To Go -->
   <div class="m-auto mb-8 flex flex-row space-x-2">
     <!-- Home -->
@@ -16,41 +16,157 @@
     <p class="font-nunito font-normal leading-7 text-slate-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
   </div>
   <!-- Sort -->
-  <div class="flex justify-between ">
+  <div class="flex justify-between">
     <!-- Left Part -->
-    <div class="flex space-x-4">
+    <div class="flex flex-row space-x-[15px]">
       <!-- Text -->
-      <p class="font-nunito my-2 text-sm font-medium text-gray-600">Sort by :</p>
+      <p class="my-2 text-sm font-medium text-gray-600">Sort by :</p>
       <!-- dropdown-1 -->
-      <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="inline-flex items-center border border-slate-200 bg-slate-100 px-4 py-2 text-center text-sm font-medium tracking-wide text-black hover:bg-gray-200" type="button">
-        Popularity <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-      </button>
+      <div class="group/main w-fit cursor-pointer">
+        <span class="inline-flex items-center border border-slate-200 bg-slate-100 px-4 py-2 text-center text-sm font-medium tracking-wide text-black hover:bg-gray-200"
+          >Popularity
+          <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+        </span>
+        <div class="hidden w-full cursor-pointer flex-col text-sm shadow-lg group-hover/main:flex">
+          <span class="flex gap-3 px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+          <span class="group/sub items-center px-4 py-2.5 hover:bg-gray-200">
+            <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+          </span>
+          <span class="flex px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+        </div>
+      </div>
       <!-- dropdown-2 -->
-      <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="inline-flex items-center border border-slate-200 bg-slate-100 px-4 py-2 text-center text-sm font-medium tracking-wide text-black hover:bg-gray-200" type="button">
-        Seller Details <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-      </button>
+      <div class="group/main relative w-fit cursor-pointer">
+        <span class="inline-flex items-center border border-slate-200 bg-slate-100 px-4 py-2 text-center text-sm font-medium tracking-wide text-black hover:bg-gray-200"
+          >Seller Details
+          <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+        </span>
+        <div class="hidden w-full cursor-pointer flex-col text-sm shadow-lg group-hover/main:flex">
+          <span class="flex gap-3 px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+          <span class="group/sub items-center px-4 py-2.5 hover:bg-gray-200">
+            <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+          </span>
+          <span class="flex px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+        </div>
+      </div>
+
       <!-- dropdown-3 -->
-      <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="inline-flex items-center border border-slate-200 bg-slate-100 px-4 py-2 text-center text-sm font-medium tracking-wide text-black hover:bg-gray-200" type="button">
-        Budget <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-      </button>
+      <div class="group/main relative w-fit cursor-pointer">
+        <span class="inline-flex items-center border border-slate-200 bg-slate-100 px-4 py-2 text-center text-sm font-medium tracking-wide text-black hover:bg-gray-200"
+          >Budget
+          <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+        </span>
+        <div class="hidden w-full cursor-pointer flex-col text-sm shadow-lg group-hover/main:flex">
+          <span class="flex gap-3 px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+          <span class="group/sub items-center px-4 py-2.5 hover:bg-gray-200">
+            <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+          </span>
+          <span class="flex px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+        </div>
+      </div>
+
       <!-- dropdown-4 -->
-      <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="inline-flex items-center border border-slate-200 bg-slate-100 px-4 py-2 text-center text-sm font-medium tracking-wide text-black hover:bg-gray-200" type="button">
-        Delivery Time <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-      </button>
+      <div class="group/main relative w-fit cursor-pointer">
+        <span class="inline-flex items-center border border-slate-200 bg-slate-100 px-4 py-2 text-center text-sm font-medium tracking-wide text-black hover:bg-gray-200"
+          >Delivery Time
+          <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+        </span>
+        <div class="hidden w-full cursor-pointer flex-col text-sm shadow-lg group-hover/main:flex">
+          <span class="flex gap-3 px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+          <span class="group/sub items-center px-4 py-2.5 hover:bg-gray-200">
+            <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+          </span>
+          <span class="flex px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+        </div>
+      </div>
     </div>
     <!-- Right Part -->
-    <div class="flex space-x-5">
+    <div class="hidden space-x-5 lg:flex">
       <!-- more apps -->
-      <div class="grid grid-cols-2 h-8 w-8 bg-gray-300 rounded-md p-1 gap-x-1 gap-y-0.5">
-        <div class="border-2 border-black h-2 w-2 ml-1 mt-1 rounded-sm"></div>
-        <div class="border-2 border-black h-2 w-2 mr-1 mt-1 rounded-sm"></div>
-        <div class="border-2 border-black h-2 w-2 ml-1 mb-1 rounded-sm"></div>
-        <div class="border-2 border-black h-2 w-2 mr-1 mb-1 rounded-sm"></div>
+      <div class="grid h-8 w-8 grid-cols-2 gap-x-1 gap-y-0.5 rounded-md bg-gray-300 p-1">
+        <div class="ml-1 mt-1 h-2 w-2 rounded-sm border-2 border-black"></div>
+        <div class="mr-1 mt-1 h-2 w-2 rounded-sm border-2 border-black"></div>
+        <div class="ml-1 mb-1 h-2 w-2 rounded-sm border-2 border-black"></div>
+        <div class="mr-1 mb-1 h-2 w-2 rounded-sm border-2 border-black"></div>
       </div>
       <!-- checklist -->
       <svg class="mt-1.5" xmlns="http://www.w3.org/2000/svg" width="21" height="17" fill="none">
-        <path fill="#252B42" stroke="#252B42" d="M3.923 13.438a.249.249 0 0 0-.081-.057l.196-.46-.196.46a.231.231 0 0 0-.182 0l-.197-.46.197.46a.249.249 0 0 0-.081.056l-1.72 1.773-.36.371-.358-.372-.218-.226a.24.24 0 0 0-.172-.075.24.24 0 0 0-.172.075.286.286 0 0 0-.079.199c0 .077.03.149.079.199l.75.773a.25.25 0 0 0 .081.056l-.197.46a.73.73 0 0 0 .575 0l2.135-3.232Zm0 0a.275.275 0 0 1 .058.09l.464-.188-.522.098Zm0-12.363a.293.293 0 0 1 .058.308.274.274 0 0 1-.058.09L1.673 3.79a.25.25 0 0 1-.081.056.23.23 0 0 1-.182 0l-.197.46.197-.46a.25.25 0 0 1-.08-.056h-.001l-.75-.773-.347.337.347-.337a.294.294 0 0 1 0-.398l-.36-.348.36.349a.25.25 0 0 1 .08-.057.232.232 0 0 1 .264.057l.218.226.359.372.36-.371 1.719-1.773a.249.249 0 0 1 .08-.056.23.23 0 0 1 .264.056Zm0 6.181v.001a.275.275 0 0 1 .058.089l.464-.187-.464.187a.293.293 0 0 1 0 .219l.464.186-.464-.186a.275.275 0 0 1-.058.089l-2.25 2.318a.25.25 0 0 1-.081.057.231.231 0 0 1-.263-.056l-.75-.774A.286.286 0 0 1 .5 9.001c0-.078.03-.149.079-.2l-.36-.347.36.348a.24.24 0 0 1 .172-.075.24.24 0 0 1 .172.074l.218.227.359.372.36-.371 1.719-1.773a.249.249 0 0 1 .08-.056l-.196-.46.197.46a.23.23 0 0 1 .182 0l.196-.46-.196.46c.029.013.057.031.08.056ZM6.5 15.182c0-.077.03-.148.078-.198a.239.239 0 0 1 .172-.075H20.25a.24.24 0 0 1 .172.075c.048.05.078.121.078.198 0 .077-.03.148-.078.198a.24.24 0 0 1-.172.075H6.75a.239.239 0 0 1-.17-.075.284.284 0 0 1-.08-.198Zm0-6.181c0-.077.03-.148.078-.198a.24.24 0 0 1 .172-.075H20.25a.24.24 0 0 1 .172.075c.048.05.078.12.078.198 0 .077-.03.148-.078.198a.24.24 0 0 1-.172.074H6.75a.239.239 0 0 1-.17-.074A.285.285 0 0 1 6.5 9Zm0-6.182c0-.077.03-.148.078-.198a.24.24 0 0 1 .172-.074H20.25a.24.24 0 0 1 .172.074c.048.05.078.121.078.198 0 .077-.03.148-.078.198a.24.24 0 0 1-.172.075H6.75a.24.24 0 0 1-.17-.075.285.285 0 0 1-.08-.198Z"/>
+        <path fill="#252B42" stroke="#252B42" d="M3.923 13.438a.249.249 0 0 0-.081-.057l.196-.46-.196.46a.231.231 0 0 0-.182 0l-.197-.46.197.46a.249.249 0 0 0-.081.056l-1.72 1.773-.36.371-.358-.372-.218-.226a.24.24 0 0 0-.172-.075.24.24 0 0 0-.172.075.286.286 0 0 0-.079.199c0 .077.03.149.079.199l.75.773a.25.25 0 0 0 .081.056l-.197.46a.73.73 0 0 0 .575 0l2.135-3.232Zm0 0a.275.275 0 0 1 .058.09l.464-.188-.522.098Zm0-12.363a.293.293 0 0 1 .058.308.274.274 0 0 1-.058.09L1.673 3.79a.25.25 0 0 1-.081.056.23.23 0 0 1-.182 0l-.197.46.197-.46a.25.25 0 0 1-.08-.056h-.001l-.75-.773-.347.337.347-.337a.294.294 0 0 1 0-.398l-.36-.348.36.349a.25.25 0 0 1 .08-.057.232.232 0 0 1 .264.057l.218.226.359.372.36-.371 1.719-1.773a.249.249 0 0 1 .08-.056.23.23 0 0 1 .264.056Zm0 6.181v.001a.275.275 0 0 1 .058.089l.464-.187-.464.187a.293.293 0 0 1 0 .219l.464.186-.464-.186a.275.275 0 0 1-.058.089l-2.25 2.318a.25.25 0 0 1-.081.057.231.231 0 0 1-.263-.056l-.75-.774A.286.286 0 0 1 .5 9.001c0-.078.03-.149.079-.2l-.36-.347.36.348a.24.24 0 0 1 .172-.075.24.24 0 0 1 .172.074l.218.227.359.372.36-.371 1.719-1.773a.249.249 0 0 1 .08-.056l-.196-.46.197.46a.23.23 0 0 1 .182 0l.196-.46-.196.46c.029.013.057.031.08.056ZM6.5 15.182c0-.077.03-.148.078-.198a.239.239 0 0 1 .172-.075H20.25a.24.24 0 0 1 .172.075c.048.05.078.121.078.198 0 .077-.03.148-.078.198a.24.24 0 0 1-.172.075H6.75a.239.239 0 0 1-.17-.075.284.284 0 0 1-.08-.198Zm0-6.181c0-.077.03-.148.078-.198a.24.24 0 0 1 .172-.075H20.25a.24.24 0 0 1 .172.075c.048.05.078.12.078.198 0 .077-.03.148-.078.198a.24.24 0 0 1-.172.074H6.75a.239.239 0 0 1-.17-.074A.285.285 0 0 1 6.5 9Zm0-6.182c0-.077.03-.148.078-.198a.24.24 0 0 1 .172-.074H20.25a.24.24 0 0 1 .172.074c.048.05.078.121.078.198 0 .077-.03.148-.078.198a.24.24 0 0 1-.172.075H6.75a.24.24 0 0 1-.17-.075.285.285 0 0 1-.08-.198Z" />
       </svg>
     </div>
   </div>
 </div>
+<!-- Small screen -->
+<div class="mt-4 flex w-full flex-col space-y-8 md:hidden">
+  <div class="flex w-[280px] items-center justify-evenly">
+    <h1 class="text-sm font-medium">Home</h1>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-5 w-5 text-gray-500">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+    </svg>
+    <h1 class="text-sm font-medium text-gray-600">Marketplace Products</h1>
+  </div>
+  <div class="ml-8">
+    <h1 class="text-2xl font-bold text-black">Marketplace Products</h1>
+  </div>
+  <div class="ml-5">
+    <h1 class="text-sm font-medium text-gray-500">Sort by:</h1>
+  </div>
+  <div class="ml-5 flex w-[380px] flex-col space-y-3 font-semibold text-gray-600">
+    <div class="group/main relative z-40 flex h-[74px] w-[290px] items-center justify-between rounded-[7px] border border-slate-200 bg-gray-100 shadow-md sm:w-[360px]">
+      <h1 class="pl-[19.5px]">Popularity</h1>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+      </svg>
+      <div class="absolute top-[73px] hidden w-[290px] cursor-pointer flex-col bg-white text-sm shadow-lg group-hover/main:flex sm:w-[360px]">
+        <span class="flex gap-3 px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+        <span class="group/sub items-center px-4 py-2.5 hover:bg-gray-200">
+          <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+        </span>
+        <span class="flex px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+      </div>
+    </div>
+
+    <div class="group/second relative z-30 flex h-[74px] w-[290px] items-center justify-between rounded-[7px] border border-slate-200 bg-gray-100 shadow-md sm:w-[360px]">
+      <h1 class="pl-[19.5px]">Seller Details</h1>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+      </svg>
+      <div class="absolute top-[73px] hidden w-[290px] cursor-pointer flex-col bg-white text-sm shadow-lg group-hover/second:flex sm:w-[360px]">
+        <span class="flex gap-3 px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+        <span class="group/sub items-center px-4 py-2.5 hover:bg-gray-200">
+          <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+        </span>
+        <span class="flex px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+      </div>
+    </div>
+
+    <div class="group/third relative z-20 flex h-[74px] w-[290px] items-center justify-between rounded-[7px] border border-slate-200 bg-gray-100 shadow-md sm:w-[360px]">
+      <h1 class="pl-[19.5px]">Budget</h1>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+      </svg>
+      <div class="absolute top-[73px] hidden w-[290px] cursor-pointer flex-col bg-white text-sm shadow-lg group-hover/third:flex sm:w-[360px]">
+        <span class="flex gap-3 px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+        <span class="group/sub items-center px-4 py-2.5 hover:bg-gray-200">
+          <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+        </span>
+        <span class="flex px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+      </div>
+    </div>
+
+    <div class="group/fourth relative z-10 flex h-[74px] w-[290px] items-center justify-between rounded-[7px] border border-slate-200 bg-gray-100 shadow-md sm:w-[360px]">
+      <h1 class="pl-[19.5px]">Delivery Time</h1>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+      </svg>
+      <div class="absolute top-[73px] hidden w-[290px] cursor-pointer flex-col bg-white text-sm shadow-lg group-hover/fourth:flex sm:w-[360px]">
+        <span class="flex gap-3 px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+        <span class="group/sub items-center px-4 py-2.5 hover:bg-gray-200">
+          <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+        </span>
+        <span class="flex px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+      </div>
+    </div>
+  </div>
+</div>
+
