@@ -1,70 +1,60 @@
-<!--
-  Welcome to Tailwind Play, the official Tailwind CSS playground!
-
-  Everything here works just like it does when you're running Tailwind locally
-  with a real build pipeline. You can customize your config file, use features
-  like `@apply`, or even add third-party plugins.
-
-  Feel free to play with this example if you're just learning, or trash it and
-  start from scratch if you know enough to be dangerous. Have fun!
--->
-<div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-22">
-  <div class="relative bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+<div class="sm:py-22 relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6">
+  <div class="relative mx-auto bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:max-w-lg sm:rounded-lg sm:px-10">
     <div class="mx-auto max-w-md">
-      <h2 class="font-bold mr-36">Brand</h2>
+      <h2 class="mr-36 font-bold">Brand</h2>
       <div class="flex items-center justify-between">
         <div class="py-2">
-        <input id="checked-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-        <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-500 ">Adidas</label>
-      </div>
-      <div>
-        <h2>08</h2>
-      </div>
-      </div>
-      <div class="flex items-center justify-between">
-        <div  class="py-2">
-        <input checked id="checked-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-        <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-500 ">Armani</label>
-      </div>
-      <div>
-        <h2>11</h2>
-      </div>
+          <input id="checked-checkbox" type="checkbox" value="" class="h-4 w-4 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600" />
+          <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-500">Adidas</label>
+        </div>
+        <div>
+          <h2>08</h2>
+        </div>
       </div>
       <div class="flex items-center justify-between">
-        <div  class="py-2">
-        <input  id="checked-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-        <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-500 ">Calvin Clein</label>
-      </div>
-      <div>
-        <h2>14</h2>
-      </div>
-      </div>
-      <div class="flex items-center justify-between">
-        <div  class="py-2">
-        <input  id="checked-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-        <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-500 ">Peter England</label>
-      </div>
-      <div>
-        <h2>34</h2>
-      </div>
+        <div class="py-2">
+          <input checked id="checked-checkbox" type="checkbox" value="" class="h-4 w-4 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600" />
+          <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-500">Armani</label>
+        </div>
+        <div>
+          <h2>11</h2>
+        </div>
       </div>
       <div class="flex items-center justify-between">
-        <div  class="py-2">
-        <input  id="checked-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-        <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-500 ">Nike</label>
-      </div>
-      <div>
-        <h2>23</h2>
-      </div>
+        <div class="py-2">
+          <input id="checked-checkbox" type="checkbox" value="" class="h-4 w-4 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600" />
+          <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-500">Calvin Clein</label>
+        </div>
+        <div>
+          <h2>14</h2>
+        </div>
       </div>
       <div class="flex items-center justify-between">
-        <div  class="py-2">
-        <input  id="checked-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-        <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-500 ">Columbia</label>
+        <div class="py-2">
+          <input id="checked-checkbox" type="checkbox" value="" class="h-4 w-4 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600" />
+          <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-500">Peter England</label>
+        </div>
+        <div>
+          <h2>34</h2>
+        </div>
       </div>
-      <div>
-        <h2>129</h2>
+      <div class="flex items-center justify-between">
+        <div class="py-2">
+          <input id="checked-checkbox" type="checkbox" value="" class="h-4 w-4 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600" />
+          <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-500">Nike</label>
+        </div>
+        <div>
+          <h2>23</h2>
+        </div>
       </div>
+      <div class="flex items-center justify-between">
+        <div class="py-2">
+          <input id="checked-checkbox" type="checkbox" value="" class="h-4 w-4 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600" />
+          <label for="checked-checkbox" class="ml-2 text-sm font-medium text-gray-500">Columbia</label>
+        </div>
+        <div>
+          <h2>129</h2>
+        </div>
       </div>
     </div>
   </div>
