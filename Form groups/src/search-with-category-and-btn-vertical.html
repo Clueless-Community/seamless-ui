@@ -1,20 +1,83 @@
- <!--header-->
-  <div class="absolute font-sans text-[18px] font-semibold leading-6 tracking-[0.1px] text-[#252B42]">
-    <h3>Search</h3>
-    <!--form-control input-style-1-->
-    <div class="jus mt-4 flex flex-row">
-      <input class="absolute h-[50px] w-[450px] rounded-[5px] bg-[#F9F9F9] p-[26px] text-[14px] leading-7 tracking-[0.2px] focus:outline-none" placeholder="Search" type=" search" />
+<!-- small -->
+<form class="p-4">
+  <h1 class="mb-3 text-xl text-gray-600">Search</h1>
+  <div class="flex flex-col gap-2">
+    <input type="text" id="first_name"
+      class="w-full rounded-md border-2 border-gray-200 bg-gray-100 p-2 text-sm focus:border-blue-600 outline-none"
+      placeholder="Search" required />
+    <div>
+      <select id="Categories"
+        class="text-gray h-full w-full rounded-md cursor-pointer border-2 border-gray-200 bg-gray-100 p-2 text-base text-gray-600 outline-none transition-all hover:bg-gray-200">
+        <option selected>Category</option>
+        <option value="01">First</option>
+        <option value="02">Second</option>
+        <option value="03">Third</option>
+        <option value="04">Fourth</option>
+      </select>
     </div>
-    <!--dropdown-toggle-->
-    <select class="absolute mt-14 flex h-[50px] w-[450px] rounded-[5px] bg-[#F9F9F9] p-[23px] py-1 text-[14px] font-medium tracking-[0.2px] text-[#252B42] focus:outline-none">
-      <option>Catagory</option>
-      <!--btn-->
-    </select>
-    <div class="border-1">
-      <button class="absolute mt-28 w-full rounded-md border border-[#E6E6E6] bg-[#1855CB] px-[224px] py-[13px] text-white">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6">
-          <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clip-rule="evenodd" />
-        </svg>
-      </button>
-    </div>
+    <button
+      class="rounded-md bg-blue-600 p-2 text-white grid place-items-center transition-all hover:bg-blue-700 disabled:bg-gray-300">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+      </svg>
+    </button>
   </div>
+</form>
+
+<!-- medium -->
+<form class="p-4">
+  <h1 class="mb-3 text-xl text-gray-600">Search</h1>
+  <div class="flex flex-col gap-2">
+    <input type="text" id="first_name"
+      class="text-md w-full rounded-md border-2 border-r-0 border-gray-200 bg-gray-100 p-3 focus:border-blue-600 outline-none"
+      placeholder="Search" required />
+    <div>
+      <select id="Categories"
+        class="text-gray h-full w-full rounded-md cursor-pointer border-2 border-gray-200 bg-gray-100 p-3 text-gray-600 outline-none transition-all hover:bg-gray-200">
+        <option selected>Category</option>
+        <option value="01">First</option>
+        <option value="02">Second</option>
+        <option value="03">Third</option>
+        <option value="04">Fourth</option>
+      </select>
+    </div>
+    <button
+      class="rounded-md bg-blue-600 p-3 text-white transition-all grid place-items-center hover:bg-blue-700 disabled:bg-gray-300">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+      </svg>
+    </button>
+  </div>
+</form>
+
+<!-- large -->
+<form class="p-4">
+  <h1 class="mb-3 text-xl text-gray-600">Search</h1>
+  <div class="flex flex-col gap-2">
+    <input type="text" id="first_name"
+      class="w-full rounded-lg border-2 border-r-0 border-gray-200 bg-gray-100 p-5 text-lg focus:border-blue-600 outline-none"
+      placeholder="Search" required />
+    <div>
+      <select id="Categories"
+        class="text-gray w-full h-full cursor-pointer border-2 rounded-lg border-gray-200 bg-gray-100 p-5 text-lg text-gray-600 outline-none transition-all hover:bg-gray-200">
+        <option selected>Category</option>
+        <option value="01">First</option>
+        <option value="02">Second</option>
+        <option value="03">Third</option>
+        <option value="04">Fourth</option>
+      </select>
+    </div>
+    <button
+      class="rounded-lg bg-blue-600 grid place-items-center p-5 text-white transition-all hover:bg-blue-700 disabled:bg-gray-300">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+      </svg>
+    </button>
+  </div>
+</form>
