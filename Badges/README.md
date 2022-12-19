@@ -1,4 +1,4 @@
-# Readme is coming soon
+# Badges preview
 
 <table>
   <tr>
