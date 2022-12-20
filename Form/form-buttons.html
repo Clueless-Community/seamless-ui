@@ -1,0 +1,90 @@
+<div class="p-10">
+    <div class="grid grid-cols-1 sm:grid-cols-3">
+        <div class="flex flex-col items-center justify-center gap-2 py-5">
+            <div class="flex items-center gap-2">
+                <input
+                    class="h-4 w-4 cursor-pointer appearance-none rounded-sm border border-gray-500 bg-white outline-none transition duration-200"
+                    type="checkbox" id="checkbox-1" name="group-1" />
+                <label class="cursor-pointer select-none text-gray-800" for="checkbox-1"> Checkbox </label>
+            </div>
+            <div class="flex items-center gap-2">
+                <input
+                    class="h-4 w-4 cursor-pointer appearance-none rounded-sm border border-gray-500 bg-white outline-none transition duration-200 checked:border-2 checked:border-blue-600"
+                    type="checkbox" id="checkbox-2" name="group-1" />
+                <label class="cursor-pointer select-none text-gray-800" for="checkbox-2"> Checkbox </label>
+            </div>
+            <div class="flex items-center gap-2">
+                <input
+                    class="h-4 w-4 cursor-pointer rounded-2xl border border-gray-300 bg-white outline-none transition duration-200 checked:border-4 checked:border-blue-600"
+                    type="checkbox" id="checkbox-3" name="group-1" />
+                <label class="cursor-pointer select-none text-gray-800" for="checkbox-3"> Checkbox </label>
+            </div>
+            <div class="flex items-center gap-2">
+                <input
+                    class="disabled: h-4 w-4 cursor-pointer appearance-none rounded-sm border border-gray-500 outline-none disabled:bg-gray-300"
+                    type="checkbox" id="checkbox-4" name="group-1" disabled />
+                <label class="cursor-pointer select-none text-gray-800" for="checkbox-4"> Checkbox </label>
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-2 py-5">
+            <div class="flex items-center gap-2">
+                <input
+                    class="h-4 w-4 cursor-pointer appearance-none rounded-2xl border border-gray-300 bg-white outline-none transition duration-200"
+                    type="radio" id="radio-1" name="group-1" />
+                <label class="cursor-pointer select-none text-gray-800" for="radio-1"> Radio </label>
+            </div>
+            <div class="flex items-center gap-2">
+                <input
+                    class="h-4 w-4 cursor-pointer appearance-none rounded-2xl border border-gray-300 bg-white outline-none transition duration-200 checked:border-blue-600"
+                    type="radio" id="radio-2" name="group-1" />
+                <label class="cursor-pointer select-none text-gray-800" for="radio-2"> Radio </label>
+            </div>
+            <div class="flex items-center gap-2">
+                <input
+                    class="h-4 w-4 cursor-pointer appearance-none rounded-2xl border border-gray-300 bg-white outline-none transition duration-200 checked:border-4 checked:border-blue-600"
+                    type="radio" id="radio-3" name="group-1" />
+                <label class="cursor-pointer select-none text-gray-800" for="radio-3"> Radio </label>
+            </div>
+            <div class="flex items-center gap-2">
+                <input
+                    class="disabled: h-4 w-4 cursor-pointer appearance-none rounded-2xl border border-gray-300 outline-none disabled:bg-gray-300"
+                    type="radio" id="radio-4" name="group-1" disabled />
+                <label class="cursor-pointer select-none text-gray-800" for="radio-4"> Radio </label>
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-2 py-5">
+            <label class="relative inline-flex cursor-pointer items-center">
+                <input type="checkbox" value="" class="peer sr-only" />
+                <div
+                    class="h-6 w-11 rounded-full border border-gray-500 bg-white after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-gray-300 after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-checked:after:bg-white peer-focus:outline-none">
+                </div>
+                <span class="ml-3 select-none text-gray-800">Switch</span>
+            </label>
+            <label class="relative inline-flex cursor-pointer items-center">
+                <input type="checkbox" value="" class="peer sr-only" />
+                <div
+                    class="h-6 w-11 rounded-full border-2 border-blue-600 bg-white after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-gray-300 after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-checked:after:bg-white peer-focus:outline-none">
+                </div>
+                <span class="ml-3 select-none text-gray-800">Switch</span>
+            </label>
+            <label class="relative inline-flex cursor-pointer items-center">
+                <input type="checkbox" value="" class="peer sr-only" />
+                <div
+                    class="h-6 w-11 rounded-full border border-blue-600 bg-blue-600 after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none">
+                </div>
+                <span class="ml-3 select-none text-gray-800">Switch</span>
+            </label>
+            <label class="relative inline-flex cursor-pointer items-center">
+                <input type="checkbox" value="" class="peer sr-only" disabled />
+                <div
+                    class="peer h-6 w-11 rounded-full bg-gray-300 after:absolute after:top-0.5 after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-gray-100 after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white">
+                </div>
+                <span class="ml-3 select-none text-gray-800">Switch</span>
+            </label>
+        </div>
+    </div>
+    <div class="mx-auto mt-8 w-2/4 min-w-max max-w-lg sm:mx-0">
+        <label class="cursor-pointer select-none text-gray-800" for="default-range"> Basic range </label>
+        <input id="default-range" type="range" class="w-full cursor-pointer rounded-lg accent-blue-600" />
+    </div>
+</div>
