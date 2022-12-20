@@ -1,28 +1,26 @@
-
-<h3 class="mb-4 font-semibold text-gray-900 dark:text-white">Radio Button</h3>
-<ul class="w-48 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
-    <li class="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
-        <div class="flex items-center pl-3">
-            <input id="list-radio-license" type="radio" value="" name="list-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-            <label for="list-radio-license" class="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">option 1</label>
-        </div>
-    </li>
-    <li class="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
-        <div class="flex items-center pl-3">
-            <input id="list-radio-id" type="radio" value="" name="list-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-            <label for="list-radio-id" class="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">option 2</label>
-        </div>
-    </li>
-    <li class="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
-        <div class="flex items-center pl-3">
-            <input id="list-radio-millitary" type="radio" value="" name="list-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-            <label for="list-radio-millitary" class="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">option 3</label>
-        </div>
-    </li>
-    <li class="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
-        <div class="flex items-center pl-3">
-            <input id="list-radio-passport" type="radio" value="" name="list-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-            <label for="list-radio-passport" class="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">option 4</label>
-        </div>
-    </li>
-</ul>
+<div class="flex flex-col items-center justify-center gap-2 py-5">
+    <div class="flex items-center gap-2">
+        <input
+            class="h-4 w-4 cursor-pointer appearance-none rounded-2xl border border-gray-300 bg-white outline-none transition duration-200"
+            type="radio" id="radio-1" name="group-1" />
+        <label class="cursor-pointer select-none text-gray-800" for="radio-1"> Radio </label>
+    </div>
+    <div class="flex items-center gap-2">
+        <input
+            class="h-4 w-4 cursor-pointer appearance-none rounded-2xl border border-gray-300 bg-white outline-none transition duration-200 checked:border-blue-600"
+            type="radio" id="radio-2" name="group-1" />
+        <label class="cursor-pointer select-none text-gray-800" for="radio-2"> Radio </label>
+    </div>
+    <div class="flex items-center gap-2">
+        <input
+            class="h-4 w-4 cursor-pointer appearance-none rounded-2xl border border-gray-300 bg-white outline-none transition duration-200 checked:border-4 checked:border-blue-600"
+            type="radio" id="radio-3" name="group-1" />
+        <label class="cursor-pointer select-none text-gray-800" for="radio-3"> Radio </label>
+    </div>
+    <div class="flex items-center gap-2">
+        <input
+            class="disabled: h-4 w-4 cursor-pointer appearance-none rounded-2xl border border-gray-300 outline-none disabled:bg-gray-300"
+            type="radio" id="radio-4" name="group-1" disabled />
+        <label class="cursor-pointer select-none text-gray-800" for="radio-4"> Radio </label>
+    </div>
+</div>
