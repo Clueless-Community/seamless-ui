@@ -1,0 +1,25 @@
+
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+<p class="md:space-x-1 space-y-1 md:space-y-0 mb-4">
+   
+    <button class="bg-blue-600 px-6 py-2.5 rounded-md text-white text-md font-medium  hover:bg-blue-700 transition-all disabled:bg-gray-400" data-bs-toggle="collapse" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Button3</button>
+    <button class="bg-blue-600 px-6 py-2.5 rounded-md text-white text-md font-medium  hover:bg-blue-700 transition-all disabled:bg-gray-400" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Button2</button>
+    <button class="bg-blue-600 px-6 py-2.5 rounded-md text-white text-md font-medium  hover:bg-blue-700 transition-all disabled:bg-gray-400" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Button1</button>
+
+  </p>
+  <div class="grid md:grid-cols-2 gap-4">
+    <div>
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="block p-6 rounded-lg shadow-lg bg-white">
+          Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="block p-6 rounded-lg shadow-lg bg-white">
+          Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+      </div>
+    </div>
+  </div>
