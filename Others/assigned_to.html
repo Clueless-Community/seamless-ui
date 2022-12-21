@@ -1,0 +1,112 @@
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'sans-serif'],
+        },
+      }
+    }
+  }
+
+  
+</script>
+<link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" />
+<script defer src="https://unpkg.com/alpinejs@3.9.1/dist/cdn.min.js"></script>
+
+
+<!-- page -->
+<main class="flex min-h-screen w-full items-center justify-center">
+    <!-- component -->
+    <div x-data="select" class="relative w-[30rem]" @click.outside="open = false">
+        <!-- trigger button -->
+        <button type="button" @click="toggle"
+            class="flex w-full items-center justify-between rounded bg-white p-2 ring-1 ring-gray-300"
+            :class="(open) && 'ring-blue-600'">
+            <span class="flex items-center">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-shrink-0 rounded-full">
+              </span>
+            <span x-text="(language == '') ? 'Assigned To' : language"></span>
+            <span class="text-2xl w-5 h-5 grid place-content-center"><i class='bx bx-chevron-down'></i></span>
+        </button>
+
+        <!-- list items -->
+        <ul class="z-2 absolute mt-2 w-full rounded bg-gray-50 ring-1 ring-gray-300" x-show="open">
+           
+            
+            <li class="cursor-pointer text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9" id="listbox-option-0" role="option" @click="setLanguage('Alex Benjamin')">
+                <div class="flex items-center">
+                  <img src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-shrink-0 rounded-full">
+                  <span class="font-normal ml-3 block truncate">Alex Benjamin</span>
+                </div>
+        
+      
+              
+                <span class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4">
+                  <!-- Heroicon name: mini/check -->
+                  <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+            </li>
+            <li class="cursor-pointer select-none p-2 hover:bg-gray-200" @click="setLanguage('Saber')">
+                
+                <div class="flex items-center">
+                    <img src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-shrink-0 rounded-full">
+                    <span class="font-normal ml-3 block truncate">Saber</span>
+                  </div>
+            </li>
+            <li class="cursor-pointer select-none p-2 hover:bg-gray-200" @click="setLanguage('Wednesday')">
+                <div class="flex items-center">
+                    <img src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-shrink-0 rounded-full">
+                    <span class="font-normal ml-3 block truncate">Wednesday</span>
+                  </div>
+            </li>
+            <li class="cursor-pointer select-none p-2 hover:bg-gray-200" @click="setLanguage('Enid')">
+                <div class="flex items-center">
+                    <img src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-shrink-0 rounded-full">
+                    <span class="font-normal ml-3 block truncate">Enid</span>
+                  </div>
+            </li>
+            <li class="cursor-pointer select-none p-2 hover:bg-gray-200" @click="setLanguage('Tushar')">
+                <div class="flex items-center">
+                    <img src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-shrink-0 rounded-full">
+                    <span class="font-normal ml-3 block truncate">Tushar</span>
+                  </div>
+            </li>
+            <li class="cursor-pointer select-none p-2 hover:bg-gray-200" @click="setLanguage('Benjamin')">
+                <div class="flex items-center">
+                    <img src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-shrink-0 rounded-full">
+                    <span class="font-normal ml-3 block truncate"> Benjamin</span>
+                  </div>
+            </li>
+            <li class="cursor-pointer select-none p-2 hover:bg-gray-200" @click="setLanguage('C#')">
+                <div class="flex items-center">
+                    <img src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-shrink-0 rounded-full">
+                    <span class="font-normal ml-3 block truncate">Alex</span>
+                  </div>
+            </li>
+        </ul>
+        
+    </div>
+</main>
+
+<script>
+    document.addEventListener("alpine:init", () => {
+        Alpine.data("select", () => ({
+            open: false,
+            language: "",
+
+            toggle() {
+                this.open = !this.open;
+            },
+
+            setLanguage(val) {
+                this.language = val;
+                this.open = false;
+            },
+        }));
+    });
+</script>
