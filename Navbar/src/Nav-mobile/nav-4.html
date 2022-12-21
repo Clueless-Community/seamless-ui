@@ -1,27 +1,49 @@
-<nav class="flex flex-wrap items-center justify-center p-6">
-  <div class="mr-6 flex flex-shrink-0 items-center">
-    <span class="text-xl font-semibold tracking-tight">BrandName</span>
+<nav class="h- w-full py-5 px-6">
+  <div class="flex h-20 justify-between">
+    <h3 class="text-xl font-bold">BrandName</h3>
+    <ul class="flex gap-7">
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="h-6 w-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="h-6 w-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+        </svg>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+          <path fill-rule="evenodd"
+            d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm7 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
+            clip-rule="evenodd" />
+        </svg>
+      </li>
+    </ul>
   </div>
-  <div class="ml-14 block lg:hidden">
-    <button class="text-200 hover:border-grey hover:text-grey flex items-center rounded px-4 py-2">
-      <svg class="h-3 w-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-        <title>Menu</title>
-        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-      </svg>
-    </button>
-  </div>
-  <div class="ml-3 w-full flex-col items-center justify-center lg:flex lg:w-auto lg:items-center">
-    <div class="text-center text-xl lg:flex-grow">
-      <a href="#" class="hover:text-grey mt-4 block lg:mt-0 lg:inline-block">Home</a>
-      <a href="#" class="hover:text-grey mt-4 block lg:mt-0 lg:inline-block">Products</a>
-      <a href="#" class="hover:text-grey mt-4 block lg:mt-0 lg:inline-block">Pricing</a>
-      <a href="#" class="hover:text-grey mt-4 block lg:mt-0 lg:inline-block">Contact</a>
-    </div>
-    <div class="relative ml-32 mt-4 w-52">
+  <div class="flex flex-col items-center justify-center">
+    <ul class="flex w-full flex-col items-center gap-7 text-xl font-light tracking-wide text-gray-700">
+      <li class="cursor-pointer hover:text-blue-600">Home</li>
+      <li class="cursor-pointer hover:text-blue-600">Product</li>
+      <li class="cursor-pointer hover:text-blue-600">Pricing</li>
+      <li class="cursor-pointer hover:text-blue-600">Contact</li>
+    </ul>
+    <div class="relative mt-5 w-3/4 max-w-md">
       <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-        <svg aria-hidden="true" class="h-5 w-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+        <svg aria-hidden="true" class="h-5 w-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+            clip-rule="evenodd"></path>
+        </svg>
       </div>
-      <input type="text" id="simple-search" class="border-300 dark:bg-700 dark:text-grey block w-full rounded-lg border bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 focus:ring-blue-500 dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500" placeholder="Search" required />
+      <input type="text" id="simple-search"
+        class="border-300 dark:bg-700 dark:text-grey block w-full rounded-lg border bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 focus:ring-blue-500 outline-none"
+        placeholder="Search" required />
     </div>
   </div>
 </nav>
