@@ -1,23 +1,46 @@
-    <div className=' w-[300px] flex flex-col  space-y-8 mt-4'>
-      <div className='ml-8 flex justify-between items-center '>
-        <h1 className='text-2xl font-bold text-black'>BrandName</h1>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+<nav class="h- w-full py-5 px-6">
+  <div class="flex h-20 justify-between">
+    <h3 class="text-xl font-bold">BrandName</h3>
+    <ul class="flex gap-7">
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="h-6 w-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
         </svg>
-      </div>
-      <div className='flex flex-col justify-center items-center ml-5 space-y-7 font-normal text-gray-500 text-2xl'>
-        <h1 className='hover:cursor-pointer'>Home</h1>
-        <h1 className='hover:cursor-pointer'>Product</h1>
-        <h1 className='hover:cursor-pointer'>Pricing</h1>
-        <h1 className='hover:cursor-pointer'>Contact</h1>
-      </div>
-      <div className='flex flex-col justify-center items-center mt-20 ml-5 space-y-6'>
-        <h1 className='text-blue-600 text-2xl hover:cursor-pointer'>Login</h1>
-        <div className='bg-blue-600 px-6 py-3 flex justify-between items-center rounded-lg hover:cursor-pointer transition hover:duration-150 hover:ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg'>
-          <button className='mr-2 font-semibold  text-white text-sm'>Become a Member</button>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mt-1 text-white">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-          </svg>
-        </div>
-      </div>
-    </div>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="h-6 w-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+        </svg>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+          <path fill-rule="evenodd"
+            d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm7 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
+            clip-rule="evenodd" />
+        </svg>
+      </li>
+    </ul>
+  </div>
+  <div class="flex flex-col items-center justify-center">
+    <ul class="flex w-full flex-col items-center gap-7 text-xl font-light tracking-wide text-gray-700">
+      <li class="cursor-pointer hover:text-blue-600">Home</li>
+      <li class="cursor-pointer hover:text-blue-600">Product</li>
+      <li class="cursor-pointer hover:text-blue-600">Pricing</li>
+      <li class="cursor-pointer hover:text-blue-600">Contact</li>
+      <li class="mt-5 cursor-pointer font-normal text-blue-600">Login</li>
+    </ul>
+    <button class="mt-5 rounded bg-blue-600 px-5 py-2 text-white flex items-center justify-center gap-4">
+      <span>Become a member</span>
+      <svg class="w-4" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
+        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z"
+          fill-rule="nonzero" fill="white" />
+      </svg>
+    </button>
+  </div>
+</nav>
