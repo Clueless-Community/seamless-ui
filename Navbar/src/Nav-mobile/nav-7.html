@@ -1,43 +1,71 @@
-<nav class="h- w-full py-5 px-6">
-  <div class="flex h-20 justify-between">
-    <h3 class="text-2xl font-bold">BrandName</h3>
-    <ul class="flex gap-7">
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+<nav class="w-full py-5 px-6">
+  <div class="mb-10 flex">
+    <div class="flex-auto">
+      <h1 class="text-2xl font-bold">Brand Name</h1>
+    </div>
+    <div class="flex items-center justify-center gap-2 min-[400px]:gap-4">
+      <div class="grid aspect-square w-8 cursor-pointer content-center justify-center rounded-full bg-gray-200">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="h-5 w-5">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
         </svg>
-      </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+      </div>
+      <div
+        class="relative grid aspect-square w-8 cursor-pointer content-center justify-center rounded-full bg-gray-200">
+        <p
+          class="absolute -top-1 -right-1 aspect-square w-4 rounded-full bg-blue-500 text-center text-[10px] font-semibold text-white">
+          1</p>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="h-5 w-5">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
         </svg>
-      </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
-          <path fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm7 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z" clip-rule="evenodd" />
+      </div>
+      <div class="grid aspect-square w-8 cursor-pointer content-center justify-end">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="h-5 w-5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
-      </li>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col items-center justify-center">
+    <div class="relative w-3/4 max-w-md">
+      <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+        <svg aria-hidden="true" class="h-5 w-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </div>
+      <input type="text" id="simple-search"
+        class="border-300 dark:bg-700 dark:text-grey block w-full rounded-lg border bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 outline-none focus:ring-blue-500"
+        placeholder="Search" required />
+    </div>
+    <div class="w-3/4 max-w-md">
+      <select
+        class="my-2 w-full rounded-md border-transparent bg-gray-100 px-4 py-3 text-sm outline-none focus:border-gray-500">
+        <option value="">Category</option>
+        <option value="fully-furnished">HTML</option>
+        <option value="partially-furnished">CSS</option>
+        <option value="not-furnished">Javascript</option>
+      </select>
+      <button class="my-2 w-full rounded bg-blue-500 py-2 px-4 font-bold text-white hover:bg-blue-700">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="h-6 w-full">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+      </button>
+    </div>
+    <ul class="mt-10 flex w-full flex-col items-center gap-7 text-xl font-light tracking-wide text-gray-700">
+      <li class="cursor-pointer hover:text-blue-600">Home</li>
+      <li class="cursor-pointer hover:text-blue-600">Product</li>
+      <li class="cursor-pointer hover:text-blue-600">Shop</li>
+      <li class="cursor-pointer hover:text-blue-600">Pricing</li>
+      <li class="cursor-pointer hover:text-blue-600">Contact</li>
     </ul>
   </div>
-  <div class="items-center justify-center flex flex-col">
-    <input type="text" id="first_name" class="block w-4/5 mt-5 mb-2 rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500" placeholder="Search" required />
-    <select class="px-4 py-3 w-4/5 my-2 rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
-		  <option value="">Category</option>
-		  <option value="fully-furnished">HTML</option>
-		  <option value="partially-furnished">CSS</option>
-		  <option value="not-furnished">Javascript</option>
-		</select>
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold w-4/5 my-2 py-2 px-4 rounded">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-full h-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-      </svg>
-    </button>
-  </div>
-  <ul class="flex w-full my-10 flex-col items-center gap-7 text-xl font-light tracking-wide text-gray-600">
-    <li class="hover:text-black font-bold">Home</li>
-    <li class="hover:text-black font-bold">Product</li>
-    <li class="hover:text-black font-bold">Shop</li>
-    <li class="hover:text-black font-bold">Pricing</li>
-    <li class="hover:text-black font-bold">Contact</li>
-  </ul>
 </nav>
