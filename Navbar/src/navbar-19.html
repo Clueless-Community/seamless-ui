@@ -1,81 +1,76 @@
-<nav class="bg-blue-50 px-4 py-2.5 dark:bg-gray-900 w-full">
-    <div class="flex flex-wrap justify-between items-center">
-      <a href="" class="flex items-center">
-        <img src="https://i.ibb.co/cchk5Mp/logo.png" alt="logo" class="mr-2 h-9" />
-        <p class="text-lg text-white font-semibold">Designedge</p>
-      </a>
-      <form class="hidden items-center sm:flex">
-        <label class="sr-only">Search</label>
-        <div class="relative w-full">
-          <input type="text"
-            class="bg-blue-50 border border-blue-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Search here....." required>
-          <button type="button" class="absolute inset-y-0 right-0 items-center pr-3">
-            <svg aria-hidden="true"
-            class="w-4 h-4 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
-            fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd"
-            d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H6a1 1 0 100 2h8a1 1 0 100-2h-3v-2.07z"
-            clip-rule="evenodd"></path>
-            </svg>
-          </button>
-        </div>
-        <button type="submit"
-          class=" hidden md:inline-flex items-center py-2.5 px-3 ml-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-          <svg aria-hidden="true" class="mr-2 -ml-1 w-5 h-5" fill="none" stroke="currentColor"
-          viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-          </svg>Search
+<nav class="shadow-lg">
+  <div class="bg-[#EEF3FF] px-6 py-3">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center">
+        <img src="https://i.ibb.co/cchk5Mp/logo.png" alt="logo" class="mr-3 h-9" />
+        <span class="text-lg font-semibold text-gray-800"> Designedge </span>
+      </div>
+      <div class="hidden gap-2 text-black md:flex">
+        <input
+          class="h-8 w-[16rem] rounded-md border border-blue-400 bg-[#EEF3FF] px-5 text-sm placeholder:text-gray-500 focus:outline-none"
+          type="search" name="search" placeholder="Search here..." />
+        <button class="flex h-8 items-center justify-center gap-1 rounded-md bg-blue-600 px-3">
+          <svg class="h-4 w-4 fill-current text-white" xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1"
+            x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;"
+            xml:space="preserve" width="512px" height="512px">
+            <path
+              d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+          </svg>
+          <p class="text-xs text-white">Search</p>
         </button>
-      </form>
-      <div class="flex items-center justify-evenly gap-4">
-        <div class="relative sm:flex flex-col items-center hidden">
-          <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
-          </path>
-          </svg>
-          <div class="text-base cursor-pointer text-white">Favourite</div>
+      </div>
+      <div class="flex">
+        <div
+          class="mr-5 hidden items-center justify-evenly gap-4 border-r-2 border-dashed border-gray-300 pr-5 sm:flex">
+          <div class="flex flex-col items-center justify-between">
+            <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+              </path>
+            </svg>
+            <p class="text-xs text-[#556987]">Favourite</p>
+          </div>
+          <div class="flex flex-col items-center justify-between">
+            <div class="relative">
+              <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+              </svg>
+              <p class="absolute right-0 top-[15px] h-[10px] w-[10px] rounded-full bg-[#D7503D]"></p>
+            </div>
+            <p class="text-xs text-[#556987]">Cart</p>
+          </div>
         </div>
-        <div class="relative text-white hidden sm:block">
-          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        <div class="flex flex-col items-center justify-center">
+          <div class="relative">
+            <img src="https://i.ibb.co/2FbV2vm/Ellipse.png" alt="profile picture" class="h-8 w-8 rounded-full" />
+            <p class="absolute right-0 bottom-0 h-[12px] w-[12px] rounded-full bg-[#22C55E]"></p>
+          </div>
+          <p class="text-xs text-[#556987]">Account</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hidden items-center justify-between px-6 py-3 min-[600px]:flex">
+    <div class="flex gap-6 text-gray-600">
+      <h2 class="cursor-pointer font-normal hover:text-black">Collection</h2>
+      <button class="inline-flex h-fit items-center font-normal hover:text-black" type="button">
+        Fashion
+        <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
-          </svg>
-          <p class="absolute right-1 top-[15px] h-[10px] w-[10px] rounded-full bg-[#D7503D]"></p>
-          <div class="text-base">Cart</div>
-      </div>
-      <div class="relative flex items-center gap-5">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-white w-6 h-6 vlock sm:hidden">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
         </svg>
-        <img src="https://media.allure.com/photos/5a26c1d8753d0c2eea9df033/3:4/w_1262,h_1683,c_limit/mostbeautiful.jpg" alt="" class="h-10 w-9 rounded-full">
-        <p class="absolute right-0 top-[28px] h-[10px] w-[10px] rounded-full bg-[#80cd2d]"></p>
-      </div>
+      </button>
+      <h2 class="cursor-pointer font-normal hover:text-black">Electronics</h2>
+      <h2 class="cursor-pointer font-normal hover:text-black">Sports</h2>
+      <h2 class="cursor-pointer font-normal hover:text-black">Gallery</h2>
+      <h2 class="cursor-pointer font-normal hover:text-black">Medicines</h2>
     </div>
-    <div class="flex w-[100%] mx-auto pb-3 mt-2 items-center justify-center bg-slate-50 text-center text-[#414852] font-semibold">
-      <div class="flex gap-8 lg:gap-10 text-[16px] leading-[16px] pt-3 items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 block cursor-pointer lg:hidden">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg>
-        <p class="hover:text-blue-600 text-[#414852] cursor-pointer hover:underline underline-offset-4"> Collection </p>
-        <p class="flex gap-1 cursor-pointer hover:underline underline-offset-4 hover:text-blue-600">Fashion 
-          <svg class="h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-          </svg>
-        </p>
-        <p class="hover:text-blue-600 text-[#414852] cursor-pointer hover:underline underline-offset-4 hidden sm:block">Electronics</p>
-        <p class="hover:text-blue-600 text-[#414852] cursor-pointer hover:underline underline-offset-4  hidden sm:block"> Sports </p>
-        <p class="hover:text-blue-600 text-[#414852] cursor-pointer hover:underline underline-offset-4 hidden sm:block"> Grocery </p>
-        <p class="hover:text-blue-600 text-[#414852] cursor-pointer hover:underline underline-offset-4 hidden md:block"> Medicines </p>
-        <span class="hover:text-blue-600 text-[#414852]"><a class="hover:underline underline-offset-4 hidden md:block" href="#">Explore</a></span>
-        <span class="hover:text-blue-600 text-[#414852]"><a class="hover:underline underline-offset-4 hidden lg:block" href="#">Download Product</a></span>
-      </div>
+    <div class="hidden gap-4 text-gray-600 md:flex">
+      <h2 class="cursor-pointer text-sm font-medium text-blue-600 underline">Explore</h2>
+      <h2 class="cursor-pointer text-sm font-medium text-blue-600 underline">Download App</h2>
     </div>
-  </nav>
-  
-  
+  </div>
+</nav>
