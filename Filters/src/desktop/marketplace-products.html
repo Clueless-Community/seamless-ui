@@ -13,19 +13,30 @@
     <div class="flex">
       <input placeholder="Search" class="text-md block w-full rounded-l-md border border-slate-300 bg-gray-100 px-4 py-2 font-semibold tracking-wide text-black placeholder-slate-600 placeholder:text-sm placeholder:font-semibold focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500" type="text" />
 
-      <div class="text-md flex items-center justify-between border border-slate-300 bg-gray-100 px-4 py-2 font-normal text-black placeholder-slate-600 placeholder:text-sm placeholder:font-semibold focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500">
-        <input placeholder="Category" class="text-md block w-28 bg-gray-100 px-4 py-2 font-normal tracking-wider text-black placeholder-slate-600 outline-none placeholder:text-sm placeholder:font-semibold" type="dropdown" />
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+      <div class="relative w-fit cursor-pointer">
+        <select name="yo" id="" class="h-[58px] w-[150px] border border-slate-300 bg-gray-100 px-5 text-sm font-semibold tracking-wider text-black outline-none">
+          <option value="">Category</option>
+          <option value="">First</option>
+          <option value="">Second</option>
+          <option value="">Third</option>
+        </select>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute top-[22px] right-1 h-4 bg-white pr-4">
           <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
         </svg>
       </div>
 
-      <div class="text-md flex items-center justify-between border border-slate-300 bg-gray-100 px-4 py-2 font-normal text-black placeholder-slate-600 placeholder:text-sm placeholder:font-semibold focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500">
-        <input placeholder="Popularity" class="text-md block w-28 bg-gray-100 px-4 py-2 font-normal tracking-wider text-black placeholder-slate-600 outline-none placeholder:text-sm placeholder:font-semibold" type="dropdown" />
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+      <div class="relative w-fit cursor-pointer">
+        <select name="yo" id="" class="h-[58px] w-[150px] border border-slate-300 bg-gray-100 px-5 text-sm font-semibold tracking-wider text-black outline-none">
+          <option value="">Popularity</option>
+          <option value="">First</option>
+          <option value="">Second</option>
+          <option value="">Third</option>
+        </select>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute top-[22px] right-1 h-4 bg-white pr-4">
           <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
         </svg>
       </div>
+
       <button class="rounded-r-md bg-blue-600 px-4 py-2 text-lg font-normal text-white hover:cursor-pointer hover:bg-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
@@ -37,7 +48,7 @@
 </div>
 
 <!-- Mobile View -->
-<div class="flex text-center md:hidden">
+<div class="flex justify-center text-center md:hidden">
   <div class="bg-white px-6 py-6 text-start">
     <!-- top location -->
     <div class="flex font-bold">
