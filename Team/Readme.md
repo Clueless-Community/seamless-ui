@@ -9,7 +9,7 @@
   <tr>
     <td width="100%">
         <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Team/src/team-01.html">
-            <img src="https://i.postimg.cc/m2HR2wJm/Screenshot-2022-12-24-at-3-59-05-PM.png" alt="image" border="0"/>
+            <img src="https://i.postimg.cc/0ygCLpTg/Screenshot-2022-12-24-at-4-36-18-PM.png" alt="image" border="0"/>
         </a>
     </td>
     
