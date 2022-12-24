@@ -285,3 +285,146 @@
     </td>
   </tr>
 </table>
+
+## Footer white
+
+<table>
+  <tr>
+    <td width="33.3333%">Footer white-1</td>
+    <td width="33.3333%">Footer white-2</td>
+    <td width="33.3333%">Footer white-3</td>
+  </tr>
+
+  <tr>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-01.html">
+            <img src="https://i.ibb.co/bmbN6ZV/Screenshot-2353.png" alt="Screenshot-2353" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-02.html">
+            <img src="https://i.ibb.co/st2VMPq/Screenshot-2355.png" alt="Screenshot-2355" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-03.html">
+            <img src="https://i.ibb.co/QnPWKrj/Screenshot-2357.png" alt="Screenshot-2357" border="0">
+        </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3333%">Footer white-4</td>
+    <td width="33.3333%">Footer white-5</td>
+    <td width="33.3333%">Footer white-6</td>
+  </tr>
+
+  <tr>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-04.html">
+            <img src="https://i.ibb.co/PcxqXSf/Screenshot-2358.png" alt="Screenshot-2358" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-05.html">
+            <img src="https://i.ibb.co/vPZzfb8/Screenshot-2359.png" alt="Screenshot-2359" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-06.html">
+            <img src="https://i.ibb.co/9W2XWK4/Screenshot-2360.png" alt="Screenshot-2360" border="0">
+        </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3333%">Footer white-7</td>
+    <td width="33.3333%">Footer white-8</td>
+    <td width="33.3333%">Footer white-9</td>
+  </tr>
+
+  <tr>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-07.html">
+            <img src="https://i.ibb.co/dpG60b9/Screenshot-2361.png" alt="Screenshot-2361" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-08.html">
+            <img src="https://i.ibb.co/BVhG5P7/Screenshot-2362.png" alt="Screenshot-2362" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-09.html">
+            <img src="https://i.ibb.co/VqmTLCB/Screenshot-2363.png" alt="Screenshot-2363" border="0">
+        </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3333%">Footer white-10</td>
+    <td width="33.3333%">Footer white-11</td>
+    <td width="33.3333%">Footer white-12</td>
+  </tr>
+
+  <tr>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-10.html">
+            <img src="https://i.ibb.co/mBYjLYs/Screenshot-2365.png" alt="Screenshot-2365" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-11.html">
+            <img src="https://i.ibb.co/zmm9FTp/Screenshot-2366.png" alt="Screenshot-2366" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-12.html">
+            <img src="https://i.ibb.co/HgG4B38/Screenshot-2367.png" alt="Screenshot-2367" border="0">
+        </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3333%">Footer white-13</td>
+    <td width="33.3333%">Footer white-14</td>
+    <td width="33.3333%">Footer white-15</td>
+  </tr>
+
+  <tr>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-13.html">
+            <img src="https://i.ibb.co/FxS61QD/Screenshot-2368.png" alt="Screenshot-2368" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-14.html">
+            <img src="https://i.ibb.co/23kc05v/Screenshot-2369.png" alt="Screenshot-2369" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-15.html">
+            <img src="https://i.ibb.co/ZGhq6h2/Screenshot-2370.png" alt="Screenshot-2370" border="0">
+        </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3333%">Footer white-16</td>
+    <td width="33.3333%">Footer white-17</td>
+    <td width="33.3333%">Footer white-18</td>
+  </tr>
+
+  <tr>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-16.html">
+            <img src="https://i.ibb.co/H72YZYw/Screenshot-2371.png" alt="Screenshot-2371" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-17.html">
+            <img src="https://i.ibb.co/s9fkcBj/Screenshot-2372.png" alt="Screenshot-2372" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-18.html">
+            <img src="https://i.ibb.co/KmLpn1v/Screenshot-2373.png" alt="Screenshot-2373" border="0">
+        </a>
+    </td>
+  </tr>
+</table>
