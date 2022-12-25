@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td width="100%" class="mb-11">Input-1</td>
+    <td width="50%" >Input-1</td>
   </tr>
 
   <tr>
