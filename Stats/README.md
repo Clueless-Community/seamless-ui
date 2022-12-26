@@ -5,6 +5,7 @@
     <td width="33.3333%">stats-0</td>
     <td width="33.3333%">stats-1</td>
     <td width="33.3333%">stats-2</td>
+
   </tr>
 
   <tr>
@@ -24,4 +25,18 @@
         </a>
     </td>
   </tr>
+   <tr>
+    <td width="33.3333%">stats-0 dark mode</td>
+   
+    
+  </tr>
+   <tr>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Stats/src/stats-0.html">
+            <img src="https://i.postimg.cc/kMV1B3yr/Screenshot-2022-12-26-at-12-38-13-PM.png" alt="image" border="0">
+        </a>
+    </td>
+  
+  </tr>
+
 </table>
