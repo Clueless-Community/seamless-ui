@@ -15,7 +15,7 @@
     </td>
     <td width="33.3333%">
         <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Testimonials/src/testimonial-1.html">
-            <img src="https://iili.io/HxDoa6b.md.png" alt="image" border="0">
+            <img src="https://i.postimg.cc/4d4QNwb5/Screenshot-2022-12-26-at-10-00-53-PM.png" alt="image" border="0">
         </a>
     </td>
     <td width="33.3333%">
