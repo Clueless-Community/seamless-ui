@@ -1,1 +1,376 @@
 
+# 📒 Developer style guide for Badges
+
+![image](https://i.postimg.cc/kMV1B3yr/Screenshot-2022-12-26-at-12-38-13-PM.png)
+
+## Types of stats 🔽
+
+1. Icon stats
+2. shared bodered stats
+3. Graphical stats
+
+---
+
+## General must known design system guideline :
+
+### Color 🎨
+
+| Color | Yellow | Gray | Dark-Gray |
+| --- | --- | --- | --- |
+| Code in Tailwind | text-yellow-400 | text-gray-200 | text-gray-600 |
+
+Color of `text` will depend on the `bg` color
+| Background | Dark | Light |
+| --- | --- | --- |
+| Text | Light | Dark |
+| Code in Tailwind | text-gray-200 | text-gray-600 |
+
+`Note` : Color of the text `[color]` will depend on the color of the background
+
+### Font
+
+For all stats font is : **`font-medium`**
+
+---
+
+## Icon guidelines:
+
+Mostly all the icons are taken from → [Hero Icons](https://heroicons.com/)
+
+`Icon-text-gap` :  We follow a convention of equal margin between the text and the icon as padding in y  axis `py`. and always the margin is given from the side of icon.
+
+|  | Width | Type |
+| --- | --- | --- |
+| Small | w-4 & h-4 | Hero Icons mini |
+| Medium | w-5 & h-5 | Hero Icons mini |
+| Large | w-6 & h-6 | Hero Icons filled |
+
+---
+
+## Example of Stats file 👇
+
+Want to see this badges in action? Try copy pasting this code in [Tailwind Playground](https://play.tailwindcss.com/). 💥
+
+```html
+
+<!-- For small size stars -->
+<section class="body-font bg-gray-200 text-gray-600">
+  <div class="container mx-auto px-5 py-24">
+    <h2 class="my-10 text-center text-5xl text-blue-900">Statistics</h2>
+    <div class="-m-4 flex flex-wrap justify-center text-center">
+      <!-- changes -->
+      <!-- card-x -->
+      <div class="m-1.5 grid w-fit grid-cols-2 rounded-md bg-white p-4 sm:w-1/2 md:w-1/2 lg:w-1/4">
+        <div class="left-content grid w-fit place-content-between place-items-start content-between">
+          <h3>
+            <p class="font-bold leading-relaxed">Contributors</p>
+          </h3>
+          <h2 class="title-font py-10 text-3xl font-medium text-blue-900 sm:text-4xl">100+</h2>
+          <h6 class="flex flex-row text-sm text-green-600">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
+            </svg>
+            <p>20% last month</p>
+          </h6>
+        </div>
+        <div class="graph bg-red-50">
+          <div class="gradient vsc-initialized h-full rounded-br-md rounded-bl-md bg-blue-400 leading-normal tracking-normal">
+            <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
+                  <g class="wave" fill="#f8fafc">
+                    <path d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"></path>
+                  </g>
+                  <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
+                    <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
+                      <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+                      <path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
+                      <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- card-x -->
+      <div class="m-1.5 grid w-fit grid-cols-2 rounded-md bg-white p-4 sm:w-1/2 md:w-1/2 lg:w-1/4">
+        <div class="left-content grid w-fit place-content-between place-items-start content-between">
+          <h3>
+            <p class="font-bold leading-relaxed">Contributions</p>
+          </h3>
+          <h2 class="title-font py-10 text-3xl font-medium text-blue-900 sm:text-4xl">1000+</h2>
+          <h6 class="flex flex-row text-sm text-green-600">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
+            </svg>
+            <p>89% last month</p>
+          </h6>
+        </div>
+        <div class="graph bg-red-50">
+          <div class="gradient vsc-initialized h-full rounded-br-md rounded-bl-md bg-green-400 leading-normal tracking-normal">
+            <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
+                  <g class="wave" fill="#f8fafc">
+                    <path d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"></path>
+                  </g>
+                  <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
+                    <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
+                      <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+                      <path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
+                      <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- card-x -->
+      <div class="m-1.5 grid w-fit grid-cols-2 rounded-md bg-white p-4 sm:w-1/2 md:w-1/2 lg:w-1/4">
+        <div class="left-content grid w-fit place-content-between place-items-start content-between">
+          <h3>
+            <p class="font-bold leading-relaxed">Repos</p>
+          </h3>
+          <h2 class="title-font py-10 text-3xl font-medium text-blue-900 sm:text-4xl">5+</h2>
+          <h6 class="flex flex-row text-sm text-green-600">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
+            </svg>
+            <p>10% last month</p>
+          </h6>
+        </div>
+        <div class="graph bg-red-50">
+          <div class="gradient vsc-initialized h-full rounded-br-md rounded-bl-md bg-red-400 leading-normal tracking-normal">
+            <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
+                  <g class="wave" fill="#f8fafc">
+                    <path d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"></path>
+                  </g>
+                  <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
+                    <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
+                      <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+                      <path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
+                      <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- card-x -->
+      <div class="m-1.5 grid w-fit grid-cols-2 rounded-md bg-white p-4 sm:w-1/2 md:w-1/2 lg:w-1/4">
+        <div class="left-content grid w-fit place-content-between place-items-start content-between">
+          <h3>
+            <p class="font-bold leading-relaxed">Maintainers</p>
+          </h3>
+          <h2 class="title-font py-10 text-3xl font-medium text-blue-900 sm:text-4xl">5</h2>
+          <h6 class="flex flex-row text-sm text-green-600">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
+            </svg>
+            <p>52% last month</p>
+          </h6>
+        </div>
+        <div class="graph bg-red-50">
+          <div class="gradient vsc-initialized h-full rounded-br-md rounded-bl-md bg-blue-400 leading-normal tracking-normal">
+            <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
+                  <g class="wave" fill="#f8fafc">
+                    <path d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"></path>
+                  </g>
+                  <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
+                    <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
+                      <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+                      <path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
+                      <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</section>
+<!-- For medium size stars -->
+<!-- Light mode -->
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4 text-center">
+      <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-blue-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+            <path d="M8 17l4 4 4-4m-4-5v9"></path>
+            <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+          </svg>
+          <h2 class="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+          <p class="leading-relaxed">Downloads</p>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-blue-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+          </svg>
+          <h2 class="title-font font-medium text-3xl text-gray-900">1.3K</h2>
+          <p class="leading-relaxed">Users</p>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-blue-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+            <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+            <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
+          </svg>
+          <h2 class="title-font font-medium text-3xl text-gray-900">74</h2>
+          <p class="leading-relaxed">Files</p>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-blue-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+          <p class="leading-relaxed">Places</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- dark mode -->
+
+<section class="text-white body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4 text-center">
+      <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div class="border-2 bg-gray-600 border-gray-200 px-4 py-6 rounded-lg">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-white w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+            <path d="M8 17l4 4 4-4m-4-5v9"></path>
+            <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+          </svg>
+          <h2 class="title-font font-medium text-3xl text-white">2.7K</h2>
+          <p class="leading-relaxed">Downloads</p>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div class="border-2 bg-gray-600 border-gray-200 px-4 py-6 rounded-lg">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-white w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+          </svg>
+          <h2 class="title-font font-medium text-3xl text-white">1.3K</h2>
+          <p class="leading-relaxed">Users</p>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div class="border-2 bg-gray-600 border-gray-200 px-4 py-6 rounded-lg">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-white w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+            <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+            <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
+          </svg>
+          <h2 class="title-font font-medium text-3xl text-white">74</h2>
+          <p class="leading-relaxed">Files</p>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div class="border-2 bg-gray-600 border-gray-200 px-4 py-6 rounded-lg">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-white w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          <h2 class="title-font font-medium text-3xl text-white">46</h2>
+          <p class="leading-relaxed">Places</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- For large size stars -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-5 p-5">
+  <div class="flex flex-col items-center justify-center gap-4 p-5 border-2 border-gray-200 rounded-lg shadow-lg">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" class="scale-105">
+      <path viewBox="-170 0 400 256" d="M38 18h-8V6H18v12h-8l14 14 14-14zM10 36v4h28v-4H10z" fill="#2564eb" />
+    </svg>
+    <div class="text-center">
+      <h6 class="text-4xl font-semibold text-slate-900">144K</h6>
+      <p class="text-base font-medium uppercase tracking-widest text-slate-900">Downloads</p>
+    </div>
+  </div>
+  <div class="flex flex-col items-center justify-center gap-7 p-5 border-2 border-gray-200 rounded-lg shadow-lg">
+    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" class="scale-[1.8] pt-1">
+      <path fill="#2564eb"
+        d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z" />
+    </svg>
+    <div class="text-center pt-2">
+      <h6 class="text-4xl font-semibold text-slate-900">12.9K</h6>
+      <p class="text-base font-medium uppercase tracking-widest text-slate-900">Subscribers</p>
+    </div>
+  </div>
+  <div class="flex flex-col items-center justify-center gap-2 p-5 border-2 border-gray-200 rounded-lg shadow-lg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-200 0 440 256" class="h-16 scale-90 pr-12">
+      <circle cx="128" cy="96" r="64" fill="none" stroke="#2564eb" stroke-miterlimit="10" stroke-width="16" />
+      <path fill="none" stroke="#2564eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"
+        d="M30.989,215.99064a112.03731,112.03731,0,0,1,194.02311.002" />
+    </svg>
+    <div class="text-center">
+      <h6 class="text-4xl font-semibold text-slate-900">48.3K</h6>
+      <p class="text-base font-medium uppercase tracking-widest text-slate-900">Users</p>
+    </div>
+  </div>
+</div>
+
+<!-- Dark Mode Version -->
+<div class="grid grid-cols-1 gap-5 p-5 sm:grid-cols-3">
+  <div class="flex flex-col items-center justify-center gap-4 rounded-lg border-2 bg-gray-600 p-5 text-white shadow-lg">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" class="scale-105">
+      <path viewBox="-170 0 400 256" d="M38 18h-8V6H18v12h-8l14 14 14-14zM10 36v4h28v-4H10z" fill="#fff" />
+    </svg>
+    <div class="text-center">
+      <h6 class="text-4xl font-semibold">144K</h6>
+      <p class="text-base font-medium uppercase tracking-widest">Downloads</p>
+    </div>
+  </div>
+  <div class="flex flex-col items-center justify-center gap-7 rounded-lg border-2 bg-gray-600 p-5 text-white shadow-lg">
+    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" class="scale-[1.8] pt-1">
+      <path fill="#fff" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z" />
+    </svg>
+    <div class="pt-2 text-center">
+      <h6 class="text-4xl font-semibold">12.9K</h6>
+      <p class="text-base font-medium uppercase tracking-widest">Subscribers</p>
+    </div>
+  </div>
+  <div class="flex flex-col items-center justify-center gap-2 rounded-lg border-2 bg-gray-600 p-5 text-white shadow-lg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-200 0 440 256" class="h-16 scale-90 pr-12">
+      <circle cx="128" cy="96" r="64" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="16" />
+      <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M30.989,215.99064a112.03731,112.03731,0,0,1,194.02311.002" />
+    </svg>
+    <div class="text-center">
+      <h6 class="text-4xl font-semibold">48.3K</h6>
+      <p class="text-base font-medium uppercase tracking-widest">Users</p>
+    </div>
+  </div>
+</div>
+
+
+```
+
+---
+
+## Having some problem ? 😕
+
+If you still have a problem understanding this please join our [discord server](https://discord.gg/zrVMjGW8sB) to get help.
