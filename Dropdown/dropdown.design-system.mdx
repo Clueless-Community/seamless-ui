@@ -1,1 +1,196 @@
 
+# 📒 Developer style guide for Store-Button
+
+![image](https://i.postimg.cc/T1LGqnNV/Screenshot-2022-12-31-at-1-08-49-AM.png)
+
+---
+
+## General must known design system guideline :
+
+### Color 🎨
+
+| Color | Yellow | Gray | Dark-Gray |
+| --- | --- | --- | --- |
+| Code in Tailwind | text-yellow-400 | text-gray-300 | text-gray-500 |
+
+Color of `text` will depend on the `bg` color
+| Background | Dark | Light |
+| --- | --- | --- |
+| Text | Light | Dark |
+| Code in Tailwind | text-gray-400 | text-gray-500 |
+
+`Note` : Color of the text `[color]` will depend on the color of the background
+
+### Font
+
+For all Dropdown font is : **`font-medium`**
+
+---
+
+## Icon guidelines:
+
+Mostly all the icons are taken from → [Hero Icons](https://heroicons.com/)
+
+`Icon-text-gap` :  We follow a convention of equal margin between the text and the icon as padding in y  axis `py`. and always the margin is given from the side of icon.
+
+|  | Width | Type |
+| --- | --- | --- |
+| Small | w-4 & h-4 | Hero Icons mini |
+| Medium | w-5 & h-5 | Hero Icons mini |
+| Large | w-6 & h-6 | Hero Icons filled |
+
+---
+
+## Example of store-button files file 👇
+
+Want to see this badges in action? Try copy pasting this code in [Tailwind Playground](https://play.tailwindcss.com/). 💥
+
+```html
+
+<!-- For Dropdown-1 -->
+<div class="flex gap-1">
+  <!-- #small -->
+  <div class="group/main relative w-fit cursor-pointer">
+    <span class="flex items-center justify-center rounded-lg bg-blue-700 py-2 px-3 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:mb-0"
+      >Small dropdown
+      <svg class="ml-2 h-3 w-3" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </span>
+    <div class="hidden w-full cursor-pointer flex-col text-sm shadow-lg group-hover/main:flex">
+      <span class="flex gap-3 py-2 px-3 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+      <span class="group/sub items-center py-2 px-3 hover:bg-gray-200">
+        <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+      </span>
+      <span class="flex py-2 px-3 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+    </div>
+  </div>
+
+  <!-- Medium -->
+  <div class="group/main relative w-fit cursor-pointer">
+    <span class="inline-flex items-center rounded-lg bg-blue-700 py-2 px-4 text-center font-normal text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:mb-0"
+      >Medium dropdown
+      <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </span>
+    <div class="hidden w-full cursor-pointer flex-col text-sm shadow-lg group-hover/main:flex">
+      <span class="flex gap-3 py-2 px-4 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+      <span class="group/sub items-center py-2 px-4 hover:bg-gray-200">
+        <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+      </span>
+      <span class="flex py-2 px-4 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+    </div>
+  </div>
+
+  <!--Large -->
+  <div class="group/main relative w-fit cursor-pointer">
+    <span class="inline-flex items-center rounded-lg bg-blue-700 py-3 px-5 text-center font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:mb-0"
+      >Large dropdown
+      <svg class="ml-2 h-5 w-5" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </span>
+    <div class="hidden w-full cursor-pointer flex-col text-sm shadow-lg group-hover/main:flex">
+      <span class="flex gap-3 py-3 px-5 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+      <span class="group/sub items-center py-3 px-5 hover:bg-gray-200">
+        <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+      </span>
+      <span class="flex py-3 px-5 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+    </div>
+  </div>
+</div>
+
+<!-- For Dropdown-2 -->
+<div class="p-10">
+  <div class="flex gap-1">
+    <!-- Top dropdown -->
+    <div class="group/main relative w-fit cursor-pointer">
+      <div class="hidden w-full cursor-pointer flex-col text-sm shadow-lg group-hover/main:flex">
+        <span class="flex gap-3 py-2 px-3 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+        <span class="group/sub items-center py-2 px-3 hover:bg-gray-200">
+          <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+        </span>
+        <span class="flex py-2 px-3 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+      </div>
+      <span class="inline-flex items-center rounded-lg bg-blue-700 px-4 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >Dropdown top
+        <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-darkreader-inline-fill="" style="--darkreader-inline-fill:currentColor;"><path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>
+      </span>
+    </div>
+
+    <!-- right dropdown -->
+    <div class="group/main relative grid h-fit w-fit cursor-pointer grid-cols-2 items-start">
+      <span class="inline-flex items-center rounded-lg bg-blue-700 px-4 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >Dropdown right
+        <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-darkreader-inline-fill="" style="--darkreader-inline-fill:currentColor;"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+      </span>
+      <div class="hidden w-full cursor-pointer flex-col bg-white text-sm shadow-lg group-hover/main:flex">
+        <span class="flex gap-3 py-2 px-4 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+        <span class="group/sub items-center py-2 px-4 hover:bg-gray-200">
+          <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+        </span>
+        <span class="flex py-2 px-4 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+      </div>
+    </div>
+
+    <!--Bottom dropdown -->
+    <div class="group/main relative w-fit cursor-pointer">
+      <span class="inline-flex items-center rounded-lg bg-blue-700 px-4 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >Dropdown bottom
+        <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-darkreader-inline-fill="" style="--darkreader-inline-fill:currentColor;"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </span>
+      <div class="hidden w-full cursor-pointer flex-col text-sm shadow-lg group-hover/main:flex">
+        <span class="flex gap-3 px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+        <span class="group/sub items-center px-4 py-2.5 hover:bg-gray-200">
+          <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+        </span>
+        <span class="flex px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+      </div>
+    </div>
+
+    <!-- Left dropdown -->
+    <div class="group/main relative ml-20 grid h-fit w-fit cursor-pointer grid-cols-2">
+      <span class="inline-flex items-center rounded-lg bg-blue-700 px-4 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        ><svg class="mr-2 h-4 w-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-darkreader-inline-fill="" style="--darkreader-inline-fill:currentColor;"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Dropdown left
+      </span>
+      <div class="absolute -left-20 hidden w-fit cursor-pointer flex-col bg-white text-sm shadow-lg group-hover/main:flex">
+        <span class="flex gap-3 px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+        <span class="group/sub items-center px-4 py-2.5 hover:bg-gray-200">
+          <span class="flex gap-8 font-semibold text-gray-600">Second </span>
+        </span>
+        <span class="flex px-4 py-2.5 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- For Dropdown-3 -->
+<div class="group/main relative w-[150px] cursor-pointer">
+    <span class="flex items-center justify-center gap-4 rounded-lg bg-blue-600 py-4 font-semibold text-white"
+      >Dropdown
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+      </svg>
+    </span>
+  
+    <div class="hidden w-[150px] cursor-pointer flex-col text-sm shadow-lg group-hover/main:flex">
+      <span class="flex gap-3 p-4 font-semibold text-gray-600 hover:bg-gray-200">First </span>
+      <span class="group/sub items-center p-4 hover:bg-gray-200">
+        <span class="flex gap-8 font-semibold text-gray-600"
+          >Second
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+          <ul class="absolute left-[150px] top-[108px] hidden flex-col border shadow-lg group-hover/sub:flex">
+            <li class="group/list p-4 hover:bg-gray-200"><a href="" class="text-xs font-semibold group-hover/list:text-blue-600">HTML</a></li>
+            <li class="group/list p-4 hover:bg-gray-200"><a href="" class="text-xs font-semibold group-hover/list:text-blue-600">CSS</a></li>
+            <li class="group/list p-4 hover:bg-gray-200"><a href="" class="text-xs font-semibold group-hover/list:text-blue-600">JAVASCRIPT</a></li>
+          </ul>
+        </span>
+      </span>
+      <span class="flex p-4 font-semibold text-gray-600 hover:bg-gray-200">Third</span>
+    </div>
+  </div>
+  
+```
+
+---
+
+## Having some problem ? 😕
+
+If you still have a problem understanding this please join our [discord server](https://discord.gg/zrVMjGW8sB) to get help.
