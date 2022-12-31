@@ -1,0 +1,421 @@
+
+# 📒 Developer style guide for Testimonial
+
+![image](https://i.postimg.cc/y6RS350J/Screenshot-2022-12-25-at-5-13-06-PM.png)
+
+---
+
+## General must known design system guideline :
+
+### Color 🎨
+
+|  | Background | Border | Active | Inactive |
+| --- | --- | --- | --- | --- |
+| Color Code in Tailwind | bg-gray-100 | border-gray-200 | bg-green-400 | bg-red-400 |
+ 
+
+Color of `text` will depend on the `bg` color
+| Background | Dark | Light |
+| --- | --- | --- |
+| Text | Light | Dark |
+| Code in Tailwind | text-white | text-gray-500 |
+
+`Note` : Color of the text `[color]` will depend on the color of the background
+
+### Font
+
+For all Testimonial font is : **`font-medium`**
+
+## Icon guidelines:
+
+Mostly all the icons are taken from → [Hero Icons](https://heroicons.com/)
+
+`Icon-text-gap` :  We follow a convention of equal margin between the text and the icon as padding in y  axis `py`. and always the margin is given from the side of icon.
+
+|  | Width | Type |
+| --- | --- | --- |
+| Small | w-4 & h-4 | Hero Icons mini |
+| Medium | w-5 & h-5 | Hero Icons mini |
+| Large | w-6 & h-6 | Hero Icons filled |
+
+---
+
+## Example of Testimonials component 👇
+
+Want to see this Avatar in action? Try copy pasting this code in [Tailwind Playground](https://play.tailwindcss.com/). 💥
+
+```html
+
+<!--For Testimonial-0 -->
+<!-- Container -->
+<div class="grid h-screen w-full content-center justify-center bg-gray-200">
+  <!-- Component -->
+  <div class="max-w-xs rounded-2xl bg-white px-12 py-10">
+    <!-- Image Box -->
+    <div class="mx-auto aspect-square h-fit w-fit overflow-hidden rounded-full border-2 border-gray-400">
+      <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150" alt="avatar" />
+    </div>
+
+    <!-- review details container -->
+    <div class="mt-6">
+      <p class="text-center font-medium text-gray-500">Slate helps you see how many more days you need to work to reach your financial goal for the month and year</p>
+    </div>
+
+    <!-- Star Container -->
+    <div class="mx-auto mt-3 flex w-fit">
+      <!-- Star 1 -->
+      <svg class="h-6 w-6 fill-orange-400 stroke-orange-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+      </svg>
+
+      <!-- Star 2 -->
+      <svg class="h-6 w-6 fill-orange-400 stroke-orange-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+      </svg>
+
+      <!-- Star 3 -->
+      <svg class="h-6 w-6 fill-orange-400 stroke-orange-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+      </svg>
+
+      <!-- Star 4 -->
+      <svg class="h-6 w-6 fill-orange-400 stroke-orange-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+      </svg>
+
+      <!-- Star 5 -->
+      <svg class="h-6 w-6 fill-transparent stroke-orange-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+      </svg>
+    </div>
+
+    <!-- Reviewer Info -->
+    <div class="mt-4 text-center">
+      <!-- Name -->
+      <p class="text-sm font-medium text-blue-500">Regina Miles</p>
+
+      <!-- Profession -->
+      <p class="mt-3 text-sm font-medium text-black">Designer</p>
+    </div>
+  </div>
+</div>
+
+<!--For Testimonial-1 -->
+<div class="w-full sm:w-11/12 md:w-5/12 lg:w-4/12 xl:w-1/4 mx-auto bg-white rounded-3xl p-6 md:p-8 xl:p-10 shadow-2xl">
+    <div class="w-36 border-2 border-gray-400 mx-auto rounded-full overflow-hidden mb-6">
+        <img class="w-full h-36 object-cover object-center"
+            src="https://unsplash.com/photos/MmSYKyYe0-w/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NXx8cGVyc29uJTIwd2l0aCUyMHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfDJ8fHwxNjY1ODExNzU2&force=true&w=640"
+            alt="">
+    </div>
+    <p class="text-center font-semibold text-xl text-gray-500 mb-4">Slate helps you see how many more days you
+        need
+        to
+        work to reach
+        your
+        financial goal for
+        the month and year.</p>
+
+    <div class="flex justify-center text-amber-500 gap-x-1 mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+            <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                clip-rule="evenodd" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+            <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                clip-rule="evenodd" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+            <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                clip-rule="evenodd" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+            <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                clip-rule="evenodd" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+        </svg>
+    </div>
+
+    <h1 class="mb-4 text-center font-bold text-blue-600">Regina Miles</h1>
+    <h2 class="text-center font-bold">Designer</h2>
+
+     <div class="flex justify-center space-x-9 mt-5">
+        <svg class="h-5 w-5" viewBox="0 0 8 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7.922 5.57L7.613 8.5H5.271V17H1.753V8.5H0V5.57H1.753V3.806C1.753 1.423 2.744 0 5.561 0H7.902V2.93H6.437C5.344 2.93 5.271 3.343 5.271 4.106V5.57H7.922Z"
+            fill="#2564eb" />
+        </svg>
+        <svg class="h-5 w-5" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M15.7139 4.03817C15.7249 4.18917 15.7249 4.34017 15.7249 4.49217C15.7249 9.09717 12.2189 14.4042 5.81194 14.4042C3.83794 14.4042 2.00394 13.8322 0.460938 12.8402C0.741937 12.8722 1.01194 12.8822 1.30294 12.8822C2.93194 12.8822 4.42994 12.3322 5.62794 11.3942C4.09594 11.3622 2.81294 10.3582 2.37094 8.97717C2.58594 9.00917 2.80194 9.03117 3.02694 9.03117C3.34094 9.03117 3.65394 8.98817 3.94494 8.91317C2.34894 8.58917 1.15094 7.18717 1.15094 5.49417C1.15094 5.48317 1.15094 5.46117 1.15094 5.45117C1.61494 5.70917 2.15394 5.87117 2.72594 5.89317C1.78794 5.26717 1.17294 4.19917 1.17294 2.99217C1.17294 2.34517 1.34594 1.75117 1.64794 1.23317C3.36294 3.34817 5.94094 4.72917 8.83194 4.87917C8.77694 4.62017 8.74494 4.35017 8.74494 4.08017C8.74494 2.16117 10.2989 0.597168 12.2289 0.597168C13.2319 0.597168 14.1379 1.01717 14.7749 1.69717C15.5619 1.54617 16.3159 1.25517 16.9859 0.856168C16.7269 1.66517 16.1769 2.34517 15.4539 2.77517C16.1559 2.70017 16.8349 2.50617 17.4609 2.23617C16.9859 2.92617 16.3929 3.54217 15.7139 4.03817Z"
+            fill="#2564eb" />
+        </svg>
+        <svg class="h-5 w-5" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M3.19669 0C3.39769 0.588 3.60569 1.186 3.81369 1.774C4.11769 2.656 4.30769 3.32 4.39369 3.785V6.356H5.34169V3.785L6.48969 0H5.52169L4.87669 2.495L4.20369 0H3.19669ZM7.76069 6.422C8.19769 6.422 8.52969 6.261 8.76669 5.938C8.94769 5.701 9.03169 5.321 9.03169 4.818V3.158C9.03169 2.655 8.94769 2.285 8.76669 2.048C8.52869 1.727 8.19669 1.565 7.76069 1.565C7.33269 1.565 7.00069 1.726 6.76569 2.048C6.58469 2.286 6.49969 2.656 6.49969 3.159V4.819C6.49969 5.322 6.58469 5.692 6.76569 5.939C7.00069 6.261 7.33269 6.422 7.76069 6.422ZM7.35269 2.988C7.35269 2.552 7.48569 2.334 7.76069 2.334C8.04569 2.334 8.16869 2.552 8.16869 2.988V4.98C8.16869 5.417 8.04569 5.644 7.76069 5.644C7.48569 5.644 7.35269 5.416 7.35269 4.98V2.988ZM9.73469 5.36C9.73469 5.701 9.76169 5.928 9.80969 6.071C9.89469 6.309 10.0937 6.422 10.3687 6.422C10.6837 6.422 11.0057 6.232 11.3467 5.834V6.356H12.2097V1.622H11.3467V5.236C11.1567 5.511 10.9767 5.644 10.8067 5.644C10.6927 5.644 10.6267 5.569 10.6077 5.436C10.5977 5.416 10.5977 5.303 10.5977 5.103V1.622H9.73469V5.36ZM13.0927 11.811V12.247H12.2387V11.811C12.2387 11.384 12.3817 11.165 12.6657 11.165C12.9497 11.166 13.0927 11.384 13.0927 11.811ZM14.7427 8.785C14.5717 8.035 13.9547 7.485 13.2247 7.4C11.4787 7.21 9.71369 7.21 7.95869 7.21C6.20369 7.21 4.43869 7.21 2.70269 7.4C1.96469 7.485 1.35669 8.035 1.17669 8.785C0.939687 9.847 0.929688 11.005 0.929688 12.105C0.929688 13.196 0.929688 14.362 1.17669 15.425C1.34769 16.175 1.96469 16.725 2.69469 16.801C4.43969 17 6.20469 17 7.95969 17C9.71469 17 11.4797 17 13.2257 16.801C13.9547 16.725 14.5627 16.175 14.7437 15.425C14.9807 14.363 14.9907 13.196 14.9907 12.105L14.9907 12.091V12.091C14.9897 10.9952 14.9886 9.84249 14.7427 8.785ZM3.92869 9.743H4.94269V8.851H1.98269V9.743H2.97969V15.141H3.92869V9.743ZM7.50469 15.141H6.65969V14.629C6.31769 15.018 5.99569 15.208 5.69169 15.208C5.41769 15.208 5.21769 15.094 5.14169 14.857C5.09369 14.715 5.06569 14.496 5.06569 14.165V10.456H5.91069V13.909C5.91069 14.109 5.91069 14.213 5.91969 14.242C5.93969 14.374 6.00569 14.441 6.11869 14.441C6.29069 14.441 6.47069 14.309 6.65969 14.043V10.457H7.50469V15.141ZM10.6447 14.685C10.7107 14.486 10.7307 14.174 10.7307 13.737V11.868C10.7307 11.431 10.7107 11.119 10.6447 10.929C10.5407 10.578 10.3027 10.398 9.97069 10.398C9.65769 10.398 9.36269 10.568 9.08769 10.91V8.851H8.24469V15.141H9.08769V14.685C9.37269 15.036 9.66769 15.207 9.97069 15.207C10.3027 15.207 10.5407 15.027 10.6447 14.685ZM13.9367 12.959H12.2387V13.784C12.2387 14.221 12.3817 14.438 12.6757 14.438C12.8847 14.438 13.0077 14.325 13.0557 14.097C13.0647 14.05 13.0747 13.86 13.0747 13.518H13.9377V13.642C13.9377 13.917 13.9377 14.107 13.9187 14.192C13.8987 14.381 13.8227 14.552 13.7197 14.704C13.4907 15.036 13.1407 15.207 12.6957 15.207C12.2497 15.207 11.9167 15.046 11.6707 14.723C11.4907 14.495 11.3957 14.125 11.3957 13.622V11.981C11.3957 11.478 11.4817 11.118 11.6617 10.88C11.9087 10.557 12.2407 10.396 12.6777 10.396C13.1057 10.396 13.4367 10.557 13.6827 10.88C13.8547 11.117 13.9397 11.477 13.9397 11.981V12.959H13.9367ZM9.88569 13.803V11.801C9.88569 11.384 9.76169 11.166 9.51569 11.166C9.37269 11.166 9.23069 11.232 9.08769 11.375V14.23C9.23069 14.372 9.37269 14.438 9.51569 14.438C9.76169 14.438 9.88569 14.23 9.88569 13.803Z"
+            fill="#2564eb" />
+        </svg>
+      </div>
+</div>
+
+<!--For Testimonial-2 -->
+<div class="w-screen h-screen grid place-items-center">
+  <div class="bg-white rounded-3xl overflow-hidden shadow-2xl w-80">
+    <img class=" w-80 h-72 object-cover"
+      src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      alt="Testiomonial Image" />
+    <div class="text-center my-8 px-8">
+      <p class="text-2xl font-semibold">User Name</p>
+      <p class="my-2 text-gray-400">Profession</p>
+      <p class="mb-8 text-justify text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod a
+        blanditiis sequi necessitatibus quae.</p>
+      <div class="flex justify-center space-x-9 mt-3 mb-5">
+        <svg width="8" height="17" viewBox="0 0 8 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7.922 5.57L7.613 8.5H5.271V17H1.753V8.5H0V5.57H1.753V3.806C1.753 1.423 2.744 0 5.561 0H7.902V2.93H6.437C5.344 2.93 5.271 3.343 5.271 4.106V5.57H7.922Z"
+            fill="#2564eb" />
+        </svg>
+        <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M15.7139 4.03817C15.7249 4.18917 15.7249 4.34017 15.7249 4.49217C15.7249 9.09717 12.2189 14.4042 5.81194 14.4042C3.83794 14.4042 2.00394 13.8322 0.460938 12.8402C0.741937 12.8722 1.01194 12.8822 1.30294 12.8822C2.93194 12.8822 4.42994 12.3322 5.62794 11.3942C4.09594 11.3622 2.81294 10.3582 2.37094 8.97717C2.58594 9.00917 2.80194 9.03117 3.02694 9.03117C3.34094 9.03117 3.65394 8.98817 3.94494 8.91317C2.34894 8.58917 1.15094 7.18717 1.15094 5.49417C1.15094 5.48317 1.15094 5.46117 1.15094 5.45117C1.61494 5.70917 2.15394 5.87117 2.72594 5.89317C1.78794 5.26717 1.17294 4.19917 1.17294 2.99217C1.17294 2.34517 1.34594 1.75117 1.64794 1.23317C3.36294 3.34817 5.94094 4.72917 8.83194 4.87917C8.77694 4.62017 8.74494 4.35017 8.74494 4.08017C8.74494 2.16117 10.2989 0.597168 12.2289 0.597168C13.2319 0.597168 14.1379 1.01717 14.7749 1.69717C15.5619 1.54617 16.3159 1.25517 16.9859 0.856168C16.7269 1.66517 16.1769 2.34517 15.4539 2.77517C16.1559 2.70017 16.8349 2.50617 17.4609 2.23617C16.9859 2.92617 16.3929 3.54217 15.7139 4.03817Z"
+            fill="#2564eb" />
+        </svg>
+        <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M3.19669 0C3.39769 0.588 3.60569 1.186 3.81369 1.774C4.11769 2.656 4.30769 3.32 4.39369 3.785V6.356H5.34169V3.785L6.48969 0H5.52169L4.87669 2.495L4.20369 0H3.19669ZM7.76069 6.422C8.19769 6.422 8.52969 6.261 8.76669 5.938C8.94769 5.701 9.03169 5.321 9.03169 4.818V3.158C9.03169 2.655 8.94769 2.285 8.76669 2.048C8.52869 1.727 8.19669 1.565 7.76069 1.565C7.33269 1.565 7.00069 1.726 6.76569 2.048C6.58469 2.286 6.49969 2.656 6.49969 3.159V4.819C6.49969 5.322 6.58469 5.692 6.76569 5.939C7.00069 6.261 7.33269 6.422 7.76069 6.422ZM7.35269 2.988C7.35269 2.552 7.48569 2.334 7.76069 2.334C8.04569 2.334 8.16869 2.552 8.16869 2.988V4.98C8.16869 5.417 8.04569 5.644 7.76069 5.644C7.48569 5.644 7.35269 5.416 7.35269 4.98V2.988ZM9.73469 5.36C9.73469 5.701 9.76169 5.928 9.80969 6.071C9.89469 6.309 10.0937 6.422 10.3687 6.422C10.6837 6.422 11.0057 6.232 11.3467 5.834V6.356H12.2097V1.622H11.3467V5.236C11.1567 5.511 10.9767 5.644 10.8067 5.644C10.6927 5.644 10.6267 5.569 10.6077 5.436C10.5977 5.416 10.5977 5.303 10.5977 5.103V1.622H9.73469V5.36ZM13.0927 11.811V12.247H12.2387V11.811C12.2387 11.384 12.3817 11.165 12.6657 11.165C12.9497 11.166 13.0927 11.384 13.0927 11.811ZM14.7427 8.785C14.5717 8.035 13.9547 7.485 13.2247 7.4C11.4787 7.21 9.71369 7.21 7.95869 7.21C6.20369 7.21 4.43869 7.21 2.70269 7.4C1.96469 7.485 1.35669 8.035 1.17669 8.785C0.939687 9.847 0.929688 11.005 0.929688 12.105C0.929688 13.196 0.929688 14.362 1.17669 15.425C1.34769 16.175 1.96469 16.725 2.69469 16.801C4.43969 17 6.20469 17 7.95969 17C9.71469 17 11.4797 17 13.2257 16.801C13.9547 16.725 14.5627 16.175 14.7437 15.425C14.9807 14.363 14.9907 13.196 14.9907 12.105L14.9907 12.091V12.091C14.9897 10.9952 14.9886 9.84249 14.7427 8.785ZM3.92869 9.743H4.94269V8.851H1.98269V9.743H2.97969V15.141H3.92869V9.743ZM7.50469 15.141H6.65969V14.629C6.31769 15.018 5.99569 15.208 5.69169 15.208C5.41769 15.208 5.21769 15.094 5.14169 14.857C5.09369 14.715 5.06569 14.496 5.06569 14.165V10.456H5.91069V13.909C5.91069 14.109 5.91069 14.213 5.91969 14.242C5.93969 14.374 6.00569 14.441 6.11869 14.441C6.29069 14.441 6.47069 14.309 6.65969 14.043V10.457H7.50469V15.141ZM10.6447 14.685C10.7107 14.486 10.7307 14.174 10.7307 13.737V11.868C10.7307 11.431 10.7107 11.119 10.6447 10.929C10.5407 10.578 10.3027 10.398 9.97069 10.398C9.65769 10.398 9.36269 10.568 9.08769 10.91V8.851H8.24469V15.141H9.08769V14.685C9.37269 15.036 9.66769 15.207 9.97069 15.207C10.3027 15.207 10.5407 15.027 10.6447 14.685ZM13.9367 12.959H12.2387V13.784C12.2387 14.221 12.3817 14.438 12.6757 14.438C12.8847 14.438 13.0077 14.325 13.0557 14.097C13.0647 14.05 13.0747 13.86 13.0747 13.518H13.9377V13.642C13.9377 13.917 13.9377 14.107 13.9187 14.192C13.8987 14.381 13.8227 14.552 13.7197 14.704C13.4907 15.036 13.1407 15.207 12.6957 15.207C12.2497 15.207 11.9167 15.046 11.6707 14.723C11.4907 14.495 11.3957 14.125 11.3957 13.622V11.981C11.3957 11.478 11.4817 11.118 11.6617 10.88C11.9087 10.557 12.2407 10.396 12.6777 10.396C13.1057 10.396 13.4367 10.557 13.6827 10.88C13.8547 11.117 13.9397 11.477 13.9397 11.981V12.959H13.9367ZM9.88569 13.803V11.801C9.88569 11.384 9.76169 11.166 9.51569 11.166C9.37269 11.166 9.23069 11.232 9.08769 11.375V14.23C9.23069 14.372 9.37269 14.438 9.51569 14.438C9.76169 14.438 9.88569 14.23 9.88569 13.803Z"
+            fill="#2564eb" />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+<!--For Testimonial-3 -->
+<!-- container -->
+<div class="grid h-screen w-full content-center justify-center bg-gray-100">
+  <!-- component -->
+  <div class="rounded-xl bg-white p-8 aspect-square w-52">
+    <!-- avatar -->
+    <div class="overflow-hidden rounded-full aspect-square w-20 mx-auto">
+      <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100" alt="" />
+    </div>
+
+    <!-- details -->
+    <div class="mt-4">
+      <h3 class="text-center font-semibold">User Name</h3>
+      <p class="text-center mt-3 text-sm font-medium text-gray-500">Profession</p>
+    </div>
+  </div>
+</div>
+
+<!--For Testimonial-4 -->
+<div class="py-4">
+  <div style="width:380px" class="container mx-auto">
+    <div class="testimonial p-10 border-2 rounded-3xl">
+      <div>
+        <div class="flex">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="w-6 h-6">
+            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="w-6 h-6">
+            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="w-6 h-6">
+            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="w-6 h-6">
+            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+          </svg>
+        </div>
+        <div class="container py-6 pr-16">
+          <p class="text-gray-500">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+        </div>
+
+        <div class="flex space-x-3">
+            <img class="w-16 h-16 rounded-full border-2" src="https://i.ibb.co/HKtLs8P/On-Paste-20221014-154000.png" alt="profile picture">
+            <div class="mt-2">
+                <div class="text-blue-700">Regina Miles</div>
+                <div>Designer</div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--For Testimonial-5 -->
+<div class="ml-5 w-52 h-72  rounded-2xl  border-gray-200 bg-white shadow-md dark:border-gray-700 dark:-gray-800">
+   
+    <div class="mt-6 flex flex-col items-center pb-10">
+     <div class="mb-5 ml-8 mr-5 mt-4 flex-col items-center justify-center">
+     <div class="flex items-center">
+      <svg aria-hidden="true" class="w-5  h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+      <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Second star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+      <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Third star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+      <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Fourth star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+      <svg aria-hidden="true" class="w-5 h-5 text-gray-300 dark:text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Fifth star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+      </div>
+      <p class="mt-4 text-sm text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+  
+     </div>
+      
+      <div class="flex">
+      <img class="mt-3 border dark:border-gray-700 h-12 w-12 rounded-full shadow-lg" src="https://i.ibb.co/8MBgNRL/Ellipse-1.png" alt="profile pic" />
+        <div class="ml-3">
+          <h5 class="mt-2 mb-1 text-xl font-medium text-blue-900 ">USER NAME</h5>
+      <span class="mb-3 text-center text-xl font-medium text-gray-900">developer</span>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<!--For Testimonial-6 -->
+<script src="https://kit.fontawesome.com/073f9b89b3.js" crossorigin="anonymous"></script>
+
+<div class="max-w-xs content-center justify-center overflow-hidden rounded-lg shadow-lg py-12" style="text-align:center">
+  <img class="h-28 w-28 mx-auto content-center rounded-full" src="https://i.ibb.co/CmgMZ2j/image.png)%5Bhttps://i.ibb.co/CmgMZ2j/image.png%5D"  alt="yashsarnaik22-pfp" />
+    <div class="px-6 py-2">
+      <p class="text-base font-medium text-blue-700">Founder</p>
+    </div>
+    <div class="px-6py-2">
+      <p class="text-base font-bold text-black">User Name</p>
+    </div>
+    <div class="px-20 py-3 ">
+      <p class="text-base text-gray-800  font-medium text-center">the quick fox jumps over the lazy dog</p>
+    </div>
+  </div>
+</div>
+
+<!--For Testimonial-7 -->
+<!-- Container -->
+<div class="grid h-screen content-center justify-center bg-gray-200 p-2">
+  <!-- Component -->
+  <div class="max-w-lg overflow-hidden rounded-xl bg-white">
+    <div class="flex flex-col sm:flex-row">
+      <!-- Image -->
+      <div>
+        <img src="https://i.ibb.co/J2V13zy/cc.png" alt="cc" border="0" class="hidden h-full w-80 sm:block" />
+        <img src="https://i.ibb.co/TRK5hPZ/cover.png" alt="cover" border="0" class="block sm:hidden" width="370" />
+      </div>
+      <div class="flex-auto p-8">
+        <!-- Person Details -->
+        <div class="">
+          <h2 class="text-xl font-semibold">Regina Miles</h2>
+          <p class="text-base font-medium text-gray-500">Designer</p>
+        </div>
+
+        <!-- Review Box -->
+        <div class="mt-3 flex w-fit">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-1 w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+          </svg>
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-1 w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+          </svg>
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-1 w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+          </svg>
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-1 w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+          </svg>
+          <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+          </svg>
+        </div>
+
+        <!-- Review details -->
+        <p class="text-md mt-4 w-[285px] font-medium text-gray-600 sm:w-fit sm:text-lg">This proved to be impossible using concepts of space and time. Einstein new view of time first and then</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--For Testimonial-8 -->
+<div class="w-fit mx-10 my-10 bg-white shadow  dark:border-gray-700 dark:bg-white">
+  <a class="absolute left-1" >
+    <img class="mt-3  h-14 w-14 rounded-full" src="https://cdn.discordapp.com/attachments/886680287742930961/1030561000157630584/cover.png" alt="Rounded avatar" />
+  </a>
+  <div class=" px-[40px] py-[30px]">
+    <a href="#">
+      <h5 class=" text-xl font-semibold tracking-tight text-gray-900">Regina Miles</h5>
+      <h1 class="mt-1 text-xs font-semibold tracking-tight text-gray-400">Designer</h1>
+    </a>
+    <div class="mt-3 mb-3 flex items-center">
+      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-1 w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-1 w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-1 w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-1 w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+        </svg>
+      </div>
+      <p class="text-[16px] leading-[26px] sm:w-[422px] tracking-[0.2px] text-justify text-[#737373]">This proved to be impossible using the traditional concepts of space and time. Einstein developed a new view of time first and then space. This proved to be impossible using the traditional concepts of space and time. Einstein developed a new view of time first and then space.</p>
+    </div>
+  </div>
+</div>
+
+<!--For Testimonial-9 -->
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Testimonials</h1>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/2 w-full">
+        <div class="h-full bg-gray-100 p-8 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-blue-700 mb-4" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+          <a class="inline-flex items-center">
+            <img alt="testimonial" src="https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375__340.png" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-blue-700">Rahul Karda</span>
+              <span class="text-gray-500 text-sm">Full Stack DEVELOPER</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/2 w-full">
+        <div class="h-full bg-gray-100 p-8 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-blue-700 mb-4" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <p class="leading-relaxed mb-6">Man bun next level coloring book skateboard four loko knausgaard. Kitsch keffiyeh master cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo</p>
+          <a class="inline-flex items-center">
+            <img alt="testimonial" src="https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375__340.png" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-blue-700">Jahnvi Chhabra</span>
+              <span class="text-gray-500 text-sm">DESIGNER</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+```
+
+---
+
+## Having some problem ? 😕
+
+If you still have a problem understanding this please join our [discord server](https://discord.gg/zrVMjGW8sB) to get help.
+
