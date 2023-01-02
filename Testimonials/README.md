@@ -20,7 +20,7 @@
     </td>
     <td width="33.3333%">
       <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Testimonials/src/testimonial-2.html">
-        <img src="https://i.ibb.co/kxP8frJ/2.png" alt="image" border="0" />
+        <img src="https://iili.io/HxDo0cx.md.png" alt="image" border="0">
       </a>
     </td>
   </tr>
@@ -77,7 +77,7 @@
   <tr>
     <td width="33.3333%">
       <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Testimonials/src/testimonial-9.html">
-        <img src="https://i.ibb.co/pvGqy8b/9.png" alt="image" border="0" />
+        <img src="https://iili.io/HxDoecv.md.png" alt="image" border="0">
       </a>
     </td>
   </tr>
