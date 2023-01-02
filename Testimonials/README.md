@@ -1,6 +1,6 @@
 # Testimonials preview
 
-<table class="bg-black">
+<table>
   <tr>
     <td width="33.3333%">testimonial-0</td>
     <td width="33.3333%">testimonial-1</td>
