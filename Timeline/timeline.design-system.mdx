@@ -1,0 +1,142 @@
+
+# 📒 Developer style guide for Timeline
+
+![image](https://i.postimg.cc/j5ysLjnD/Screenshot-2022-12-24-at-12-40-53-PM.png)
+
+---
+
+## General must known design system guideline :
+
+### Color 🎨
+
+|  | Background | Border | Active | Inactive |
+| --- | --- | --- | --- | --- |
+| Color Code in Tailwind | bg-gray-100 | border-gray-200 | bg-green-400 | bg-red-400 |
+ 
+
+Color of `text` will depend on the `bg` color
+| Background | Dark | Light |
+| --- | --- | --- |
+| Text | Light | Dark |
+| Code in Tailwind | text-white | text-gray-500 |
+
+`Note` : Color of the text `[color]` will depend on the color of the background
+
+### Font
+
+For all Timeline font is : **`font-medium`**
+
+## Icon guidelines:
+
+Mostly all the icons are taken from → [Hero Icons](https://heroicons.com/)
+
+`Icon-text-gap` :  We follow a convention of equal margin between the text and the icon as padding in y  axis `py`. and always the margin is given from the side of icon.
+
+|  | Width | Type |
+| --- | --- | --- |
+| Small | w-4 & h-4 | Hero Icons mini |
+| Medium | w-5 & h-5 | Hero Icons mini |
+| Large | w-6 & h-6 | Hero Icons filled |
+
+---
+
+## Example of Timeline component 👇
+
+Want to see this Avatar in action? Try copy pasting this code in [Tailwind Playground](https://play.tailwindcss.com/). 💥
+
+```html
+
+<!--For Timeline-1 -->
+<div class="flex h-screen w-screen items-center justify-center p-10">
+    <div class="mx-auto grid w-full max-w-7xl grid-cols-5 sm:grid-cols-9">
+        <!-- --first content---- -->
+        <div class="col-span-4 h-full mb-4">
+            <div class="rounded-md p-4 shadow-lg">
+                <h1 class="py-2 px-2 text-xl font-medium text-gray-900">Heading 1</h1>
+                <p class="py-1 px-2 text-sm text-gray-800">This is the first heading in the timeline graph we use to
+                    show the progress among developer</p>
+            </div>
+        </div>
+        <div class="relative col-span-1 flex h-full w-full items-center justify-center row-start-1  sm:col-start-5">
+            <div class="h-full w-1 bg-blue-600"></div>
+            <div class="absolute z-10 h-4 w-4 items-center rounded-full bg-blue-600"></div>
+        </div>
+        <div class="col-span-4 h-full w-full hidden sm:block"></div>
+
+        <!-- -----second content-------- -->
+        <div class="col-span-4 h-full w-full hidden sm:block"></div>
+        <div class="relative col-span-1 flex h-full w-full items-center justify-center">
+            <div class="h-full w-1 bg-blue-600"></div>
+            <div class="absolute z-10 h-4 w-4 items-center rounded-full bg-blue-600"></div>
+        </div>
+
+        <div class="col-span-4 h-full mb-4">
+            <div class="rounded-md p-4 shadow-lg">
+                <h1 class="py-2 px-2 text-xl font-medium text-gray-900">Heading 2</h1>
+                <p class="py-1 px-2 text-sm text-gray-800">This is the second heading in the timeline graph we use to
+                    show the progress among developer</p>
+            </div>
+        </div>
+        <!-- -----third content-------- -->
+        <div class="col-span-4 h-full mb-4">
+            <div class="rounded-md p-4 shadow-lg">
+                <h1 class="py-2 px-2 text-xl font-medium text-gray-900">Heading 3</h1>
+                <p class="py-1 px-2 text-sm text-gray-800">This is the third heading in the timeline graph we use to
+                    show the progress among developer</p>
+            </div>
+        </div>
+        <div class="relative col-span-1 flex h-full w-full items-center justify-center row-start-3 sm:col-start-5">
+            <div class="h-full w-1 bg-blue-600"></div>
+            <div class="absolute z-10 h-4 w-4 items-center rounded-full bg-blue-600"></div>
+        </div>
+        <div class="col-span-4 h-full w-full hidden sm:block"></div>
+
+        <!-- ----fourth content-------- -->
+        <div class="col-span-4 h-full w-full hidden sm:block"></div>
+        <div class="relative col-span-1 flex h-full w-full items-center justify-center">
+            <div class="h-full w-1 bg-blue-600"></div>
+            <div class="absolute z-10 h-4 w-4 items-center rounded-full bg-blue-600"></div>
+        </div>
+
+        <div class="col-span-4 h-full">
+            <div class="rounded-md p-4 shadow-lg">
+                <h1 class="py-2 px-2 text-xl font-medium text-gray-900">Heading 4</h1>
+                <p class="py-1 px-2 text-sm text-gray-800">This is the fourth heading in the timeline graph we use to
+                    show the progress among developer</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--For Timeline-2 -->
+<div class="flex flex-col gap-6 p-10 md:flex-row">
+  <div class="flex flex-col justify-center gap-2 rounded-3xl border px-6 py-6 shadow-lg bg-blue-600 text-white">
+    <p class="text-sm text-white/60"><b>01.07.2022</b></p>
+    <h4 class="text-xl font-semibold">Title of section 1</h4>
+    <p class="text-white/80">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi
+      semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula.
+    </p>
+  </div>
+  <div class="flex flex-col justify-center gap-2 rounded-3xl border px-6 py-6 shadow-lg bg-blue-600 text-white">
+    <p class="text-sm text-white/60"><b>02.07.2022</b></p>
+    <h4 class="text-xl font-semibold">Title of section 2</h4>
+    <p class="text-white/80">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi
+      semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula.
+    </p>
+  </div>
+  <div class="flex flex-col justify-center gap-2 rounded-3xl border px-6 py-6 shadow-lg bg-blue-600 text-white">
+    <p class="text-sm text-white/60"><b>03.07.2022</b></p>
+    <h4 class="text-xl font-semibold">Title of section 3</h4>
+    <p class="text-white/80">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi
+      semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula.
+    </p>
+  </div>
+</div>
+
+```
+
+---
+
+## Having some problem ? 😕
+
+If you still have a problem understanding this please join our [discord server](https://discord.gg/zrVMjGW8sB) to get help.
+
