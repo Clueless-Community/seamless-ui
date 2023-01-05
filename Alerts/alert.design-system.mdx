@@ -1,7 +1,20 @@
 
 # 📒 Developer style guide for Alerts
 
-![image](https://i.postimg.cc/SsVBVq2y/Screenshot-2022-12-25-at-5-22-38-PM.png)
+Alert is one of the feature component for the web pages. This gives the sense of secure to the user while using the web-page. Sometime user accidenly come across some secure section. If some misconception have it will alert to the user about his action once confirmed it go ahead. It can be positive an negative both. 
+
+For some success result it will give the green alert. And for delete action it will give the red alert.
+
+![image](https://iili.io/HxZeFHv.md.png) 
+![image](https://iili.io/HxZe2UJ.md.png) 
+
+## Types of Alert-Action
+
+1. Danger/Error (Red)
+2. Warning (Yellow/orange)
+3. Information (Blue)
+4. Success (Green)
+
 
 ---
 
@@ -9,22 +22,32 @@
 
 ### Color 🎨
 
-|  | Background | Border | Active | Inactive |
-| --- | --- | --- | --- | --- |
-| Color Code in Tailwind | bg-gray-100 | border-gray-200 | bg-green-400 | bg-red-400 |
- 
+|  | Background | Border |
+| --- | --- | --- |
+| Color Code in Tailwind | bg-orange-500 bg-green-500 bg-blue-500| border-orange-500 border-green-500 border-blue-500 | 
+
+
+Color of `bg` is generally used as shade of 100 / 700 
 
 Color of `text` will depend on the `bg` color
-| Background | Dark | Light |
-| --- | --- | --- |
-| Text | Light | Dark |
-| Code in Tailwind | text-white | text-gray-500 |
+|Color | Text |
+| --- | --- | 
+| Code in Tailwind | text-orange-500 text-green-500 text-blue-500| 
 
-`Note` : Color of the text `[color]` will depend on the color of the background
+
+`Note` : Color of the text `[color]` will depend on the color of the background but here background and color of text should be matched.
 
 ### Font
 
-For all Alerts font is : **`font-medium`**
+For all Alerts font is size: **`text-base`**
+
+### SVG And Path
+SVG stands for Scalable Vector Graphic. It can be used to make graphics and animations like in HTML canvas.  Path is always used within the svg tag to set the actual coordinate.
+Wihin the tag we give the some propety as what with be the co-ordinate, fill color, outer stroke, and some styling within class attribute.
+
+### Border Radius 🔲
+
+The normal border-radius for the components are `rounded-full`. However this does not apply in many cases like buttons, input boxes and all.
 
 ## Icon guidelines:
 
