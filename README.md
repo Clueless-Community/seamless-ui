@@ -54,6 +54,13 @@ We want to build the best and most simple UI Kit for fronted development, which 
             <sub><b>Rupsha Sarkar</b></sub>
         </a>
     </td>
+      <td align="center">
+        <a href="https://github.com/RavindraP04">
+            <img src="https://avatars.githubusercontent.com/u/98400348?v=4" width="100;" alt="Rupsha Sarkar"/>
+            <br/>
+            <sub><b>Ravindra Pandey</b></sub>
+        </a>
+    </td>
   </tr>
 </table>
 
