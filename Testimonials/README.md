@@ -68,7 +68,6 @@
         <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Testimonials/src/testimonial-8.html">
             <img src="https://i.postimg.cc/5tVv9FSt/testimonial.png" alt="image" border="0">
         </a>
-     
     </td>
   </tr>
 
