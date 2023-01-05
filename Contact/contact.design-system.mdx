@@ -1,7 +1,10 @@
 
 # 📒 Developer style guide for Contact
+Contact form is the type of form that allow user to put the required information so that user can contact or send the message to the website-maintainer, manager. Contact form have vivid design as per the area of use. Only difference get reflect by the listed input field. 
 
-![image](https://i.postimg.cc/VNPPkKPc/Screenshot-2022-12-25-at-5-22-07-PM.png)
+So, this is final use of contact component in website.
+
+![image](https://iili.io/HxtTlZ7.md.png) ![image](https://iili.io/HxtTcjS.md.png) 
 
 ---
 
@@ -9,21 +12,37 @@
 
 ### Color 🎨
 
-| Color | Yellow | Gray | Dark-Gray |
+| Background-Color | Indigo | bule | Dark-Gray |
 | --- | --- | --- | --- |
-| Code in Tailwind | text-yellow-400 | text-gray-200 | text-gray-600 |
+| Code in Tailwind | text-indigo-500 | text-blue-500 | text-gray-800 |
+
+Color of `bg` is generally used as shade of 100 / 700 
 
 Color of `text` will depend on the `bg` color
-| Background | Dark | Light |
-| --- | --- | --- |
-| Text | Light | Dark |
-| Code in Tailwind | text-gray-200 | text-gray-600 |
+| color | Text | 
+| --- | --- |
+| Code in Tailwind | text-gray-200 text-white-600 |
 
 `Note` : Color of the text `[color]` will depend on the color of the background
+### Transition ( `transition-all` )
+
+whenever there is a hover effect, one must use `transition-all` class with it.
 
 ### Font
 
-For all Contact is : **`font-medium`**
+For all buttons font is : **`font-medium`**
+
+### Hover Color
+
+For all Breadcumbs component the hover color is **`hover:bg-blue-700`**.
+
+### SVG And Path
+SVG stands for Scalable Vector Graphic. It can be used to make graphics and animations like in HTML canvas.  Path is always used within the svg tag to set the actual coordinate.
+Wihin the tag we give the some propety as what with be the co-ordinate, fill color, outer stroke, and some styling within class attribute.
+
+### Border Radius 🔲
+
+The normal border-radius for the components are `md:rounded-2xl rounded-l`. However this does not apply in many cases like buttons, input boxes and all.
 
 ---
 
