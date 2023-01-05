@@ -1,6 +1,9 @@
 # 📒 Developer style guide for Store-Button
+This Design system is all about the store button. While making web-page or any website we use multiple type of button with different purpose that allow user know the functionality of button just by looking at the apperance of button.
 
-![image](https://i.postimg.cc/NFVGR0br/Screenshot-2022-12-31-at-12-34-40-AM.png)
+Store button is one of them. In Store button it contain complete description of button. It enclosed the button title with icon as well. It gives more clearity to the user.
+
+![image](https://i.ibb.co/5KWnbfY/image.png) ![image](https://i.ibb.co/6XjFGcX/image.png) ![image](https://i.ibb.co/W2q4fLs/image.png)
 
 ## Types of Store-Button
 
@@ -9,27 +12,39 @@
 3. Apple store button
 4. Windows store button 
 
+All 4 type of button has its both dark and light version. It will easily help to pick the bg and text color of button in dark and light mode.
+
 ---
 
 ## General must known design system guideline :
 
 ### Color 🎨
 
-| Color | Yellow | Gray | Dark-Gray |
-| --- | --- | --- | --- |
-| Code in Tailwind | text-yellow-400 | text-gray-300 | text-gray-500 |
+| Background |Dark | Light| 
+| --- | --- | --- | 
+| Code in Tailwind | bg-white | bg-slate-900 |
 
+Color of `bg` is generally used as shade of 100 / 700 
 Color of `text` will depend on the `bg` color
-| Background | Dark | Light |
+
+|Color | Dark | Light |
 | --- | --- | --- |
 | Text | Light | Dark |
-| Code in Tailwind | text-gray-400 | text-gray-500 |
+| Code in Tailwind | text-white, text-gray-400 | Default-color(Black) |
 
 `Note` : Color of the text `[color]` will depend on the color of the background
 
 ### Font
 
-For all store-button font is : **`font-medium`**
+For all buttons font is : **`font-semibold`**
+
+### SVG And Path
+SVG stands for Scalable Vector Graphic. It can be used to make graphics and animations like in HTML canvas.  Path is always used within the svg tag to set the actual coordinate.
+Wihin the tag we give the some propety as what with be the co-ordinate, fill color, outer stroke, and some styling within class attribute.
+
+### Border Radius 🔲
+
+The normal border-radius for the components are `rounded-xl`. However this does not apply in many cases like buttons, input boxes and all.
 
 ---
 
