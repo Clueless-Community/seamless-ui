@@ -1,6 +1,10 @@
 
 # 📒 Developer style guide for Feedback-Form
 
+Feedback is really import form every sector whether you are providing the product or sevice to customers. So for receiving the feedback there is special type of form is avialable that is what feedback component is. 
+
+It mostly compromise with rating button upto 5, textarea and button as (submit,cancel).
+
 ![image](https://i.postimg.cc/CKZV6y2y/Screenshot-2022-12-26-at-10-04-35-PM.png)
 
 ---
@@ -9,22 +13,35 @@
 
 ### Color 🎨
 
-|  | Background | Border | Active | Inactive |
-| --- | --- | --- | --- | --- |
-| Color Code in Tailwind | bg-gray-100 | border-gray-200 | bg-green-400 | bg-red-400 |
+|  | Background | Border | 
+| --- | --- | --- |
+| Color Code in Tailwind | bg-gray-100, bg-white,bg-green-400,bg-red-400  | border-gray-200,border-blue-600 | 
  
+Color of `bg` is generally used as shade of 100 / 700 
 
 Color of `text` will depend on the `bg` color
-| Background | Dark | Light |
+|color | Dark | Light |
 | --- | --- | --- |
-| Text | Light | Dark |
-| Code in Tailwind | text-white | text-gray-500 |
+| Text |Dark | Light |
+| Code in Tailwind | text-black | text-gray-900,text-white |
 
 `Note` : Color of the text `[color]` will depend on the color of the background
 
+### Transition ( `transition-all` )
+
+whenever there is a hover effect, one must use `transition-all` class with it.
+
 ### Font
 
-For all Feedback-Form font is : **`font-medium`**
+For all Feedback-Form font is : **`font-medium font-bold`**
+
+### Hover Color
+
+For all Breadcumbs component the hover color is **`hover:border-blue-600`**.
+
+### Border Radius 🔲
+
+The normal border-radius for the components are `rounded-lg `. However this does not apply in many cases like buttons, input boxes and all.
 
 ## Icon guidelines:
 
