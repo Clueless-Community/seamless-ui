@@ -1,7 +1,10 @@
 
 # 📒 Developer style guide for Movie card
+As the name suggest this component is for the moview related stuff. By this component user will only able to observe the movies poster within fron a rounded box. When any will hover over it will able to get the content regarding the movie. It's cool feature with this componet. 
 
-![image](https://i.postimg.cc/zBbr9ztj/Screenshot-2022-12-25-at-4-41-54-PM.png)
+This is not only stick to the movie-card by refer this any siimiilar component can desing or can customise it according to needs.
+
+![image](https://i.ibb.co/QKgv2nz/Screenshot-20230102-123724.png) ![image](https://i.ibb.co/FbNb7B3/Screenshot-20230102-122839.png)
 
 ---
 
@@ -9,22 +12,42 @@
 
 ### Color 🎨
 
-|  | Background | Border | Active | Inactive |
-| --- | --- | --- | --- | --- |
-| Color Code in Tailwind | bg-gray-100 | border-gray-200 | bg-green-400 | bg-red-400 |
+|  | Background | Border | 
+| --- | --- | --- | 
+| Color Code in Tailwind | bg-slate-300, bg-gray-300, bg-white | border-gray-300, bg-white | 
  
+ Color of `bg` is generally used as shade of 100 / 700 
 
 Color of `text` will depend on the `bg` color
-| Background | Dark | Light |
-| --- | --- | --- |
-| Text | Light | Dark |
-| Code in Tailwind | text-white | text-gray-500 |
+|Color| Text | 
+| --- | --- |
+| Code in Tailwind | text-white, text-gray-300 text-yellow-400 |
 
 `Note` : Color of the text `[color]` will depend on the color of the background
 
+
+### Transition ( `transition-all` )
+
+whenever there is a hover effect, one must use `transition-all` class with it.
+
 ### Font
 
-For all Movie card font is : **`font-medium`**
+For all text within content font is : **`font-medium`** and text size is  **`text-sm text-xl`**
+
+### Hover Color
+For the hover color for button is **`hover:bg-blue-500`**.
+
+### Overlay feature
+It is cool feature that cover the background imgae with mixture of transparent and bit black background here in the componet there is use style name as gradient **`bg-gradient-to-b from-transparent via-[#3a3a3a]/30 to-[#121212]`**
+
+
+### SVG And Path
+SVG stands for Scalable Vector Graphic. It can be used to make graphics and animations like in HTML canvas.  Path is always used within the svg tag to set the actual coordinate.
+Wihin the tag we give the some propety as what with be the co-ordinate, fill color, outer stroke, and some styling within class attribute.
+
+### Border Radius 🔲
+
+The normal border-radius for the components are `rounded-l-lg rounded-r-lg`. However this does not apply in many cases like buttons, input boxes and all.
 
 ## Icon guidelines:
 
