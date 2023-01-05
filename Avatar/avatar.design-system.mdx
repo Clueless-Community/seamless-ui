@@ -56,31 +56,150 @@ Want to see this Avatar in action? Try copy pasting this code in [Tailwind Playg
 
 ```html
 
-<!-- avatar squared example -->
-<div>
-  <h2 class="my-4 text-lg font-semibold text-gray-800">Avatar squared</h2>
-  <!-- list of avatar -->
-  <div>
-    <img class="inline-block h-8 w-8 max-w-full bg-gray-100 dark:bg-gray-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
-    <img class="inline-block h-12 w-12 max-w-full bg-gray-100 dark:bg-gray-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
-    <img class="inline-block h-20 w-20 max-w-full bg-gray-100 dark:bg-gray-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
-    <img class="inline-block h-32 w-32 max-w-full bg-gray-100 dark:bg-gray-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
-  </div>
+<!-- avatar group -->
+<main>
+  <!-- container -->
+  <div class="mx-auto p-5">
+    <div class="p-5">
+      <h2 class="mb-4 text-lg font-semibold text-gray-800">Avatar group</h2>
+      <!-- avatar group component -->
+      <div class="relative">
+        <img class="-ml-4 inline-block h-20 w-20 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl transition-all hover:-translate-y-1 dark:bg-blue-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/6.webp" alt="Image Description" />
+        <img class="-ml-4 inline-block h-20 w-20 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl transition-all hover:-translate-y-1 dark:bg-blue-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/7.webp" alt="Image Description" />
+        <img class="-ml-4 inline-block h-20 w-20 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl transition-all hover:-translate-y-1 dark:bg-blue-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
+      </div>
+    </div>
+    <!-- example -->
+    <div class="p-3">
+      <p class="mb-2 text-gray-500">Example</p>
+      <div class="mb-6 rounded-lg bg-white py-6 px-4 shadow-lg">
+        <div class="flex flex-col pb-2">
+          <h3 class="text-base font-bold">New Followers</h3>
+          <hr class="my-2" />
+        </div>
+        <div class="relative px-3">
+          <img class="-ml-4 inline-block h-12 w-12 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl transition-all hover:-translate-y-1 dark:border-gray-100 dark:bg-gray-800" src="https://mdbcdn.b-cdn.net/img/new/avatars/6.webp" alt="Image Description" />
+          <img class="-ml-4 inline-block h-12 w-12 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl transition-all hover:-translate-y-1 dark:border-gray-100 dark:bg-gray-800" src="https://mdbcdn.b-cdn.net/img/new/avatars/7.webp" alt="Image Description" />
+          <img class="-ml-4 inline-block h-12 w-12 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl transition-all hover:-translate-y-1 dark:border-gray-100 dark:bg-gray-800" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
+          <img class="-ml-4 inline-block h-12 w-12 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl transition-all hover:-translate-y-1 dark:border-gray-100 dark:bg-gray-800" src="https://mdbcdn.b-cdn.net/img/new/avatars/9.webp" alt="Image Description" />
+          <img class="-ml-4 inline-block h-12 w-12 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl transition-all hover:-translate-y-1 dark:border-gray-100 dark:bg-gray-800" src="https://mdbcdn.b-cdn.net/img/new/avatars/10.webp" alt="Image Description" />
 
-  <!-- avatar rounded example -->
-  <h2 class="my-4 text-lg font-semibold text-gray-800">Avatar rounded</h2>
-  <!-- list of avatar -->
-  <div>
-    <img class="inline-block h-8 w-8 max-w-full rounded-full bg-gray-100 shadow-xl dark:bg-gray-100" 
-         src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
-    <img class="inline-block h-12 w-12 max-w-full rounded-full bg-gray-100 shadow-xl dark:bg-gray-100" 
-         src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
-    <img class="inline-block h-20 w-20 max-w-full rounded-full bg-gray-100 shadow-xl dark:bg-gray-100" 
-         src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
-    <img class="inline-block h-32 w-32 max-w-full rounded-full bg-gray-100 shadow-xl dark:bg-gray-100" 
-         src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
+          <!-- more -->
+
+          <span class="self-center text-sm font-semibold text-gray-500 ltr:ml-5 rtl:mr-5">+232 more</span>
+        </div>
+      </div>
+    </div>
   </div>
+</main>
+
+
+<!-- avatar status -->
+<img id="avatarButton" type="button" data-dropdown-toggle="userDropdown" data-dropdown-placement="bottom-start"
+    class="inline-block w-20 h-20 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl dark:bg-blue-100"
+    src="https://mdbcdn.b-cdn.net/img/new/avatars/7.webp" alt="User dropdown">
+
+<div class="relative">
+    <img class="inline-block w-20 h-20 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl dark:bg-blue-100"
+        src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="">
+    <span
+        class="top-0 left-14 absolute  w-7 h-7 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
 </div>
+<div class="relative">
+    <img class="inline-block w-20 h-20 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl dark:bg-blue-100"
+        src="https://mdbcdn.b-cdn.net/img/new/avatars/9.webp" alt="">
+    <span
+        class="absolute top-4 left-14 transform -translate-y-1/2 w-7 h-7 bg-red-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
+</div>
+<div class="relative">
+    <img class="inline-block w-20 h-20 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl dark:bg-blue-100"
+        src="https://mdbcdn.b-cdn.net/img/new/avatars/10.webp" alt="">
+    <span
+        class="bottom-0 left-14 absolute  w-7 h-7 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
+</div>
+<div class="relative">
+    <img class="inline-block w-20 h-20 max-w-full transform rounded-full border-2 border-gray-400 bg-gray-300 shadow-xl dark:bg-blue-100"
+        src="https://mdbcdn.b-cdn.net/img/new/avatars/11.webp" alt="">
+    <span
+        class="absolute bottom-2 left-14 transform translate-y-1/4 w-7 h-7 bg-red-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
+</div>
+
+<!-- avatar text -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Avatar</title>
+</head>
+<body>
+    <div class="flex items-center space-x-4">
+        <img class="rounded-full border-2 border-gray-200 shadow-md h-20 w-20" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="">
+        <div class="font-medium dark:text-blue-700">
+            <div>Rahul Karda</div>
+            <div class="text-sm text-gray-500 dark:text-gray-500">Joined Github in 2020</div>
+        </div>
+    </div>
+    <div class="flex items-center space-x-8">
+        <img class="rounded-full border-6 border-gray-200 shadow-md h-28 w-28" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="">
+        <div class="font-medium dark:text-blue-700 scale-125">
+            <div>Rahul Karda</div>
+            <div class="text-sm text-gray-500 dark:text-gray-500">Joined Github in 2020</div>
+        </div>
+    </div>
+    <div class="flex items-center space-x-12">
+        <img class="rounded-full border-2 border-gray-200 shadow-md h-40 w-40" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="">
+        <div class="font-medium dark:text-blue-700 scale-150">
+            <div>Rahul Karda</div>
+            <div class="text-sm text-gray-500 dark:text-gray-500">Joined Github in 2020</div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- avatar  -->
+<main>
+  <!-- container -->
+  <div class="mx-auto p-2">
+    <!-- row -->
+    <div class="flex flex-row flex-wrap">
+      <div class="w-full max-w-full flex-shrink px-4">
+        <p class="my-2 text-xl font-bold">Avatars</p>
+      </div>
+      <div class="mb-6 w-full max-w-full flex-shrink px-4">
+        <div class="relative">
+          <div>
+            <p class="mx-auto text-lg font-light leading-relaxed">An example of a simple avatar component for your site.</p>
+          </div>
+
+          <!-- avatar squared example -->
+          <div>
+            <h2 class="my-4 text-lg font-semibold text-gray-800">Avatar squared</h2>
+            <!-- list of avatar -->
+            <div>
+              <img class="inline-block h-8 w-8 max-w-full bg-gray-100 dark:bg-gray-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
+              <img class="inline-block h-12 w-12 max-w-full bg-gray-100 dark:bg-gray-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
+              <img class="inline-block h-20 w-20 max-w-full bg-gray-100 dark:bg-gray-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
+              <img class="inline-block h-32 w-32 max-w-full bg-gray-100 dark:bg-gray-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
+            </div>
+
+            <!-- avatar rounded example -->
+            <h2 class="my-4 text-lg font-semibold text-gray-800">Avatar rounded</h2>
+            <!-- list of avatar -->
+            <div>
+              <img class="inline-block h-8 w-8 max-w-full rounded-full bg-gray-100 shadow-xl dark:bg-gray-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
+              <img class="inline-block h-12 w-12 max-w-full rounded-full bg-gray-100 shadow-xl dark:bg-gray-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
+              <img class="inline-block h-20 w-20 max-w-full rounded-full bg-gray-100 shadow-xl dark:bg-gray-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
+              <img class="inline-block h-32 w-32 max-w-full rounded-full bg-gray-100 shadow-xl dark:bg-gray-100" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="Image Description" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 
 ```
 
