@@ -1,4 +1,7 @@
 # 📒 Developer style guide for Accordion
+Accordion is one of the cool GUI feature in website, that help website to behave more interactive to the users. It is list of item that vertically stacked.This control element allow to cover more content in less space".
+
+Accordina works as something similar as menubar which will only main title to the user and underneath the title there will ecompose there respective content. Side by Side there will be the arrow down button when user click or hover it, Title get expend and now user is accessible with content. So, at the end accordian work on the collapse and expend feature.
 
 ![image](https://i.postimg.cc/4y14KgLr/Screenshot-2023-01-05-at-6-17-51-PM.png)
 
@@ -11,19 +14,27 @@
 |  | Background | Border | Active | Inactive |
 | --- | --- | --- | --- | --- |
 | Color Code in Tailwind | bg-gray-100 | border-gray-200 | bg-green-400 | bg-red-400 | bg slate-900 |
+
+|  | Background | Background |
+| --- | --- | --- | 
+| Color Code in Tailwind | bg-blue-600 |bg-white|
  
 
 Color of `text` will depend on the `bg` color
 | Background | Dark | Light |
 | --- | --- | --- |
 | Text | Light | Dark |
-| Code in Tailwind | text-white | text-gray-500 |
+| Code in Tailwind | text-white | text-gray-200 text-slate-500|
 
 `Note` : Color of the text `[color]` will depend on the color of the background
 
+### Transition ( `transition-all` )
+
+whenever there is a hover effect, one must use `transition-all` class with it.
+
 ### Font
 
-For all Accordion font is : **`font-medium`**
+For all Accordion font is : **`Default font`** but can be optimise accordingly
 
 ## Icon guidelines:
 
@@ -36,6 +47,18 @@ Mostly all the icons are taken from → [Hero Icons](https://heroicons.com/)
 | Small | w-4 & h-4 | Hero Icons mini |
 | Medium | w-5 & h-5 | Hero Icons mini |
 | Large | w-6 & h-6 | Hero Icons filled |
+
+### Hover Color
+
+For all Breadcumbs component the hover color is **`hover:bg-blue-600`**.
+
+### SVG And Path
+SVG stands for Scalable Vector Graphic. It can be used to make graphics and animations like in HTML canvas.  Path is always used within the svg tag to set the actual coordinate.
+Wihin the tag we give the some propety as what with be the co-ordinate, fill color, outer stroke, and some styling within class attribute.
+
+### Border Radius 🔲
+
+The normal border-radius for the components are `rounded-md`. However this does not apply in many cases like buttons, input boxes and all.
 
 ---
 
