@@ -1,7 +1,10 @@
 
 # 📒 Developer style guide for Stats
+Stats is something is like all the numeric data. So, In web-pages the stats is GUI control component that help users to easily visiualise data related to it apart from their background.
 
-![image](https://i.postimg.cc/kMV1B3yr/Screenshot-2022-12-26-at-12-38-13-PM.png)
+We represent stats with the help of store button that includes the data and related icon. It is versetile in nature means this component can easily used anywhere in webpages. Some of the common example as what is monthly download, engagement of users, numbers of subscribers etc. Even in the codepeak program there is use case of stats as number of contributor, number of pull request.
+
+![image](https://i.ibb.co/wYm5kzM/Screenshot-2311.png) ![image](https://i.ibb.co/tBBpxRF/Screenshot-2312.png)
 
 ## Types of stats 🔽
 
@@ -15,21 +18,31 @@
 
 ### Color 🎨
 
-| Color | Yellow | Gray | Dark-Gray |
-| --- | --- | --- | --- |
-| Code in Tailwind | text-yellow-400 | text-gray-200 | text-gray-600 |
+| Background | Yellow | White | Dark-Gray | Green | Blue | Red|
+| --- | --- | --- | --- | --- | --- | --- |
+| Code in Tailwind | bg-yellow-500 | bg-white | bg-gray-600 | bg-Green-500| bg-Blue-500| bg-Red-500|
+
+Color of `bg` is generally used as shade of 100 / 700 
 
 Color of `text` will depend on the `bg` color
 | Background | Dark | Light |
 | --- | --- | --- |
-| Text | Light | Dark |
-| Code in Tailwind | text-gray-200 | text-gray-600 |
+| Text |  Dark | Light  |
+| Code in Tailwind | text-white,text-gray-600 | text-green-600,text-grey-600,text-blue-500 |
 
 `Note` : Color of the text `[color]` will depend on the color of the background
 
 ### Font
 
-For all stats font is : **`font-medium`**
+For all stats font is : **`font-medium font-bold`**
+
+### SVG And Path
+SVG stands for Scalable Vector Graphic. It can be used to make graphics and animations like in HTML canvas.  Path is always used within the svg tag to set the actual coordinate.
+Wihin the tag we give the some propety as what with be the co-ordinate, fill color, outer stroke, and some styling within class attribute.
+
+### Border Radius 🔲
+
+The normal border-radius for the components are `rounded-md rounded-lg`. However this does not apply in many cases like buttons, input boxes and all.
 
 ---
 

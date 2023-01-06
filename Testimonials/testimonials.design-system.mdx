@@ -1,6 +1,8 @@
 
 # 📒 Developer style guide for Testimonial
 
+Testimonials are Written recommendations from users and are often seen in a separated section of a web page.Generally, a testimonial contains the user’s name, picture, his/her identity(optional) and most importantly his/her quoted text.
+
 ![image](https://i.postimg.cc/y6RS350J/Screenshot-2022-12-25-at-5-13-06-PM.png)
 
 ---
@@ -11,14 +13,14 @@
 
 |  | Background | Border | Active | Inactive |
 | --- | --- | --- | --- | --- |
-| Color Code in Tailwind | bg-gray-100 | border-gray-200 | bg-green-400 | bg-red-400 |
+| Color Code in Tailwind | bg-gray-100 | border-gray-400 | border-gray-700 | border-gray-200 |
  
 
 Color of `text` will depend on the `bg` color
 | Background | Dark | Light |
 | --- | --- | --- |
 | Text | Light | Dark |
-| Code in Tailwind | text-white | text-gray-500 |
+| Code in Tailwind | text-white | text-gray-400 | text-gray-600 | text-black | text-gray-900 | text-blue-700 | text-gray-500 |
 
 `Note` : Color of the text `[color]` will depend on the color of the background
 
@@ -340,8 +342,8 @@ Want to see this Avatar in action? Try copy pasting this code in [Tailwind Playg
 </div>
 
 <!--For Testimonial-8 -->
-<div class="w-fit mx-10 my-10 bg-white shadow  dark:border-gray-700 dark:bg-white">
-  <a class="absolute left-1" >
+<div class="w-fit relative mx-10 my-10 bg-white shadow  dark:border-gray-700 dark:bg-white">
+  <a class="absolute -left-7 top-5" >
     <img class="mt-3  h-14 w-14 rounded-full" src="https://cdn.discordapp.com/attachments/886680287742930961/1030561000157630584/cover.png" alt="Rounded avatar" />
   </a>
   <div class=" px-[40px] py-[30px]">
