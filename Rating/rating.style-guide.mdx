@@ -2,11 +2,15 @@
 
 Allow users to easily view and set ratings that reflect degrees of satisfaction with content and services. The rating control has several great features that provide flexibility and customization. To create rating, add role rating with attribute data-role to input element.
 
-![image](https://user-images.githubusercontent.com/83635276/207546594-50eae487-2082-433c-877e-03532959065d.png)
+Simply define the how much users are satisfied with provided service and product. Later on these data help them improve their service based on data collected. Very common case you often come accross is about product from e-commerce website
+
+![Screenshot (119)](https://user-images.githubusercontent.com/73521123/211209545-fc8a26db-6697-403c-866c-52fab213d965.png) ![Screenshot (120)](https://user-images.githubusercontent.com/73521123/211209551-d0aee2ef-dd4a-4822-a9a6-64cac49bff78.png)
+
+
 
 ## Types of Rating 🔽
 
-1. Satr Size
+1. Star Size
 2. Rating with Text
 3. Emoji
 4. Advanced Rating
@@ -17,21 +21,29 @@ Allow users to easily view and set ratings that reflect degrees of satisfaction 
 
 ### Color 🎨
 
-| Color | Yellow | Gray | Dark-Gray |
-| --- | --- | --- | --- |
-| Code in Tailwind | text-yellow-400 | text-gray-300 | text-gray-500 |
+| Color | Yellow | Gray | Dark-Gray |Blue|
+| --- | --- | --- | --- |--- |
+| Code in Tailwind | text-yellow-400 | text-gray-300 | text-gray-500 |text-blue-500|
 
 Color of `text` will depend on the `bg` color
 | Background | Dark | Light |
 | --- | --- | --- |
 | Text | Light | Dark |
-| Code in Tailwind | text-gray-400 | text-gray-500 | text-yellow-400 | text-gray-300 |
+| Code in Tailwind | bg-default | bg-gray-700 |
 
 `Note` : Color of the text `[color]` will depend on the color of the background
 
 ### Font
 
 For all ratings font is : **`font-medium`**
+
+### Hover Scale
+
+For emoji rating type while hovering on any emoji it scale as **`hover:-translate-y-1 `**
+
+### SVG And Path
+SVG stands for Scalable Vector Graphic. It can be used to make graphics and animations like in HTML canvas.  Path is always used within the svg tag to set the actual coordinate.
+Wihin the tag we give the some propety as what with be the co-ordinate, fill color, outer stroke, and some styling within class attribute.
 
 ---
 
