@@ -3,7 +3,11 @@
 
 The dropdown component can be used to show a list of menu items when clicking on an element such as a button and hiding it when focusing outside of the triggering element.
 
-![image](https://i.postimg.cc/T1LGqnNV/Screenshot-2022-12-31-at-1-08-49-AM.png)
+Drop-down menu used where if single menu has sub-menu that further created ladder like structure. It helps to comprise more navigation item within. 
+
+![Screenshot (122)](https://user-images.githubusercontent.com/73521123/211210276-1d7e458f-7680-4a72-8023-7e679ddbbbe6.png) ![Screenshot (124)](https://user-images.githubusercontent.com/73521123/211210288-7922795e-47ac-47e9-b931-7aee04951ea0.png)
+
+
 
 ---
 
@@ -11,21 +15,32 @@ The dropdown component can be used to show a list of menu items when clicking on
 
 ### Color 🎨
 
-| Color | Yellow | Gray | Dark-Gray |
-| --- | --- | --- | --- |
-| Code in Tailwind | bg-blue-700 | bg-blue-600 | bg-gray-200 |
+| Color | Dark| Light | 
+| --- | --- | --- | 
+| Code in Tailwind | bg-blue-600 | bg-blue-700 | 
 
 Color of `text` will depend on the `bg` color
-| Background | Dark | Light |
-| --- | --- | --- |
-| Text | Light | Dark |
-| Code in Tailwind | text-gray-400 | text-white | text-gray-600 |
+| Background |Text |
+| --- | --- |
+| Code in Tailwind | text-gray-600 |
 
 `Note` : Color of the text `[color]` will depend on the color of the background
 
 ### Font
 
-For all Dropdown font is : **`font-medium`**
+For all Dropdown font is : **`font-medium font-semibold`**
+
+### Transition ( `transition-all` )
+
+whenever there is a hover effect, one must use `transition-all` class with it.
+
+### Hover Color
+
+For all navicon item the hover color is **`hover:bg-blue-700 hover:bg-gray-200`**.
+
+### Border Radius 🔲
+
+The normal border-radius for the components are `rounded-lg`. However this does not apply in many cases like buttons, input boxes and all.
 
 ---
 
