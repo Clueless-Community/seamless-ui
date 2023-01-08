@@ -1,6 +1,11 @@
 # 📒 Developer style guide for Tables
+Table is one attractive component. That are mainly used for the representing data in field in relational manner. It is helpful because it helps to group and orgainise data in very efficient manner.
 
-![image](https://user-images.githubusercontent.com/83635276/207536154-5c0d60e1-90ed-4a9c-a27d-3619a1a4074d.png)
+In the web-pages we use the table in directly and indirectly manner to fetch data from backend and update in table componenet. There are different version of table is available as per the user need it can be used to make your page more dynamic.
+
+![Screenshot (112)](https://user-images.githubusercontent.com/73521123/211208408-1f1935fd-47e9-4ca6-977d-f52c13bca5e7.png)   ![Screenshot (115)](https://user-images.githubusercontent.com/73521123/211209035-5612ae93-63bf-4ea8-b065-3f7d2c803688.png)
+
+
 
 ## Types of Tables 🔽
 
@@ -16,7 +21,7 @@
 
 |  | Border Dark | Border Light | Backgroung Dark | Backgroung Light |
 | --- | --- | --- | --- | --- |
-| Code in Tailwind | border-slate-800 |  | bg-[#252B42] / bg-[#202537] | bg-gray-100 / bg-white |
+| Code in Tailwind | border-slate-800 | border-none | bg-[#252B42] / bg-[#202537] | bg-gray-100 / bg-white |
 
 Color of `bg` is generally used as shade of 100 / 700 
 
@@ -24,15 +29,25 @@ Color of `text` will depend on the `bg` color
 | Background | Dark | Light |
 | --- | --- | --- |
 | Text | Light | Dark |
-| Code in Tailwind | text-white | text-[color]-800 |
+| Code in Tailwind | text-white | text-gray-900  |
 
 `Note` : Color of the text `[color]` will depend on the color of the background
 
 ### Font
 
-For Table font is : **`font-medium`**
+For Table font is : **`font-medium font-light`**
 
 For Table head font is : **`font-bold`**
+
+
+### Transition ( `transition-all` )
+
+whenever there is a hover effect, one must use `transition-all` class with it.
+
+
+### Hover Color
+
+For all table row the hover color in hoverable table is **`hover:bg-blue-600`**.
 
 ### Border Radius 🔲
 
