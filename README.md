@@ -19,7 +19,7 @@ This is not a repo where you can come and dump any UI code. You need to make pro
 
 ## How to contribute?
 
-We recommend you to go through the [CONTRIBUTING.md](https://github.com/Clueless-Community/web-ui-kit/blob/main/CONTRIBUTING.md) file, where we have guided you step by step to make your contribution.
+We recommend you to go through the [Contribution file](https://github.com/Clueless-Community/web-ui-kit/blob/main/CONTRIBUTING.md), where we have guided you step by step to make your contribution.
 
 ##### Once the pull request is merged, you will be given points according to the difficulty of the contribution. If you top the leaderboard you will be winning amazing swags and t-shirts from `ClueLess`
 ---
