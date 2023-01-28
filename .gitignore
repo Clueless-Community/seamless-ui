@@ -1,2 +1,15 @@
 .DS_Store
 .vscode
+
+website/.vscode
+
+website/node_modules
+website/.next
+website/.DS_Store
+website/yarn-error.log
+website/.yalc
+website/yalc.lock
+website/*.log
+
+website/public/*.st
+website/public/*.toml
