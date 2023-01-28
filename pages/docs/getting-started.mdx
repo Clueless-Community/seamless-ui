@@ -1,0 +1,46 @@
+import { Callout, Tabs, Tab } from 'nextra-theme-docs'
+import Link from 'next/link'
+
+# Getting Started
+
+## Installation
+
+Otherwise, run the following to download pre-built binaries:
+
+<Tabs items={['pnpm', 'npm', 'yarn']}>
+  <Tab>
+    ```bash copy
+    pnpm i -D @swc/cli @swc/core
+    ```
+  </Tab>
+    <Tab>
+    ```bash copy
+    npm i -D @swc/cli @swc/core
+    ```
+  </Tab>
+    <Tab>
+    ```bash copy
+    yarn add -D @swc/cli @swc/core
+    ```
+  </Tab>
+</Tabs>
+
+Then, you can transpile your first file and emit to `stdout`:
+
+```bash copy
+npx swc ./file.js
+```
+
+## Supported Binaries
+
+SWC can be downloaded and used as a pre-built binary, or built from source. Currently, the following binaries are provided:
+
+- Mac (Apple Silicon)
+- Mac (x64)
+- Linux (x86_64)
+- Linux (aarch64)
+- Linux (armv7)
+- Alpine Linux (also install `@swc/core-linux-musl`)
+- Android (aarch64)
+- Windows (win32-x64)
+- Windows (ia32)

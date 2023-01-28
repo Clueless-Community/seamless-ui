@@ -1,0 +1,141 @@
+import { Callout } from 'nextra-theme-docs'
+
+# Modules
+
+SWC can transpile your code using ES Modules to CommonJS or UMD/AMD. By default, module statements will remain untouched.
+
+## CommonJS
+
+To emit a CommonJS module, change the `type` in `.swcrc`:
+
+```json filename=".swcrc" copy
+{
+  "$schema": "http://json.schemastore.org/swcrc",
+  "module": {
+    "type": "commonjs",
+
+    // These are defaults.
+    "strict": false,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": false
+  }
+}
+```
+
+## ES6
+
+To emit a ES6 module, change the `type` in `.swcrc`:
+
+```json filename=".swcrc" copy
+{
+  "module": {
+    "type": "es6",
+
+    // These are defaults.
+    "strict": false,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": false
+  }
+}
+```
+
+## AMD
+
+To emit an AMD module, change the `type` in `.swcrc`:
+
+```json filename=".swcrc" copy
+{
+  "module": {
+    "type": "amd",
+    // Optional. If specified, swc emits named AMD module.
+    "moduleId": "foo",
+
+    // These are defaults.
+    "strict": false,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": false
+  }
+}
+```
+
+## UMD
+
+To emit an UMD module, change the `type` in `.swcrc`:
+
+```json filename=".swcrc" copy
+{
+  "module": {
+    "type": "umd",
+    "globals": {},
+
+    // These are defaults.
+    "strict": false,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": false
+  }
+}
+```
+
+## Shared Options
+
+These options are shared by `commonjs` / `es6` / `umd` / `amd` inside `.swcrc`:
+
+```json filename=".swcrc" copy
+{
+  "module": {
+    // You can specify "commonjs", "es6", "amd", "umd"
+    "type": "commonjs",
+    "strict": false,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": false,
+    "ignoreDynamic": false
+  }
+}
+```
+
+{/* TODO: should fix this in nextra side */}
+export const EsModuleText = () => <code className="nx-border-black nx-border-opacity-[0.04] nx-bg-opacity-[0.03] nx-bg-black nx-break-words nx-rounded-md nx-border nx-py-0.5 nx-px-[.25em] nx-text-[.9em] dark:nx-border-white/10 dark:nx-bg-white/10">{`__esModule`}</code>
+
+### strict
+
+Defaults to `false`. By default, when using exports with SWC, a non-enumerable <EsModuleText /> property is exported. In some cases, this property is used to determine if the import is the default export or if it contains the default export.
+
+To prevent the <EsModuleText /> property from being exported, you can set the strict option to `true`.
+
+### strictMode
+
+Defaults to `true`. If true, swc emits 'use strict' directive.
+
+### lazy
+
+Defaults to `false`. This option changes Babel's compiled `import` statements to be lazily evaluated when their imported bindings are used for the first time. This can improve the initial load time of your module because evaluating dependencies upfront is sometimes entirely unnecessary. This is especially the case when implementing a library module.
+
+The value of `lazy` has a few possible effects:
+
+- `false` - No lazy initialization of any imported module.
+- `true` - Do not lazy-initialize local `./foo` imports, but lazy-init `foo` dependencies. Local paths are much more likely to have circular dependencies, which may break if loaded lazily, so they are not lazy by default, whereas dependencies between independent modules are rarely cyclical.
+- `Array<string>` - Lazy-initialize all imports with source matching one of the given strings.
+
+The two cases where imports can never be lazy are:
+
+- `import "foo";`
+  Side-effect imports are automatically non-lazy since their very existence means that there is no binding to later kick-off initialization.
+- `export from "foo"`
+  Re-exporting all names requires up-front execution because otherwise there is no
+  way to know what names need to be exported.
+
+### noInterop
+
+Defaults to `false`. By default, when using exports with swc a non-enumerable <EsModuleText /> property is exported.
+This property is then used to determine if the import is the default export or if it contains the default export.
+
+In cases where the auto-unwrapping of default is not needed, you can set the noInterop option to true to avoid the usage of the interopRequireDefault helper (shown in inline form above).
+
+### ignoreDynamic
+
+If set to `true`, dynamic imports will be preserved.

@@ -1,0 +1,77 @@
+import { Callout } from 'nextra-theme-docs'
+
+# Configuring SWC
+
+SWC can be configured with an `.swcrc` file.
+
+## Compilation
+
+Compilation works out of the box with SWC and does not require customization. Optionally, you can override the configuration. Here are the defaults:
+
+```jsonc filename=".swcrc" copy
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript",
+      "jsx": false,
+      "dynamicImport": false,
+      "privateMethod": false,
+      "functionBind": false,
+      "exportDefaultFrom": false,
+      "exportNamespaceFrom": false,
+      "decorators": false,
+      "decoratorsBeforeExport": false,
+      "topLevelAwait": false,
+      "importMeta": false
+    },
+    "transform": null,
+    "target": "es5",
+    "loose": false,
+    "externalHelpers": false,
+    // Requires v1.2.50 or upper and requires target to be es2016 or upper.
+    "keepClassNames": false
+  },
+  "minify": false
+}
+```
+
+Read more about [configuring compilation](/docs/configuration/compilation).
+
+## Supported Browsers
+
+Starting with `v1.1.10`, you can now use `browserslist` to automatically configure supported browsers.
+
+### Usage
+
+First, install `browserslist`. Then, update your `.swcrc`:
+
+```json filename=".swcrc" copy
+{
+  "env": {
+    "targets": {
+      "chrome": "79"
+    },
+    "mode": "entry",
+    "coreJs": "3.22"
+  }
+}
+```
+
+Read more about [configuring supported browsers](/docs/configuration/supported-browsers).
+
+## Modules
+
+Read more about [configuring modules](/docs/configuration/modules).
+
+## Minification
+
+Starting with `v1.2.67`, you can configure SWC to minify your code by enabling `minify` in your `.swcrc` file:
+
+```json filename=".swcrc" copy
+{
+  "minify": true
+}
+```
+
+Read more about [configuring the JavaScript minifier](/docs/configuration/minification).

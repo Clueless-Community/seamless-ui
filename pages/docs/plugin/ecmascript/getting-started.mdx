@@ -1,0 +1,236 @@
+import { Callout } from 'nextra-theme-docs'
+
+# Implementing a plugin
+
+## Setup environment
+
+### Install required toolchain
+
+As plugin is written in the rust programming language and built as a `.wasm` file, you need to install rust toolchain and wasm target.
+
+#### Install rust
+
+You can follow instructions at ['Install Rust' page from the official rust website](https://www.rust-lang.org/tools/install)
+
+#### Add wasm target to rust
+
+SWC supports two kinds of `.wasm` files.
+Those are
+
+- wasm32-wasi
+- wasm32-unknown-unknown
+
+In this guide, we will use `wasm-wasi` as a target.
+
+#### Install `swc_cli`
+
+You can install a rust-based CLI for SWC by doing
+
+```sh
+cargo install swc_cli
+```
+
+#### Configuring IDE
+
+If you are going to use vscode, it's recommended to install `rust-analyzer` extension.
+`rust-analyzer` is a [language server](https://microsoft.github.io/language-server-protocol/) for the rust programming language, which provides good features for code completion, code navigation, and code analysis.
+
+## Implementing simple plugin
+
+### Create a project
+
+SWC CLI supports creating a new plugin project.
+
+Run
+
+```sh
+swc plugin new --target-type wasm32-wasi my-first-plugin
+# You should to run this
+rustup target add wasm32-wasi
+```
+
+to create a new plugin, and open `my-first-plugin` with your preferred rust IDE.
+
+### Implementing a visitor
+
+The generated code has
+
+```rust
+impl VisitMut for TransformVisitor {
+    // Implement necessary visit_mut_* methods for actual custom transform.
+    // A comprehensive list of possible visitor methods can be found here:
+    // https://rustdoc.swc.rs/swc_ecma_visit/trait.VisitMut.html
+}
+```
+
+which is used to transform code.
+[The trait `VisitMut`](https://rustdoc.swc.rs/swc_ecma_visit/trait.VisitMut.html) supports mutating AST nodes, and as it supports all AST types, it has lots of methods.
+
+---
+
+We will use
+
+```js
+foo === bar;
+```
+
+as the input. From [the SWC Playground](https://play.swc.rs), you can get actual representation of this code.
+
+```json
+{
+  "type": "Module",
+  "span": {
+    "start": 0,
+    "end": 12,
+    "ctxt": 0
+  },
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 0,
+        "end": 12,
+        "ctxt": 0
+      },
+      "expression": {
+        "type": "BinaryExpression",
+        "span": {
+          "start": 0,
+          "end": 11,
+          "ctxt": 0
+        },
+        "operator": "===",
+        "left": {
+          "type": "Identifier",
+          "span": {
+            "start": 0,
+            "end": 3,
+            "ctxt": 0
+          },
+          "value": "foo",
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "span": {
+            "start": 8,
+            "end": 11,
+            "ctxt": 0
+          },
+          "value": "bar",
+          "optional": false
+        }
+      }
+    }
+  ],
+  "interpreter": null
+}
+```
+
+Let's implement a method for `BinExpr`.
+You can do it like
+
+```rust
+use swc_core::{
+    ast::*,
+    visit::{VisitMut, VisitMutWith},
+};
+
+impl VisitMut for TransformVisitor {
+    fn visit_mut_bin_expr(&mut self, e: &mut BinExpr) {
+        e.visit_mut_children_with(self);
+    }
+}
+```
+
+Note that `visit_mut_children_with` is required if you want to call the method handler for children.
+e.g. `visit_mut_ident` for `foo` and `bar` will be called by `e.visit_mut_children_with(self);` above.
+
+Let's narrow down it using the binary operator.
+
+```rust
+use swc_core::{
+    ast::*,
+    visit::{VisitMut, VisitMutWith},
+    common::Spanned,
+};
+
+impl VisitMut for TransformVisitor {
+    fn visit_mut_bin_expr(&mut self, e: &mut BinExpr) {
+        e.visit_mut_children_with(self);
+
+        if e.op == op!("===") {
+            e.left = Box::new(Ident::new("kdy1".into(), e.left.span()).into());
+        }
+    }
+}
+```
+
+`op!("===")` is a macro call, and it returns various types of operators.
+It returns [BinaryOp](https://rustdoc.swc.rs/swc_ecma_ast/enum.BinaryOp.html) in this case, because we provided `"==="`, which is a binary operator.
+See [the rustdoc for op! macro](https://rustdoc.swc.rs/swc_ecma_ast/macro.op.html) for more details.
+
+If we run this plugin, we will get
+
+```js
+kdy1 === bar;
+```
+
+## Testing your transform
+
+You can simply run `cargo test` to test your plugins.
+SWC also provides a utility to ease fixture testing.
+
+You can easily verify the input and output of the transform.
+
+```rust
+test!(
+    Default::default(),
+    |_| as_folder(TransformVisitor),
+    boo,
+    r#"foo === bar;"#,
+    r#"kdy1 === bar;"#
+);
+```
+
+You can take a look at [the real fixture test for typescript type stripper](https://github.com/swc-project/swc/blob/c0abdb394a94bcbc7ea9602163e6ce032c89b996/crates/swc_ecma_transforms_typescript/tests/strip.rs#L4514-L4527).
+
+```rust
+#[testing::fixture("tests/fixture/**/input.ts")]
+#[testing::fixture("tests/fixture/**/input.tsx")]
+fn fixture(input: PathBuf) {
+    let output = input.with_file_name("output.js");
+    test_fixture(
+        Syntax::Typescript(TsConfig {
+            tsx: input.to_string_lossy().ends_with(".tsx"),
+            ..Default::default()
+        }),
+        &|t| chain!(tr(), properties(t, true)),
+        &input,
+        &output,
+    );
+}
+
+```
+
+Things to note:
+
+- The glob provided to `testing::fixture` is relative to the cargo project directory.
+- The output file is `output.js`, and it's stored in a same directory as the input file.
+- `test_fixture` drives the test.
+- You can determine the syntax of the input file by passing the syntax to `test_fixture`.
+- You then provide your visitor implementation as the second argument to `test_fixture`.
+- Then you provide the input file path and the output file path.
+
+### Logging
+
+SWC uses `tracing` for logging.
+By default, SWC testing library configures the log level to `debug` by default, and this can be controlled by using an environment variable named `RUST_LOG`.
+e.g. `RUST_LOG=trace cargo test` will print all logs, including `trace` logs.
+
+If you want, you can remove logging for your plugin by using cargo features of `tracing`.
+See [the documentation for it](https://docs.rs/crate/tracing/latest/features).
+
+## Publishing your plugin
+
+Please see [plugin publishing guide](../publishing)

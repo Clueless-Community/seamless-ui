@@ -1,0 +1,165 @@
+---
+image: https://user-images.githubusercontent.com/9113740/140682117-5e9f460e-c8f1-447c-88a0-e75f80779260.png
+description: 'SWC (Speedy Web Compiler) is a super-fast JavaScript and TypeScript compiler.'
+---
+
+import Authors, { Author } from 'components/authors'
+
+# Introducing SWC 1.0
+
+<Authors date="February 8th, 2019">
+  <Author name="DongYoon Kang" link="https://twitter.com/kdy1dev" />
+</Authors>
+
+## What is SWC?
+
+[swc](https://github.com/swc-project/swc) (speedy web compiler) is a super-fast JavaScript compiler.
+
+## What can SWC do?
+
+It can transpile TypeScript / jsx / ECMAScript 2019 to browser-compatible JavaScript.
+
+```js
+// input.js
+
+class Foo {
+  set foo(v) {}
+}
+class Bar extends Foo {
+  get bar1() {}
+  async bar2() {}
+}
+```
+
+## How fast is SWC?
+
+It's 16x - 20x faster than babel even on single-core synchronous benchmark. Note that actual performance gap is larger because swc works on worker thread while babel works on event loop thread.
+
+## Installation
+
+You can install `swc` with
+
+```sh
+# if you use npm
+npm i -D @swc/core
+
+# if you use yarn
+yarn add -D @swc/core
+```
+
+See [Getting Started](/docs/getting-started) for more details.
+
+## What's included in SWC 1.0?
+
+Swc implements almost all babel plugins. As of 1.0.0, swc can understand various dialects of ecmascript and compiles them into es5.
+
+### ECMAScript 2019 support
+
+`.swcrc`:
+
+```json
+{
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript"
+    }
+  }
+}
+```
+
+### React (with jsx)
+
+`.swcrc`:
+
+```json
+{
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript",
+      "jsx": true
+    }
+  }
+}
+```
+
+### TypeScript support
+
+Swc can also compile typescript / tsx to ecmascript. Note that it does not type-check at the time of writing. Type checking is tracked at [#126](https://github.com/swc-project/swc/issues/126).
+
+`.swcrc`:
+
+```json
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false
+    }
+  }
+}
+```
+
+See [docs](/docs/configuration/swcrc) for more details.
+
+### Various Transforms
+
+- es3
+
+  - member-expression-literals
+  - property-literals
+  - reserved-words
+
+- es2015
+
+  - arrow-functions
+  - block-scoped-functions
+  - block-scoping
+  - classes
+  - computed-properties
+  - destructuring
+  - duplicate-keys
+  - for-of
+  - function-name
+  - instanceof
+  - literals
+  - new-target
+  - parameters
+  - shorthand-properties
+  - spread
+  - sticky regex (`y` flag)
+  - template-literals
+  - typeof-symbol
+
+- es2016
+
+  - exponentiation-operator
+
+- es2017
+
+  - async-to-generator
+
+- es2018
+
+  - object-rest-spread
+
+- react
+  - jsx
+
+## Migrating from Babel
+
+### @babel/core
+
+Run `npm i --save-dev @swc/core` or `yarn add --dev @swc/core`.
+
+Swc enables all passes by default. So if you are using only standard ecmascript, you can just delete `.babelrc` and change `babel.transform()` to `swc.transform()`.
+
+See [usage docs](/docs/usage/core) and [migration docs](/docs/migrating-from-babel) for more details.
+Also note that swc does not support custom plugin yet.
+
+### @babel/cli
+
+Run `npm i --save-dev @swc/core @swc/cli` or `yarn add --dev @swc/core @swc/cli` to install. CLI apis of `@swc/cli` is almost equivalent to it of `@babel/cli`. So if you are using standard ecmascript, you can just replace `npx babel` to `npx swc`. If it results in an error, please [report an error][issues].
+
+See [usage docs](/docs/usage/cli) and [migration docs](/docs/migrating-from-babel) for more details. Also note that swc does not support custom plugins yet.
+
+[issues]: https://github.com/swc-project/swc/issues
