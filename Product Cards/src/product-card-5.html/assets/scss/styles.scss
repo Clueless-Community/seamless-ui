@@ -1,0 +1,138 @@
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/*===== VARIABLES CSS =====*/
+:root{
+    /*===== Colores =====*/
+    --first-color: #F2A20C;
+    --white-color: #E9EAEC;
+    --dark-color: #272D40;
+    --dark-color-lighten: #F2F5FF;
+
+    /*===== Fuente y tipografia =====*/
+    --body-font: 'Poppins', sans-serif;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+
+}
+
+
+/*===== BASE =====*/
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+h1,p{
+    margin: 0;  
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*===== CARD =====*/
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-color-lighten);
+}
+
+.card{
+    width: 320px;
+    height: 400px;
+    background-color: var(--dark-color);
+    border-radius: 1rem;
+    padding: 4rem 2rem 0;
+    color: var(--white-color);
+    overflow-y: hidden;
+
+    &__img{
+        position: absolute;
+        width: 260px;
+        filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, .4));
+    }
+
+    &__data{
+        transform: translateY(13.2rem);
+        text-align: center;
+    }
+    
+    &__title{
+        font-size: var(--h1-font-size);
+        color: var(--first-color);
+        margin-bottom: .5rem;
+    }
+    &__preci{
+        display: inline-block;
+        font-size: var(--h2-font-size);
+        font-weight: 500;
+        margin-bottom: 1.25rem;
+    }
+    &__description{
+        font-size: var(--small-font-size);
+        text-align: initial;
+        margin-bottom: 1.25rem;
+        opacity: 0;
+    }
+    &__button{
+        display: block;
+        width: max-content;
+        padding: 1.125rem 2rem;
+        background-color: var(--first-color);
+        color: var(--white-color);
+        border-radius: .5rem;
+        font-weight: 600;
+        transition: .2s;
+        opacity: 0;
+
+        &:hover{
+            box-shadow: 0 18px 40px -12px rgba(242, 162, 12, .35);
+        }
+    }
+
+    &__img, 
+    &__data, 
+    &__title, 
+    &__preci, 
+    &__description {
+        transition: .5s;
+    }
+}
+
+/* Hover card effect */
+.card:hover{
+    .card__img{
+        transform: translate(-1.5rem, -9.5rem) rotate(-20deg);
+    }
+    .card__data{
+        transform: translateY(4.8rem);
+    }
+    .card__title{
+        transform: translateX(-2.3rem);
+        margin-bottom: 0;
+    }
+    .card__preci{
+        transform: translateX(-6.8rem);
+    }
+    .card__description, 
+    .card__button{
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
