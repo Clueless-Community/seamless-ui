@@ -20,7 +20,6 @@
   </tr>
   <tr>
     <td width="50%"> Breadcrumb-3</td>
-    <td width="50%">Breadcrumb-4</td>
   </tr>
   <tr>
     <td width="50%">
@@ -28,9 +27,9 @@
         <img src="https://i.postimg.cc/tgH5P2PN/Screenshot-2022-12-25-at-4-56-03-PM.png" alt="b0" border="0" />
       </a>
     </td>
-    <td width="50%">
+    <!-- <td width="50%">
       <a href="">
       </a>
-    </td>
+    </td> -->
   </tr>
 </table>
