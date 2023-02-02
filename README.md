@@ -71,6 +71,6 @@ We want to build the best and most simple UI Kit for fronted development, which 
 ---
 ## Having a problem?
 
-Join our community discord server and ask your question. We are always there to solve your queries and problem.
+Join our community discord server and ask your question. We are always there to solve your queries and problem. Just tag the maintainers and ask your queries in SeamLess UI channel and your queries will get resolved in no time. Try it...😉 
 
 Here is a link to our [Discord Server](https://discord.gg/r5uKBGxT9T).
