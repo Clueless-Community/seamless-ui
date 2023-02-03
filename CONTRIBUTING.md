@@ -39,7 +39,7 @@ If you are solving any other issue make your own PR. don't need to follow this t
 
 # Make an issue and build a component you want to build.
 
-Here is a link to the figma UI kit. [Figma File](https://www.figma.com/file/0eqV7t3UKKM14UeqCSfOZb/Essential-UI---Figma-Ui-Kit-(Community)?node-id=688%3A1988)
+Here is a link to the figma UI kit. [Figma File](https://www.figma.com/file/0eqV7t3UKKM14UeqCSfOZb/SeamLess-UI?node-id=3572%3A8556&t=rR5St9FxEhvRea9z-1)
 
 Take a screenshot of the component you want to build from the figma file. Make sure the component is not already built.
 
