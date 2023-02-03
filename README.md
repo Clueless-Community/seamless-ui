@@ -15,7 +15,7 @@ Social Winter Of Code is the 3 month long open source program by Social India , 
 
 ## Important Note
 
-This is not a repo where you can come and dump any UI code. You need to make proper components from the [Figma File](https://www.figma.com/file/0eqV7t3UKKM14UeqCSfOZb/Essential-UI---Figma-Ui-Kit-(Community)?node-id=315%3A449), which maintains proper design system and will be converted to a proper UI library along the way. We have just started out. 
+This is not a repo where you can come and dump any UI code. You need to make proper components from the [Figma File](https://www.figma.com/file/0eqV7t3UKKM14UeqCSfOZb/SeamLess-UI?node-id=3572%3A8556&t=rR5St9FxEhvRea9z-1), which maintains proper design system and will be converted to a proper UI library along the way. We have just started out. 
 
 ## How to contribute?
 
