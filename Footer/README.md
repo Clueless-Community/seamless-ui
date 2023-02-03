@@ -331,7 +331,7 @@
     </td>
     <td width="33.3333%">
         <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Footer/src/footer-white-06.html">
-            <img src="https://i.ibb.co/0KW678w/Screenshot-2379.png" alt="Screenshot-2379" border="0">
+            <img src="https://live.staticflickr.com/65535/52666374789_4a13785aac_z.jpg" border="0">
         </a>
     </td>
   </tr>
