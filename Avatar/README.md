@@ -14,7 +14,7 @@
     </td>
     <td width="50%">
         <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Avatar/src/avatar-group.html">
-            <img src="https://live.staticflickr.com/65535/52665737742_d083ecff84_n.jpg" alt="image" border="0">
+            <img src="https://live.staticflickr.com/65535/52667256238_bce770d5db_w.jpg" alt="image" border="0">
         </a>
     </td>
   </tr>
@@ -26,7 +26,7 @@
   <tr>
     <td width="50%">
         <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Avatar/src/avatar-text.html">
-            <img src="https://live.staticflickr.com/65535/52667032403_1df527d5ca_w.jpg" alt="image" border="0">
+            <img src="https://live.staticflickr.com/65535/52667185320_7bc1597244_w.jpg" alt="image" border="0">
         </a>
     </td>
     <td width="50%">
