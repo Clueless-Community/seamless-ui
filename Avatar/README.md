@@ -26,7 +26,7 @@
   <tr>
     <td width="50%">
         <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Avatar/src/avatar-text.html">
-            <img src="https://live.staticflickr.com/65535/52666513344_8d9f189dfc_n.jpg" alt="image" border="0">
+            <img src="https://live.staticflickr.com/65535/52667032403_1df527d5ca_w.jpg" alt="image" border="0">
         </a>
     </td>
     <td width="50%">
