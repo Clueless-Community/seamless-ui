@@ -1,5 +1,6 @@
 
-<h1 align='center'>SeamLess UI Kit you always wanted⭐</h1>
+<h1 align='center'>SeamLess UI</h1>
+<h2 align='center'>A UI kit you always wanted⭐</h2>
 <p align='center'> <b>This an open-sourced UI library built using HTML and CSS and maintained by Clueless Community</b><p>
 
 
