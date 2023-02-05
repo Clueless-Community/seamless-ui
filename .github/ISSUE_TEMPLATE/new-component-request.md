@@ -2,7 +2,6 @@
 name: New Component Request
 about: 'Make a new component '
 title: Create a <Name>
-labels: codepeak22
 assignees: ''
 
 ---
