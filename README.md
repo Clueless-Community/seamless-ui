@@ -14,7 +14,7 @@
 
 ## Important Note
 
-This is not a repo where you can come and dump any UI code. You need to make proper components from the [Figma File](https://www.figma.com/file/0eqV7t3UKKM14UeqCSfOZb/SeamLess-UI?node-id=3572%3A8556&t=rR5St9FxEhvRea9z-1), which maintains proper design system and will be converted to a proper UI library along the way. We have just started out. 
+This is not a repo where you can come and dump any UI code. You need to make proper components from the [Figma File](https://www.figma.com/file/qzwugAfEB1GL4FgWXw9R3Z/SeamLess-UI-Dev?node-id=0%3A1&t=qRahoepdI3B98cVA-1), which maintains proper design system and will be converted to a proper UI library along the way. We have just started out. 
 
 ## How to contribute?
 
