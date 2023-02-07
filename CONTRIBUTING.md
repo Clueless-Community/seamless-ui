@@ -37,7 +37,7 @@ If you are solving any other issue, make your own PR. don't need to follow this 
 
 --- 
 
-# Make an issue and build a component you want to build.
+# Raise an issue and build a component you want to build.
 
 Here is a link to the figma UI kit. [Figma File](https://www.figma.com/file/qzwugAfEB1GL4FgWXw9R3Z/SeamLess-UI-Dev?node-id=0%3A1&t=qRahoepdI3B98cVA-1)
 
