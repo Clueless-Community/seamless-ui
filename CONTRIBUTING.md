@@ -7,7 +7,7 @@ Do check our [First Contribution](https://github.com/Clueless-Community/first-co
 # How to contribute? ( You must use tailwind CSS )
 ## Using Tailwind playground.
 
-One can easily make a contribution in this repository without setting this up locally. If you are building a new UI component then follow the steps written below.
+One can easily make a contribution to this repository without setting this up locally. If you are building a new UI component then follow the steps written below.
 
 ### Step 1:
 
@@ -19,11 +19,11 @@ One can easily make a contribution in this repository without setting this up lo
 
 ### Setup 3:
 
-&nbsp; Add your code to the mentoned path and make a new PR.
+&nbsp; Add your code to the mentioned path and make a new PR.
 
 ### PR guide:
 
-&nbsp; You need to make a PR with the templte mentioned below.
+&nbsp; You need to make a PR with the template mentioned below.
 
 ```
 Here is the component I have built. 
@@ -33,7 +33,7 @@ Here is a screenshot of that.
 ### Add a screenshot here
 ```
 
-If you are solving any other issue make your own PR. don't need to follow this temoplate.
+If you are solving any other issue, make your own PR. don't need to follow this template.
 
 --- 
 
@@ -51,10 +51,10 @@ This is super easy. 👍
 
 | Question | Answer |
 | :--- | :--- |
-| 1. What to do for local images | You can upload the image online like [this](https://imgbb.com/) and use the image link. |
-| 2. Does tailwind playground is enough to build any component ? | Yes, absolutelty. |
-| 3. How to test responsiveness in tailwind playground | Tailwind play ground have a responsive mode where you can test it. You can find that option on the top right corner |
-| 4. What are the pre requirements? | Basic HTML and Tailwind CSS knowledge will be enough for contribution and making the components. |
+| 1. What to do for local images? | You can upload the image online like [this](https://imgbb.com/) and use the image link. |
+| 2. Does tailwind playground is enough to build any component ? | Yes, absolutely. |
+| 3. How to test responsiveness in tailwind playground? | Tailwind play ground have a responsive mode where you can test it. You can find that option on the top right corner |
+| 4. What are the pre-requisite to contribute? | Basic HTML and Tailwind CSS knowledge will be enough for contribution and making the components. |
 ---
 
 # Project setup in local
@@ -69,7 +69,7 @@ cd web-ui-kit
 
 ```
 
-Once you are done with the changes you wanted to add. Follow the steps to make the pull request.
+Once you are done with the changes, follow the steps to make the pull request.
 ## Create and checkout to the new branch.
 ```powershell
 git checkout -b <branch_name>
