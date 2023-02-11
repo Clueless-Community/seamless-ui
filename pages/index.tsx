@@ -4,10 +4,8 @@ import Hero from "../components/Hero"
 
 
 const Home = () => {
-
-  <style jsx global>{` `}</style>
   return (
-    <div>
+    <div className='index-bg'>
       <Hero />
     </div>
   )
