@@ -1,5 +1,7 @@
 @tailwind utilities;
 
+body { background-image: radial-gradient(#ddd 1px, transparent 0), radial-gradient(#ddd 1px, transparent 0); background-position: 0 0, 25px 25px; background-size: 50px 50px; } .dark body { background-image: radial-gradient(#333 1px, transparent 0), radial-gradient(#333 1px, transparent 0); } 
+
 .green-gradient{
   background: rgba(126, 231, 135, 0.54);
   filter: blur(138.5px);
