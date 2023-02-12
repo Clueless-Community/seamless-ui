@@ -1,5 +1,12 @@
 @tailwind utilities;
 
+.green-gradient{
+  background: rgba(126, 231, 135, 0.54);
+  filter: blur(138.5px);
+  width: 234px;
+  height: 234px;
+}
+
 .docs-search > span {
   width: 100%;
 }
