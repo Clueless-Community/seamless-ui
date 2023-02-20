@@ -1,0 +1,9 @@
+<div class="flex w-fit items-center space-x-10 rounded-2xl bg-white p-9 px-10">
+  <div class="shrink-0">
+    <img class="h-24 w-24 rounded-full bg-slate-600" src="https://cdn-icons-png.flaticon.com/512/4439/4439947.png" alt="man Logo" />
+  </div>
+  <div>
+    <div class="mb-1 text-4xl font-bold text-black">User Name</div>
+    <h3 class="text-xl font-semibold">Profession</h3>
+  </div>
+</div>
