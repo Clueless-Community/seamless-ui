@@ -203,21 +203,20 @@
     <td width="33.3333%">Gradient text button</td>
     <td width="33.3333%">Payment button</td>
   </tr>
-
   <tr>
     <td width="33.3333%">
       <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/button_group.html">
-        <img src="https://i.ibb.co/r2bpyZ5/1.png" alt="1"  />
+        <img src="https://i.ibb.co/mcX4grs/image-16x9-28.png" alt="1"  />
       </a>
     </td>
     <td width="33.3333%">
       <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/gradient-buttons.html">
-        <img src="https://i.ibb.co/qBd4sRG/2.png" alt="2"  />
+        <img src="https://i.ibb.co/PhDnycG/image-16x9-29.png" alt="2"  />
       </a>
     </td>
     <td width="33.3333%">
       <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/payment-buttons.html">
-        <img src="https://i.ibb.co/YPFCm1p/3.png" alt="3"  />
+        <img src="https://i.ibb.co/3YNXsPf/image-16x9-30.png" alt="3"  />
       </a>
     </td>
   </tr>
@@ -229,13 +228,14 @@
   <tr>
     <td width="33.3333%">
       <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/processing_button.html">
-        <img src="https://i.ibb.co/xsYBJLN/4.png" alt="4"  />
+        <img src="https://i.ibb.co/Pz7BCYG/image-16x9-31.png" alt="4"  />
       </a>
     </td>
     <td width="33.3333%">
       <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/social-buttons.html">
-        <img src="https://i.ibb.co/7vytq2R/5.png" alt="5"  />
+        <img src="https://i.ibb.co/WFt8ky3/image-16x9-32.png" alt="5"  />
       </a>
     </td>
   </tr>
+
 </table>
