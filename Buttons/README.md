@@ -99,74 +99,105 @@
 ## Secondary Button Preview
 
 <table>
+
   <tr>
-    <td width="33.3333%">Text button</td>
-    <td width="33.3333%">Rounded text button</td>
-    <td width="33.3333%">Icon button</td>
+    <td width="33.3333%">Text Button</td>
+    <td width="33.3333%">Text Button Black</td>
+    <td width="33.3333%">Text Button Blue</td>
+  </tr>
+  <tr>
+    <td width="33.3333%">
+      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Primary/text-button-white.html">
+        <img src="https://i.ibb.co/CwK0XrQ/image-16x9-14.png" alt="1" />
+      </a>
+    </td>
+    <td width="33.3333%">
+      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Primary/text-button-black.html">
+        <img src="https://i.ibb.co/Krqsj6w/image-16x9-15.png" alt="1" />
+      </a>
+    </td>
+    <td width="33.3333%">
+      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Primary/text-button-blue.html">
+        <img src="https://i.ibb.co/CQzdKSh/image-16x9-16.png" alt="2" />
+      </a>
+    </td>
   </tr>
 
   <tr>
+    <td width="33.3333%">Text Rounded</td>
+    <td width="33.3333%">Text Rounded Black</td>
+    <td width="33.3333%">Text Rounded Blue</td>
+  </tr>
+  <tr>
     <td width="33.3333%">
-      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Secondary/text-button.html">
-        <img src="https://i.ibb.co/ZKnFd5Q/1.png" alt="1"  />
+      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Primary/text-button-rounded-white.html">
+        <img src="https://i.ibb.co/fMLM214/image-16x9-17.png" alt="1"  />
       </a>
     </td>
     <td width="33.3333%">
-      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Secondary/text-button-rounded.html">
-        <img src="https://i.ibb.co/x8C9r05/2.png" alt="2"  />
+      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Primary/text-button-rounded-black.html">
+        <img src="https://i.ibb.co/PwFD383/image-16x9-18.png" alt="1"  />
       </a>
     </td>
     <td width="33.3333%">
-      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Secondary/icon-button.html">
-        <img src="https://i.ibb.co/QFmYw7v/3.png" alt="3"  />
+      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Primary/text-button-rounded-blue.html">
+        <img src="https://i.ibb.co/C7VNMkd/image-16x9-20.png" alt="2"  />
       </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="33.3333%">Icon Button</td>
+    <td width="33.3333%">Icon Button Rounded</td>
+    <td width="33.3333%">Icon Text Button</td>
+  </tr>
+  <tr>
+    <td width="33.3333%">
+      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Primary/icon-button.html">
+        <img src="https://i.ibb.co/RNg8xPL/image-16x9-21.png" alt="1"  />
+      </a>
+    </td>
+    <td width="33.3333%">
+      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Primary/icon-button-rounded.html">
+        <img src="https://i.ibb.co/2KFpB5F/image-16x9-22.png" alt="1"  />
+      </a>
+    </td>
+    <td width="33.3333%">
+      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Primary/text-icon-rear-button.html">
+        <img src="https://i.ibb.co/Np7j7YP/image-16x9-24.png" alt="4"  />
+    </a>
     </td>
   </tr>
 
   <tr>
     <td width="33.3333%">Icon Text Button</td>
     <td width="33.3333%">Icon Text Rounded Button</td>
-    <td width="33.3333%">Icon button</td>
+    <td width="33.3333%">Icon Text Rounded Button</td>
   </tr>
   <tr>
     <td width="33.3333%">
       <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Secondary/text-icon-front-button.html">
-        <img src="https://i.ibb.co/v41CKzp/4.png" alt="4"  />
+        <img src="https://i.ibb.co/z77mHLq/image-16x9-25.png" alt="4"  />
       </a>
     </td>
     <td width="33.3333%">
       <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Secondary/text-icon-front-button-rounded.html">
-        <img src="https://i.ibb.co/bKDqNpb/5.png" alt="5"  />
-      </a>
-    </td>
-    <td width="33.3333%">
-      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Secondary/icon-button-rounded.html">
-        <img src="https://i.ibb.co/QjwP923/6.png" alt="6"  />
-      </a>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="33.3333%">Icon Text Button</td>
-    <td width="33.3333%">Icon Text Rounded Button</td>
-  </tr>
-  <tr>
-    <td width="33.3333%">
-      <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Secondary/text-icon-rear-button.html">
-        <img src="https://i.ibb.co/qJjKbwL/7.png" alt="7"  />
+        <img src="https://i.ibb.co/vq2jDsg/image-16x9-26.png" alt="5"  />
       </a>
     </td>
     <td width="33.3333%">
       <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Buttons/src/Secondary/text-icon-rear-button-rounded.html">
-        <img src="https://i.ibb.co/tJNBtK1/8.png" alt="8"  />
+        <img src="https://i.ibb.co/98y5Nz0/image-16x9-27.png" alt="8"  />
       </a>
     </td>
   </tr>
+
 </table>
 
 ## Others
 
 <table>
+
   <tr>
     <td width="33.3333%">Group button</td>
     <td width="33.3333%">Gradient text button</td>
