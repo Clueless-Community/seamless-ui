@@ -1,9 +1,9 @@
-<div class="p-3 px- mx-auto w-fit bg-black rounded-2xl shadaow-xl flex items-center space-x-10">
+<div class="p-4 px- mx-auto w-fit bg-black rounded-2xl shadaow-xl flex items-center space-x-10">
   <div class="shrink-0">
-    <img class="h-10 w-10 " src="https://www.iconsdb.com/icons/preview/white/amazon-xxl.png" alt="amazon">
+    <img class="h-11 w-11 ml-4" src="https://www.iconsdb.com/icons/preview/white/amazon-xxl.png" alt="amazon">
   </div>
  <div>
-  <h3 class="font-semibold text-white">Download on the</h3>
-  <div class="mb- text-xl font-semibold text-white"> Amazon.com</div>
+  <h3 class="text-sm font-semibold text-white">Download on the</h3>
+  <div class="mb- text-2xl font-semibold text-white "> Amazon.com</div>
  </div>
-</div>
+</div
