@@ -6,6 +6,7 @@ module.exports = {
     "./pages/**/*.md",
     "./pages/**/*.mdx",
     "./pages/**/*.tsx",
+    "./pages/**/*.js",
     "./theme.config.js",
     "./styles.css",
   ],
