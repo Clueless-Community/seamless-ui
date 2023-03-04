@@ -1,6 +1,8 @@
 import React from 'react'
 import Hero from "../components/Hero"
 import Explore from "../components/Explore"
+import Web from "../components/web"
+
 
 
 
@@ -9,6 +11,7 @@ const Home = () => {
     <div className='index-bg'>
       <Hero />
       <Explore />
+      <Web />
     </div>
   )
 }
