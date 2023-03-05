@@ -16,7 +16,7 @@ const Hero = () => {
           installed.
         </h2>
       </div>
-      <div className=" flex pt-10 justify-center space-x-7 pb-28 ">
+      <div className=" flex pt-10 justify-center space-x-7 pb-28  ">
         <button className=" bg-green-700 border-2 border-green-700 hover:bg-green-800 transition-all hover:border-green-800 active:scale-95 p-2 rounded-lg px-6 font-semibold">
           Getting Started
         </button>
@@ -30,9 +30,9 @@ const Hero = () => {
       <div className=" flex flex-wrap w-full sm:justify-between mt-16 px-10 md:px-36 xl:px-80 pb-40 ">
         <img src="/Vue.js_Logo_2 1 1.png" alt="" className="w-20 h-20" draggable={false} />
         <img src="/next-js 1 2.png" alt="" className="w-20 h-20" draggable={false} />
-        <img src="/download 2 3.png" alt="" className="w-20 h-20"  draggable={false}/>
+        <img src="/download 2 3.png" alt="" className="w-20 h-20" draggable={false} />
         <img src="/image 20 4.png" alt="" className="w-20 h-20" draggable={false} />
-        <img src="/svelte 1 5.png" alt="" className="w-20 h-20" draggable={false}/>
+        <img src="/svelte 1 5.png" alt="" className="w-20 h-20" draggable={false} />
       </div>
     </div>
   );
