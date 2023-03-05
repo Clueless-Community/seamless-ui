@@ -59,8 +59,6 @@ function Web() {
                     </div>
                 </div>
             </div>
-
-
         </div>
 
     )
