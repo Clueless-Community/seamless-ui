@@ -66,7 +66,7 @@ article > main + div a.font-semibold {
 .dark .docs-container select {
   background: rgba(17, 17, 17, 1);
 }
-.red{
+/* .red{
   background-color: red;
 }
 .green{
@@ -76,5 +76,5 @@ article > main + div a.font-semibold {
   background-color:blue;
 }
 .black{
-  background-color: black;
-}
+  background-color: slate;
+} */
