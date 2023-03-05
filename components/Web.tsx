@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 
 function Web() {
     const [theme, setTheme] = useState("black")
+    // const handletheme=(value:any) =>{
+    //     setTheme(value)
+    // }
 
     return (
         <div className='flex'>
@@ -17,24 +20,27 @@ function Web() {
             <div className='p-10 flex'>
                 <div className=' flex-col bg-[#282E36] p-10 rounded-lg'>
                     <img src='/web3.png' />
-                    <div className=''>
-                        <div>
+                    <div className='bg-white w-full'>
+                        <div className='w-full'>
                             <h1 className=""> What is web 3?</h1>
-                            <p>
-                                Slate helps you see how many more days you need to work to reach. Slate helps you see how many more days.
+                            <p className='w-full'>
+                                Slate helps you see how 
+                                many more days you need 
+                                to work to reach. Slate helps you
+                                 see how many more days.
                             </p>
                             <div className=' flex-row'>
-                                {/* <button className={`bg-${theme}`}>Tags</button> */}
-                                <button className=' '>Google</button>
-                                <button className=''>Nvdia</button>
+                                <button className={`${theme}  text-white`}>Tags</button>
+                                <button className={`${theme}  text-white`}>Google</button>
+                                <button className={`${theme}  text-white`}>Nvdia</button>
                             </div>
                         </div>
                     </div>
                     <div className='flex-row'>
-                        <button></button>
-                        <button></button>
-                        <button></button>
-                        <button></button>
+                        <button onClick={()=>setTheme("red")} className='p-2 rounded-full bg-red-500 mr-3'></button>
+                        <button onClick={()=>setTheme("green")} className='p-2 rounded-full bg-green-500 mr-3 '></button>
+                        <button onClick={()=>setTheme("blue")} className='p-2 rounded-full bg-blue-500 mr-3 '></button>
+                        <button onClick={()=>setTheme("black")} className='p-2 rounded-full bg-black mr-3 '></button>
                     </div>
                 </div>
             </div>
