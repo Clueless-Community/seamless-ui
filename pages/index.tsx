@@ -6,12 +6,14 @@ import Time from 'components/Time'
 import Maintainers from 'components/Maintainers'
 import Product from 'components/Product'
 import Footer from 'components/Footer'
+import Navbar from 'components/Navbar'
 
 
 
 
 const Home = () => (
   <div className='index-bg'>
+    <Navbar />
     <Hero />
     <Web />
     <Time />
