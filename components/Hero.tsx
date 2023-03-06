@@ -17,10 +17,10 @@ const Hero = () => {
         </h2>
       </div>
       <div className=" flex pt-10 justify-center space-x-7 pb-28  ">
-        <button className=" bg-green-700 border-2 border-green-700 hover:bg-green-800 transition-all hover:border-green-800 active:scale-95 p-2 rounded-lg px-6 font-semibold">
+        <button className=" bg-[#7EE787] border-2 border-[#7EE787] hover:bg-green-800 transition-all hover:border-green-800 active:scale-95 p-2 rounded-lg px-6 font-semibold">
           Getting Started
         </button>
-        <button className=" text-white border-2 border-green-700 hover:border-green-800 hover:bg-green-800 active:scale-95 transition-all p-2 rounded-lg px-4 font-semibold">
+        <button className=" text-white border-2 border-[#7EE787] hover:border-green-800 hover:bg-green-800 active:scale-95 transition-all p-2 rounded-lg px-4 font-semibold">
           Explore Components
         </button>
       </div>
