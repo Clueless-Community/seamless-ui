@@ -1,4 +1,4 @@
-import React, { useState ,useRef,useEffect} from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 
 function Web() {
     const [theme, setTheme] = useState("black")
@@ -11,11 +11,11 @@ function Web() {
     //  };
     const emailInput = useRef(null);
 
-  useEffect(() => {
-    if (emailInput.current) {
-      emailInput.current.focus();
-    }
-  }, []);
+    useEffect(() => {
+        if (emailInput.current) {
+            emailInput.current.focus();
+        }
+    }, []);
 
     return (
         <div className='flex pr-6'>
@@ -48,16 +48,18 @@ function Web() {
                                 <button className={`bg-${theme}  text-white ml-2 mr-2 pr-3 pl-3 rounded-md`}>Google</button>
                                 <button className={`bg-${theme}  text-white  pr-3 pl-3 rounded-md`}>Nvdia</button>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div className='flex justify-center items-center mt-6 gap-2'>
                         <button onClick={() => setTheme("red-500")} className='p-4 rounded-full bg-red-500 mr-3 focus:ring-2 focus:ring-white '></button>
                         <button onClick={() => setTheme("green-500")} className='p-4 rounded-full bg-green-500 mr-3 focus:ring-2 focus:ring-white'></button>
                         <button onClick={() => setTheme("blue-500")} className='p-4 rounded-full bg-blue-500 mr-3 focus:ring-2 focus:ring-white'></button>
-                        <button onClick={() => setTheme("black")}  className='p-4 rounded-full bg-black mr-3 focus:ring-2 focus:ring-white ref={emailInput} '></button>
+                        <button onClick={() => setTheme("black")} className='p-4 rounded-full bg-black mr-3 focus:ring-2 focus:ring-white ref={emailInput} '></button>
                     </div>
                 </div>
+                <img src='/Group 273.png' className=' pt-14 pl-36' />
+
             </div>
         </div>
 

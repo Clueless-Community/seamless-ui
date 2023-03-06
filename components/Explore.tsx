@@ -7,7 +7,7 @@ const Explore = () => {
         <div className='flex space-x-5 '>
           <img className='pr-2' src="/figma 1.png" alt="" draggable={false}/>
           <h1 className=' text-4xl text-green-500'>SeamLess UI Figma</h1>
-        </div>dev
+        </div>
 
         <h2 className='text-2xl mb-4 mt-4'>
           Built with the vision to encourage open-source
