@@ -1,14 +1,14 @@
 
 <h1 align='center'>SeamLess UI</h1>
-<h2 align='center'>A UI kit you always wanted⭐</h2>
-<p align='center'> <b>This an open-sourced UI library built using HTML and CSS and maintained by Clueless Community</b><p>
+<h2 align='center'>A UI kit which you always wanted⭐</h2>
+<p align='center'> <b An open-source UI library built using HTML and CSS and maintained by Clueless Community</b><p>
 
 
 <h1 align='center'>Contribute to this project under JWoC 2023.</h1>
 
 ![image](https://user-images.githubusercontent.com/93156825/218812396-11adb7dd-7d59-4d99-bd0b-651bcd00f22d.png)
 
-JWoC (JGEC Winter of Code) is a begineer friendly open-source coding event organised annually by JGEC which helps students to plunge into Open Source contribution and get the realm of Software Development.
+JWoC (JGEC Winter of Code) is a beginner friendly open-source coding event organised annually by JGEC which helps students to plunge into Open Source contribution and get the realm of Software Development.
 
 
 ## Important Note
@@ -17,18 +17,18 @@ This is not a repo where you can come and dump any UI code. You need to make pro
 
 ## How to contribute?
 
-We recommend you to go through the [CONTRIBUTING.md](https://github.com/Clueless-Community/web-ui-kit/blob/main/CONTRIBUTING.md) file, where we have guided you step by step to make your contribution.
+We highly recommend you to go through the [CONTRIBUTING.md](https://github.com/Clueless-Community/web-ui-kit/blob/main/CONTRIBUTING.md) file, where we have guided you step by step to make your contribution meaningful and in the correct manner.
 
-##### Once the pull request is merged, you will be given points according to the difficulty of the contribution. If you top the leaderboard you will be winning amazing swags and t-shirts from `ClueLess`
+##### Once the pull request is merged, you will be given points according to the difficulty of the contribution. If you top the leaderboard you will be winning amazing swags and t-shirts from `ClueLess Community`
 ---
-## Don't know about Tailwind CSS ,HTML and git and github.
+## Don't know about Tailwind CSS ,HTML, git and github.
     
-#### Here is a guide for you to started with all of these. [click this link to get started](https://github.com/Clueless-Community/web-ui-kit/blob/main/Tutorial.md)
+#### Here is a complete guide for you to get started with all these tech stack. [click this link to get started](https://github.com/Clueless-Community/web-ui-kit/blob/main/Tutorial.md)
 ---
 ## What is the purpose of this project?
     
 
-We want to build the best and most simple UI Kit for fronted development, which you can use irrespective of stack you are using, be it a plain HTML CSS static page or React, Vue or Angular. One should be always able to use this UI kit.
+We want to build the best and most simple UI Kit for frontend developer which you can use irrespective of tech stack you are using, be it a plain HTML CSS static page or React, Vue or Angular. One should be always  able to use this UI kit in a fullly fledged manner.
 
 ---
 <h2 align='center'> Project maintainers </h2>
@@ -67,8 +67,8 @@ We want to build the best and most simple UI Kit for fronted development, which 
 </div>
 
 ---
-## Having a problem?
+## Facing some problem?
 
-Join our community discord server and ask your question. We are always there to solve your queries and problem. Just tag the maintainers and ask your queries in SeamLess UI channel and your queries will get resolved in no time. Try it...😉 
+Join our discord server community and ask your query. We are always there to solve your queries and problem. Just tag the maintainers and ask your queries in SeamLess UI channel and your queries will get resolved in  very short duration of time. Try it once...😉 
 
 Here is a link to our [Discord Server](https://discord.gg/r5uKBGxT9T).
