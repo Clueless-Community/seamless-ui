@@ -16,11 +16,11 @@ const Home = () => (
     <Navbar />
     <Hero />
     <Web />
-    <Time />
+     <Time /> 
     <Explore />
     <Maintainers />
     <Product />
-    <Footer />
+    {/* <Footer /> */}
   </div>
 )
 

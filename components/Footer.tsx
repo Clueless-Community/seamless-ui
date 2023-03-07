@@ -1,7 +1,7 @@
 import React from 'react'
 function Footer() {
     return (
-        <div className='p-10'>
+        <div className='p-10 bg-[#1B1B1B]'>
 
             <div className='flex justify-between p-5 '>
                 <div className='flex justify-center items-start '>
