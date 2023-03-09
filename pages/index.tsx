@@ -20,7 +20,7 @@ const Home = () => (
     <Explore />
     <Maintainers />
     <Product />
-    {/* <Footer /> */}
+    <Footer />
   </div>
 )
 
