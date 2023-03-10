@@ -12,7 +12,7 @@ function Product() {
                         We provide the best resources, conducts weekly contests to test your skills, a guide to Open-source, and help you build projects.
 
                     </p>
-                    <button className='bg-[#7EE787] p-2 px-6 font-semibold rounded-lg mt-10 hover:bg-green-800 transition-all text-xl'>Visit ClueLess</button>
+                    <button className='bg-[#7EE787] p-2 px-6 my-9 md:my-9 font-semibold rounded-lg mt-10 hover:bg-green-800 transition-all text-xl'>Visit ClueLess</button>
                 </div>
             </div>
         </div>
