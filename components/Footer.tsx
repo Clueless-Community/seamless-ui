@@ -33,9 +33,15 @@ function Footer() {
                     <p className='md:text-xl text-md text-white'>Contact us</p>
                     <p className='md:text-xl text-md text-white'>Report an Issue</p>
                     <div className='flex md:justify-between mt-4 justify-center gap-5 md:gap-0'>
+                        <a href='https://www.google.com/' target={'_blank'} rel="noreferrer" >
                         <img src='/Google.png'   draggable={false} />
+                        </a>
+                        <a href='https://twitter.com/' target={'_blank'} rel="noreferrer" >
                         <img src='/Twitter.png' draggable={false} />
+                        </a>
+                        <a href='https://github.com/' target={'_blank'} rel="noreferrer" >
                         <img src='/Github .png' draggable={false} />
+                        </a>
                     </div>
                 </div>
 

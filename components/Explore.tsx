@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Explore = () => {
   return (
@@ -6,7 +7,9 @@ const Explore = () => {
       
       <div className='text-centre md:p-20 p-9'>
         <div className='flex space-x-5  '>
+        <Link href='https://www.figma.com/file/0eqV7t3UKKM14UeqCSfOZb/SeamLess-UI?node-id=3880%3A1442&t=xbQ8rnQ1WyJ1oO6d-0' target={'_blank'} rel="noreferrer" > 
           <img className='pr-2 hidden md:block' src="/figma 1.png " alt="" draggable={false} />
+          </Link>
           <h1 className=' text-4xl text-[#7EE787] hidden md:block '>SeamLess UI Figma</h1>
         </div>
 
