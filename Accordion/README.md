@@ -25,7 +25,7 @@
    <td width="33.3333%">accordion-3</td>
    </tr>
    <td width="33.3333%">
-        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Accordion/src/accordion-3.html"><img src="https://i.ibb.co/TTPgfDV/image.jpg" alt="image" border="0"></a>
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Accordion/src/accordion-3.html"><img src="https://i.ibb.co/dkCTTtx/Screenshot-2023-03-11-221441.png" alt="Screenshot-2023-03-11-221441" border="0"></a>
       </td>
    </tr>
   </table>
