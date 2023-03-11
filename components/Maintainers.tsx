@@ -5,7 +5,10 @@ function Maintainers() {
         <div className='relative mt-20'>
             <div className='flex md:justify-between items-center p-15  '>
                 <h1 className='text-4xl text-[#7EE787] md:pl-20  text-center'>All of these seems interesting?</h1>
+                <a href='https://github.com/Clueless-Community/seamless-ui' target={'_blank'} rel="noreferrer" >
+
                 <button className='bg-[#7EE787] p-2 pl-3 pr-3 rounded-lg text-xl mr-20 font-semibold  hover:bg-green-800 transition-all hidden md:block'>Contribute Now</button>
+                </a>
             </div>
             <div>
 
