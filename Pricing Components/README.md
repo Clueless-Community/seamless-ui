@@ -72,4 +72,72 @@
     </td>
   </tr>
  
+  <tr>
+    <td width="33.3333%">Pricing card-9</td>
+    <td width="33.3333%">Pricing card-10</td>
+    <td width="33.3333%">Pricing card-11</td>
+  </tr>
+  <tr>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Pricing%20Components/src/pricing-card-3-black.html">
+            <img src="https://i.postimg.cc/g2ghG4dy/Screenshot-2023-03-13-001335.png" alt="HzGINet.png" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Pricing%20Components/src/pricing-card-3-blue.html">
+            <img src="https://i.postimg.cc/wM9xy8Q1/Screenshot-2023-03-13-004236.png" alt="HzGI8LG.png" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Pricing%20Components/src/pricing-card-3-white.html">
+            <img src="https://i.postimg.cc/m222T4rq/Screenshot-2023-03-13-003442.png" border="0">
+        </a>
+    </td>
+  </tr>
+  
+   <tr>
+    <td width="33.3333%">Pricing card-12</td>
+    <td width="33.3333%">Pricing card-13</td>
+    <td width="33.3333%">Pricing card-14</td>
+  </tr>
+  <tr>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Pricing%20Components/src/pricing-card-4-black.html">
+            <img src="https://i.postimg.cc/FFGNW6xx/Screenshot-2023-03-13-001534.png" alt="HzGINet.png" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Pricing%20Components/src/pricing-card-4-blue.html">
+            <img src="https://i.postimg.cc/0N6zPsVx/Screenshot-2023-03-13-002648.png" alt="HzGI8LG.png" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Pricing%20Components/src/pricing-card-4-white.html">
+            <img src="https://i.postimg.cc/0QP1ZGM3/Screenshot-2023-03-13-003547.png" border="0">
+        </a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td width="33.3333%">Pricing card-15</td>
+    <td width="33.3333%">Pricing card-16</td>
+    <td width="33.3333%">Pricing card-17</td>
+  </tr>
+  <tr>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Pricing%20Components/src/pricing-card-5-black.html">
+            <img src="https://i.postimg.cc/XYf2LRfj/Screenshot-2023-03-13-003917.png" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Pricing%20Components/src/pricing-card-5-blue.html">
+            <img src="https://i.postimg.cc/SsT18cWc/Screenshot-2023-03-13-002847.png" alt="HzGI8LG.png" border="0">
+        </a>
+    </td>
+    <td width="33.3333%">
+        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Pricing%20Components/src/pricing-card-5-white.html">
+            <img src="https://i.postimg.cc/x1MZ7J2S/Screenshot-2023-03-13-003736.png" border="0">
+        </a>
+    </td>
+  </tr>
 </table>
