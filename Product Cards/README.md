@@ -55,18 +55,18 @@
 
   <tr>
     <td width="33.333%">
-        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Product%20Cards/src/product-card-3-black.html">
-            <a href="https://ibb.co/gzW7nsJ"><img src="https://i.ibb.co/xJgs4V6/3-black.png" alt="3-black" border="0"></a>
+        < href="https://github.com/Clueless-Community/seamless-ui/blob/main/Product%20Cards/src/product-card-3-black.html">
+            <img src="https://i.ibb.co/xJgs4V6/3-black.png" alt="3-black" border="0">
         </a>
     </td>
     <td width="33.3333%">
-        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Product%20Cards/src/product-card-3-blue.html">
-            <a href="https://ibb.co/D1rf2pd"><img src="https://i.ibb.co/p1hjFyq/3-blue.png" alt="3-blue" border="0"></a>
+        < href="https://github.com/Clueless-Community/seamless-ui/blob/main/Product%20Cards/src/product-card-3-blue.html">
+          <img src="https://i.ibb.co/p1hjFyq/3-blue.png" alt="3-blue" border="0">
         </a>
     </td>
         <td width="33.3333%">
-        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Product%20Cards/src/product-card-3-white.html">
-            <a href="https://ibb.co/b3fp01x"><img src="https://i.ibb.co/sPBLfjh/3-white.png" alt="3-white" border="0"></a>
+        < href="https://github.com/Clueless-Community/seamless-ui/blob/main/Product%20Cards/src/product-card-3-white.html">
+        <img src="https://i.ibb.co/sPBLfjh/3-white.png" alt="3-white" border="0">
         </a>
     </td>
   </tr>
@@ -78,18 +78,18 @@
 
   <tr>
     <td width="33.333%">
-        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Product%20Cards/src/product-card-4-black.html">
-            <a href="https://ibb.co/tsXdvcn"><img src="https://i.ibb.co/4TdQXMC/4-black.png" alt="4-black" border="0"></a>
+        < href="https://github.com/Clueless-Community/seamless-ui/blob/main/Product%20Cards/src/product-card-4-black.html">
+          <img src="https://i.ibb.co/4TdQXMC/4-black.png" alt="4-black" border="0">
         </a>
     </td>
     <td width="33.3333%">
-        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Product%20Cards/src/product-card-4-blue.html">
-            <a href="https://ibb.co/Ptsvz0p"><img src="https://i.ibb.co/52XgxwD/4-blue.png" alt="4-blue" border="0"></a>
+        < href="https://github.com/Clueless-Community/seamless-ui/blob/main/Product%20Cards/src/product-card-4-blue.html">
+            <img src="https://i.ibb.co/52XgxwD/4-blue.png" alt="4-blue" border="0">
         </a>
     </td>
         <td width="33.3333%">
-        <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Product%20Cards/src/product-card-4-white.html">
-            <a href="https://ibb.co/xF8Vp7w"><img src="https://i.ibb.co/XYkmhC6/4-white.png" alt="4-white" border="0"></a>
+        < href="https://github.com/Clueless-Community/seamless-ui/blob/main/Product%20Cards/src/product-card-4-white.html">
+            <img src="https://i.ibb.co/XYkmhC6/4-white.png" alt="4-white" border="0">
         </a>
     </td>
   </tr>
