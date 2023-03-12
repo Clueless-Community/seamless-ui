@@ -1,5 +1,23 @@
 
 <h1 align='center'>SeamLess UI</h1>
+<div align="center">
+ <p>
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Clueless-Community%2Fseamless-ui%20&countColor=%23263759&style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Clueless-Community/seamless-ui?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/Clueless-Community/seamless-ui?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/Clueless-Community/seamless-ui?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Clueless-Community/seamless-ui?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/Clueless-Community/seamless-ui?style=for-the-badge)
+![Github](https://img.shields.io/github/license/Clueless-Community/seamless-ui?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/Clueless-Community/seamless-ui?style=for-the-badge)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Clueless-Community/seamless-ui?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Clueless-Community/seamless-ui?style=for-the-badge)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Clueless-Community/seamless-ui?style=for-the-badge)
+ </p>
+ </div>
+
 <h2 align='center'>A UI kit which you always wanted⭐</h2>
 <p align='center'> <b An open-source UI library built using HTML and CSS and maintained by Clueless Community</b><p>
 
