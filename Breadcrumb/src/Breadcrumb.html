@@ -1,7 +1,7 @@
 <!-- Breadcumbs 1 -->
 <div class="my-4">
   <div class="inline-flex flex-wrap">
-    <a class="text-slate-500 font-semibold" href="#">
+    <a class="breadcrumb-link text-slate-500 font-semibold" href="#">
       <span>Dashboard</span>
     </a>
   </div>
@@ -10,7 +10,7 @@
 <!-- Breadcumbs 2 -->
 <div class="my-4">
   <div class="inline-flex items-center flex-wrap">
-    <a class="text-slate-500 font-semibold" href="#">
+    <a class="breadcrumb-link text-slate-500 font-semibold" href="#">
       <span>Dashboard</span>
     </a>
     <svg
@@ -27,7 +27,7 @@
         d="M8.25 4.5l7.5 7.5-7.5 7.5"
       />
     </svg>
-    <a class="text-slate-500 font-semibold" href="#">
+    <a class="breadcrumb-link text-slate-500 font-semibold" href="#">
       <span>Components</span>
     </a>
   </div>
@@ -36,7 +36,7 @@
 <!-- Breadcumbs 3 -->
 <div class="my-4">
   <div class="inline-flex items-center flex-wrap">
-    <a class="text-slate-500 font-semibold" href="#">
+    <a class="breadcrumb-link text-slate-500 font-semibold" href="#">
       <span>Dashboard</span>
     </a>
     <svg
@@ -53,7 +53,7 @@
         d="M8.25 4.5l7.5 7.5-7.5 7.5"
       />
     </svg>
-    <a class="text-slate-500 font-semibold" href="#">
+    <a class="breadcrumb-link text-slate-500 font-semibold" href="#">
       <span>Components</span>
     </a>
     <svg
@@ -70,8 +70,24 @@
         d="M8.25 4.5l7.5 7.5-7.5 7.5"
       />
     </svg>
-    <a class="text-blue-600 active font-semibold" href="#">
-      <span>Breadcumbs</span>
+    <a class="breadcrumb-link text-white bg-blue-600 font-semibold" href="#">
+      <span>Breadcrumbs</span>
     </a>
   </div>
 </div>
+
+<script>
+const breadcrumbLinks = document.querySelectorAll('.breadcrumb-link');
+
+breadcrumbLinks.forEach(link => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+
+    breadcrumbLinks.forEach(otherLink => {
+      otherLink.classList.remove('bg-blue-600', 'text-white', 'active');
+    });
+
+    link.classList.add('bg-blue-600', 'text-white', 'active');
+  });
+});
+</script>
