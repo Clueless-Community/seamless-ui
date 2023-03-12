@@ -3,6 +3,7 @@
 <div align="center">
  <p>
   
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=Clueless-Community%2Fseamless-ui%20&countColor=%23263759&style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/Clueless-Community/seamless-ui?style=for-the-badge)
