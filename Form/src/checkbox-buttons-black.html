@@ -1,27 +1,33 @@
-<div class="flex flex-col items-center justify-center gap-2 py-5">
+<div class="flex flex-col items-center justify-center gap-2 bg-gray-200 py-5">
     <div class="flex items-center gap-2">
-        <input
-            class="h-4 w-4 cursor-pointer rounded-sm border border-white bg-slate-900 outline-none transition duration-200 checked:border-4 checked:border-slate-800 checked:accent-slate-900"
-            type="checkbox" id="checkbox-1" name="group-1" />
-        <label class="cursor-pointer select-none text-gray-500" for="checkbox-1"> Checkbox </label>
+      <label class="container relative mb-4 block w-fit cursor-pointer select-none pl-9 text-lg text-gray-500"
+        >Checkbox
+        <input type="checkbox" class="peer absolute top-0 left-0 h-6 w-6 appearance-none rounded border border-gray-300 bg-slate-900 checked:bg-white" />
+        <span class="checkmark absolute top-0 left-0 h-2 w-2 after:absolute after:left-2.5 after:top-1.5 after:hidden after:h-3 after:w-1.5 after:rotate-45 after:border-r-[3px] after:border-b-[3px] after:border-solid after:border-slate-900 after:content-[''] checked:border-slate-900 peer-checked:after:block"></span>
+      </label>
     </div>
+  
     <div class="flex items-center gap-2">
-        <input
-            class="h-4 w-4 cursor-pointer rounded-sm border border-white bg-slate-900 outline-none transition duration-200 checked:border-4 checked:border-slate-800 checked:accent-slate-900"
-            type="checkbox" id="checkbox-2" name="group-1" />
-        <label class="cursor-pointer select-none text-gray-500" for="checkbox-2"> Checkbox </label>
+      <label class="container relative mb-4 block w-fit cursor-pointer select-none pl-9 text-lg text-gray-500"
+        >Checkbox
+        <input type="checkbox" class="peer absolute top-0 left-0 h-6 w-6 appearance-none rounded border border-slate-900 bg-white checked:bg-slate-900" />
+        <span class="checkmark absolute top-0 left-0 h-2 w-2 after:absolute after:left-2.5 after:top-1.5 after:hidden after:h-3 after:w-1.5 after:rotate-45 after:border-r-[3px] after:border-b-[3px] after:border-solid after:border-white after:content-[''] checked:border-slate-900 peer-checked:after:block"></span>
+      </label>
     </div>
+  
     <div class="flex items-center gap-2">
-        <input
-            class="h-4 w-4 cursor-pointer rounded-2xl bg-slate-900 outline-none transition duration-200 checked:border-4 checked:border-slate-800 checked:accent-slate-800"
-            type="checkbox" id="checkbox-3" name="group-1" />
-        <label class="cursor-pointer select-none text-gray-500" for="checkbox-3"> Checkbox </label>
+      <label class="container relative mb-4 block w-fit cursor-pointer select-none pl-9 text-lg text-gray-500"
+        >Checkbox
+        <input type="checkbox" class="peer absolute top-0 left-0 h-6 w-6 appearance-none rounded border border-white bg-white checked:bg-slate-900" />
+        <span class="checkmark absolute top-0 left-0 h-2 w-2 after:absolute after:left-2.5 after:top-1.5 after:hidden after:h-3 after:w-1.5 after:rotate-45 after:border-r-[3px] after:border-b-[3px] after:border-solid after:border-white after:content-[''] checked:border-white peer-checked:after:block"></span>
+      </label>
     </div>
+  
     <div class="flex items-center gap-2">
-        <input
-            class="disabled: h-4 w-4 cursor-pointer appearance-none rounded-sm border border-gray-200 outline-none disabled:bg-gray-200"
-            type="checkbox" id="checkbox-4" name="group-1" disabled />
-        <label class="cursor-pointer select-none text-gray-500" for="checkbox-4"> Checkbox </label>
+      <label class="container relative mb-4 block w-fit cursor-pointer select-none pl-9 text-lg text-gray-500"
+        >Checkbox
+        <input type="checkbox" class="peer absolute top-0 left-0 h-6 w-6 appearance-none rounded border border-gray-300 bg-gray-300 checked:bg-slate-900 disabled:bg-slate-900" />
+      </label>
     </div>
-</div>
-
+  </div>
+  
