@@ -18,7 +18,7 @@ function Web() {
                 <div className=' flex-col bg-[#282E36] items-center justify-center flex mx-auto w-full md:p-10 p-5 rounded-xl mt-2 ring-1 ring-white'>
                     <img src='/web3.png' className=' md:w-[270px]' draggable={false} />
                     <div className='bg-white rounded-b-xl md:w-[270px] '>
-                        <div className='w-full p-5 '>
+                        <div className='w-[270px] p-5 '>
                             <h1 className={` font-bold mb-2 text-2xl text-${theme}`}> What is web 3?</h1>
                             <span className='text-red-500'></span>
                             <span className='text-blue-500'></span>

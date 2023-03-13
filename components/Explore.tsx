@@ -26,7 +26,7 @@ const Explore = () => {
           open-source enthusiasts!
 
         </p>
-        <button className='text-[#7EE787] text-2xl flex items-center justify-center hover:underline pl-24 md:pl-0  hover:bg-green-800 transition-all'>Explore <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mt-1 ml-1" >
+        <button className='text-[#7EE787] text-2xl flex items-center justify-center hover:underline pl-28 md:pl-0  hover:bg-green-800 transition-all'>Explore <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mt-1 ml-1" >
           <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
         </svg></button>
       </div>

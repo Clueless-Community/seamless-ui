@@ -27,7 +27,7 @@ const Hero = () => {
       <h1 className=" text-center md:text-2xl text-4xl font-semibold mt-7 mb-4 text-white">
         SeamLess UI in all frameworks
       </h1>
-      <div className=" flex flex-wrap w-full sm:justify-between mt-16 px-10 md:px-36 xl:px-80 pb-40 gap-5 md:gap-0 ">
+      <div className=" flex flex-wrap w-full sm:justify-between mt-16 pl-16 md:px-36 xl:px-80 pb-40 gap-3 md:gap-0  ">
         <img src="/Vue.js_Logo_2 1 1.png" alt="" className="w-20 h-20" draggable={false} />
         <img src="/next-js 1 2.png" alt="" className="w-20 h-20" draggable={false} />
         <img src="/download 2 3.png" alt="" className="w-20 h-20" draggable={false} />
