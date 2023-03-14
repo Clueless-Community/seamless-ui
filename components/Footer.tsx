@@ -3,7 +3,7 @@ function Footer() {
     return (
         <div className='p-10 bg-[#1B1B1B] space-y-8'>
 
-            <div className='flex justify-between p-5 flex-col md:flex-row text-center space-y-1'>
+            <div className='flex justify-between p-5 flex-col md:flex-row md:text-left text-center space-y-1'>
                 <div className='flex justify-center items-start '>
                     <div className='flex items-center h-fit '>
                         <img src='/seamless-ui 2.png' className='h-20 w-20 ' draggable={false} />
