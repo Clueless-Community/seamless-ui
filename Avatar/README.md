@@ -9,12 +9,12 @@
   <tr>
     <td width="50%">
         <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Avatar/src/avatar.html">
-            <img src="https://live.staticflickr.com/65535/52665735167_a7a086641b_w.jpg" alt="image" border="0">
+            <img src="https://live.staticflickr.com/65535/52666670225_247c89a095_w.jpg" alt="image" border="0">
         </a>
     </td>
     <td width="50%">
         <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Avatar/src/avatar-group.html">
-            <img src="https://live.staticflickr.com/65535/52667256238_bce770d5db_w.jpg" alt="image" border="0">
+            <img src="https://live.staticflickr.com/65535/52665735167_a7a086641b_w.jpg" alt="image" border="0">
         </a>
     </td>
   </tr>
@@ -31,7 +31,7 @@
     </td>
     <td width="50%">
         <a href="https://github.com/Clueless-Community/seamless-ui/blob/main/Avatar/src/avatar-status.html">
-            <img src="https://live.staticflickr.com/65535/52666670225_247c89a095_w.jpg" alt="image" border="0">
+            <img src="https://live.staticflickr.com/65535/52667256238_bce770d5db_w.jpg" alt="image" border="0">
         </a>
     </td>
   </tr>
