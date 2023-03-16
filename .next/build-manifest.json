@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/privacy": [
+    "/inputform": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/privacy.js"
+      "static/chunks/pages/inputform.js"
     ]
   },
   "ampFirstPages": []
