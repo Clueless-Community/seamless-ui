@@ -1,18 +1,57 @@
-<div class='rounded-3xl  w-[712px] h-[219px] bg-white ' > 
-</br>
-<h3
-   class=" ml-72  font-bold pb-2 text-gray-400"
- >
-   10 June 2023
- </h3>
-   <h1 class='ml-72 mt-0 font-bold text-2xl text-black '> WaivlyFunds</h1>
-   
-   <h1 class=' ml-72  mr-16 mb-2.5 text-black'>Slate helps you see how  many more days you need to work to reach. Slate helps you see how many
-     more days .</h1>
-     <button class="bg-black ml-72  px-2.5 py-0 rounded-full font-bold text-white text-sm text-center font-sans mr-2 hover:bg-black transition-all disabled:bg-gray-400" >Tags</button>
-     <button class="bg-black  px-2.5 py-0 rounded-full font-bold text-white text-sm text-center font-sans mr-2 hover:bg-black transition-all disabled:bg-gray-400" >Google</button>
-     <button class="bg-black px-2.5 py-0 rounded-full font-bold text-white text-sm text-center font-sans mr-2 hover:bg-black transition-all disabled:bg-gray-400" >Nvdia</button>
-     
- <img class="rounded-3xl  w-[261px] h-[218px] -mt-48 object-cover " src="https://live.staticflickr.com/65535/52681290308_fc93d4ee7b_z.jpg" alt="img" />
- </div>
- 
+<div class="rounded-3xl bg-white">
+  <img class="rounded-t-3xl rounded-b-3xl w-full h-52 md:h-64 object-cover" src="https://live.staticflickr.com/65535/52681290308_fc93d4ee7b_z.jpg" alt="img" />
+  <div class="p-4">
+    <h3 class="font-bold text-gray-400 text-center md:text-left">10 June 2023</h3>
+    <h1 class="font-bold text-2xl text-black text-center md:text-left mt-2 md:mt-4 mb-2 md:mb-4">WaivlyFunds</h1>
+    <h1 class="text-black font-bold mb-2.5 md:mb-4">Slate helps you see how many more days you need to work to reach. Slate helps you see how many more days.</h1>
+    <div class="flex flex-wrap justify-center ">
+      <button class="bg-black px-2.5 py-0 rounded-full font-bold text-white text-sm text-center font-sans mr-2 md:mr-4 hover:bg-black transition-all disabled:bg-gray-400 mb-2 md:mb-0">Tags</button>
+      <button class="bg-black px-2.5 py-0 rounded-full font-bold text-white text-sm text-center font-sans mr-2 md:mr-4 hover:bg-black transition-all disabled:bg-gray-400 mb-2 md:mb-0">Google</button>
+      <button class="bg-black px-2.5 py-0 rounded-full font-bold text-white text-sm text-center font-sans mr-2 hover:bg-black transition-all disabled:bg-gray-400 mb-2 md:mb-0">Nvdia</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  
+
+  @media (min-width: 640px) {
+    .rounded-3xl {
+      max-width: 712px;
+      height: auto;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .rounded-3xl img {
+      margin-top: -1rem;
+    }
+
+    .rounded-3xl .p-4 {
+      padding: 2rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .rounded-3xl {
+      height: 400px;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .rounded-3xl img {
+      width: 60%;
+      height: 80%;
+      margin-top: 0;
+      margin-left: -1rem;
+      object-position: center;
+    }
+
+    .rounded-3xl .p-4 {
+      width: 50%;
+      padding: 3rem;
+    }
+  }
+</style>
