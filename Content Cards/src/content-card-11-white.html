@@ -5,20 +5,18 @@
     <h1 class="font-bold text-2xl text-black text-center md:text-left mt-2 md:mt-4 mb-2 md:mb-4">WaivlyFunds</h1>
     <h1 class="text-black font-bold mb-2.5 md:mb-4">Slate helps you see how many more days you need to work to reach. Slate helps you see how many more days.</h1>
     <div class="flex flex-wrap justify-center ">
-      <button class="bg-black px-2.5 py-0 rounded-full font-bold text-white text-sm text-center font-sans mr-2 md:mr-4 hover:bg-black transition-all disabled:bg-gray-400 mb-2 md:mb-0">Tags</button>
-      <button class="bg-black px-2.5 py-0 rounded-full font-bold text-white text-sm text-center font-sans mr-2 md:mr-4 hover:bg-black transition-all disabled:bg-gray-400 mb-2 md:mb-0">Google</button>
+      <button class="bg-black px-2.5 py-0 rounded-full font-bold text-white text-sm text-center font-sans mr-2 md:mr-2 hover:bg-black transition-all disabled:bg-gray-400 mb-2 md:mb-0">Tags</button>
+      <button class="bg-black px-2.5 py-0 rounded-full font-bold text-white text-sm text-center font-sans mr-2 md:mr-2 hover:bg-black transition-all disabled:bg-gray-400 mb-2 md:mb-0">Google</button>
       <button class="bg-black px-2.5 py-0 rounded-full font-bold text-white text-sm text-center font-sans mr-2 hover:bg-black transition-all disabled:bg-gray-400 mb-2 md:mb-0">Nvdia</button>
     </div>
   </div>
 </div>
 
 <style>
-  
-
-  @media (min-width: 640px) {
+  @media (max-width: 640px) {
     .rounded-3xl {
-      max-width: 712px;
-      height: auto;
+      max-width: 400px;
+      height: 500px;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
@@ -26,7 +24,7 @@
     }
 
     .rounded-3xl img {
-      margin-top: -1rem;
+      margin-top: 1rem;
     }
 
     .rounded-3xl .p-4 {
@@ -34,24 +32,23 @@
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 640px) {
     .rounded-3xl {
+      max-width: 700px;
       height: 400px;
+      margin: 0 auto;
+      display: flex;
       flex-direction: row;
-      align-items: center;
+      justify-content:left;
     }
 
     .rounded-3xl img {
-      width: 60%;
-      height: 80%;
-      margin-top: 0;
-      margin-left: -1rem;
-      object-position: center;
+      margin-top: 2rem;
     }
 
     .rounded-3xl .p-4 {
-      width: 50%;
-      padding: 3rem;
+      padding: 2rem;
     }
   }
 </style>
+
