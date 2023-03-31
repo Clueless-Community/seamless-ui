@@ -1,0 +1,23 @@
+<div class="relative m-6 w-fit">
+  <input id="draft" class="peer/draft absolute top-0 left-0 h-11 w-[95px] cursor-pointer bg-slate-500 opacity-0" type="checkbox" name="status" />
+  <button class="rounded-md bg-blue-600 px-6 py-3 text-white peer-checked/draft:text-white">Button</button>
+  <div class="mt-2 max-h-0 overflow-hidden collapse transition-all duration-500 w-[300px] rounded-lg border-2 bg-white px-4 py-4 shadow-xl shadow-blue-400 peer-checked/draft:visible peer-checked/draft:max-h-screen peer-checked/draft:w-[300px] peer-checked/draft:rounded-lg peer-checked/draft:border-2 peer-checked/draft:bg-white peer-checked/draft:px-4 peer-checked/draft:pt-4 peer-checked/draft:shadow-xl peer-checked/draft:shadow-blue-400">
+   <p class=" bg-white">This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+      <div class="relative top-0">
+        <input id="more" class="peer/more absolute top-0 left-0 h-11 w-[95px] cursor-pointer bg-slate-500 opacity-0" type="radio" name="default-radio" />
+        <a class=" text-blue-600 peer-checked/more:hidden">View More...</a>
+         <p class="mt-2 max-h-0 p-1 w-fit hidden transition-all duration-500 peer-checked/more:inline">
+           Today is the anniversary of the publication of Robert Frost’s iconic poem “Stopping by Woods on a Snowy Evening,” a fact that spurred the Literary Hub office into a long conversation about their favorite.
+           <div class="relative top-0 left-44 hidden peer-checked/more:block">
+             <input class="absolute top-0 left-0 h-11 w-[120px]  cursor-pointer bg-slate-500 opacity-0" type="radio" name="default-radio" />
+              <button class="text-blue-700 right-0  pointer-events-none">Shrink
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-7 rotate-180 absolute top-0 left-11 text-blue-700 ">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                   </svg>
+              </button>    
+           </div>  
+          </p>
+      </div>
+    </p>
+  </div>
+</div>
