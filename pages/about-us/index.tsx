@@ -10,10 +10,10 @@ const Home = () => (
             <div className="flex justify-between items-center p-28">
                 <div>
                     <div className="green-gradient  absolute md:left-80 left-10 "></div>
-                    <h1 className="text-white font-bold text-8xl w-32 mb-20">About Community.</h1>
+                    <h1 className="text-white font-bold text-8xl md:w-32 mb-20">About Community.</h1>
                     <div className="flex  ">
                         <img src="/Group 325.png" alt="" className="h-[500px] w-32" />
-                        <p className="text-white text-2xl w-[500px] justify-center  ">
+                        <p className="text-white text-2xl md:w-[500px] justify-center  ">
                             Clueless in a virtual open-source community built with the motive of “Learn and Grow”. We, as a community, encourage and guide enthusiasts to dive into the world of open-source. We provide the best resources available on the internet, write blogs that helps other to explore their domain more deeply, organize events, GitHub repositories, organize hackathons, and more couniting activities
                         </p>
 
@@ -52,11 +52,24 @@ const Home = () => (
             </div>
             <div>
                 <img src="/aboutuspipe.png" className="px-[660px] -mt-20 -ml-10 " alt="" />
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center ml-20">
                     <h1 className=" font-bold text-5xl text-white mt-7 ">Team Members</h1>
                 </div>
             </div>
-            <img src="/socialmedia.png" alt="" className="pl-28 mt-24 mb-24"/>
+            <div className="flex justify-between items-center p-48">
+            <a href='https://github.com/Rajdip019/' target={'_blank'} rel="noreferrer" >
+                <img src="/rajdeep.png" alt="" className=""/>
+                </a>
+                <a href='https://github.com/rupsha014/' target={'_blank'} rel="noreferrer" >
+                <img src="/rupsha.png" alt="" />
+                </a>
+                <a href='https://github.com/RavindraP04/' target={'_blank'} rel="noreferrer" >
+                <img src="/ravindta.png" alt="" />
+                </a>
+
+            </div>
+            <img src="/socialmedia.png" alt="" className="pl-28 mt-24 mb-24" />
+
             <Footer />
         </div>
     </div>
