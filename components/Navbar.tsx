@@ -13,7 +13,7 @@ function Navbar() {
                     </div>
                 </div>
                 <div className='flex gap-7 text-xl mt-2 md:mt-0 '>
-                  <Link href='' target={'_blank'} rel="noreferrer" >    
+                  <Link href='/docs/getting-started' >    
                     <p className=' text-white hover:text-[#7EE787] transition-all cursor-pointer '>Docs</p>       
                   </Link>
                     <p className='text-white hover:text-[#7EE787] transition-all cursor-pointer '>Blogs</p>
