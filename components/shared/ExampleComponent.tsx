@@ -9,7 +9,7 @@ interface Props {
     componentsArray: JSX.Element[];
 }
 
-const CodeRender: React.FC<Props> = ({ codeMetaData, componentsArray }) => {
+const ExampleComponent: React.FC<Props> = ({ codeMetaData, componentsArray }) => {
     const [tabIndex, setTabIndex] = useState<number>(0);
     const toast = useToast();
 
@@ -94,4 +94,4 @@ const CodeRender: React.FC<Props> = ({ codeMetaData, componentsArray }) => {
     );
 };
 
-export default CodeRender;
+export default ExampleComponent;
