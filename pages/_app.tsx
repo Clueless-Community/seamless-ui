@@ -1,5 +1,6 @@
 import "../styles.css";
 import "nextra-theme-docs/style.css";
+import { ChakraProvider } from '@chakra-ui/react'
 
 import { useEffect } from "react";
 import Script from "next/script";
@@ -41,7 +42,10 @@ export default function Nextra({ Component, pageProps }) {
           `,
         }}
       />
-      {getLayout(<Component {...pageProps} />)}
+      {getLayout(
+        <ChakraProvider>
+          <Component {...pageProps} />
+        </ChakraProvider>)}
     </>
   );
 }

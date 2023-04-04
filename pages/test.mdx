@@ -1,0 +1,17 @@
+# Button Component
+
+import React from "react";
+import buttonMetaData from '../database/button/buttonMetaData.ts';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
+import CodeRender from '../components/shared/CodeRender'
+import {ButtonLight, ButtonBlue, ButtonDark} from '../database/button/ButtonComponent.tsx'
+
+export const ButtonPrimary = () => {
+  return (
+    <>
+        <CodeRender codeMetaData={buttonMetaData} componentsArray={[<ButtonLight />, <ButtonBlue />, <ButtonDark />]}/>
+    </>
+  );
+};
+
+<ButtonPrimary/>

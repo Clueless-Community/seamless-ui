@@ -7,16 +7,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@reach/skip-nav": "^0.16.0",
     "chart.js": "^3.7.1",
     "focus-visible": "^5.2.0",
+    "framer-motion": "^10.10.0",
     "markdown-to-jsx": "^6.11.4",
     "next": "^13.0.6",
     "nextra": "2.0.1",
     "nextra-theme-docs": "2.0.1",
     "react": "^18.2.0",
     "react-chartjs-2": "^3.3.0",
-    "react-dom": "^18.2.0"
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-syntax-highlighter": "^15.5.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
