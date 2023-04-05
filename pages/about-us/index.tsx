@@ -61,7 +61,7 @@ const Home = () => (
                 
                 <div className="flex flex-col justify-center items-center">
                 <img src="/aboutuspipe.png" className="md:mr-44 w-[200px]" alt="" />
-                    <h1 className=" font-bold md:text-5xl text-white my-10 text-3xl  ">Team Members</h1>
+                    <h1 className=" font-bold md:text-5xl text-white my-10 text-3xl  ">Maintainers</h1>
                 </div>
             </div>
             <div className=" md:justify-evenly justify-center items-center md:flex-row flex flex-col gap-3 ">
