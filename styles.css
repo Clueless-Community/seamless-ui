@@ -67,3 +67,6 @@ article > main + div a.font-semibold {
   background: rgba(17, 17, 17, 1);
 }
 
+.btn-copy:active{
+  scale: 0.95;
+}
