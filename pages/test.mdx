@@ -1,6 +1,7 @@
 # Button Component
 
-Displays a button or a component that looks like a button.
+{/* Displays a button or a component that looks like a button. */}
+> 🖰 A button in a webpage is a clickable graphical element used to trigger an action or perform a task, such as submitting a form or navigating to another page.
 
 ## Text Button
 
@@ -22,7 +23,10 @@ import {PrimaryTextButtonLight, PrimaryTextButtonBlue, PrimaryTextButtonDark,
       SecondaryTextIconFrontButtonLight, SecondaryTextIconFrontButtonBlue, SecondaryTextIconFrontButtonDark,
       SecondaryRoundedTextIconFrontButtonLight, SecondaryRoundedTextIconFrontButtonBlue, SecondaryRoundedTextIconFrontButtonDark,
       PrimaryTextIconRearButtonLight, PrimaryTextIconRearButtonBlue, PrimaryTextIconRearButtonDark,
-      PrimaryRoundedTextIconRearButtonLight, PrimaryRoundedTextIconRearButtonBlue, PrimaryRoundedTextIconRearButtonDark} from '../database/button/ButtonComponent.tsx'
+      PrimaryRoundedTextIconRearButtonLight, PrimaryRoundedTextIconRearButtonBlue, PrimaryRoundedTextIconRearButtonDark,
+      SecondaryTextIconRearButtonLight,SecondaryTextIconRearButtonBlue,SecondaryTextIconRearButtonDark,
+      SecondaryRoundedTextIconRearButtonLight, SecondaryRoundedTextIconRearButtonBlue, SecondaryRoundedTextIconRearButtonDark,
+      GradientButtons, SocialButtons, ProcessingButtons} from '../database/button/ButtonComponent.tsx'
 
 export const PrimaryTextButton = () => {
   return (
@@ -53,7 +57,7 @@ export const PrimaryRoundedTextButton = () => {
 
 <PrimaryRoundedTextButton/>
 
-## Outline Text Button
+## Outlined Text Button
 
 import secondaryTextButtonMetaData from '../database/button/secondaryTextButtonMetaData.ts';
 
@@ -70,7 +74,7 @@ export const SecondaryTextButton = () => {
 <SecondaryTextButton/>
 
 
-## Outline Rounded Text Button
+## Outlined Rounded Text Button
 
 import secondaryRoundedTextButtonMetaData from '../database/button/secondaryRoundedTextButtonMetaData.ts';
 
@@ -242,7 +246,7 @@ export const PrimaryTextIconRearButtonData = () => {
   return (
     <>
     <div className='mb-20'>
-        <ExampleComponent codeMetaData={primaryTextIconRearButtonMetaData} componentsArray={[<PrimaryTextIconRearButtonLight />, <PrimaryTextIconRearButtonBlue />, <PrimaryTextIconRearButtonLight />]}/>
+        <ExampleComponent codeMetaData={primaryTextIconRearButtonMetaData} componentsArray={[<PrimaryTextIconRearButtonLight />, <PrimaryTextIconRearButtonBlue />, <PrimaryTextIconRearButtonDark />]}/>
     </div>
     </>
   );
@@ -265,3 +269,84 @@ export const PrimaryRoundedTextIconRearButtonMetaData = () => {
 };
 
 <PrimaryRoundedTextIconRearButtonMetaData/>
+
+## Outlined Button with trailing icon
+
+import secondaryTextIconRearButtonMetaData from '../database/button/secondaryTextIconRearButtonMetaData.ts';
+
+export const SecondaryTextIconRearButton = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={secondaryTextIconRearButtonMetaData} componentsArray={[<SecondaryTextIconRearButtonLight />, <SecondaryTextIconRearButtonBlue />, <SecondaryTextIconRearButtonDark />]}/>
+    </div>
+    </>
+  );
+};
+
+<SecondaryTextIconRearButton/>
+
+## Outlined Rounded Button with trailing icon
+
+import secondaryRoundedTextIconRearButtonMetaData from '../database/button/secondaryRoundedTextIconRearButtonMetaData.ts';
+
+export const SecondaryRoundedTextIconRearButton = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={secondaryRoundedTextIconRearButtonMetaData} componentsArray={[<SecondaryRoundedTextIconRearButtonLight />, <SecondaryRoundedTextIconRearButtonBlue />, <SecondaryRoundedTextIconRearButtonDark />]}/>
+    </div>
+    </>
+  );
+};
+
+<SecondaryRoundedTextIconRearButton/>
+
+## Gradient Buttons
+
+import gradientButtonMetaData from '../database/button/gradientButtonMetaData.ts';
+
+export const GradientButton = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={gradientButtonMetaData} componentsArray={[<GradientButtons />]}/>
+    </div>
+    </>
+  );
+};
+
+<GradientButton/>
+
+
+## Social Buttons
+
+import socialButtonsMetaData from '../database/button/socialButtonsMetaData.ts';
+
+export const SocialButton = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={socialButtonsMetaData} componentsArray={[<SocialButtons />]}/>
+    </div>
+    </>
+  );
+};
+
+<SocialButton/>
+
+## Processing Button
+
+import processingButtonMetaData from '../database/button/processingButtonMetaData.ts';
+
+export const Processing = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={processingButtonMetaData} componentsArray={[<ProcessingButtons />]}/>
+    </div>
+    </>
+  );
+};
+
+<Processing/>
