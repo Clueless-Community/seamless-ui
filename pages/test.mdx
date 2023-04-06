@@ -2,13 +2,27 @@
 
 Displays a button or a component that looks like a button.
 
-## Primary Text Button
+## Text Button
 
 import React from "react";
 import primaryTextButtonMetaData from '../database/button/primaryTextButtonMetaData.ts';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import ExampleComponent from '../components/shared/ExampleComponent.tsx'
-import {PrimaryTextButtonLight, PrimaryTextButtonBlue, PrimaryTextButtonDark, PrimaryRoundedTextButtonLight, PrimaryRoundedTextButtonBlue, PrimaryRoundedTextButtonDark, SecondaryTextButtonLight, SecondaryTextButtonBlue, SecondaryTextButtonDark, SecondaryRoundedTextButtonLight, SecondaryRoundedTextButtonBlue, SecondaryRoundedTextButtonDark} from '../database/button/ButtonComponent.tsx'
+import {PrimaryTextButtonLight, PrimaryTextButtonBlue, PrimaryTextButtonDark, 
+      PrimaryRoundedTextButtonLight, PrimaryRoundedTextButtonBlue, PrimaryRoundedTextButtonDark, 
+      SecondaryTextButtonLight, SecondaryTextButtonBlue, SecondaryTextButtonDark, 
+      SecondaryRoundedTextButtonLight, SecondaryRoundedTextButtonBlue, SecondaryRoundedTextButtonDark, 
+      GroupButtonLight, GroupButtonBlue, GroupButtonDark,
+      PrimaryIconButtonLight, PrimaryIconButtonBlue, PrimaryIconButtonDark,
+      PrimaryRoundedIconButtonLight, PrimaryRoundedIconButtonBlue, PrimaryRoundedIconButtonDark,
+      SecondaryIconButtonLight,SecondaryIconButtonBlue,SecondaryIconButtonDark,
+      SecondaryRoundedIconButtonLight,SecondaryRoundedIconButtonBlue,SecondaryRoundedIconButtonDark,
+      PrimaryTextIconFrontButtonLight, PrimaryTextIconFrontButtonBlue, PrimaryTextIconFrontButtonDark,
+      PrimaryRoundedTextIconFrontButtonLight, PrimaryRoundedTextIconFrontButtonBlue, PrimaryRoundedTextIconFrontButtonDark,
+      SecondaryTextIconFrontButtonLight, SecondaryTextIconFrontButtonBlue, SecondaryTextIconFrontButtonDark,
+      SecondaryRoundedTextIconFrontButtonLight, SecondaryRoundedTextIconFrontButtonBlue, SecondaryRoundedTextIconFrontButtonDark,
+      PrimaryTextIconRearButtonLight, PrimaryTextIconRearButtonBlue, PrimaryTextIconRearButtonDark,
+      PrimaryRoundedTextIconRearButtonLight, PrimaryRoundedTextIconRearButtonBlue, PrimaryRoundedTextIconRearButtonDark} from '../database/button/ButtonComponent.tsx'
 
 export const PrimaryTextButton = () => {
   return (
@@ -23,7 +37,7 @@ export const PrimaryTextButton = () => {
 <PrimaryTextButton/>
 
 
-## Primary Rounded Text Button
+## Rounded Text Button
 
 import primaryRoundedTextButtonMetaData from '../database/button/primaryRoundedTextButtonMetaData.ts';
 
@@ -39,7 +53,7 @@ export const PrimaryRoundedTextButton = () => {
 
 <PrimaryRoundedTextButton/>
 
-## Secondary Text Button
+## Outline Text Button
 
 import secondaryTextButtonMetaData from '../database/button/secondaryTextButtonMetaData.ts';
 
@@ -56,7 +70,7 @@ export const SecondaryTextButton = () => {
 <SecondaryTextButton/>
 
 
-## Secondary Rounded Text Button
+## Outline Rounded Text Button
 
 import secondaryRoundedTextButtonMetaData from '../database/button/secondaryRoundedTextButtonMetaData.ts';
 
@@ -71,3 +85,183 @@ export const SecondaryRoundedTextButton = () => {
 };
 
 <SecondaryRoundedTextButton/>
+
+
+## Group Button
+
+import groupButtonMetaData from '../database/button/groupButtonMetaData.ts';
+
+export const GroupButton = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={groupButtonMetaData} componentsArray={[<GroupButtonLight />, <GroupButtonBlue />, <GroupButtonDark />]}/>
+    </div>
+    </>
+  );
+};
+
+<GroupButton/>
+
+## Icon Button
+
+import primaryIconButtonMetaData from '../database/button/primaryIconButtonMetaData.ts';
+
+export const PrimaryIconButtonMetaData = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={primaryIconButtonMetaData} componentsArray={[<PrimaryIconButtonLight />, <PrimaryIconButtonBlue />, <PrimaryIconButtonDark />]}/>
+    </div>
+    </>
+  );
+};
+
+<PrimaryIconButtonMetaData/>
+
+## Rounded Icon Button
+
+import primaryRoundedIconButtonMetaData from '../database/button/primaryRoundedIconButtonMetaData.ts';
+
+export const PrimaryRoundedIconButtonMetaData = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={primaryRoundedIconButtonMetaData} componentsArray={[<PrimaryRoundedIconButtonLight />, <PrimaryRoundedIconButtonBlue />, <PrimaryRoundedIconButtonDark />]}/>
+    </div>
+    </>
+  );
+};
+
+<PrimaryRoundedIconButtonMetaData/>
+
+
+## Outlined Icon Button
+
+import secondaryIconButtonMetaData from '../database/button/secondaryIconButtonMetaData.ts';
+
+export const SecondaryIconButtonMetaData = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={secondaryIconButtonMetaData} componentsArray={[<SecondaryIconButtonLight />, <SecondaryIconButtonBlue />, <SecondaryIconButtonDark />]}/>
+    </div>
+    </>
+  );
+};
+
+<SecondaryIconButtonMetaData/>
+
+
+## Outlined Rounded Icon Button
+
+import secondaryRoundedIconButtonMetaData from '../database/button/secondaryRoundedIconButtonMetaData.ts';
+
+export const SecondaryRoundedIconButtonMetaData = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={secondaryRoundedIconButtonMetaData} componentsArray={[<SecondaryRoundedIconButtonLight />, <SecondaryRoundedIconButtonBlue />, <SecondaryRoundedIconButtonDark />]}/>
+    </div>
+    </>
+  );
+};
+
+<SecondaryRoundedIconButtonMetaData/>
+
+## Button with leading icon
+
+import primaryTextIconFrontButtonMetaData from '../database/button/primaryTextIconFrontButtonMetaData.ts';
+
+export const PrimaryTextIconFrontButtonMetaData = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={primaryTextIconFrontButtonMetaData} componentsArray={[<PrimaryTextIconFrontButtonLight />, <PrimaryTextIconFrontButtonBlue />, <PrimaryTextIconFrontButtonDark />]}/>
+    </div>
+    </>
+  );
+};
+
+<PrimaryTextIconFrontButtonMetaData/>
+
+## Rounded Button with leading icon
+
+import primaryRoundedTextIconFrontButtonMetaData from '../database/button/primaryRoundedTextIconFrontButtonMetaData.ts';
+
+export const PrimaryRoundedTextIconFrontButtonMetaData = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={primaryRoundedTextIconFrontButtonMetaData} componentsArray={[<PrimaryRoundedTextIconFrontButtonLight />, <PrimaryRoundedTextIconFrontButtonBlue />, <PrimaryRoundedTextIconFrontButtonDark />]}/>
+    </div>
+    </>
+  );
+};
+
+<PrimaryRoundedTextIconFrontButtonMetaData/>
+
+## Outlined Button with leading icon
+
+import secondaryTextIconFrontButtonMetaData from '../database/button/secondaryTextIconFrontButtonMetaData.ts';
+
+export const SecondaryTextIconFrontButtonMetaData = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={secondaryTextIconFrontButtonMetaData} componentsArray={[<SecondaryTextIconFrontButtonLight />, <SecondaryTextIconFrontButtonBlue />, <SecondaryTextIconFrontButtonDark />]}/>
+    </div>
+    </>
+  );
+};
+
+<SecondaryTextIconFrontButtonMetaData/>
+
+
+## Outlined Rounded Button with leading icon
+
+import secondaryRoundedTextIconFrontButtonMetaData from '../database/button/secondaryRoundedTextIconFrontButtonMetaData.ts';
+
+export const SecondaryRoundedTextIconFrontButtonMetaData = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={secondaryRoundedTextIconFrontButtonMetaData} componentsArray={[<SecondaryRoundedTextIconFrontButtonLight />, <SecondaryRoundedTextIconFrontButtonBlue />, <SecondaryRoundedTextIconFrontButtonDark />]}/>
+    </div>
+    </>
+  );
+};
+
+<SecondaryRoundedTextIconFrontButtonMetaData/>
+
+## Button with trailing icon
+
+import primaryTextIconRearButtonMetaData from '../database/button/primaryTextIconRearButtonMetaData.ts';
+
+export const PrimaryTextIconRearButtonData = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={primaryTextIconRearButtonMetaData} componentsArray={[<PrimaryTextIconRearButtonLight />, <PrimaryTextIconRearButtonBlue />, <PrimaryTextIconRearButtonLight />]}/>
+    </div>
+    </>
+  );
+};
+
+<PrimaryTextIconRearButtonData/>
+
+## Rounded Button with trailing icon
+
+import primaryRoundedTextIconRearButtonMetaData from '../database/button/primaryRoundedTextIconRearButtonMetaData.ts';
+
+export const PrimaryRoundedTextIconRearButtonMetaData = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={primaryRoundedTextIconRearButtonMetaData} componentsArray={[<PrimaryRoundedTextIconRearButtonLight />, <PrimaryRoundedTextIconRearButtonBlue />, <PrimaryRoundedTextIconRearButtonDark />]}/>
+    </div>
+    </>
+  );
+};
+
+<PrimaryRoundedTextIconRearButtonMetaData/>
