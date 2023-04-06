@@ -31,7 +31,7 @@ function Web() {
                             <div className=' flex flex-wrap gap-1 '>
                                 <button className={`bg-${theme}  text-white  px-3 py-1 rounded-md `}>Tags</button>
                                 <button className={`bg-${theme}  text-white  px-3 py-1 rounded-md`}>Google</button>
-                                <button className={`bg-${theme}  text-white  px-3 py-1 rounded-md`}>Nvdia</button>
+                                <button className={`bg-${theme}  text-white  px-3 py-1 rounded-md gree`}>Nvdia</button>
                             </div>
                         </div>
                     </div>
