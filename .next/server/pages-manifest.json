@@ -2,6 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.js",
-  "/test": "pages/test.js"
+  "/docs/components/buttons": "pages/docs/components/buttons.js"
 }

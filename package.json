@@ -1,6 +1,6 @@
 {
-  "name": "swc-site",
-  "author": "DongYoon Kang",
+  "name": "seamless-ui",
+  "author": "Rajdeep Sengupta",
   "private": true,
   "scripts": {
     "dev": "next",

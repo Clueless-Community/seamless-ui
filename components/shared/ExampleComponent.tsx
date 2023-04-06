@@ -7,16 +7,17 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 interface Props {
     codeMetaData: { label: string; content: string }[];
     componentsArray: JSX.Element[];
+    theme? : "dark" | "light"
 }
 
-const ExampleComponent: React.FC<Props> = ({ codeMetaData, componentsArray }) => {
+const ExampleComponent: React.FC<Props> = ({ codeMetaData, componentsArray, theme }) => {
     const [tabIndex, setTabIndex] = useState<number>(0);
     const toast = useToast();
 
     return (
         <>
             {/* Componet Reders Here */}
-            <div className="flex my-8 justify-center border border-gray-600 rounded-xl py-16 items-center bg-gray-800">
+            <div className={`flex my-8 justify-center border border-gray-600 rounded-xl py-16 items-center ${theme === 'light' ? 'bg-gray-400' : 'bg-gray-800'}  `}>
                 <Tabs
                     size="md"
                     variant="enclosed"

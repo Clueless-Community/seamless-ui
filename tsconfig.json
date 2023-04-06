@@ -24,7 +24,7 @@
         "next-env.d.ts",
         "**/*.ts",
         "**/*.tsx"
-, "pages/index.tsx", "pages/_document.tsx"    ],
+, "pages/index.tsx", "pages/_document.tsx", "pages/docs/instrallation.msx"    ],
     "exclude": [
         "node_modules"
     ]
