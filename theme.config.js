@@ -5,29 +5,11 @@ const Head = () => {
   return (
     <>
       {/* Favicons, meta */}
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="/logo.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="/logo.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="/logo.png"
-      />
+      <link rel="apple-touch-icon" sizes="180x180" href="/logo.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/logo.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/logo.png" />
       <link rel="manifest" href="/logo.png" />
-      <link
-        rel="mask-icon"
-        href="/logo.png"
-        color="#000000"
-      />
+      <link rel="mask-icon" href="/logo.png" color="#000000" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -104,6 +86,14 @@ export default {
       </span>
     </>
   ),
+  darkMode: true,
+  nextThemes: {
+    defaultTheme: "dark",
+  },
+  primaryHue: {
+    dark: 120,
+    light: 120,
+  },
   footer: {
     text: () => (
       <a
@@ -113,9 +103,7 @@ export default {
         className="inline-flex items-center no-underline text-current font-semibold"
       >
         <span className="mr-1">Powered by</span>
-        <span>
-          ClueLess
-        </span>
+        <span>ClueLess</span>
       </a>
     ),
   },
