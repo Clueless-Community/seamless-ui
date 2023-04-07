@@ -286,7 +286,7 @@ export const AccordionBlue = () => {
               />
             </svg>
           </div>
-          <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-screen">
+          <div className="max-h-0 overflow-hidden text-gray-900 transition-all duration-500 peer-checked:max-h-screen">
             <p className="p-4">
               web-ui-kit is an open-source library of interactive components
               built on top of Tailwind CSS including buttons, dropdowns, modals,
@@ -319,7 +319,7 @@ export const AccordionBlue = () => {
               />
             </svg>
           </div>
-          <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-screen">
+          <div className="max-h-0 overflow-hidden text-gray-900 transition-all duration-500 peer-checked:max-h-screen">
             <p className="p-4">
               web-ui-kit is first conceptualized and designed using the Figma
               software so everything you see in the library has a design
@@ -362,7 +362,7 @@ export const AccordionBlue = () => {
               />
             </svg>
           </div>
-          <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-screen">
+          <div className="max-h-0 overflow-hidden transition-all text-gray-900 duration-500 peer-checked:max-h-screen">
             <p className="p-4">
               The main difference is that the core components from web-ui-kit
               are open source under the MIT license, whereas Tailwind UI is a
@@ -394,7 +394,7 @@ export const AccordionDark = () => {
           <div className="cursor-pointer text-gray-900 rounded-md bg-white p-5">
             What is web-ui-kit?
           </div>
-          <div className="absolute right-3 top-3 text-gray-900 rounded-full border p-2 shadow-md duration-500 rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-slate-900 peer-checked:text-white peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute right-3 top-3 text-gray-900 rounded-full border p-2 shadow-md duration-500 rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-slate-900 peer-checked:text-gray-900 peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -427,7 +427,7 @@ export const AccordionDark = () => {
           <div className="cursor-pointer text-gray-900 rounded-md bg-white p-5 pr-10">
             Is there a Figma file available?
           </div>
-          <div className="absolute right-3 top-3 text-gray-900 rounded-full border p-2 shadow-md duration-500 rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-slate-900 peer-checked:text-white peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute right-3 top-3 text-gray-900 rounded-full border p-2 shadow-md duration-500 rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-slate-900 peer-checked:text-gray-900 peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -467,7 +467,7 @@ export const AccordionDark = () => {
           <div className="cursor-pointer text-gray-900 rounded-md bg-white p-5 pr-14">
             What are the differences between web-ui-kit and Tailwind UI?
           </div>
-          <div className="absolute right-3 top-3 text-gray-900 rounded-full border p-2 shadow-md duration-500 rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-slate-900 peer-checked:text-white peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute right-3 top-3 text-gray-900 rounded-full border p-2 shadow-md duration-500 rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-slate-900 peer-checked:text-gray-900 peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
