@@ -1,0 +1,69 @@
+# Avatar Components
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {Avatar, AvatarText, AvatarStatus, AvatarGroup} from '../../../database/avatar/avatar.tsx'
+
+### Avatar 
+
+import avatarMetaData from '../../../database/avatar/avatarMetaData.ts';
+
+export const Avatars = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={avatarMetaData} componentsArray={[<Avatar />]}/>
+    </div>
+    </>
+  );
+};
+
+<Avatars/>
+
+### Avatar Text
+
+import avatarTextMetaData from '../../../database/avatar/avatarTextMetaData.ts';
+
+export const AvatarsText = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={avatarTextMetaData} componentsArray={[<AvatarText />]}/>
+    </div>
+    </>
+  );
+};
+
+<AvatarsText/>
+
+### Avatar Status
+
+import avatarStatusMetaData from '../../../database/avatar/avatarStatusMetaData.ts';
+
+export const AvatarsStatus = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={avatarStatusMetaData} componentsArray={[<AvatarStatus />]}/>
+    </div>
+    </>
+  );
+};
+
+<AvatarsStatus/>
+
+### Avatar Group
+
+import avatarGroupMetaData from '../../../database/avatar/avatarGroupMetaData.ts';
+
+export const AvatarsGroup = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={avatarGroupMetaData} componentsArray={[<AvatarGroup />]}/>
+    </div>
+    </>
+  );
+};
+
+<AvatarsGroup/>
