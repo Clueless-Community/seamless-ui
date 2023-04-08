@@ -12,7 +12,7 @@ export const AccordionLight = () => {
           <div className="cursor-pointer text-gray-900 rounded-md bg-white p-5">
             What is web-ui-kit?
           </div>
-          <div className="absolute pointer-events-none right-3 text-gray-900 top-3 rounded-full border p-2 shadow-md duration-500 rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-blue-500 peer-checked:text-white peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute pointer-events-none right-3 text-gray-900 top-3 rounded-full border p-2 shadow-md duration-500 nx-rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-blue-500 peer-checked:text-white peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -45,7 +45,7 @@ export const AccordionLight = () => {
           <div className="cursor-pointer text-gray-900 rounded-md bg-white p-5 pr-10">
             Is there a Figma file available?
           </div>
-          <div className="absolute pointer-events-none right-3 text-gray-900 top-3 rounded-full border p-2 shadow-md duration-500 rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-blue-500 peer-checked:text-white peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute pointer-events-none right-3 text-gray-900 top-3 rounded-full border p-2 shadow-md duration-500 nx-rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-blue-500 peer-checked:text-white peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -85,7 +85,7 @@ export const AccordionLight = () => {
           <div className="cursor-pointer text-gray-900 rounded-md bg-white p-5 pr-14">
             What are the differences between web-ui-kit and Tailwind UI?
           </div>
-          <div className="absolute pointer-events-none text-gray-900 right-3 top-3 rounded-full border p-2 shadow-md duration-500 rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-blue-500 peer-checked:text-white peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute pointer-events-none text-gray-900 right-3 top-3 rounded-full border p-2 shadow-md duration-500 nx-rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-blue-500 peer-checked:text-white peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -133,7 +133,7 @@ export const AccordionBlue = () => {
           <div className="cursor-pointer rounded-md bg-blue-600 p-5 pr-14 text-white">
             What is web-ui-kit?
           </div>
-          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 rotate-90 rounded-full border bg-white p-2 shadow-md duration-500 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-white peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 nx-rotate-90 rounded-full border bg-white p-2 shadow-md duration-500 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-white peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -166,7 +166,7 @@ export const AccordionBlue = () => {
           <div className="cursor-pointer rounded-md bg-blue-600 p-5 pr-14 text-white">
             Is there a Figma file available?
           </div>
-          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 rotate-90 rounded-full border bg-white p-2 shadow-md duration-500 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 nx-rotate-90 rounded-full border bg-white p-2 shadow-md duration-500 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -209,7 +209,7 @@ export const AccordionBlue = () => {
           <div className="cursor-pointer rounded-md bg-blue-600 p-5 pr-14 text-white">
             What are the differences between web-ui-kit and Tailwind UI?
           </div>
-          <div className="absolute pointer-events-none right-3 top-3 rotate-90 text-gray-900 rounded-full border bg-white p-2 shadow-md duration-500 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute pointer-events-none right-3 top-3 nx-rotate-90 text-gray-900 rounded-full border bg-white p-2 shadow-md duration-500 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -257,7 +257,7 @@ export const AccordionDark = () => {
           <div className="cursor-pointer text-gray-900 rounded-md bg-white p-5">
             What is web-ui-kit?
           </div>
-          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 rounded-full border p-2 shadow-md duration-500 rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-slate-900 peer-checked:text-gray-900 peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 rounded-full border p-2 shadow-md duration-500 nx-rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-slate-900 peer-checked:text-gray-900 peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -290,7 +290,7 @@ export const AccordionDark = () => {
           <div className="cursor-pointer text-gray-900 rounded-md bg-white p-5 pr-10">
             Is there a Figma file available?
           </div>
-          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 rounded-full border p-2 shadow-md duration-500 rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-slate-900 peer-checked:text-gray-900 peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 rounded-full border p-2 shadow-md duration-500 nx-rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-slate-900 peer-checked:text-gray-900 peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -330,7 +330,7 @@ export const AccordionDark = () => {
           <div className="cursor-pointer text-gray-900 rounded-md bg-white p-5 pr-14">
             What are the differences between web-ui-kit and Tailwind UI?
           </div>
-          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 rounded-full border p-2 shadow-md duration-500 rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-slate-900 peer-checked:text-gray-900 peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 rounded-full border p-2 shadow-md duration-500 nx-rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-slate-900 peer-checked:text-gray-900 peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -382,7 +382,7 @@ export const AccordionAutoCloses = () => {
             What is web-ui-kit
           </div>
 
-          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 rotate-90 rounded-full border p-2 shadow-md duration-500 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-gray-900 peer-checked:text-white">
+          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 nx-rotate-90 rounded-full border p-2 shadow-md duration-500 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-gray-900 peer-checked:text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -420,7 +420,7 @@ export const AccordionAutoCloses = () => {
             Is there a Figma file available?
           </div>
 
-          <div className="absolute pointer-events-none right-3 text-gray-900 top-3  rotate-90 rounded-full border p-2 shadow-md duration-500 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-gray-900 peer-checked:text-white">
+          <div className="absolute pointer-events-none right-3 text-gray-900 top-3  nx-rotate-90 rounded-full border p-2 shadow-md duration-500 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-gray-900 peer-checked:text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -465,7 +465,7 @@ export const AccordionAutoCloses = () => {
             What are the differences between web-ui-kit and Tailwind ?
           </div>
 
-          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 rotate-90 rounded-full border p-2 shadow-md duration-500 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-gray-900 peer-checked:text-white">
+          <div className="absolute pointer-events-none right-3 top-3 text-gray-900 nx-rotate-90 rounded-full border p-2 shadow-md duration-500 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-gray-900 peer-checked:text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
