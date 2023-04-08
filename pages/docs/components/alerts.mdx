@@ -1,0 +1,36 @@
+# Alert Components
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {AlertGeneral, AlertInfo} from '../../../database/alerts/alerts.tsx'
+
+import alertGeneralMetaData from '../../../database/alerts/alertGeneralMetaData.ts';
+
+### General Alert
+
+export const AlertsGeneral = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={alertGeneralMetaData} componentsArray={[<AlertGeneral />]}/>
+    </div>
+    </>
+  );
+};
+
+<AlertsGeneral/>
+
+import alertInfoMetaData from '../../../database/alerts/alertInfoMetaData.ts';
+
+export const AlertsInfo = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={alertInfoMetaData} componentsArray={[<AlertInfo />]}/>
+    </div>
+    </>
+  );
+};
+
+<AlertsInfo/>
+
