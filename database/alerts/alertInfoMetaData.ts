@@ -1,6 +1,6 @@
 const alertInfoMetaData = [
     {
-  label: 'Info',
+  label: 'Info Alert',
   content: `<div class="relative m-4">
   <input type="radio" class="peer opacity-0 absolute cursor-pointer right-8 top-5 h-5 w-5" />
   <div class="peer flex cursor-default items-center rounded-2xl border border-solid border-blue-700 bg-blue-100 px-8 py-4 transition-all duration-300 hover:shadow-lg hover:shadow-blue-100 peer-checked:hidden">

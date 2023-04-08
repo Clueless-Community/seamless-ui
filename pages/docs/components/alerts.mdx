@@ -2,11 +2,11 @@
 
 import React from "react";
 import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
-import {AlertGeneral, AlertInfo} from '../../../database/alerts/alerts.tsx'
-
-import alertGeneralMetaData from '../../../database/alerts/alertGeneralMetaData.ts';
+import {AlertGeneral, AlertInfo, AlertError} from '../../../database/alerts/alerts.tsx'
 
 ### General Alert
+
+import alertGeneralMetaData from '../../../database/alerts/alertGeneralMetaData.ts';
 
 export const AlertsGeneral = () => {
   return (
@@ -19,6 +19,8 @@ export const AlertsGeneral = () => {
 };
 
 <AlertsGeneral/>
+
+### Information Alert
 
 import alertInfoMetaData from '../../../database/alerts/alertInfoMetaData.ts';
 
@@ -34,3 +36,18 @@ export const AlertsInfo = () => {
 
 <AlertsInfo/>
 
+### Error Alert
+
+import alertErrorMetaData from '../../../database/alerts/alertErrorMetaData.ts';
+
+export const AlertsError = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={alertErrorMetaData} componentsArray={[<AlertError />]}/>
+    </div>
+    </>
+  );
+};
+
+<AlertsError/>
