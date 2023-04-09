@@ -1,4 +1,4 @@
-const featureCardMetaData = [
+const featureCard0MetaData = [
 {
 label: 'Light',
 content: `<div class="flex w-fit flex-row items-center gap-8 rounded-2xl bg-white px-8 py-9">
@@ -38,4 +38,4 @@ content: `<div class="flex w-fit flex-row items-center gap-8 rounded-2xl bg-slat
 },
 ]
 
-export default featureCardMetaData;
+export default featureCard0MetaData;

@@ -2,19 +2,34 @@
 
 import React from "react";
 import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
-import {FeatureCard0Light, FeatureCard0Blue, FeatureCard0Dark} from '../../../database/featureCards/featureCards.tsx'
+import {FeatureCard0Light, FeatureCard0Blue, FeatureCard0Dark,
+FeatureCard1Light, FeatureCard1Blue, FeatureCard1Dark} from '../../../database/featureCards/featureCards.tsx'
 
 
-import featureCardMetaData from '../../../database/featureCards/featureCardMetaData.ts';
+import featureCard0MetaData from '../../../database/featureCards/featureCard0MetaData.ts';
 
 export const FeatureCard0 = () => {
   return (
     <>
     <div className='mb-20'>
-        <ExampleComponent codeMetaData={featureCardMetaData} componentsArray={[<FeatureCard0Light />, <FeatureCard0Blue/>, <FeatureCard0Dark/>]}/>
+        <ExampleComponent codeMetaData={featureCard0MetaData} componentsArray={[<FeatureCard0Light />, <FeatureCard0Blue/>, <FeatureCard0Dark/>]}/>
     </div>
     </>
   );
 };
 
 <FeatureCard0/>
+
+import featureCard1MetaData from '../../../database/featureCards/featureCard1MetaData.ts';
+
+export const FeatureCard1 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={featureCard1MetaData} componentsArray={[<FeatureCard1Light />, <FeatureCard1Blue/>, <FeatureCard1Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<FeatureCard1/>
