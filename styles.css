@@ -70,3 +70,7 @@ article > main + div a.font-semibold {
 .btn-copy:active{
   scale: 0.95;
 }
+
+.image:hover{
+  transform: translateY(-0.25rem)
+}
