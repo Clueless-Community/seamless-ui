@@ -1,0 +1,41 @@
+const featureCardMetaData = [
+{
+label: 'Light',
+content: `<div class="flex w-fit flex-row items-center gap-8 rounded-2xl bg-white px-8 py-9">
+<svg width="66" height="84" viewBox="0 0 66 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M65.5 20.3354V76.6603C65.5 79.087 64.1654 81.2878 62.0161 82.4145C61.0627 82.9128 60.0313 83.1646 58.9956 83.1646C57.7 83.1646 56.4086 82.7743 55.295 82.0029L34.2221 67.4128C33.4854 66.8972 32.4974 66.8972 31.7564 67.4128L10.7007 82.0029C8.70735 83.3853 6.1376 83.5368 3.98394 82.4145C1.8346 81.2878 0.5 79.0827 0.5 76.6603V20.3354C0.5 9.58445 9.249 0.835449 20 0.835449H46C59 0.835449 65.5 7.33333 65.5 20.3354Z" fill="black" />
+</svg>
+<div>
+  <p class="text-2xl font-bold leading-8 text-black">Brand Name</p>
+  <p class="mt-2 h-12 w-60 font-normal leading-4 text-gray-600">Slate helps you see how many more days you need ve helps you see how many more days.</p>
+</div>
+</div>`
+},
+{
+label: 'Blue',
+content: `<div class="flex w-fit flex-row items-center gap-8 rounded-2xl bg-white px-8 py-9">
+<svg width="66" height="84" viewBox="0 0 66 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M65.5 20.3354V76.6603C65.5 79.087 64.1654 81.2878 62.0161 82.4145C61.0627 82.9128 60.0313 83.1646 58.9956 83.1646C57.7 83.1646 56.4086 82.7743 55.295 82.0029L34.2221 67.4128C33.4854 66.8972 32.4974 66.8972 31.7564 67.4128L10.7007 82.0029C8.70735 83.3853 6.1376 83.5368 3.98394 82.4145C1.8346 81.2878 0.5 79.0827 0.5 76.6603V20.3354C0.5 9.58445 9.249 0.835449 20 0.835449H46C59 0.835449 65.5 7.33333 65.5 20.3354Z" fill="#1855CB" />
+</svg>
+<div>
+  <p class="text-2xl font-bold leading-8 text-blue-600">Brand Name</p>
+  <p class="mt-2 h-12 w-60 font-normal leading-4 text-gray-600">Slate helps you see how many more days you need ve helps you see how many more days.</p>
+</div>
+</div>`
+},
+{
+label: 'Dark',
+content: `<div class="flex w-fit flex-row items-center gap-8 rounded-2xl bg-slate-900 px-8 py-9">
+<svg width="66" height="84" viewBox="0 0 66 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M65.5 20.3354V76.6603C65.5 79.087 64.1654 81.2878 62.0161 82.4145C61.0627 82.9128 60.0313 83.1646 58.9956 83.1646C57.7 83.1646 56.4086 82.7743 55.295 82.0029L34.2221 67.4128C33.4854 66.8972 32.4974 66.8972 31.7564 67.4128L10.7007 82.0029C8.70735 83.3853 6.1376 83.5368 3.98394 82.4145C1.8346 81.2878 0.5 79.0827 0.5 76.6603V20.3354C0.5 9.58445 9.249 0.835449 20 0.835449H46C59 0.835449 65.5 7.33333 65.5 20.3354Z" fill="#F5F5F5" />
+</svg>
+
+<div>
+  <p class="text-2xl font-bold leading-8 text-white">Brand Name</p>
+  <p class="mt-2 h-12 w-60 font-normal leading-4 text-gray-400">Slate helps you see how many more days you need ve helps you see how many more days.</p>
+</div>
+</div>`
+},
+]
+
+export default featureCardMetaData;
