@@ -1,203 +1,5 @@
 import React from "react";
 
-export const NormalBreadcrumb = () => {
-  return (
-    <div>
-      <div className="my-4">
-        <div className="inline-flex flex-wrap">
-          <a
-            className="breadcrumb-link text-slate-500 font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
-            href="#"
-          >
-            <span>Dashboard</span>
-          </a>
-        </div>
-      </div>
-
-      <div className="my-4">
-        <div className="inline-flex items-center flex-wrap">
-          <a
-            className="breadcrumb-link text-slate-500 font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
-            href="#"
-          >
-            <span>Dashboard</span>
-          </a>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            className="w-4 h-4 mx-3 text-slate-500"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M8.25 4.5l7.5 7.5-7.5 7.5"
-            />
-          </svg>
-          <a
-            className="breadcrumb-link text-slate-500 font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
-            href="#"
-          >
-            <span>Components</span>
-          </a>
-        </div>
-      </div>
-
-      <div className="my-4">
-        <div className="inline-flex items-center flex-wrap">
-          <a
-            className="breadcrumb-link text-slate-500 font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
-            href="#"
-          >
-            <span>Dashboard</span>
-          </a>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            className="w-4 h-4 mx-3 text-slate-500"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M8.25 4.5l7.5 7.5-7.5 7.5"
-            />
-          </svg>
-          <a
-            className="breadcrumb-link text-slate-500 font-semibold focus:text-blue-600  hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
-            href="#"
-          >
-            <span>Components</span>
-          </a>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            className="w-4 h-4 mx-3 text-slate-500"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M8.25 4.5l7.5 7.5-7.5 7.5"
-            />
-          </svg>
-          <a
-            className="breadcrumb-link text-slate-500 font-semibold px-3 py-2 transition-colors duration-300 ease-in-out hover:text-blue-600 focus:text-blue-600"
-            href="#"
-          >
-            <span>Breadcrumbs</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export const BoxedBreadcrumb = () => {
-  return (
-    <div>
-      <div className="my-4 mx-4">
-        <div className="inline-flex flex-wrap">
-          <a
-            className="text-slate-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
-            href="#"
-          >
-            <span>Dashboard</span>
-          </a>
-        </div>
-      </div>
-
-      <div className="my-4 mx-4">
-        <div className="inline-flex items-center flex-wrap">
-          <a
-            className="text-slate-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
-            href=""
-          >
-            <span>Dashboard</span>
-          </a>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            className="w-4 h-4 mx-3 text-slate-500"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M8.25 4.5l7.5 7.5-7.5 7.5"
-            />
-          </svg>
-          <a
-            className="text-slate-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
-            href=""
-          >
-            <span>Components</span>
-          </a>
-        </div>
-      </div>
-
-      <div className="my-4 mx-4">
-        <div className="inline-flex items-center flex-wrap gap-y-4">
-          <a
-            className="text-slate-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
-            href="#"
-          >
-            <span>Dashboard</span>
-          </a>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            className="w-4 h-4 mx-3 text-slate-500"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M8.25 4.5l7.5 7.5-7.5 7.5"
-            />
-          </svg>
-          <a
-            className="text-slate-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
-            href="#"
-          >
-            <span>Components</span>
-          </a>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            className="w-4 h-4 mx-3 text-slate-500"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M8.25 4.5l7.5 7.5-7.5 7.5"
-            />
-          </svg>
-          <a
-            className="text-slate-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
-            href="#"
-          >
-            <span>Breadcumbs</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-};
-
 export const IconBreadcrumb = () => {
   return (
     <div>
@@ -333,3 +135,203 @@ export const IconBreadcrumb = () => {
     </div>
   );
 };
+
+export const NormalBreadcrumb = () => {
+  return (
+    <div>
+      <div className="my-4">
+        <div className="inline-flex flex-wrap">
+          <a
+            className="breadcrumb-link text-gray-500 font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
+            href="#"
+          >
+            <span>Dashboard</span>
+          </a>
+        </div>
+      </div>
+
+      <div className="my-4">
+        <div className="inline-flex items-center flex-wrap">
+          <a
+            className="breadcrumb-link text-gray-500 font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
+            href="#"
+          >
+            <span>Dashboard</span>
+          </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            className="w-4 h-4 mx-3 text-gray-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+          <a
+            className="breadcrumb-link text-gray-500 font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
+            href="#"
+          >
+            <span>Components</span>
+          </a>
+        </div>
+      </div>
+
+      <div className="my-4">
+        <div className="inline-flex items-center flex-wrap">
+          <a
+            className="breadcrumb-link text-gray-500 font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
+            href="#"
+          >
+            <span>Dashboard</span>
+          </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            className="w-4 h-4 mx-3 text-gray-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+          <a
+            className="breadcrumb-link text-gray-500 font-semibold focus:text-blue-600  hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
+            href="#"
+          >
+            <span>Components</span>
+          </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            className="w-4 h-4 mx-3 text-gray-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+          <a
+            className="breadcrumb-link text-gray-500 font-semibold px-3 py-2 transition-colors duration-300 ease-in-out hover:text-blue-600 focus:text-blue-600"
+            href="#"
+          >
+            <span>Breadcrumbs</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const BoxedBreadcrumb = () => {
+  return (
+    <div>
+      <div className="my-4 mx-4">
+        <div className="inline-flex flex-wrap">
+          <a
+            className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
+            href="#"
+          >
+            <span>Dashboard</span>
+          </a>
+        </div>
+      </div>
+
+      <div className="my-4 mx-4">
+        <div className="inline-flex items-center flex-wrap">
+          <a
+            className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
+            href=""
+          >
+            <span>Dashboard</span>
+          </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            className="w-4 h-4 mx-3 text-gray-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+          <a
+            className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
+            href=""
+          >
+            <span>Components</span>
+          </a>
+        </div>
+      </div>
+
+      <div className="my-4 mx-4">
+        <div className="inline-flex items-center flex-wrap gap-y-4">
+          <a
+            className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
+            href="#"
+          >
+            <span>Dashboard</span>
+          </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            className="w-4 h-4 mx-3 text-gray-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+          <a
+            className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
+            href="#"
+          >
+            <span>Components</span>
+          </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            className="w-4 h-4 mx-3 text-gray-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+          <a
+            className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
+            href="#"
+          >
+            <span>Breadcumbs</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+
