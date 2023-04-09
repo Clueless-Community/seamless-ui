@@ -4,7 +4,7 @@ export const IconBreadcrumb = () => {
   return (
     <div>
       <div className="flex items-center overflow-x-auto whitespace-nowrap py-4">
-        <a href="#" className="text-gray-600 focus:text-blue-600">
+        <a href="#icon" className="text-white focus:text-blue-600">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -15,7 +15,7 @@ export const IconBreadcrumb = () => {
           </svg>
         </a>
 
-        <span className="mx-5 text-gray-500 rtl:-scale-x-100">
+        <span className="mx-5 text-white rtl:-scale-x-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -31,8 +31,8 @@ export const IconBreadcrumb = () => {
         </span>
 
         <a
-          href="#"
-          className="-px-2 flex items-center text-gray-600  focus:text-blue-600 hover:underline"
+          href="#icon"
+          className="-px-2 flex items-center text-white  focus:text-blue-600 hover:underline"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ export const IconBreadcrumb = () => {
           <span className="mx-2 font-semibold">Account</span>
         </a>
 
-        <span className="mx-5 text-gray-500 rtl:-scale-x-100">
+        <span className="mx-5 text-white rtl:-scale-x-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -68,8 +68,8 @@ export const IconBreadcrumb = () => {
         </span>
 
         <a
-          href="#"
-          className="-px-2 flex items-center text-gray-600  focus:text-blue-600 hover:underline"
+          href="#icon"
+          className="-px-2 flex items-center text-white  focus:text-blue-600 hover:underline"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@ export const IconBreadcrumb = () => {
           <span className="mx-2 font-semibold">Profile</span>
         </a>
 
-        <span className="mx-5 text-gray-500 rtl:-scale-x-100">
+        <span className="mx-5 text-white rtl:-scale-x-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -105,8 +105,8 @@ export const IconBreadcrumb = () => {
         </span>
 
         <a
-          href="#"
-          className="-px-2 flex items-center text-gray-600  focus:text-blue-600 hover:underline"
+          href="#icon"
+          className="-px-2 flex items-center text-white  focus:text-blue-600 hover:underline"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -142,8 +142,8 @@ export const NormalBreadcrumb = () => {
       <div className="my-4">
         <div className="inline-flex flex-wrap">
           <a
-            className="breadcrumb-link text-gray-500 font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
-            href="#"
+            className="breadcrumb-link text-white font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
+            href="#normal"
           >
             <span>Dashboard</span>
           </a>
@@ -153,8 +153,8 @@ export const NormalBreadcrumb = () => {
       <div className="my-4">
         <div className="inline-flex items-center flex-wrap">
           <a
-            className="breadcrumb-link text-gray-500 font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
-            href="#"
+            className="breadcrumb-link text-white font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
+            href="#normal"
           >
             <span>Dashboard</span>
           </a>
@@ -164,7 +164,7 @@ export const NormalBreadcrumb = () => {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-4 h-4 mx-3 text-gray-500"
+            className="w-4 h-4 mx-3 text-white"
           >
             <path
               stroke-linecap="round"
@@ -173,8 +173,8 @@ export const NormalBreadcrumb = () => {
             />
           </svg>
           <a
-            className="breadcrumb-link text-gray-500 font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
-            href="#"
+            className="breadcrumb-link text-white font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
+            href="#normal"
           >
             <span>Components</span>
           </a>
@@ -184,8 +184,8 @@ export const NormalBreadcrumb = () => {
       <div className="my-4">
         <div className="inline-flex items-center flex-wrap">
           <a
-            className="breadcrumb-link text-gray-500 font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
-            href="#"
+            className="breadcrumb-link text-white font-semibold focus:text-blue-600 hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
+            href="#normal"
           >
             <span>Dashboard</span>
           </a>
@@ -195,7 +195,7 @@ export const NormalBreadcrumb = () => {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-4 h-4 mx-3 text-gray-500"
+            className="w-4 h-4 mx-3 text-white"
           >
             <path
               stroke-linecap="round"
@@ -204,8 +204,8 @@ export const NormalBreadcrumb = () => {
             />
           </svg>
           <a
-            className="breadcrumb-link text-gray-500 font-semibold focus:text-blue-600  hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
-            href="#"
+            className="breadcrumb-link text-white font-semibold focus:text-blue-600  hover:text-blue-600 px-3 py-2 transition-colors duration-300 ease-in-out"
+            href="#normal"
           >
             <span>Components</span>
           </a>
@@ -215,7 +215,7 @@ export const NormalBreadcrumb = () => {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-4 h-4 mx-3 text-gray-500"
+            className="w-4 h-4 mx-3 text-white"
           >
             <path
               stroke-linecap="round"
@@ -224,8 +224,8 @@ export const NormalBreadcrumb = () => {
             />
           </svg>
           <a
-            className="breadcrumb-link text-gray-500 font-semibold px-3 py-2 transition-colors duration-300 ease-in-out hover:text-blue-600 focus:text-blue-600"
-            href="#"
+            className="breadcrumb-link text-white font-semibold px-3 py-2 transition-colors duration-300 ease-in-out hover:text-blue-600 focus:text-blue-600"
+            href="#normal"
           >
             <span>Breadcrumbs</span>
           </a>
@@ -242,8 +242,7 @@ export const BoxedBreadcrumb = () => {
         <div className="inline-flex flex-wrap">
           <a
             className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
-            href="#"
-          >
+            href="#boxed" >
             <span>Dashboard</span>
           </a>
         </div>
@@ -253,7 +252,7 @@ export const BoxedBreadcrumb = () => {
         <div className="inline-flex items-center flex-wrap">
           <a
             className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
-            href=""
+            href="#boxed"
           >
             <span>Dashboard</span>
           </a>
@@ -273,7 +272,7 @@ export const BoxedBreadcrumb = () => {
           </svg>
           <a
             className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
-            href=""
+            href="#boxed"
           >
             <span>Components</span>
           </a>
@@ -284,7 +283,7 @@ export const BoxedBreadcrumb = () => {
         <div className="inline-flex items-center flex-wrap gap-y-4">
           <a
             className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
-            href="#"
+            href="#boxed"
           >
             <span>Dashboard</span>
           </a>
@@ -304,7 +303,7 @@ export const BoxedBreadcrumb = () => {
           </svg>
           <a
             className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
-            href="#"
+            href="#boxed"
           >
             <span>Components</span>
           </a>
@@ -324,7 +323,7 @@ export const BoxedBreadcrumb = () => {
           </svg>
           <a
             className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
-            href="#"
+            href="#boxed"
           >
             <span>Breadcumbs</span>
           </a>
