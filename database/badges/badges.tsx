@@ -229,42 +229,42 @@ export const Badge5 = () => {
   return (
     <div className="grid grid-cols-4 gap-5">
       <button
-        className="text-white bg-blue-700 px-5 pt-2.5 pb-1.5 hover:bg-blue-800 font-medium rounded-full text-sm text-center"
+        className="text-white bg-blue-700 px-5 py-2.5 hover:bg-blue-800 font-medium rounded-full text-sm text-center"
       >
         Default
       </button>
       <button
-        className="px-5 pt-2.5 pb-1.5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+        className="px-5 pt-2.5 pb-2.5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
       >
         Alternative
       </button>
       <button
-        className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 pt-2.5 pb-1.5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+        className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 pt-2.5 pb-2.5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
       >
         Dark
       </button>
       <button
-        className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-5 pt-2.5 pb-1.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+        className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-5 pt-2.5 pb-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
       >
         Light
       </button>
       <button
-        className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 pt-2.5 pb-1.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+        className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 pt-2.5 pb-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
       >
         Green
       </button>
       <button
-        className="text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 pt-2.5 pb-1.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+        className="text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 pt-2.5 pb-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
       >
         Red
       </button>
       <button
-        className="text-white bg-yellow-400 hover:bg-yellow-500 font-medium rounded-full text-sm px-5 pt-2.5 pb-1.5 text-center"
+        className="text-white bg-yellow-400 hover:bg-yellow-500 font-medium rounded-full text-sm px-5 pt-2.5 pb-2.5 text-center"
       >
         Yellow
       </button>
       <button
-        className="text-white bg-purple-700 hover:bg-purple-800 font-medium rounded-full text-sm px-5 pt-2.5 pb-1.5 text-center"
+        className="text-white bg-purple-700 hover:bg-purple-800 font-medium rounded-full text-sm px-5 pt-2.5 pb-2.5 text-center"
       >
         Purple
       </button>

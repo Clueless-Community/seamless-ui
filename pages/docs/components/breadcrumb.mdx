@@ -1,0 +1,53 @@
+# Breadcrumb Component
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {NormalBreadcrumb, IconBreadcrumb, BoxedBreadcrumb} from '../../../database/breadcrumb/breadcrumb.tsx'
+
+### Icon Breadcrumb
+
+import iconBreadcrumbMetadata from '../../../database/breadcrumb/iconBreadcrumbMetadata.ts';
+
+export const IconBreadcrumbs = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} reload={true} codeMetaData={iconBreadcrumbMetadata} componentsArray={[<IconBreadcrumb />]}/>
+    </div>
+    </>
+  );
+};
+
+<IconBreadcrumbs/>
+
+### Normal Breadcrumb
+
+import normalBreadcrumbMetaData from '../../../database/breadcrumb/normalBreadcrumbMetaData.ts';
+
+export const Normalbreadcrumbs = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent reload={true} theme={'light'} codeMetaData={normalBreadcrumbMetaData} componentsArray={[<NormalBreadcrumb />]}/>
+    </div>
+    </>
+  );
+};
+
+<Normalbreadcrumbs/>
+
+### Boxed Breadcrumb
+
+import boxedBreadcrumbMetadata from '../../../database/breadcrumb/boxedBreadcrumbMetadata.ts';
+
+export const BoxedBreadcrumbs = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={boxedBreadcrumbMetadata} componentsArray={[<BoxedBreadcrumb />]}/>
+    </div>
+    </>
+  );
+};
+
+<BoxedBreadcrumbs/>

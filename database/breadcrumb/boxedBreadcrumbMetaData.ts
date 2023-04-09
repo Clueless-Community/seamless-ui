@@ -1,0 +1,84 @@
+const boxedBreadcrumbMetaData = [
+{
+label: "Boxed Breadcrumb",
+content: `<!-- Breadcumbs 1 -->
+<div class="my-4 mx-4">
+  <div class="inline-flex flex-wrap">
+    <a class="text-slate-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"  href="#" >
+      <span>Dashboard</span>
+    </a>
+  </div>
+</div>
+
+<!-- Breadcumbs 2 -->
+<div class="my-4 mx-4">
+  <div class="inline-flex items-center flex-wrap">
+    <a class="text-slate-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white" href="">
+      <span>Dashboard</span>
+    </a>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-4 h-4 mx-3 text-slate-500"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+      />
+    </svg>
+    <a class="text-slate-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white" href="">
+      <span>Components</span>
+    </a>
+  </div>
+</div>
+
+<!-- Breadcumbs 3 -->
+<div class="my-4 mx-4">
+  <div class="inline-flex items-center flex-wrap gap-y-4">
+    <a class="text-slate-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white" href="#">
+      <span>Dashboard</span>
+    </a>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-4 h-4 mx-3 text-slate-500"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+      />
+    </svg>
+    <a class="text-slate-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white" href="#">
+      <span>Components</span>
+    </a>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-4 h-4 mx-3 text-slate-500"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+      />
+    </svg>
+    <a class="text-slate-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white" href="#">
+      <span>Breadcumbs</span>
+    </a>
+  </div>
+</div>`
+}
+]
+
+export default boxedBreadcrumbMetaData;
