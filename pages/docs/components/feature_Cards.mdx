@@ -5,7 +5,8 @@ import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
 import {FeatureCard0Light, FeatureCard0Blue, FeatureCard0Dark,
 FeatureCard1Light, FeatureCard1Blue, FeatureCard1Dark,
 FeatureCard2Light, FeatureCard2Blue, FeatureCard2Dark,
-FeatureCard3Light, FeatureCard3Blue, FeatureCard3Dark,} from '../../../database/featureCards/featureCards.tsx'
+FeatureCard3Light, FeatureCard3Blue, FeatureCard3Dark,
+FeatureCard4Light, FeatureCard4Blue, FeatureCard4Dark,} from '../../../database/featureCards/featureCards.tsx'
 
 
 import featureCard0MetaData from '../../../database/featureCards/featureCard0MetaData.ts';
@@ -63,3 +64,17 @@ export const FeatureCard3 = () => {
 };
 
 <FeatureCard3/>
+
+import featureCard4MetaData from '../../../database/featureCards/featureCard4MetaData.ts';
+
+export const FeatureCard4 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={featureCard4MetaData} componentsArray={[<FeatureCard4Light />, <FeatureCard4Blue/>, <FeatureCard4Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<FeatureCard4/>

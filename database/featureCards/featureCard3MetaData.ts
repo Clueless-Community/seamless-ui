@@ -1,4 +1,4 @@
-const featureCard2MetaData = [
+const featureCard3MetaData = [
 {
 label: 'Light',
 content: `<div class="w-fit rounded-2xl bg-white px-6 py-7 transition-all duration-500 ease-in-out">
@@ -25,4 +25,4 @@ content: `<div class="w-fit rounded-2xl bg-slate-900 px-6 py-7 transition-all du
 },
 ]
 
-export default featureCard2MetaData;
+export default featureCard3MetaData;
