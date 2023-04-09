@@ -3,8 +3,8 @@ import React from "react";
 export const AccordionLight = () => {
   return (
     <div className="mx-10">
-      <div className="p-5 bg-blue-600">
-        <div className="relative my-1">
+      <div className="p-5 bg-gray-200">
+        <div className="relative border border-gray-300 rounded-md my-1">
           <input
             type="checkbox"
             className="peer absolute left-0 top-0 h-16 w-full cursor-pointer bg-red-300 p-5 opacity-0"
@@ -29,15 +29,14 @@ export const AccordionLight = () => {
             </svg>
           </div>
           <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-screen">
-            <p className="p-4 text-white">
+            <p className="p-4 text-black">
               web-ui-kit is an open-source library of interactive components
               built on top of Tailwind CSS including buttons, dropdowns, modals,
               navbars, and more.
             </p>
           </div>
         </div>
-
-        <div className="relative my-1">
+        <div className="relative border border-gray-300 rounded-md my-1">
           <input
             type="checkbox"
             className="peer absolute left-0 top-0 h-16 w-full cursor-pointer bg-red-300 p-5 opacity-0"
@@ -45,7 +44,7 @@ export const AccordionLight = () => {
           <div className="cursor-pointer text-gray-900 rounded-md bg-white p-5 pr-10">
             Is there a Figma file available?
           </div>
-          <div className="absolute pointer-events-none right-3 text-gray-900 top-3 rounded-full border p-2 shadow-md duration-500 nx-rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-blue-500 peer-checked:text-white peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute pointer-events-none right-3 text-gray-900 top-3 rounded-full border p-2 shadow-md duration-500 nx-rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-blue-500 peer-checked:text-black peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -62,12 +61,12 @@ export const AccordionLight = () => {
             </svg>
           </div>
           <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-screen">
-            <p className="p-4 text-white">
+            <p className="p-4 text-black">
               web-ui-kit is first conceptualized and designed using the Figma
               software so everything you see in the library has a design
               equivalent in our Figma file.
             </p>
-            <p className="p-4 text-white">
+            <p className="p-4 text-black">
               Check out the{" "}
               <a href="https://clueless.tech" className="underline">
                 Figma design system
@@ -77,7 +76,7 @@ export const AccordionLight = () => {
             </p>
           </div>
         </div>
-        <div className="relative my-1">
+        <div className="relative border border-gray-300 rounded-md my-1">
           <input
             type="checkbox"
             className="peer absolute left-0 top-0 h-16 w-full cursor-pointer bg-red-300 p-5 opacity-0"
@@ -85,7 +84,7 @@ export const AccordionLight = () => {
           <div className="cursor-pointer text-gray-900 rounded-md bg-white p-5 pr-14">
             What are the differences between web-ui-kit and Tailwind UI?
           </div>
-          <div className="absolute pointer-events-none text-gray-900 right-3 top-3 rounded-full border p-2 shadow-md duration-500 nx-rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-blue-500 peer-checked:text-white peer-checked:transition-all peer-checked:duration-500">
+          <div className="absolute pointer-events-none text-gray-900 right-3 top-3 rounded-full border p-2 shadow-md duration-500 nx-rotate-90 peer-checked:-rotate-90 peer-checked:rounded-full peer-checked:bg-blue-500 peer-checked:text-black peer-checked:transition-all peer-checked:duration-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -102,14 +101,14 @@ export const AccordionLight = () => {
             </svg>
           </div>
           <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-screen">
-            <p className="p-4 text-white">
+            <p className="p-4 text-black">
               The main difference is that the core components from web-ui-kit
               are open source under the MIT license, whereas Tailwind UI is a
               paid product. Another difference is that web-ui-kit relies on
               smaller and standalone components, whereas Tailwind UI offers
               sections of pages.
             </p>
-            <p className="p-4 text-white">
+            <p className="p-4 text-black">
               However, we actually recommend using both web-ui-kit, web-ui-kit
               Pro, and even Tailwind UI as there is no technical reason stopping
               you from using the best of two worlds.
