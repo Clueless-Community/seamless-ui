@@ -1,0 +1,37 @@
+# Badge Component
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {Badge1, Badge2, Badge3, Badge4, Badge5} from '../../../database/badges/badges.tsx'
+
+### Badge 1
+
+import badge1MetaData from '../../../database/badges/badge1MetaData.ts';
+
+export const Badges1 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={badge1MetaData} componentsArray={[<Badge1 />]}/>
+    </div>
+    </>
+  );
+};
+
+<Badges1/>
+
+### Badge 2
+
+import badge2MetaData from '../../../database/badges/badge2MetaData.ts';
+
+export const Badges2 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={badge2MetaData} componentsArray={[<Badge2 />]}/>
+    </div>
+    </>
+  );
+};
+
+<Badges2/>
