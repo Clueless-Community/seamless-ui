@@ -9,10 +9,10 @@ interface Props {
     codeMetaData: { label: string; content: string }[];
     componentsArray: JSX.Element[];
     theme?: "dark" | "light"
-    isReload?: boolean
+    reload?: boolean
 }
 
-const ExampleComponent: React.FC<Props> = ({ codeMetaData, componentsArray, theme, isReload }) => {
+const ExampleComponent: React.FC<Props> = ({ codeMetaData, componentsArray, theme, reload }) => {
     const [tabIndex, setTabIndex] = useState<number>(0);
     const [reRender, setReRender] = useState<boolean>(false);
     const toast = useToast();
@@ -20,7 +20,7 @@ const ExampleComponent: React.FC<Props> = ({ codeMetaData, componentsArray, them
 
     return (
         <>
-            {isReload ? (
+            {reload ? (
                 <>
                     {/* Componet Reders Here */}
                     {reRender ? (
