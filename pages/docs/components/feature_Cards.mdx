@@ -4,7 +4,8 @@ import React from "react";
 import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
 import {FeatureCard0Light, FeatureCard0Blue, FeatureCard0Dark,
 FeatureCard1Light, FeatureCard1Blue, FeatureCard1Dark,
-FeatureCard2Light, FeatureCard2Blue, FeatureCard2Dark} from '../../../database/featureCards/featureCards.tsx'
+FeatureCard2Light, FeatureCard2Blue, FeatureCard2Dark,
+FeatureCard3Light, FeatureCard3Blue, FeatureCard3Dark,} from '../../../database/featureCards/featureCards.tsx'
 
 
 import featureCard0MetaData from '../../../database/featureCards/featureCard0MetaData.ts';
@@ -48,3 +49,17 @@ export const FeatureCard2 = () => {
 };
 
 <FeatureCard2/>
+
+import featureCard3MetaData from '../../../database/featureCards/featureCard3MetaData.ts';
+
+export const FeatureCard3 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={featureCard3MetaData} componentsArray={[<FeatureCard3Light />, <FeatureCard3Blue/>, <FeatureCard3Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<FeatureCard3/>
