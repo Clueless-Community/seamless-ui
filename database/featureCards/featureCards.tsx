@@ -391,7 +391,6 @@ export const FeatureCard4Blue = () => {
     <div className="cursor-default">
       <div className="flex w-fit rounded-2xl bg-white py-5 pl-5 pr-8">
         <svg
-        
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="#2563EB"
@@ -441,6 +440,253 @@ export const FeatureCard4Dark = () => {
             Happy Clients
           </p>
         </div>
+      </div>
+    </div>
+  );
+};
+
+// ------------Feature Card 5 Light--------------
+export const FeatureCard5Light = () => {
+  return (
+    <div>
+      <div className="flex w-fit cursor-default flex-col items-center justify-center rounded-2xl bg-white px-7 pb-6 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:shadow-white/25">
+        <svg
+          className="mt-5 w-10 text-gray-900"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+        >
+          <path d="M4.5 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM14.25 8.625a3.375 3.375 0 116.75 0 3.375 3.375 0 01-6.75 0zM1.5 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM17.25 19.128l-.001.144a2.25 2.25 0 01-.233.96 10.088 10.088 0 005.06-1.01.75.75 0 00.42-.643 4.875 4.875 0 00-6.957-4.611 8.586 8.586 0 011.71 5.157v.003z" />
+        </svg>
+        <h1 className="mt-3 text-3xl font-bold leading-8 text-black">45%</h1>
+        <h3 className="mt-3 text-sm font-normal leading-4 tracking-wide text-gray-600">
+          Case Dismissed
+        </h3>
+      </div>
+    </div>
+  );
+};
+
+// ------------Feature Card 5 Blue--------------
+export const FeatureCard5Blue = () => {
+  return (
+    <div>
+      <div className="flex w-fit cursor-default flex-col items-center justify-center rounded-2xl bg-white px-7 pb-6 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-white/20 hover:drop-shadow-xl">
+        <svg
+          className="mt-5 w-10 text-blue-600"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+        >
+          <path d="M4.5 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM14.25 8.625a3.375 3.375 0 116.75 0 3.375 3.375 0 01-6.75 0zM1.5 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM17.25 19.128l-.001.144a2.25 2.25 0 01-.233.96 10.088 10.088 0 005.06-1.01.75.75 0 00.42-.643 4.875 4.875 0 00-6.957-4.611 8.586 8.586 0 011.71 5.157v.003z" />
+        </svg>
+        <h1 className="mt-3 text-3xl font-bold leading-8 text-blue-600">45%</h1>
+        <h3 className="mt-3 text-sm font-normal leading-4 tracking-wide text-gray-600">
+          Case Dismissed
+        </h3>
+      </div>
+    </div>
+  );
+};
+
+// ------------Feature Card 5 Dark--------------
+export const FeatureCard5Dark = () => {
+  return (
+    <div>
+      <div className="flex w-fit cursor-default flex-col items-center justify-center rounded-2xl bg-gray-900 px-7 pb-6 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:shadow-slate-900/20">
+        <svg
+          className="mt-5 w-10 fill-white"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+        >
+          <path d="M4.5 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM14.25 8.625a3.375 3.375 0 116.75 0 3.375 3.375 0 01-6.75 0zM1.5 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM17.25 19.128l-.001.144a2.25 2.25 0 01-.233.96 10.088 10.088 0 005.06-1.01.75.75 0 00.42-.643 4.875 4.875 0 00-6.957-4.611 8.586 8.586 0 011.71 5.157v.003z" />
+        </svg>
+        <h1 className="mt-3 text-3xl font-bold leading-8 text-white">45%</h1>
+        <h3 className="mt-3 text-sm font-normal leading-4 tracking-wide text-gray-400">
+          Case Dismissed
+        </h3>
+      </div>
+    </div>
+  );
+};
+
+// ------------Feature Card 6 Light--------------
+export const FeatureCard6Light = () => {
+  return (
+    <div>
+      <div className="grid w-fit place-items-center rounded-3xl border border-white bg-white px-5 pb-7 pt-5 shadow dark:border-white dark:bg-white">
+        <svg
+          width="53"
+          height="59"
+          viewBox="0 0 54 60"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M53.2083 14.5901C53.2083 40.3699 49.4868 52.9375 27.4255 59.2367C27.2868 59.2768 27.1448 59.2985 27.003 59.2985C26.8612 59.2985 26.7195 59.2768 26.5807 59.2367C4.51638 52.9313 0.791672 40.4929 0.791672 14.9876C0.791672 14.2969 1.25113 13.6927 1.91405 13.5046C13.7633 10.1592 22.7882 4.28891 25.964 1.15624C26.2569 0.869491 26.67 0.647359 27.0585 0.712109C27.4655 0.715192 27.8571 0.881463 28.1438 1.1713C31.0144 4.08196 43.1321 10.1129 52.1539 13.1222C52.7829 13.3381 53.2083 13.9272 53.2083 14.5901Z"
+            fill="#121225"
+          />
+        </svg>
+        <h5 className="mb-2.5 mt-3.5 place-self-center text-2xl font-bold tracking-wide text-black dark:text-black">
+          Job Security
+        </h5>
+        <p className="mb-5 w-44 text-center text-sm font-normal leading-4 tracking-wide text-gray-600">
+          Slate helps you see how many more days you need to work to reach.
+        </p>
+        <button className="rounded-full border-2 border-black bg-transparent px-8 py-2 text-sm font-semibold text-black hover:bg-black hover:text-white">
+          Button
+        </button>
+      </div>
+    </div>
+  );
+};
+
+// ------------Feature Card 6 Blue--------------
+export const FeatureCard6Blue = () => {
+  return (
+    <div>
+      <div className="grid w-fit place-items-center rounded-3xl border border-white bg-white px-5 pb-7 pt-5 shadow dark:border-white dark:bg-white">
+        <svg
+          width="53"
+          height="59"
+          viewBox="0 0 54 60"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M53.2083 14.5901C53.2083 40.3699 49.4867 52.9375 27.4255 59.2367C27.2867 59.2768 27.1448 59.2985 27.003 59.2985C26.8612 59.2985 26.7194 59.2768 26.5807 59.2367C4.51636 52.9313 0.791656 40.4929 0.791656 14.9876C0.791656 14.2969 1.25112 13.6927 1.91403 13.5046C13.7633 10.1592 22.7882 4.28891 25.964 1.15624C26.2569 0.869491 26.67 0.647359 27.0585 0.712109C27.4655 0.715192 27.8571 0.881463 28.1438 1.1713C31.0144 4.08196 43.132 10.1129 52.1539 13.1222C52.7829 13.3381 53.2083 13.9272 53.2083 14.5901Z"
+            fill="#2D70F3"
+          />
+        </svg>
+        <h5 className="mb-2.5 mt-3.5 place-self-center text-2xl font-bold tracking-wide text-blue-600">
+          Job Security
+        </h5>
+        <p className="mb-5 w-44 text-center text-sm font-normal leading-4 tracking-wide text-gray-600">
+          Slate helps you see how many more days you need to work to reach.
+        </p>
+        <button className="rounded-full border-2 border-blue-600 bg-transparent px-8 py-2 text-sm font-semibold text-blue-600 hover:bg-blue-600 hover:text-white">
+          Button
+        </button>
+      </div>
+    </div>
+  );
+};
+
+// ------------Feature Card 6 Dark--------------
+export const FeatureCard6Dark = () => {
+  return (
+    <div>
+      <div className="grid w-fit place-items-center rounded-3xl border border-gray-900 px-5 pb-7 pt-5 shadow bg-gray-900">
+        <svg
+          width="53"
+          height="59"
+          viewBox="0 0 54 60"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M53.2084 14.5901C53.2084 40.3699 49.4868 52.9375 27.4255 59.2367C27.2868 59.2768 27.1449 59.2985 27.003 59.2985C26.8612 59.2985 26.7195 59.2768 26.5807 59.2367C4.5164 52.9313 0.791687 40.4929 0.791687 14.9876C0.791687 14.2969 1.25115 13.6927 1.91406 13.5046C13.7633 10.1592 22.7882 4.28891 25.964 1.15624C26.2569 0.869491 26.67 0.647359 27.0585 0.712109C27.4655 0.715192 27.8571 0.881463 28.1438 1.1713C31.0144 4.08196 43.1321 10.1129 52.1539 13.1222C52.7829 13.3381 53.2084 13.9272 53.2084 14.5901Z"
+            fill="white"
+          />
+        </svg>
+        <h5 className="mb-2.5 mt-3.5 place-self-center text-2xl font-bold tracking-wide text-white">
+          Job Security
+        </h5>
+        <p className="mb-5 w-44 text-center text-sm font-normal leading-4 tracking-wide text-white">
+          Slate helps you see how many more days you need to work to reach.
+        </p>
+        <button className="rounded-full border-2 border-white bg-transparent px-8 py-2 text-sm font-semibold text-white hover:bg-white hover:text-black">
+          Button
+        </button>
+      </div>
+    </div>
+  );
+};
+
+// ------------Feature Card 5 Light--------------
+export const FeatureCard7Light = () => {
+  return (
+    <div>
+      <div className="flex w-fit cursor-default flex-col items-center justify-center rounded-2xl bg-white px-6 py-8 transition-all duration-500 ease-in-out hover:shadow-slate-900/20">
+        <svg
+          width="67"
+          height="63"
+          viewBox="0 0 67 63"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M50.7917 0.375H16.2083C7.63166 0.375 0.645832 7.36083 0.645832 15.9375V60.8958C0.645832 61.5875 1.06082 62.2099 1.71791 62.4865C1.92541 62.5903 2.1675 62.625 2.375 62.625C2.82458 62.625 3.27419 62.4524 3.58544 62.1066L11.9545 53.7715C12.9229 52.8031 14.237 52.25 15.6204 52.25H50.7917C59.3683 52.25 66.3542 45.2642 66.3542 36.6875V15.9375C66.3542 7.36083 59.3683 0.375 50.7917 0.375ZM19.6667 30.6354C17.2804 30.6354 15.3437 28.6987 15.3437 26.3125C15.3437 23.9262 17.2804 21.9896 19.6667 21.9896C22.0529 21.9896 23.9896 23.9262 23.9896 26.3125C23.9896 28.6987 22.0529 30.6354 19.6667 30.6354ZM33.5 30.6354C31.1137 30.6354 29.1771 28.6987 29.1771 26.3125C29.1771 23.9262 31.1137 21.9896 33.5 21.9896C35.8862 21.9896 37.8229 23.9262 37.8229 26.3125C37.8229 28.6987 35.8862 30.6354 33.5 30.6354ZM47.3333 30.6354C44.9471 30.6354 43.0104 28.6987 43.0104 26.3125C43.0104 23.9262 44.9471 21.9896 47.3333 21.9896C49.7196 21.9896 51.6562 23.9262 51.6562 26.3125C51.6562 28.6987 49.7196 30.6354 47.3333 30.6354Z"
+            fill="#101010"
+          />
+        </svg>
+        <h1 className="mt-5 w-36 text-lg font-bold leading-8 text-black">
+          Give a message
+        </h1>
+        <p className="mt-2.5 w-36 text-sm font-normal leading-4 tracking-[0.2px] text-black">
+          Slate helps you see how many more days you need to work to reach.
+          Slate.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+// ------------Feature Card 5 Blue--------------
+export const FeatureCard7Blue = () => {
+  return (
+    <div>
+      <div className="flex w-fit cursor-default flex-col items-center justify-center rounded-2xl bg-white px-6 py-8 transition-all duration-500 ease-in-out hover:shadow-slate-900/20">
+        <svg
+          width="67"
+          height="63"
+          viewBox="0 0 67 63"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M50.7917 0.375H16.2083C7.63166 0.375 0.645832 7.36083 0.645832 15.9375V60.8958C0.645832 61.5875 1.06082 62.2099 1.71791 62.4865C1.92541 62.5903 2.1675 62.625 2.375 62.625C2.82458 62.625 3.27419 62.4524 3.58544 62.1066L11.9545 53.7715C12.9229 52.8031 14.237 52.25 15.6204 52.25H50.7917C59.3683 52.25 66.3542 45.2642 66.3542 36.6875V15.9375C66.3542 7.36083 59.3683 0.375 50.7917 0.375ZM19.6667 30.6354C17.2804 30.6354 15.3437 28.6987 15.3437 26.3125C15.3437 23.9262 17.2804 21.9896 19.6667 21.9896C22.0529 21.9896 23.9896 23.9262 23.9896 26.3125C23.9896 28.6987 22.0529 30.6354 19.6667 30.6354ZM33.5 30.6354C31.1137 30.6354 29.1771 28.6987 29.1771 26.3125C29.1771 23.9262 31.1137 21.9896 33.5 21.9896C35.8862 21.9896 37.8229 23.9262 37.8229 26.3125C37.8229 28.6987 35.8862 30.6354 33.5 30.6354ZM47.3333 30.6354C44.9471 30.6354 43.0104 28.6987 43.0104 26.3125C43.0104 23.9262 44.9471 21.9896 47.3333 21.9896C49.7196 21.9896 51.6562 23.9262 51.6562 26.3125C51.6562 28.6987 49.7196 30.6354 47.3333 30.6354Z"
+            fill="#2d70f3"
+          />
+        </svg>
+        <h1 className="mt-5 w-36 text-lg font-bold leading-8 text-black">
+          Give a message
+        </h1>
+        <p className="mt-2.5 w-36 text-sm font-normal leading-4 tracking-[0.2px] text-black">
+          Slate helps you see how many more days you need to work to reach.
+          Slate.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+// ------------Feature Card 5 Dark--------------
+export const FeatureCard7Dark = () => {
+  return (
+    <div>
+      <div className="flex w-fit cursor-default flex-col items-center justify-center rounded-2xl bg-slate-900 px-6 py-8 transition-all duration-500 ease-in-out hover:shadow-slate-900/20">
+        <svg
+          width="67"
+          height="63"
+          viewBox="0 0 67 63"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M50.7916 0.375H16.2083C7.63165 0.375 0.645813 7.36083 0.645813 15.9375V60.8958C0.645813 61.5875 1.0608 62.2099 1.71789 62.4865C1.92539 62.5903 2.16748 62.625 2.37498 62.625C2.82456 62.625 3.27417 62.4524 3.58542 62.1066L11.9545 53.7715C12.9229 52.8031 14.237 52.25 15.6203 52.25H50.7916C59.3683 52.25 66.3541 45.2642 66.3541 36.6875V15.9375C66.3541 7.36083 59.3683 0.375 50.7916 0.375ZM19.6666 30.6354C17.2804 30.6354 15.3437 28.6987 15.3437 26.3125C15.3437 23.9262 17.2804 21.9896 19.6666 21.9896C22.0529 21.9896 23.9896 23.9262 23.9896 26.3125C23.9896 28.6987 22.0529 30.6354 19.6666 30.6354ZM33.5 30.6354C31.1137 30.6354 29.1771 28.6987 29.1771 26.3125C29.1771 23.9262 31.1137 21.9896 33.5 21.9896C35.8862 21.9896 37.8229 23.9262 37.8229 26.3125C37.8229 28.6987 35.8862 30.6354 33.5 30.6354ZM47.3333 30.6354C44.9471 30.6354 43.0104 28.6987 43.0104 26.3125C43.0104 23.9262 44.9471 21.9896 47.3333 21.9896C49.7196 21.9896 51.6562 23.9262 51.6562 26.3125C51.6562 28.6987 49.7196 30.6354 47.3333 30.6354Z"
+            fill="#F5F5F5"
+          />
+        </svg>
+
+        <h1 className="mt-5 w-36 text-lg font-bold leading-8 text-white">
+          Give a message
+        </h1>
+        <p className="mt-2.5 w-36 text-sm font-normal leading-4 tracking-[0.2px] text-gray-400">
+          Slate helps you see how many more days you need to work to reach.
+          Slate.
+        </p>
       </div>
     </div>
   );
