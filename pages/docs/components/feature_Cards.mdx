@@ -6,7 +6,10 @@ import {FeatureCard0Light, FeatureCard0Blue, FeatureCard0Dark,
 FeatureCard1Light, FeatureCard1Blue, FeatureCard1Dark,
 FeatureCard2Light, FeatureCard2Blue, FeatureCard2Dark,
 FeatureCard3Light, FeatureCard3Blue, FeatureCard3Dark,
-FeatureCard4Light, FeatureCard4Blue, FeatureCard4Dark,} from '../../../database/featureCards/featureCards.tsx'
+FeatureCard4Light, FeatureCard4Blue, FeatureCard4Dark,
+FeatureCard5Light, FeatureCard5Blue, FeatureCard5Dark,
+FeatureCard6Light, FeatureCard6Blue, FeatureCard6Dark,
+FeatureCard7Light, FeatureCard7Blue, FeatureCard7Dark,} from '../../../database/featureCards/featureCards.tsx'
 
 
 import featureCard0MetaData from '../../../database/featureCards/featureCard0MetaData.ts';
@@ -78,3 +81,45 @@ export const FeatureCard4 = () => {
 };
 
 <FeatureCard4/>
+
+import featureCard5MetaData from '../../../database/featureCards/featureCard5MetaData.ts';
+
+export const FeatureCard5 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={featureCard5MetaData} componentsArray={[<FeatureCard5Light />, <FeatureCard5Blue/>, <FeatureCard5Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<FeatureCard5/>
+
+import featureCard6MetaData from '../../../database/featureCards/featureCard6MetaData.ts';
+
+export const FeatureCard6 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={featureCard6MetaData} componentsArray={[<FeatureCard6Light />, <FeatureCard6Blue/>, <FeatureCard6Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<FeatureCard6/>
+
+import featureCard7MetaData from '../../../database/featureCards/featureCard7MetaData.ts';
+
+export const FeatureCard7 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={featureCard7MetaData} componentsArray={[<FeatureCard7Light />, <FeatureCard7Blue/>, <FeatureCard7Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<FeatureCard7/>
