@@ -1,4 +1,4 @@
-const featureCard6MetaData = [
+const featureCard7MetaData = [
 {
 label: 'Light',
 content: `<div class="flex w-fit cursor-default flex-col items-center justify-center rounded-2xl bg-slate-900 px-6 py-8 transition-all duration-500 ease-in-out hover:shadow-slate-900/20">
@@ -33,4 +33,4 @@ content: `<div class="flex w-fit cursor-default flex-col items-center justify-ce
 },
 ]
 
-export default featureCard6MetaData;
+export default featureCard7MetaData;

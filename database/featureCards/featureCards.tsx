@@ -782,3 +782,66 @@ export const FeatureCard8Dark = () => {
     </div>
   );
 };
+
+// ------------Feature Card 8 Light--------------
+export const FeatureCard9Light = () => {
+  return (
+    <div>
+      <div className="w-56 rounded-2xl bg-white text-white">
+        <div className="flex flex-col items-start justify-center px-7 pt-7">
+          <h3 className="pb-4 text-2xl font-bold text-gray-900">Web3</h3>
+          <h1 className="pb-6 text-left text-sm font-normal text-gray-900">
+            Slate helps you see how many more days you need to work to reach.
+            Slate helps you see how many more days .
+          </h1>
+        </div>
+        <img
+          src="https://i.ibb.co/BKCPqvt/Web3-Report-Featured-image-2-5.png"
+          alt="Web3-Report-Featured-image-2-5"
+        />
+      </div>
+    </div>
+  );
+};
+
+// ------------Feature Card 8 Blue--------------
+export const FeatureCard9Blue = () => {
+  return (
+    <div>
+      <div className="w-56 rounded-2xl bg-white text-white">
+        <div className="flex flex-col items-start justify-center px-7 pt-7">
+          <h3 className="pb-4 text-2xl font-bold text-blue-600">Web3</h3>
+          <h1 className="pb-6 text-left text-sm font-normal text-gray-900">
+            Slate helps you see how many more days you need to work to reach.
+            Slate helps you see how many more days .
+          </h1>
+        </div>
+        <img
+          src="https://i.ibb.co/BKCPqvt/Web3-Report-Featured-image-2-5.png"
+          alt="Web3-Report-Featured-image-2-5"
+        />
+      </div>
+    </div>
+  );
+};
+
+// ------------Feature Card 8 Dark--------------
+export const FeatureCard9Dark = () => {
+  return (
+    <div>
+      <div className="w-56 rounded-2xl bg-gray-900 text-white">
+        <div className="flex flex-col items-start justify-center px-7 pt-7">
+          <h3 className="pb-4 text-2xl font-bold text-white">Web3</h3>
+          <h1 className="pb-6 text-left text-sm font-normal text-gray-300">
+            Slate helps you see how many more days you need to work to reach.
+            Slate helps you see how many more days .
+          </h1>
+        </div>
+        <img
+          src="https://i.ibb.co/BKCPqvt/Web3-Report-Featured-image-2-5.png"
+          alt="Web3-Report-Featured-image-2-5"
+        />
+      </div>
+    </div>
+  );
+};
