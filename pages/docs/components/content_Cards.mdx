@@ -1,0 +1,66 @@
+# Feature Cards Component
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {ContentCard0Light, ContentCard0Blue, ContentCard0Dark,
+ContentCard1Light, ContentCard1Blue, ContentCard1Dark,
+ContentCard2, ContentCard3,
+ContentCard3Light, ContentCard3Blue, ContentCard3Dark,
+ContentCard4Light, ContentCard4Blue, ContentCard4Dark,} from '../../../database/contentCards/contentCards.tsx'
+
+
+import contentCard0MetaData from '../../../database/contentCards/contentCard0MetaData.ts';
+
+export const ContentCard0 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={contentCard0MetaData} componentsArray={[<ContentCard0Light />, <ContentCard0Blue/>, <ContentCard0Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard0/>
+
+import contentCard1MetaData from '../../../database/contentCards/contentCard1MetaData.ts';
+
+export const ContentCard1 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={contentCard1MetaData} componentsArray={[<ContentCard1Light />, <ContentCard1Blue/>, <ContentCard1Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard1/>
+
+import contentCard2MetaData from '../../../database/contentCards/contentCard2MetaData.ts';
+
+export const ContentCard2s = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={contentCard2MetaData} componentsArray={[<ContentCard2 />]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard2s/>
+
+import contentCard3MetaData from '../../../database/contentCards/contentCard3MetaData.ts';
+
+export const ContentCard3s = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={contentCard3MetaData} componentsArray={[<ContentCard3 />]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard3s/>
