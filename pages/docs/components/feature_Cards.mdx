@@ -11,7 +11,8 @@ FeatureCard5Light, FeatureCard5Blue, FeatureCard5Dark,
 FeatureCard6Light, FeatureCard6Blue, FeatureCard6Dark,
 FeatureCard7Light, FeatureCard7Blue, FeatureCard7Dark,
 FeatureCard8Light, FeatureCard8Blue, FeatureCard8Dark,
-FeatureCard9Light, FeatureCard9Blue, FeatureCard9Dark,} from '../../../database/featureCards/featureCards.tsx'
+FeatureCard9Light, FeatureCard9Blue, FeatureCard9Dark,
+FeatureCard10Light, FeatureCard10Blue, FeatureCard10Dark,} from '../../../database/featureCards/featureCards.tsx'
 
 
 import featureCard0MetaData from '../../../database/featureCards/featureCard0MetaData.ts';
@@ -153,3 +154,17 @@ export const FeatureCard9 = () => {
 };
 
 <FeatureCard9/>
+
+import featureCard10MetaData from '../../../database/featureCards/featureCard10MetaData.ts';
+
+export const FeatureCard10 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={featureCard10MetaData} componentsArray={[<FeatureCard10Light />, <FeatureCard10Blue/>, <FeatureCard10Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<FeatureCard10/>
