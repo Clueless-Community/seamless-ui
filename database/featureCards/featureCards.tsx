@@ -925,7 +925,7 @@ export const FeatureCard10Dark = () => {
 export const FeatureCard11Light = () => {
   return (
     <div>
-      <div className="w-fit flex  flex-col justify-centercursor-default rounded-2xl  px-8 py-5 transition-all duration-500 ease-in-out  hover:shadow-slate-900/20 items-center justify-s bg-white gap-4">
+      <div className="w-fit flex cursor-pointer flex-col justify-centercursor-default rounded-2xl  px-8 py-5 transition-all duration-500 ease-in-out  hover:shadow-slate-900/20 items-center justify-s bg-white gap-4">
         <svg
           width="31"
           height="31"
@@ -948,7 +948,7 @@ export const FeatureCard11Light = () => {
 export const FeatureCard11Blue = () => {
   return (
     <div>
-      <div className="flex-col  w-fit cursor-default rounded-2xl  bg-white gap-4 px-8 py-5 transition-all ease-out duration-500 hover:cursor-pointer hover:shadow-xl hover:scale-105">
+      <div className="flex-col cursor-pointer w-fit cursor-default rounded-2xl  bg-white gap-4 px-8 py-5 transition-all ease-out duration-500 hover:cursor-pointer hover:shadow-xl hover:scale-105">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -973,7 +973,7 @@ export const FeatureCard11Blue = () => {
 export const FeatureCard11Dark = () => {
   return (
     <div>
-      <div className="w-fit flex  flex-col justify-centercursor-default rounded-2xl  px-8 py-5 transition-all duration-500 ease-in-out  hover:shadow-slate-900/20 items-center justify-s bg-gray-900 gap-4">
+      <div className="w-fit flex cursor-pointer flex-col justify-centercursor-default rounded-2xl  px-8 py-5 transition-all duration-500 ease-in-out  hover:shadow-slate-900/20 items-center justify-s bg-gray-900 gap-4">
         <svg
           width="31"
           height="31"
@@ -1115,7 +1115,7 @@ export const FeatureCard13Light = () => {
             Slate helps you see how many more days.
           </p>
         </div>
-        <button className="text-bg-gray-200 rounded-full bg-slate-900 px-6 py-2 text-center font-sans text-sm font-normal text-white transition-all hover:bg-black disabled:bg-gray-400">
+        <button className="text-white rounded-full bg-gray-900 px-6 py-2 text-center font-sans text-sm font-normal transition-all hover:bg-black disabled:bg-gray-400">
           Try for free
         </button>
       </div>
@@ -1161,7 +1161,7 @@ export const FeatureCard13Blue = () => {
 export const FeatureCard13Dark = () => {
   return (
     <div>
-      <div className="flex w-fit flex-col items-center justify-center gap-4 rounded-2xl bg-slate-900 px-6 py-10 transition-all">
+      <div className="flex w-fit flex-col items-center justify-center gap-4 rounded-2xl bg-gray-900 px-6 py-10 transition-all">
         <svg
           width="57"
           height="66"
