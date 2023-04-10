@@ -4,9 +4,10 @@ import React from "react";
 import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
 import {ContentCard0Light, ContentCard0Blue, ContentCard0Dark,
 ContentCard1Light, ContentCard1Blue, ContentCard1Dark,
-ContentCard2, ContentCard3,
-ContentCard3Light, ContentCard3Blue, ContentCard3Dark,
-ContentCard4Light, ContentCard4Blue, ContentCard4Dark,} from '../../../database/contentCards/contentCards.tsx'
+ContentCard2, ContentCard3, ContentCard4, ContentCard5,ContentCard6,
+ContentCard7Light, ContentCard7Blue, ContentCard7Dark,
+ContentCard8Light, ContentCard8Blue, ContentCard8Dark,
+ContentCard9Light, ContentCard9Blue, ContentCard9Dark,} from '../../../database/contentCards/contentCards.tsx'
 
 
 import contentCard0MetaData from '../../../database/contentCards/contentCard0MetaData.ts';
@@ -64,3 +65,87 @@ export const ContentCard3s = () => {
 };
 
 <ContentCard3s/>
+
+import contentCard4MetaData from '../../../database/contentCards/contentCard4MetaData.ts';
+
+export const ContentCard4s = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={contentCard4MetaData} componentsArray={[<ContentCard4 />]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard4s/>
+
+import contentCard5MetaData from '../../../database/contentCards/contentCard5MetaData.ts';
+
+export const ContentCard5s = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={contentCard5MetaData} componentsArray={[<ContentCard5 />]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard5s/>
+
+import contentCard6MetaData from '../../../database/contentCards/contentCard6MetaData.ts';
+
+export const ContentCard6s = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={contentCard6MetaData} componentsArray={[<ContentCard6 />]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard6s/>
+
+import contentCard7MetaData from '../../../database/contentCards/contentCard7MetaData.ts';
+
+export const ContentCard7 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={contentCard7MetaData} componentsArray={[<ContentCard7Light />, <ContentCard7Blue/>, <ContentCard7Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard7/>
+
+import contentCard8MetaData from '../../../database/contentCards/contentCard8MetaData.ts';
+
+export const ContentCard8 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={contentCard8MetaData} componentsArray={[<ContentCard8Light />, <ContentCard8Blue/>, <ContentCard8Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard8/>
+
+import contentCard9MetaData from '../../../database/contentCards/contentCard9MetaData.ts';
+
+export const ContentCard9 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={contentCard9MetaData} componentsArray={[<ContentCard9Light />, <ContentCard9Blue/>, <ContentCard9Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard9/>
