@@ -170,7 +170,10 @@ export const ContentCard1Dark = () => {
 export const ContentCard2 = () => {
   return (
     <div>
-      <div style={{backgroundImage: 'url("https://i.ibb.co/5kwrPtY/bg.png")'}} className="h-[206px] w-[582px] rounded-3xl bg-contain bg-no-repeat">
+      <div
+        style={{ backgroundImage: 'url("https://i.ibb.co/5kwrPtY/bg.png")' }}
+        className="h-[206px] w-[582px] rounded-3xl bg-contain bg-no-repeat"
+      >
         <div className="grid h-full justify-center rounded-3xl bg-black bg-opacity-70 py-8">
           <h1 className="text-2xl font-bold text-white">WaivlyFunds</h1>
           <h1 className="text-gray-400">
@@ -193,3 +196,30 @@ export const ContentCard2 = () => {
     </div>
   );
 };
+
+// ------------Content Card 3--------------
+export const ContentCard3 = () => {
+  return (
+    <div>
+      <div className="relative w-fit rounded-2xl">
+        <img
+          src="https://i.ibb.co/6H5rk26/61726fe2ea832a058fd9229f-ETHEREUM-Mobile-2-390x844-3.png"
+          alt=""
+          className="relative z-0"
+          width="288"
+        />
+        <div className="absolute top-0 z-10 h-96 w-72 rounded-2xl bg-black opacity-[0.67]"></div>
+        <div className="absolute bottom-0 z-20 p-6">
+          <div className="text-lg text-gray-400">Tax Management</div>
+          <div className="mb-1 mt-1 text-2xl font-semibold text-white">
+            What is Web 3?
+          </div>
+          <button className="mb-7 mt-3 rounded-full bg-white px-6 py-2 text-sm font-medium text-black transition-all hover:bg-white/90 disabled:bg-gray-400">
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+// style={{backgroundImage: 'url("https://i.ibb.co/5kwrPtY/bg.png")'}}
