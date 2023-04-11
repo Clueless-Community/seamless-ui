@@ -7,7 +7,8 @@ Testimonial1Light, Testimonial1Blue, Testimonial1Dark,
 Testimonial2Light, Testimonial2Blue, Testimonial2Dark,
 Testimonial3Light, Testimonial3Blue, Testimonial3Dark,
 Testimonial4Light, Testimonial4Blue, Testimonial4Dark,
-Testimonial5Light, Testimonial5Blue, Testimonial5Dark,} from '../../../database/testimonials/testimonials.tsx'
+Testimonial5Light, Testimonial5Blue, Testimonial5Dark,
+Testimonial6Light, Testimonial6Blue, Testimonial6Dark,} from '../../../database/testimonials/testimonials.tsx'
 
 
 import testimonial0MetaData from '../../../database/testimonials/testimonial0MetaData.ts';
@@ -93,3 +94,17 @@ export const Testimonial5 = () => {
 };
 
 <Testimonial5/>
+
+import testimonial6MetaData from '../../../database/testimonials/testimonial6MetaData.ts';
+
+export const Testimonial6 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={testimonial6MetaData} componentsArray={[<Testimonial6Light />, <Testimonial6Blue/>, <Testimonial6Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Testimonial6/>
