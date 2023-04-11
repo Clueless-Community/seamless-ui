@@ -1652,3 +1652,60 @@ export const Testimonial6Dark = () => {
     </div>
   );
 };
+
+// ------------testimonial 7 Light--------------
+export const Testimonial7Light = () => {
+  return (
+    <div>
+      <div className="flex w-fit items-center justify-center space-x-3 rounded-2xl bg-white py-3 pl-4 pr-6">
+        <img
+          className="h-12 rounded-full"
+          src="https://i.ibb.co/sCR821K/jwoc1.jpg"
+          alt=""
+        />
+        <div className="flex flex-col justify-between">
+          <h5 className="text-base font-bold text-black">User Name</h5>
+          <p className="text-sm font-medium text-black">Profession</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ------------testimonial 7 Blue--------------
+export const Testimonial7Blue = () => {
+  return (
+    <div>
+      <div className="flex w-fit items-center justify-center space-x-3 rounded-2xl bg-white py-3 pl-4 pr-6">
+        <img
+          className="h-12 rounded-full"
+          src="https://i.ibb.co/sCR821K/jwoc1.jpg"
+          alt=""
+        />
+        <div className="flex flex-col justify-between">
+          <h5 className="text-base font-bold text-blue-600">User Name</h5>
+          <p className="text-sm font-medium text-blue-600">Profession</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ------------testimonial 7 Dark--------------
+export const Testimonial7Dark = () => {
+  return (
+    <div>
+      <div className="flex w-fit items-center justify-center space-x-3 rounded-2xl bg-gray-900 py-3 pl-4 pr-6">
+        <img
+          className="h-12 rounded-full"
+          src="https://i.ibb.co/sCR821K/jwoc1.jpg"
+          alt=""
+        />
+        <div className="flex flex-col justify-between">
+          <h5 className="text-base font-bold text-white">User Name</h5>
+          <p className="text-sm font-medium text-white">Profession</p>
+        </div>
+      </div>
+    </div>
+  );
+};
