@@ -847,9 +847,16 @@ export const Testimonial3Light = () => {
   return (
     <div>
       <div className="flex w-fit rounded-3xl bg-white pr-12">
-        <img className="-ml-1" src="https://i.ibb.co/G7Zn9m3/cover.png" alt="cover" width="140" />
+        <img
+          className="-ml-1"
+          src="https://i.ibb.co/G7Zn9m3/cover.png"
+          alt="cover"
+          width="140"
+        />
         <div className="pl-8">
-          <h1 className="pt-4 mt-1 text-2xl text-gray-900 font-bold">User Name</h1>
+          <h1 className="pt-4 mt-1 text-2xl text-gray-900 font-bold">
+            User Name
+          </h1>
           <h4 className="text-lg text-gray-400">Profession</h4>
           <div className="flex justify-between pt-2">
             <span className="cursor-pointer">
@@ -893,7 +900,12 @@ export const Testimonial3Blue = () => {
   return (
     <div>
       <div className="flex w-fit rounded-3xl bg-white pr-12">
-        <img className="-ml-1" src="https://i.ibb.co/G7Zn9m3/cover.png" alt="cover" width="140" />
+        <img
+          className="-ml-1"
+          src="https://i.ibb.co/G7Zn9m3/cover.png"
+          alt="cover"
+          width="140"
+        />
         <div className="pl-8">
           <h1 className="pt-5 text-2xl font-bold text-blue-600">User Name</h1>
           <h4 className="text-lg text-gray-400">Profession</h4>
@@ -948,7 +960,12 @@ export const Testimonial3Dark = () => {
   return (
     <div>
       <div className="flex w-fit rounded-3xl bg-gray-900 pr-12">
-        <img className="-ml-1" src="https://i.ibb.co/G7Zn9m3/cover.png" alt="cover" width="140" />
+        <img
+          className="-ml-1"
+          src="https://i.ibb.co/G7Zn9m3/cover.png"
+          alt="cover"
+          width="140"
+        />
         <div className="pl-8">
           <h1 className="pt-5 text-2xl font-bold text-white">User Name</h1>
           <h4 className="text-lg text-gray-400">Profession</h4>
@@ -993,6 +1010,366 @@ export const Testimonial3Dark = () => {
             </span>
           </div>
         </div>
+      </div>
+    </div>
+  );
+};
+
+// ------------testimonial 4 Light--------------
+export const Testimonial4Light = () => {
+  return (
+    <div>
+      <div className="bg-white w-fit rounded-2xl flex gap-6 px-6 py-8">
+        <img
+          src="https://i.ibb.co/Ykt0SrL/cover2123.png"
+          alt="cover2123"
+          className="h-20"
+        />
+        <div className=" flex items-center justify-center">
+          <div>
+            <h2 className="text-black text-2xl font-bold">Regina Miss</h2>
+            <h3 className="text-gray-900 text-base mt-1 font-bold">Designer</h3>
+            <p className="text-gray-900 text-sm font-normal py-2 w-96">
+              Slate helps you see how many more days you need to work to reach.
+              Slate helps you see how many more days.
+            </p>
+            <div className="flex gap-x-2 mt-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="black"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="black"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="black"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="black"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="black"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="black"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="black"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="black"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="none"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="black"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ------------testimonial 4 Blue--------------
+export const Testimonial4Blue = () => {
+  return (
+    <div>
+      <div className="bg-white w-fit rounded-2xl flex gap-6 px-6 py-8">
+        <img
+          src="https://i.ibb.co/Ykt0SrL/cover2123.png"
+          alt="cover2123"
+          className="h-20"
+        />
+        <div className=" flex items-center justify-center">
+          <div>
+            <h2 className="text-blue-600 text-2xl font-bold">Regina Miss</h2>
+            <h3 className="text-gray-400 text-base mt-1 font-bold">Designer</h3>
+            <p className="text-gray-900 text-sm font-normal py-2 w-96">
+              Slate helps you see how many more days you need to work to reach.
+              Slate helps you see how many more days.
+            </p>
+            <div className="flex gap-x-2 mt-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="blue"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="blue"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="blue"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="blue"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="blue"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="blue"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="blue"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="blue"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="none"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="blue"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ------------testimonial 4 Dark--------------
+export const Testimonial4Dark = () => {
+  return (
+    <div>
+      <div className="bg-[#121225] w-fit rounded-2xl flex gap-6 px-6 py-8">
+        <img
+          src="https://i.ibb.co/Ykt0SrL/cover2123.png"
+          alt="cover2123"
+          className="h-20"
+        />
+        <div className=" flex items-center justify-center">
+          <div>
+            <h2 className="text-white text-2xl font-bold">Regina Miss</h2>
+            <h3 className="text-gray-400 text-base mt-1 font-bold">Designer</h3>
+            <p className="text-gray-400 text-sm font-normal py-2 w-96">
+              Slate helps you see how many more days you need to work to reach.
+              Slate helps you see how many more days.
+            </p>
+            <div className="flex gap-x-2 mt-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="white"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="white"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="white"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="white"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="white"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="white"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="white"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="white"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  fill="none"
+                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                  stroke="white"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ------------testimonial 5 Light--------------
+export const Testimonial5Light = () => {
+  return (
+    <div>
+      <div className="flex w-fit flex-col items-center justify-center rounded-2xl bg-white px-6 py-12">
+        <img
+          src="https://i.ibb.co/18C2ddr/Ellipse-4.png"
+          alt="Ellipse-4"
+          className="mb-3"
+        />
+        <div className="mb-2 text-center">
+          <h1 className="mt-2 text-2xl font-bold text-black">Regina Miss</h1>
+          <h3 className="mt-2 text-base font-bold text-gray-400">Designer</h3>
+        </div>
+        <p className="mt-2 w-60 pl-2 text-center text-gray-600">
+          Slate helps you see how many more days you need to work to reach.
+          Slate helps you see how many more days.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+// ------------testimonial 5 Blue--------------
+export const Testimonial5Blue = () => {
+  return (
+    <div>
+      <div className="flex w-fit flex-col items-center justify-center rounded-2xl bg-white px-6 py-12">
+        <img
+          src="https://i.ibb.co/18C2ddr/Ellipse-4.png"
+          alt="Ellipse-4"
+          className="mb-3"
+        />
+        <div className="mb-2 text-center">
+          <h1 className="mt-2 text-2xl font-bold text-blue-600">Regina Miss</h1>
+          <h3 className="mt-2 text-base font-bold text-blue-600">Designer</h3>
+        </div>
+        <p className="mt-2 w-60 pl-2 text-center text-gray-600">
+          Slate helps you see how many more days you need to work to reach.
+          Slate helps you see how many more days.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+// ------------testimonial 5 Dark--------------
+export const Testimonial5Dark = () => {
+  return (
+    <div>
+      <div className="flex w-fit flex-col items-center justify-center rounded-2xl bg-gray-900 px-6 py-12">
+        <img
+          src="https://i.ibb.co/18C2ddr/Ellipse-4.png"
+          alt="Ellipse-4"
+          className="mb-3"
+        />
+        <div className="mb-2 text-center">
+          <h1 className="mt-2 text-2xl font-bold text-white">Regina Miss</h1>
+          <h3 className="mt-2 text-base font-bold text-white">Designer</h3>
+        </div>
+        <p className="mt-2 w-60 pl-2 text-center text-gray-400">
+          Slate helps you see how many more days you need to work to reach.
+          Slate helps you see how many more days.
+        </p>
       </div>
     </div>
   );
