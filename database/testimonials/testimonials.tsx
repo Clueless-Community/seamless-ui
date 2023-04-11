@@ -1709,3 +1709,63 @@ export const Testimonial7Dark = () => {
     </div>
   );
 };
+
+// ------------testimonial 8 Light--------------
+export const Testimonial8Light = () => {
+  return (
+    <div>
+      <div className="w-fit overflow-hidden rounded-2xl bg-white px-7 py-6 text-center">
+        <img
+          className="mx-auto mb-4 h-16 w-16 rounded-full"
+          src="https://i.ibb.co/sCR821K/jwoc1.jpg"
+          alt="image"
+        />
+        <p className="mb-1 text-sm font-bold text-black">User Name</p>
+        <p className="mb-4 text-xs font-bold text-gray-600">Founder</p>
+        <p className="w-28 text-center text-xs font-normal text-gray-800">
+          the quick fox jumps over the lazy dog
+        </p>
+      </div>
+    </div>
+  );
+};
+
+// ------------testimonial 8 Blue--------------
+export const Testimonial8Blue = () => {
+  return (
+    <div>
+      <div className="w-fit overflow-hidden rounded-2xl bg-white px-7 py-6 text-center">
+        <img
+          className="mx-auto mb-4 h-16 w-16 rounded-full"
+          src="https://i.ibb.co/sCR821K/jwoc1.jpg"
+          alt="image"
+        />
+        <p className="mb-1 text-sm font-bold text-blue-600">User Name</p>
+        <p className="mb-4 text-xs font-bold text-blue-600">Founder</p>
+        <p className="w-28 text-center text-xs font-normal text-gray-800">
+          the quick fox jumps over the lazy dog
+        </p>
+      </div>
+    </div>
+  );
+};
+
+// ------------testimonial 8 Dark--------------
+export const Testimonial8Dark = () => {
+  return (
+    <div>
+      <div className="w-fit overflow-hidden rounded-2xl bg-gray-900 px-7 py-6 text-center">
+        <img
+          className="mx-auto mb-4 h-16 w-16 rounded-full"
+          src="https://i.ibb.co/sCR821K/jwoc1.jpg"
+          alt="image"
+        />
+        <p className="mb-1 text-sm font-bold text-white">User Name</p>
+        <p className="mb-4 text-xs font-bold text-white">Founder</p>
+        <p className="w-28 text-center text-xs font-normal text-gray-300">
+          the quick fox jumps over the lazy dog
+        </p>
+      </div>
+    </div>
+  );
+};
