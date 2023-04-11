@@ -3,7 +3,8 @@
 import React from "react";
 import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
 import {Testimonial0Light, Testimonial0Blue, Testimonial0Dark,
-Testimonial1Light, Testimonial1Blue, Testimonial1Dark,} from '../../../database/testimonials/testimonials.tsx'
+Testimonial1Light, Testimonial1Blue, Testimonial1Dark,
+Testimonial2Light, Testimonial2Blue, Testimonial2Dark,} from '../../../database/testimonials/testimonials.tsx'
 
 
 import testimonial0MetaData from '../../../database/testimonials/testimonial0MetaData.ts';
@@ -33,3 +34,17 @@ export const Testimonial1 = () => {
 };
 
 <Testimonial1/>
+
+import testimonial2MetaData from '../../../database/testimonials/testimonial2MetaData.ts';
+
+export const Testimonial2 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={testimonial2MetaData} componentsArray={[<Testimonial2Light />, <Testimonial2Blue/>, <Testimonial2Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Testimonial2/>
