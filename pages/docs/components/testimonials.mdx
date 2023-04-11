@@ -1,0 +1,35 @@
+# Testimonials Component
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {Testimonial0Light, Testimonial0Blue, Testimonial0Dark,
+Testimonial1Light, Testimonial1Blue, Testimonial1Dark,} from '../../../database/testimonials/testimonials.tsx'
+
+
+import testimonial0MetaData from '../../../database/testimonials/testimonial0MetaData.ts';
+
+export const Testimonial0 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={testimonial0MetaData} componentsArray={[<Testimonial0Light />, <Testimonial0Blue/>, <Testimonial0Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Testimonial0/>
+
+import testimonial1MetaData from '../../../database/testimonials/testimonial1MetaData.ts';
+
+export const Testimonial1 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={testimonial1MetaData} componentsArray={[<Testimonial1Light />, <Testimonial1Blue/>, <Testimonial1Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Testimonial1/>
