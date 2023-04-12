@@ -888,3 +888,282 @@ export const PricingCard2Dark = () => {
     </div>
   );
 };
+
+// ------------Pricing Card 3 Light--------------
+export const PricingCard3Light = () => {
+  return (
+    <div>
+      <div className="flex h-[355px] w-[280px] flex-col gap-y-5 rounded-2xl bg-white p-8">
+        <h2 className="text-3xl font-bold text-black">FREE</h2>
+        <p className="leading-5 text-black">
+          Slate helps you see how many more days you need to work to reach.
+          Slate helps you see how many more days.
+        </p>
+        <div className="flex items-center justify-start">
+          <h3 className="text-7xl font-semibold text-black">0</h3>
+          <div className="ml-4">
+            <h4 className="text-2xl font-[1000] text-black">$</h4>
+            <h4 className="text-xl font-semibold text-black">per month</h4>
+          </div>
+        </div>
+        <button className="rounded bg-black py-3 font-semibold text-white">
+          Try for Free
+        </button>
+      </div>
+    </div>
+  );
+};
+
+// ------------Pricing Card 3 Blue--------------
+export const PricingCard3Blue = () => {
+  return (
+    <div>
+      <div className="flex h-[355px] w-[280px] flex-col gap-y-5 rounded-2xl bg-white p-8">
+        <h2 className="text-3xl font-bold text-blue-600">FREE</h2>
+        <p className="leading-5 text-black">
+          Slate helps you see how many more days you need to work to reach.
+          Slate helps you see how many more days.
+        </p>
+        <div className="flex items-center justify-start">
+          <h3 className="text-7xl font-semibold text-blue-600">0</h3>
+          <div className="ml-4">
+            <h4 className="text-2xl font-[1000] text-blue-600">$</h4>
+            <h4 className="text-xl font-semibold text-blue-600">per month</h4>
+          </div>
+        </div>
+        <button className="rounded bg-blue-600 py-3 font-semibold text-white">
+          Try for Free
+        </button>
+      </div>
+    </div>
+  );
+};
+
+// ------------Pricing Card 3 Dark--------------
+export const PricingCard3Dark = () => {
+  return (
+    <div>
+      <div className="flex h-[355px] w-[280px] flex-col gap-y-5 rounded-2xl bg-[#121225] p-8">
+        <h2 className="text-3xl font-bold text-white">FREE</h2>
+        <p className="leading-5 text-[#B5B5B5]">
+          Slate helps you see how many more days you need to work to reach.
+          Slate helps you see how many more days.
+        </p>
+        <div className="flex items-center justify-start">
+          <h3 className="text-7xl font-semibold text-white">0</h3>
+          <div className="ml-4">
+            <h4 className="text-2xl font-[1000] text-white">$</h4>
+            <h4 className="text-xl font-semibold text-white">per month</h4>
+          </div>
+        </div>
+        <button className="rounded bg-[#F5F1F1] py-3 font-semibold text-black">
+          Try for Free
+        </button>
+      </div>
+    </div>
+  );
+};
+
+// ------------Pricing Card 4 Light--------------
+export const PricingCard4Light = () => {
+  return (
+    <div>
+      <div className="flex w-fit">
+        <div className="rounded-2xl bg-white px-10 py-10 shadow-md">
+          <div className="mt-2 flex flex-col">
+            <p className="ml-2 mt-1 w-52 text-center text-lg font-medium text-gray-600">
+              Organize across the world
+            </p>
+            <h1 className="mt-8 text-center text-4xl text-black font-bold text-slate-900">
+              FREE
+            </h1>
+          </div>
+
+          <div>
+            <p className="mt-6 w-56 text-center text-sm text-gray-600">
+              Slate helps you see how many days you need to work to reach.Slate
+              helps you see how many days.
+            </p>
+          </div>
+
+          <div className="mb-3 ml-1 mt-6 text-black flex justify-center text-slate-900">
+            <p className="text-6xl font-semibold">0</p>
+            <div className="ml-2 mt-1 flex flex-col">
+              <p className="text-lg font-bold">$</p>
+              <p className="text-lg font-bold">per Month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ------------Pricing Card 4 Blue--------------
+export const PricingCard4Blue = () => {
+  return (
+    <div>
+      <div className="flex w-fit">
+        <div className="rounded-2xl bg-white px-10 py-8 shadow-md">
+          <div className="mt-2 flex flex-col">
+            <p className="ml-2 mt-1 w-52 text-center text-lg font-medium text-gray-600">
+              Organize across the world
+            </p>
+            <h1 className="mt-8 text-center text-4xl font-bold text-blue-600">
+              FREE
+            </h1>
+          </div>
+
+          <div>
+            <p className="mt-6 w-56 text-center text-sm text-gray-600">
+              Slate helps you see how many days you need to work to reach.Slate
+              helps you see how many days.
+            </p>
+          </div>
+
+          <div className="mb-3 ml-1 mt-6 flex justify-center">
+            <p className="text-6xl font-semibold text-blue-600">0</p>
+            <div className="ml-2 mt-1 flex flex-col text-blue-600">
+              <p className="text-lg font-bold">$</p>
+              <p className="text-lg font-bold">per Month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ------------Pricing Card 4 Dark--------------
+export const PricingCard4Dark = () => {
+  return (
+    <div>
+      <div className="flex w-[280px]">
+        <div className="rounded-2xl bg-[#121225] px-10 py-8 shadow-md">
+          <div className="mt-2 flex flex-col">
+            <p className="ml-2 mt-1 w-52 text-center text-lg font-medium text-[#B5B5B5]">
+              Organize across the world
+            </p>
+            <h1 className="mt-8 text-center text-4xl font-bold text-white">
+              FREE
+            </h1>
+          </div>
+
+          <div>
+            <p className="mt-6 w-56 text-center text-sm text-[#B5B5B5]">
+              Slate helps you see how many days you need to work to reach.Slate
+              helps you see how many days.
+            </p>
+          </div>
+
+          <div className="mb-3 ml-1 mt-6 flex justify-center">
+            <p className="text-6xl font-semibold text-white">0</p>
+            <div className="ml-2 mt-1 flex flex-col text-white">
+              <p className="text-lg font-bold">$</p>
+              <p className="text-lg font-bold">per Month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ------------Pricing Card 5 Light--------------
+export const PricingCard5Light = () => {
+  return (
+    <div>
+      <div className="w-fit rounded-2xl bg-white px-10 py-8 max-[640px]:px-3 sm:flex md:flex lg:flex">
+        <div className="md:max-w-56 mt-4 md:mr-6 lg:mr-9">
+          <h1 className="text-2xl font-bold text-gray-900 max-[640px]:text-center">
+            STANDARD
+          </h1>
+          <p className="text-md mb-5 mt-5 font-normal text-gray-600 max-[640px]:w-72 max-[640px]:text-center sm:w-72">
+            Slate helps you see how many more days you need to work to reach.
+            Slate helps you how many more days.
+          </p>
+        </div>
+        <div>
+          <div className="ml-1 mt-1 flex text-gray-900 justify-center text-slate-900">
+            <p className="text-6xl font-semibold">0</p>
+            <div className="ml-2 mt-1 flex flex-col">
+              <p className="text-xl font-bold">$</p>
+              <p className="text-xl font-bold">per Month</p>
+            </div>
+          </div>
+          <div className="mt-9 flex justify-center">
+            <button className="w-fit rounded-md bg-slate-900 px-10 py-2  font-semibold bg-gray-900 text-white transition-all ease-out hover:scale-105 hover:shadow-lg">
+              Try For Free
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ------------Pricing Card 5 Blue--------------
+export const PricingCard5Blue = () => {
+  return (
+    <div>
+      <div className="w-fit rounded-2xl bg-white px-10 py-8 max-[640px]:px-3 sm:flex md:flex lg:flex">
+        <div className="md:max-w-56 mt-4 md:mr-6 lg:mr-9">
+          <h1 className="text-2xl font-bold text-blue-600 max-[640px]:text-center">
+            STANDARD
+          </h1>
+          <p className="text-md mb-5 mt-5 font-normal text-gray-600 max-[640px]:w-72 max-[640px]:text-center sm:w-72">
+            Slate helps you see how many more days you need to work to reach.
+            Slate helps you how many more days.
+          </p>
+        </div>
+        <div>
+          <div className="ml-1 mt-1 flex justify-center text-blue-600">
+            <p className="text-6xl font-semibold">0</p>
+            <div className="ml-2 mt-1 flex flex-col">
+              <p className="text-xl font-bold">$</p>
+              <p className="text-xl font-bold">per Month</p>
+            </div>
+          </div>
+          <div className="mt-9 flex justify-center">
+            <button className="w-fit rounded-md bg-blue-600 px-10 py-2 font-semibold text-white hover:shadow-lg">
+              Try For Free
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ------------Pricing Card 5 Dark--------------
+export const PricingCard5Dark = () => {
+  return (
+    <div>
+      <div className="w-fit rounded-2xl bg-gray-900 px-10 py-8 max-[640px]:px-3 sm:flex md:flex lg:flex">
+        <div className="md:max-w-56 mt-4 md:mr-6 lg:mr-9">
+          <h1 className="text-2xl font-bold text-white max-[640px]:text-center">
+            STANDARD
+          </h1>
+          <p className="text-md mb-5 mt-5 font-normal text-gray-400 max-[640px]:w-72 max-[640px]:text-center sm:w-72">
+            Slate helps you see how many more days you need to work to reach.
+            Slate helps you how many more days.
+          </p>
+        </div>
+        <div>
+          <div className="ml-1 mt-1 flex justify-center text-white">
+            <p className="text-6xl font-semibold">0</p>
+            <div className="ml-2 mt-1 flex flex-col">
+              <p className="text-xl font-bold">$</p>
+              <p className="text-xl font-bold">per Month</p>
+            </div>
+          </div>
+          <div className="mt-9 flex justify-center">
+            <button className="w-fit rounded-md bg-white text-gray-900 px-10 py-2 font-semibold text-slate-900">
+              Try For Free
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
