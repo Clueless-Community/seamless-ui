@@ -3,7 +3,8 @@
 import React from "react";
 import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
 import {ProductCard0Light, ProductCard0Blue, ProductCard0Dark,
-ProductCard1Light, ProductCard1Blue, ProductCard1Dark} from '../../../database/productCards/productCards.tsx'
+ProductCard1Light, ProductCard1Blue, ProductCard1Dark,
+ProductCard2Light, ProductCard2Blue, ProductCard2Dark} from '../../../database/productCards/productCards.tsx'
 
 
 import productCard0MetaData from '../../../database/productCards/productCard0MetaData.ts';
@@ -33,3 +34,17 @@ export const ProductCard1 = () => {
 };
 
 <ProductCard1/>
+
+import productCard2MetaData from '../../../database/productCards/productCard2MetaData.ts';
+
+export const ProductCard2 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={productCard2MetaData} componentsArray={[<ProductCard2Light />, <ProductCard2Blue/>, <ProductCard2Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ProductCard2/>
