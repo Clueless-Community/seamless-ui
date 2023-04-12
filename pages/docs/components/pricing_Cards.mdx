@@ -1,0 +1,35 @@
+# Product Cards Component
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {PricingCard0Light, PricingCard0Blue, PricingCard0Dark,
+PricingCard1Light, PricingCard1Blue, PricingCard1Dark} from '../../../database/pricingCards/pricingCards.tsx'
+
+
+import pricingCard0MetaData from '../../../database/pricingCards/pricingCard0MetaData.ts';
+
+export const PricingCard0 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={pricingCard0MetaData} componentsArray={[<PricingCard0Light />, <PricingCard0Blue/>, <PricingCard0Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<PricingCard0/>
+
+import pricingCard1MetaData from '../../../database/pricingCards/pricingCard1MetaData.ts';
+
+export const PricingCard1 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={pricingCard1MetaData} componentsArray={[<PricingCard1Light />, <PricingCard1Blue/>, <PricingCard1Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<PricingCard1/>
