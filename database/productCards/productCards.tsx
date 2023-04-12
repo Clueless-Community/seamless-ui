@@ -1060,7 +1060,7 @@ export const ProductCard2Dark = () => {
     <div>
       <div className="relative overflow-hidden m-3 w-fit rounded-2xl bg-gray-900 md:pr-8">
         <div className="flex flex-col gap-[30px] md:flex-row">
-          <div style={{backgroundImage: "url(https://user-images.githubusercontent.com/78757405/196051909-675a2126-2d54-49cc-9bb7-81cae7902046.png)"}} className="relative h-[202px] hover:scale-110 transition-all ease-in-out phone w-[278px] rounded-t-[15px] bg-[url('https://user-images.githubusercontent.com/78757405/196051909-675a2126-2d54-49cc-9bb7-81cae7902046.png')] md:rounded-l-[15px] md:rounded-r-none">
+          <div style={{backgroundImage: "url(https://user-images.githubusercontent.com/78757405/196051909-675a2126-2d54-49cc-9bb7-81cae7902046.png)"}} className="relative h-[202px] w-[278px] rounded-t-[15px] bg-[url('https://user-images.githubusercontent.com/78757405/196051909-675a2126-2d54-49cc-9bb7-81cae7902046.png')] md:rounded-l-[15px] md:rounded-r-none">
             <div className="flex items-center justify-between gap-36">
               <div className="mx-auto w-fit cursor-pointer rounded-full p-3"></div>
             </div>
