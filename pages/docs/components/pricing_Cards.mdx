@@ -6,7 +6,8 @@ import {PricingCard0Light, PricingCard0Blue, PricingCard0Dark,
 PricingCard1Light, PricingCard1Blue, PricingCard1Dark,
 PricingCard2Light, PricingCard2Blue, PricingCard2Dark,
 PricingCard3Light, PricingCard3Blue, PricingCard3Dark,
-PricingCard4Light, PricingCard4Blue, PricingCard4Dark,} from '../../../database/pricingCards/pricingCards.tsx'
+PricingCard4Light, PricingCard4Blue, PricingCard4Dark,
+PricingCard5Light, PricingCard5Blue, PricingCard5Dark,} from '../../../database/pricingCards/pricingCards.tsx'
 
 
 import pricingCard0MetaData from '../../../database/pricingCards/pricingCard0MetaData.ts';
@@ -78,3 +79,17 @@ export const PricingCard4 = () => {
 };
 
 <PricingCard4/>
+
+import pricingCard5MetaData from '../../../database/pricingCards/pricingCard5MetaData.ts';
+
+export const PricingCard5 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={pricingCard5MetaData} componentsArray={[<PricingCard5Light />, <PricingCard5Blue/>, <PricingCard5Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<PricingCard5/>
