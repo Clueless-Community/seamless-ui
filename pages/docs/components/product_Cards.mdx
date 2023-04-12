@@ -2,7 +2,8 @@
 
 import React from "react";
 import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
-import {ProductCard0Light, ProductCard0Blue, ProductCard0Dark} from '../../../database/productCards/productCards.tsx'
+import {ProductCard0Light, ProductCard0Blue, ProductCard0Dark,
+ProductCard1Light, ProductCard1Blue, ProductCard1Dark} from '../../../database/productCards/productCards.tsx'
 
 
 import productCard0MetaData from '../../../database/productCards/productCard0MetaData.ts';
@@ -18,3 +19,17 @@ export const ProductCard0 = () => {
 };
 
 <ProductCard0/>
+
+import productCard1MetaData from '../../../database/productCards/productCard1MetaData.ts';
+
+export const ProductCard1 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={productCard1MetaData} componentsArray={[<ProductCard1Light />, <ProductCard1Blue/>, <ProductCard1Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ProductCard1/>
