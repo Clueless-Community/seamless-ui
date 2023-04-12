@@ -1,0 +1,164 @@
+const productCard2MetaData = [
+{
+label: "Light",
+content: `<div class="relative m-3 w-fit rounded-[15px] bg-white md:pr-8">
+<div class="flex flex-col gap-[30px] md:flex-row">
+  <div class="relative h-[202px] w-[278px] rounded-t-[15px] bg-[url('https://user-images.githubusercontent.com/78757405/196051909-675a2126-2d54-49cc-9bb7-81cae7902046.png')] md:rounded-l-[15px] md:rounded-r-none">
+    <div class="flex items-center justify-between gap-36">
+      <div class="mx-auto w-fit cursor-pointer rounded-full p-3"></div>
+    </div>
+  </div>
+
+  <div class="ml-4 flex flex-col space-y-[8px] md:ml-0">
+    <span class="font-['DM Sans'] flex items-center text-center text-[24px] font-semibold leading-[32px] tracking-[0.1px] text-[#121225] md:mt-[25px]">Floating Phone</span>
+    <span class="font-['DM Sans'] text-[14px] font-semibold leading-none tracking-[0.2px] text-[#121225] md:h-[17px] md:w-[240px]">By <span class="text-[#121225]">Jane Cooper</span> in Tech , Products</span>
+    <div class="flex gap-4 md:flex-col md:gap-2 lg:flex-row lg:gap-4">
+      <div class="flex flex-row">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+        </svg>
+      </div>
+      <span class="font-['DM Sans'] absolute mt-2 text-[14px] font-semibold leading-[15px] tracking-[0.2x] text-[#121225] md:ml-[170px] md:mt-[14px]">10 Reviews</span>
+    </div>
+    <div class="flex gap-[5px]">
+      <a href="#" class="absolute mt-1.5 flex h-[13.99px] w-[14.9px] items-center md:mt-[25.01px]">
+        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" class="cursor-pointer text-[#121225]" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_688_4071)">
+            <path fill="currentColor" d="M7.37605 9.95975C7.39096 9.97874 7.41001 9.9941 7.43176 10.0047C7.4535 10.0152 7.47737 10.0207 7.50156 10.0207C7.52575 10.0207 7.54962 10.0152 7.57137 10.0047C7.59311 9.9941 7.61216 9.97874 7.62707 9.95975L9.85832 7.14486C9.94 7.04156 9.86629 6.8886 9.73281 6.8886H8.2566V0.166245C8.2566 0.0788386 8.18488 0.00732422 8.09723 0.00732422H6.90191C6.81426 0.00732422 6.74254 0.0788386 6.74254 0.166245V6.88661H5.27031C5.13684 6.88661 5.06313 7.03958 5.1448 7.14287L7.37605 9.95975ZM14.793 9.26447H13.5977C13.51 9.26447 13.4383 9.33598 13.4383 9.42339V12.4826H1.56484V9.42339C1.56484 9.33598 1.49312 9.26447 1.40547 9.26447H0.210156C0.1225 9.26447 0.0507812 9.33598 0.0507812 9.42339V13.3567C0.0507812 13.7083 0.335664 13.9924 0.688281 13.9924H14.3148C14.6675 13.9924 14.9523 13.7083 14.9523 13.3567V9.42339C14.9523 9.33598 14.8806 9.26447 14.793 9.26447Z" fill="#737373" />
+          </g>
+          <defs>
+            <clipPath id="clip0_688_4071">
+              <rect width="15" height="14" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </a>
+      <div class="font-['Nunito Sans'] ml-6 text-[14px] font-semibold leading-[24px] tracking-[0.2px] text-[#121225] md:ml-[28px] md:mt-[20.01px] md:h-[24px] md:w-[57px]">15 Sales</div>
+    </div>
+  </div>
+  <div class="mb-5 ml-[3.5rem] flex flex-col gap-[15px] md:ml-0 md:flex-col md:gap-[68px]"></div>
+</div>
+</div>`
+},
+{
+label: "Blue",
+content: `<div class="relative m-3 w-fit rounded-[15px] bg-white md:pr-8">
+<div class="flex flex-col gap-[30px] md:flex-row">
+  <div class="relative h-[202px] w-[278px] rounded-t-[15px] bg-[url('https://user-images.githubusercontent.com/78757405/196051909-675a2126-2d54-49cc-9bb7-81cae7902046.png')] md:rounded-l-[15px] md:rounded-r-none">
+    <div class="flex items-center justify-between gap-36">
+      <div class="mx-auto w-fit cursor-pointer rounded-full p-3"></div>
+    </div>
+  </div>
+
+  <div class="ml-4 flex flex-col space-y-[8px] md:ml-0">
+    <span class="font-['DM Sans'] flex items-center text-center text-[24px] font-semibold leading-[32px] tracking-[0.1px] text-blue-600 md:mt-[25px]">Floating Phone</span>
+    <span class="font-['DM Sans'] text-[14px] font-semibold leading-none tracking-[0.2px] text-[#121225] md:h-[17px] md:w-[240px]">By <span class="text-[#121225]">Jane Cooper</span> in Tech , Products</span>
+    <div class="flex gap-4 md:flex-col md:gap-2 lg:flex-row lg:gap-4">
+      <div class="flex flex-row">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+        </svg>
+      </div>
+      <span class="font-['DM Sans'] absolute mt-2 text-[14px] font-semibold leading-[15px] tracking-[0.2x] text-[#121225] md:ml-[170px] md:mt-[14px]">10 Reviews</span>
+    </div>
+    <div class="flex gap-[5px]">
+      <a href="#" class="absolute mt-1.5 flex h-[13.99px] w-[14.9px] items-center md:mt-[25.01px]">
+        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" class="cursor-pointer text-[#121225]" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_688_4071)">
+            <path fill="currentColor" d="M7.37605 9.95975C7.39096 9.97874 7.41001 9.9941 7.43176 10.0047C7.4535 10.0152 7.47737 10.0207 7.50156 10.0207C7.52575 10.0207 7.54962 10.0152 7.57137 10.0047C7.59311 9.9941 7.61216 9.97874 7.62707 9.95975L9.85832 7.14486C9.94 7.04156 9.86629 6.8886 9.73281 6.8886H8.2566V0.166245C8.2566 0.0788386 8.18488 0.00732422 8.09723 0.00732422H6.90191C6.81426 0.00732422 6.74254 0.0788386 6.74254 0.166245V6.88661H5.27031C5.13684 6.88661 5.06313 7.03958 5.1448 7.14287L7.37605 9.95975ZM14.793 9.26447H13.5977C13.51 9.26447 13.4383 9.33598 13.4383 9.42339V12.4826H1.56484V9.42339C1.56484 9.33598 1.49312 9.26447 1.40547 9.26447H0.210156C0.1225 9.26447 0.0507812 9.33598 0.0507812 9.42339V13.3567C0.0507812 13.7083 0.335664 13.9924 0.688281 13.9924H14.3148C14.6675 13.9924 14.9523 13.7083 14.9523 13.3567V9.42339C14.9523 9.33598 14.8806 9.26447 14.793 9.26447Z" fill="#737373" />
+          </g>
+          <defs>
+            <clipPath id="clip0_688_4071">
+              <rect width="15" height="14" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </a>
+      <div class="font-['Nunito Sans'] ml-6 text-[14px] font-semibold leading-[24px] tracking-[0.2px] text-[#121225] md:ml-[28px] md:mt-[20.01px] md:h-[24px] md:w-[57px]">15 Sales</div>
+    </div>
+  </div>
+  <div class="mb-5 ml-[3.5rem] flex flex-col gap-[15px] md:ml-0 md:flex-col md:gap-[68px]"></div>
+</div>
+</div>
+`
+},
+{
+label: "Dark",
+content: `<div class="relative m-3 w-fit rounded-2xl bg-gray-900 md:pr-8">
+<div class="flex flex-col gap-[30px] md:flex-row">
+  <div class="relative h-[202px] w-[278px] rounded-t-[15px] bg-[url('https://user-images.githubusercontent.com/78757405/196051909-675a2126-2d54-49cc-9bb7-81cae7902046.png')] md:rounded-l-[15px] md:rounded-r-none">
+    <div class="flex items-center justify-between gap-36">
+      <div class="mx-auto w-fit cursor-pointer rounded-full p-3"></div>
+    </div>
+  </div>
+
+  <div class="ml-4 flex flex-col space-y-[8px] md:ml-0">
+    <span class="font-['DM Sans'] flex items-center text-center text-[24px] font-semibold leading-[32px] tracking-[0.1px] text-[#FFFFFF] md:mt-[25px]">Floating Phone</span>
+    <span class="font-['DM Sans'] text-[14px] font-semibold leading-none tracking-[0.2px] text-[#FFFFFF] md:h-[17px] md:w-[240px]">By <span class="text-[#FFFFFF]">Jane Cooper</span> in Tech , Products</span>
+    <div class="flex gap-4 md:flex-col md:gap-2 lg:flex-row lg:gap-4">
+      <div class="flex flex-row">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="mr-3 mt-7 h-[18.35px] w-[18.34px] text-[#E77C40] md:mt-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+        </svg>
+      </div>
+      <span class="font-['DM Sans'] absolute mt-2 text-[14px] font-semibold leading-[15px] tracking-[0.2x] text-[#FFFFFF] md:ml-[170px] md:mt-[14px]">10 Reviews</span>
+    </div>
+    <div class="flex gap-[5px]">
+      <a href="#" class="absolute mt-1.5 flex h-[13.99px] w-[14.9px] items-center md:mt-[25.01px]">
+        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" class="cursor-pointer text-[#FFFFFF]" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_688_4071)">
+            <path fill="currentColor" d="M7.37605 9.95975C7.39096 9.97874 7.41001 9.9941 7.43176 10.0047C7.4535 10.0152 7.47737 10.0207 7.50156 10.0207C7.52575 10.0207 7.54962 10.0152 7.57137 10.0047C7.59311 9.9941 7.61216 9.97874 7.62707 9.95975L9.85832 7.14486C9.94 7.04156 9.86629 6.8886 9.73281 6.8886H8.2566V0.166245C8.2566 0.0788386 8.18488 0.00732422 8.09723 0.00732422H6.90191C6.81426 0.00732422 6.74254 0.0788386 6.74254 0.166245V6.88661H5.27031C5.13684 6.88661 5.06313 7.03958 5.1448 7.14287L7.37605 9.95975ZM14.793 9.26447H13.5977C13.51 9.26447 13.4383 9.33598 13.4383 9.42339V12.4826H1.56484V9.42339C1.56484 9.33598 1.49312 9.26447 1.40547 9.26447H0.210156C0.1225 9.26447 0.0507812 9.33598 0.0507812 9.42339V13.3567C0.0507812 13.7083 0.335664 13.9924 0.688281 13.9924H14.3148C14.6675 13.9924 14.9523 13.7083 14.9523 13.3567V9.42339C14.9523 9.33598 14.8806 9.26447 14.793 9.26447Z" fill="#737373" />
+          </g>
+          <defs>
+            <clipPath id="clip0_688_4071">
+              <rect width="15" height="14" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </a>
+      <div class="font-['Nunito Sans'] ml-6 text-[14px] font-semibold leading-[24px] tracking-[0.2px] text-[#FFFFFF] md:ml-[28px] md:mt-[20.01px] md:h-[24px] md:w-[57px]">15 Sales</div>
+    </div>
+  </div>
+  <div class="mb-5 ml-[3.5rem] flex flex-col gap-[15px] md:ml-0 md:flex-col md:gap-[68px]"></div>
+</div>
+</div>`
+},
+]
+
+export default productCard2MetaData;
