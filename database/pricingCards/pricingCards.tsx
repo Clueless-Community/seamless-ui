@@ -906,7 +906,7 @@ export const PricingCard3Light = () => {
             <h4 className="text-xl font-semibold text-black">per month</h4>
           </div>
         </div>
-        <button className="rounded bg-black py-3 font-semibold text-white">
+        <button className="rounded bg-black hover:bg-gray-700 py-3 font-semibold text-white">
           Try for Free
         </button>
       </div>
@@ -931,7 +931,7 @@ export const PricingCard3Blue = () => {
             <h4 className="text-xl font-semibold text-blue-600">per month</h4>
           </div>
         </div>
-        <button className="rounded bg-blue-600 py-3 font-semibold text-white">
+        <button className="rounded bg-blue-600 hover:bg-blue-700 py-3 font-semibold text-white">
           Try for Free
         </button>
       </div>
@@ -956,7 +956,7 @@ export const PricingCard3Dark = () => {
             <h4 className="text-xl font-semibold text-white">per month</h4>
           </div>
         </div>
-        <button className="rounded bg-[#F5F1F1] py-3 font-semibold text-black">
+        <button className="rounded bg-[#F5F1F1] hover:bg-gray-300 py-3 font-semibold text-black">
           Try for Free
         </button>
       </div>
@@ -1092,7 +1092,7 @@ export const PricingCard5Light = () => {
             </div>
           </div>
           <div className="mt-9 flex justify-center">
-            <button className="w-fit rounded-md bg-slate-900 px-10 py-2  font-semibold bg-gray-900 text-white transition-all ease-out hover:scale-105 hover:shadow-lg">
+            <button className="w-fit rounded-md bg-slate-900 px-10 py-2 hover:bg-gray-700 font-semibold bg-gray-900 text-white transition-all ease-out hover:scale-105 hover:shadow-lg">
               Try For Free
             </button>
           </div>
@@ -1125,7 +1125,7 @@ export const PricingCard5Blue = () => {
             </div>
           </div>
           <div className="mt-9 flex justify-center">
-            <button className="w-fit rounded-md bg-blue-600 px-10 py-2 font-semibold text-white hover:shadow-lg">
+            <button className="w-fit rounded-md bg-blue-600 hover:bg-blue-700 px-10 py-2 font-semibold text-white hover:shadow-lg">
               Try For Free
             </button>
           </div>
@@ -1158,7 +1158,7 @@ export const PricingCard5Dark = () => {
             </div>
           </div>
           <div className="mt-9 flex justify-center">
-            <button className="w-fit rounded-md bg-white text-gray-900 px-10 py-2 font-semibold text-slate-900">
+            <button className="w-fit rounded-md bg-white text-gray-900 hover:bg-gray-300 px-10 py-2 font-semibold text-slate-900">
               Try For Free
             </button>
           </div>
