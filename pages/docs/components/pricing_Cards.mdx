@@ -4,7 +4,8 @@ import React from "react";
 import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
 import {PricingCard0Light, PricingCard0Blue, PricingCard0Dark,
 PricingCard1Light, PricingCard1Blue, PricingCard1Dark,
-PricingCard2Light, PricingCard2Blue, PricingCard2Dark,} from '../../../database/pricingCards/pricingCards.tsx'
+PricingCard2Light, PricingCard2Blue, PricingCard2Dark,
+PricingCard3Light, PricingCard3Blue, PricingCard3Dark,} from '../../../database/pricingCards/pricingCards.tsx'
 
 
 import pricingCard0MetaData from '../../../database/pricingCards/pricingCard0MetaData.ts';
@@ -48,3 +49,17 @@ export const PricingCard2 = () => {
 };
 
 <PricingCard2/>
+
+import pricingCard3MetaData from '../../../database/pricingCards/pricingCard3MetaData.ts';
+
+export const PricingCard3 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={pricingCard3MetaData} componentsArray={[<PricingCard3Light />, <PricingCard3Blue/>, <PricingCard3Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<PricingCard3/>
