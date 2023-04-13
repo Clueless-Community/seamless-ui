@@ -7,7 +7,8 @@ ChooseFile0Dark, ChooseFile0Light,
 ChooseFile0RoundedDark, ChooseFile0RoundedLight,
 EmailRoundedDark, EmailRoundedLight,
 EmailLight, EmailDark,
-ErrorLight, ErrorDark} from '../../../database/forms/forms.tsx'
+ErrorLight, ErrorDark,
+ErrorRoundedLight, ErrorRoundedDark} from '../../../database/forms/forms.tsx'
 
 
 ## Checkbox 
@@ -99,3 +100,18 @@ export const Error = () => {
 };
 
 <Error/>
+
+## Error Rounded
+import errorRoundedMetaData from '../../../database/forms/errorRoundedMetaData.ts';
+
+export const ErrorRounded = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={errorRoundedMetaData} componentsArray={[<ErrorRoundedDark />, <ErrorRoundedLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ErrorRounded/>

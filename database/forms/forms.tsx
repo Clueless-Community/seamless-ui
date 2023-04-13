@@ -523,15 +523,24 @@ export const ErrorLight = () => {
   return (
     <div>
       <div className="grid gap-5 w-[600px]">
-  
-  <input type="text" className="w-full rounded-md border-2 border-red-500 bg-gray-100 p-2 text-sm outline-none" placeholder="Error" />
+        <input
+          type="text"
+          className="w-full rounded-md border-2 border-red-500 bg-gray-100 p-2 text-sm outline-none"
+          placeholder="Error"
+        />
 
-  
-  <input type="text" className="text-md w-full rounded-md border-2 border-red-500 bg-gray-100 p-3 outline-none" placeholder="Error" />
+        <input
+          type="text"
+          className="text-md w-full rounded-md border-2 border-red-500 bg-gray-100 p-3 outline-none"
+          placeholder="Error"
+        />
 
-  
-  <input type="text" className="w-full rounded-md border-2 border-red-500 bg-gray-100 p-5 text-lg outline-none" placeholder="Error" />
-</div>
+        <input
+          type="text"
+          className="w-full rounded-md border-2 border-red-500 bg-gray-100 p-5 text-lg outline-none"
+          placeholder="Error"
+        />
+      </div>
     </div>
   );
 };
@@ -540,16 +549,79 @@ export const ErrorLight = () => {
 export const ErrorDark = () => {
   return (
     <div>
-     <div className="grid gap-5 w-[600px]">
-  
-  <input type="text" className="w-full rounded-md border-2 border-red-500 bg-gray-900 p-2 text-sm outline-none" placeholder="Error" />
+      <div className="grid gap-5 w-[600px]">
+        <input
+          type="text"
+          className="w-full rounded-md border-2 border-red-500 bg-gray-900 p-2 text-sm outline-none"
+          placeholder="Error"
+        />
 
-  
-  <input type="text" className="text-md w-full rounded-md border-2 border-red-500 bg-gray-900 p-3 outline-none" placeholder="Error" />
+        <input
+          type="text"
+          className="text-md w-full rounded-md border-2 border-red-500 bg-gray-900 p-3 outline-none"
+          placeholder="Error"
+        />
 
-  
-  <input type="text" className="w-full rounded-md border-2 border-red-500 bg-gray-900 p-5 text-lg outline-none" placeholder="Error" />
-</div>
+        <input
+          type="text"
+          className="w-full rounded-md border-2 border-red-500 bg-gray-900 p-5 text-lg outline-none"
+          placeholder="Error"
+        />
+      </div>
+    </div>
+  );
+};
+
+// ------------Error Light--------------
+export const ErrorRoundedLight = () => {
+  return (
+    <div>
+      <div className="grid gap-5 w-[600px]">
+        <input
+          type="text"
+          className="w-full rounded-full border-2 border-red-500 bg-gray-100 p-2 text-sm outline-none"
+          placeholder="Error"
+        />
+
+        <input
+          type="text"
+          className="text-md w-full rounded-full border-2 border-red-500 bg-gray-100 p-3 outline-none"
+          placeholder="Error"
+        />
+
+        <input
+          type="text"
+          className="w-full rounded-full border-2 border-red-500 bg-gray-100 p-5 text-lg outline-none"
+          placeholder="Error"
+        />
+      </div>
+    </div>
+  );
+};
+
+// ------------Error Dark--------------
+export const ErrorRoundedDark = () => {
+  return (
+    <div>
+      <div className="grid gap-5 w-[600px]">
+        <input
+          type="text"
+          className="w-full rounded-full border-2 border-red-500 bg-gray-900 p-2 text-sm outline-none"
+          placeholder="Error"
+        />
+
+        <input
+          type="text"
+          className="text-md w-full rounded-full border-2 border-red-500 bg-gray-900 p-3 outline-none"
+          placeholder="Error"
+        />
+
+        <input
+          type="text"
+          className="w-full rounded-full border-2 border-red-500 bg-gray-900 p-5 text-lg outline-none"
+          placeholder="Error"
+        />
+      </div>
     </div>
   );
 };
