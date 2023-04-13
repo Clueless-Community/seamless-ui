@@ -2,7 +2,8 @@
 
 import React from "react";
 import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
-import {Checkbox0Dark, Checkbox0Light} from '../../../database/forms/forms.tsx'
+import {Checkbox0Dark, Checkbox0Light,
+ChooseFile0Dark, ChooseFile0Light} from '../../../database/forms/forms.tsx'
 
 
 ## Checkbox 
@@ -19,3 +20,18 @@ export const Checkbox0 = () => {
 };
 
 <Checkbox0/>
+
+## Choose File
+import chooseFile0MetaData from '../../../database/forms/chooseFile0MetaData.ts';
+
+export const ChooseFile0 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={chooseFile0MetaData} componentsArray={[<ChooseFile0Dark />, <ChooseFile0Light/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ChooseFile0/>
