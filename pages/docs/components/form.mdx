@@ -3,7 +3,10 @@
 import React from "react";
 import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
 import {Checkbox0Dark, Checkbox0Light,
-ChooseFile0Dark, ChooseFile0Light} from '../../../database/forms/forms.tsx'
+ChooseFile0Dark, ChooseFile0Light, 
+ChooseFile0RoundedDark, ChooseFile0RoundedLight,
+EmailRoundedDark, EmailRoundedLight,
+EmailLight, EmailDark} from '../../../database/forms/forms.tsx'
 
 
 ## Checkbox 
@@ -21,7 +24,7 @@ export const Checkbox0 = () => {
 
 <Checkbox0/>
 
-## Choose File
+## Choose File Rounded
 import chooseFile0MetaData from '../../../database/forms/chooseFile0MetaData.ts';
 
 export const ChooseFile0 = () => {
@@ -35,3 +38,48 @@ export const ChooseFile0 = () => {
 };
 
 <ChooseFile0/>
+
+## Choose File Boxed
+import chooseFile0RoundedMetaData from '../../../database/forms/chooseFile0RoundedMetaData.ts';
+
+export const ChooseFile0Rounded = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={chooseFile0RoundedMetaData} componentsArray={[<ChooseFile0RoundedDark />, <ChooseFile0RoundedLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ChooseFile0Rounded/>
+
+## Email Input Rounded
+import emailRoundedMetaData from '../../../database/forms/emailRoundedMetaData.ts';
+
+export const EmailRounded = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={emailRoundedMetaData} componentsArray={[<EmailRoundedDark />, <EmailRoundedLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<EmailRounded/>
+
+## Email Input Boxed
+import emailMetaData from '../../../database/forms/emailMetaData.ts';
+
+export const Email = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={emailMetaData} componentsArray={[<EmailDark />, <EmailLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Email/>
