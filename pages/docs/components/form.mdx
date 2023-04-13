@@ -8,7 +8,8 @@ ChooseFile0RoundedDark, ChooseFile0RoundedLight,
 EmailRoundedDark, EmailRoundedLight,
 EmailLight, EmailDark,
 ErrorLight, ErrorDark,
-ErrorRoundedLight, ErrorRoundedDark} from '../../../database/forms/forms.tsx'
+ErrorRoundedLight, ErrorRoundedDark,
+SuccessDark, SuccessLight} from '../../../database/forms/forms.tsx'
 
 
 ## Checkbox 
@@ -115,3 +116,18 @@ export const ErrorRounded = () => {
 };
 
 <ErrorRounded/>
+
+## Success
+import successMetaData from '../../../database/forms/successMetaData.ts';
+
+export const Success = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={successMetaData} componentsArray={[<SuccessDark />, <SuccessLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Success/>

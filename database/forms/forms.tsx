@@ -572,7 +572,7 @@ export const ErrorDark = () => {
   );
 };
 
-// ------------Error Light--------------
+// ------------Error ROunded Light--------------
 export const ErrorRoundedLight = () => {
   return (
     <div>
@@ -599,7 +599,7 @@ export const ErrorRoundedLight = () => {
   );
 };
 
-// ------------Error Dark--------------
+// ------------Error ROunded Dark--------------
 export const ErrorRoundedDark = () => {
   return (
     <div>
@@ -619,6 +619,60 @@ export const ErrorRoundedDark = () => {
         <input
           type="text"
           className="w-full rounded-full border-2 border-red-500 bg-gray-900 p-5 text-lg outline-none"
+          placeholder="Error"
+        />
+      </div>
+    </div>
+  );
+};
+
+// ------------Success Light--------------
+export const SuccessLight = () => {
+  return (
+    <div>
+      <div className="grid gap-5 w-[600px]">
+        <input
+          type="text"
+          className="w-full rounded-md border-2 border-green-500 bg-gray-100 p-2 text-sm outline-none"
+          placeholder="Error"
+        />
+
+        <input
+          type="text"
+          className="text-md w-full rounded-md border-2 border-green-500 bg-gray-100 p-3 outline-none"
+          placeholder="Error"
+        />
+
+        <input
+          type="text"
+          className="w-full rounded-md border-2 border-green-500 bg-gray-100 p-5 text-lg outline-none"
+          placeholder="Error"
+        />
+      </div>
+    </div>
+  );
+};
+
+// ------------Success Dark--------------
+export const SuccessDark = () => {
+  return (
+    <div>
+      <div className="grid gap-5 w-[600px]">
+        <input
+          type="text"
+          className="w-full rounded-md border-2 border-green-500 bg-gray-900 p-2 text-sm outline-none"
+          placeholder="Error"
+        />
+
+        <input
+          type="text"
+          className="text-md w-full rounded-md border-2 border-green-500 bg-gray-900 p-3 outline-none"
+          placeholder="Error"
+        />
+
+        <input
+          type="text"
+          className="w-full rounded-md border-2 border-green-500 bg-gray-900 p-5 text-lg outline-none"
           placeholder="Error"
         />
       </div>
