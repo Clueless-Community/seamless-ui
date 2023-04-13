@@ -948,7 +948,7 @@ export const FeatureCard11Light = () => {
 export const FeatureCard11Blue = () => {
   return (
     <div>
-      <div className="flex-col cursor-pointer w-fit cursor-default rounded-2xl  bg-white gap-4 px-8 py-5 transition-all ease-out duration-500 hover:cursor-pointer hover:shadow-xl hover:scale-105">
+      <div className="flex-col w-fit cursor-default rounded-2xl  bg-white gap-4 px-8 py-5 transition-all ease-out duration-500 hover:cursor-pointer hover:shadow-xl hover:scale-105">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"

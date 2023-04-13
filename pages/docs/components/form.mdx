@@ -1,0 +1,21 @@
+# Testimonials Component
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {Checkbox0Dark, Checkbox0Light} from '../../../database/forms/forms.tsx'
+
+
+## Checkbox 
+import checkbox0MetaData from '../../../database/forms/checkbox0MetaData.ts';
+
+export const Checkbox0 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={checkbox0MetaData} componentsArray={[<Checkbox0Dark />, <Checkbox0Light/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Checkbox0/>

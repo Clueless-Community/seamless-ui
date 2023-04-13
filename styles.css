@@ -78,3 +78,10 @@ article > main + div a.font-semibold {
 .phone{
   transform: scale(1.1);
 }
+
+.checkmark{
+  position: absolute;
+  left: 7px;
+  top: -5px;
+  transform: rotate(45deg);
+}
