@@ -10,7 +10,9 @@ EmailLight, EmailDark,
 ErrorLight, ErrorDark,
 ErrorRoundedLight, ErrorRoundedDark,
 SuccessDark, SuccessLight,
-SuccessRoundedDark, SuccessRoundedLight} from '../../../database/forms/forms.tsx'
+SuccessRoundedDark, SuccessRoundedLight,
+TextareaLight, TextareaDark,
+TextareaRoundedLight, TextareaRoundedDark} from '../../../database/forms/forms.tsx'
 
 
 ## Checkbox 
@@ -148,3 +150,33 @@ export const SuccessRounded = () => {
 };
 
 <SuccessRounded/>
+
+## Textarea
+import textareaMetaData from '../../../database/forms/textareaMetaData.ts';
+
+export const Textarea = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={textareaMetaData} componentsArray={[<TextareaDark />, <TextareaLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Textarea/>
+
+## Textarea Rounded
+import textareaRoundedMetaData from '../../../database/forms/textareaRoundedMetaData.ts';
+
+export const TextareaRounded = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={textareaRoundedMetaData} componentsArray={[<TextareaRoundedDark />, <TextareaRoundedLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<TextareaRounded/>

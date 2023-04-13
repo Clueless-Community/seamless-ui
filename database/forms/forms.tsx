@@ -684,16 +684,25 @@ export const SuccessDark = () => {
 export const SuccessRoundedLight = () => {
   return (
     <div>
-     <div className="grid gap-5 w-[600px]">
-  
-  <input type="text" className="w-full rounded-full border-2 border-green-500 bg-gray-100 p-2 text-sm outline-none" placeholder="Error" />
+      <div className="grid gap-5 w-[600px]">
+        <input
+          type="text"
+          className="w-full rounded-full border-2 border-green-500 bg-gray-100 p-2 text-sm outline-none"
+          placeholder="Error"
+        />
 
-  
-  <input type="text" className="text-md w-full rounded-full border-2 border-green-500 bg-gray-100 p-3 outline-none" placeholder="Error" />
+        <input
+          type="text"
+          className="text-md w-full rounded-full border-2 border-green-500 bg-gray-100 p-3 outline-none"
+          placeholder="Error"
+        />
 
-  
-  <input type="text" className="w-full rounded-full border-2 border-green-500 bg-gray-100 p-5 text-lg outline-none" placeholder="Error" />
-</div>
+        <input
+          type="text"
+          className="w-full rounded-full border-2 border-green-500 bg-gray-100 p-5 text-lg outline-none"
+          placeholder="Error"
+        />
+      </div>
     </div>
   );
 };
@@ -703,16 +712,96 @@ export const SuccessRoundedDark = () => {
   return (
     <div>
       <div className="grid gap-5 w-[600px]">
-  
-  <input type="text" className="w-full rounded-full border-2 border-green-500 bg-gray-900 p-2 text-sm outline-none" placeholder="Error" />
+        <input
+          type="text"
+          className="w-full rounded-full border-2 border-green-500 bg-gray-900 p-2 text-sm outline-none"
+          placeholder="Error"
+        />
 
-  
-  <input type="text" className="text-md w-full rounded-full border-2 border-green-500 bg-gray-900 p-3 outline-none" placeholder="Error" />
+        <input
+          type="text"
+          className="text-md w-full rounded-full border-2 border-green-500 bg-gray-900 p-3 outline-none"
+          placeholder="Error"
+        />
 
-  
-  <input type="text" className="w-full rounded-full border-2 border-green-500 bg-gray-900 p-5 text-lg outline-none" placeholder="Error" />
-</div>
+        <input
+          type="text"
+          className="w-full rounded-full border-2 border-green-500 bg-gray-900 p-5 text-lg outline-none"
+          placeholder="Error"
+        />
+      </div>
+    </div>
+  );
+};
 
+// ------------textarea Light--------------
+export const TextareaLight = () => {
+  return (
+    <div>
+      <div className="my-0 max-w-[900px] p-5">
+        <textarea
+          name="message"
+          id=""
+          cols={50}
+          rows={4}
+          placeholder="Message"
+          className="w-[100%] max-w-[500px] resize-none rounded bg-white p-7 text-xl tracking-wide text-slate-300"
+        ></textarea>
+      </div>
+    </div>
+  );
+};
+
+// ------------textarea Dark--------------
+export const TextareaDark = () => {
+  return (
+    <div>
+      <div className="my-0 max-w-[900px] p-5">
+        <textarea
+          name="message"
+          id=""
+          cols={50}
+          rows={4}
+          placeholder="Message"
+          className="w-[100%] max-w-[500px] resize-none rounded bg-gray-900 p-7 text-xl tracking-wide text-white"
+        ></textarea>
+      </div>
+    </div>
+  );
+};
+
+// ------------textarea Light--------------
+export const TextareaRoundedDark = () => {
+  return (
+    <div>
+      <div className="mx-auto my-0 max-w-[900px] p-5">
+        <textarea
+          name="message"
+          id=""
+          cols={50}
+          rows={4}
+          placeholder="Message"
+          className="w-[100%] max-w-[500px] resize-none rounded-2xl bg-gray-900 p-6 text-xl tracking-wide text-white placeholder:text-xl placeholder:text-white"
+        ></textarea>
+      </div>
+    </div>
+  );
+};
+
+// ------------textarea Dark--------------
+export const TextareaRoundedLight = () => {
+  return (
+    <div>
+      <div className="my-0 max-w-[900px] p-5">
+        <textarea
+          name="message"
+          id=""
+          cols={50}
+          rows={4}
+          placeholder="Message"
+          className="w-[100%] max-w-[500px] resize-none rounded-2xl bg-white p-7 text-xl tracking-wide text-gray-300"
+        ></textarea>
+      </div>
     </div>
   );
 };
