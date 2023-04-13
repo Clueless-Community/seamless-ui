@@ -85,3 +85,15 @@ article > main + div a.font-semibold {
   top: -5px;
   transform: rotate(45deg);
 }
+
+#file_input_dark::file-selector-button{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+#file_input_light::file-selector-button{
+  background-color: transparent;
+  border: none;
+  color: black;
+}
