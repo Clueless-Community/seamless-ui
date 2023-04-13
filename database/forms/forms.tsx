@@ -679,3 +679,40 @@ export const SuccessDark = () => {
     </div>
   );
 };
+
+// ------------Success Rounded Light--------------
+export const SuccessRoundedLight = () => {
+  return (
+    <div>
+     <div className="grid gap-5 w-[600px]">
+  
+  <input type="text" className="w-full rounded-full border-2 border-green-500 bg-gray-100 p-2 text-sm outline-none" placeholder="Error" />
+
+  
+  <input type="text" className="text-md w-full rounded-full border-2 border-green-500 bg-gray-100 p-3 outline-none" placeholder="Error" />
+
+  
+  <input type="text" className="w-full rounded-full border-2 border-green-500 bg-gray-100 p-5 text-lg outline-none" placeholder="Error" />
+</div>
+    </div>
+  );
+};
+
+// ------------Success Rounded Dark--------------
+export const SuccessRoundedDark = () => {
+  return (
+    <div>
+      <div className="grid gap-5 w-[600px]">
+  
+  <input type="text" className="w-full rounded-full border-2 border-green-500 bg-gray-900 p-2 text-sm outline-none" placeholder="Error" />
+
+  
+  <input type="text" className="text-md w-full rounded-full border-2 border-green-500 bg-gray-900 p-3 outline-none" placeholder="Error" />
+
+  
+  <input type="text" className="w-full rounded-full border-2 border-green-500 bg-gray-900 p-5 text-lg outline-none" placeholder="Error" />
+</div>
+
+    </div>
+  );
+};
