@@ -6,7 +6,8 @@ import {Checkbox0Dark, Checkbox0Light,
 ChooseFile0Dark, ChooseFile0Light, 
 ChooseFile0RoundedDark, ChooseFile0RoundedLight,
 EmailRoundedDark, EmailRoundedLight,
-EmailLight, EmailDark} from '../../../database/forms/forms.tsx'
+EmailLight, EmailDark,
+ErrorLight, ErrorDark} from '../../../database/forms/forms.tsx'
 
 
 ## Checkbox 
@@ -83,3 +84,18 @@ export const Email = () => {
 };
 
 <Email/>
+
+## Error
+import errorMetaData from '../../../database/forms/errorMetaData.ts';
+
+export const Error = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={errorMetaData} componentsArray={[<ErrorDark />, <ErrorLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Error/>
