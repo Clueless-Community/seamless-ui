@@ -745,7 +745,7 @@ export const TextareaLight = () => {
           cols={50}
           rows={4}
           placeholder="Message"
-          className="w-[100%] max-w-[500px] resize-none rounded bg-white p-7 text-xl tracking-wide text-slate-300"
+          className="w-[100%] max-w-[500px] resize-none rounded bg-white p-7 text-xl tracking-wide text-gray-300"
         ></textarea>
       </div>
     </div>
@@ -801,6 +801,66 @@ export const TextareaRoundedLight = () => {
           placeholder="Message"
           className="w-[100%] max-w-[500px] resize-none rounded-2xl bg-white p-7 text-xl tracking-wide text-gray-300"
         ></textarea>
+      </div>
+    </div>
+  );
+};
+
+// ------------textarea Light--------------
+export const SwitchDark = () => {
+  return (
+    <div>
+      <div className="flex flex-col items-center justify-center gap-2 py-5">
+        <label className="relative inline-flex cursor-pointer items-center">
+          <input type="checkbox" value="" className="peer sr-only" />
+          <div className="h-6 w-11 rounded-full border border-gray-900 bg-gray-900 after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:after:trangray-x-full peer-checked:after:border-white peer-focus:outline-none"></div>
+          <span className="ml-3 select-none text-gray-600">Switch</span>
+        </label>
+        <label className="relative inline-flex cursor-pointer items-center">
+          <input type="checkbox" value="" className="peer sr-only" />
+          <div className="h-6 w-11 rounded-full border border-gray-900 after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-400 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-900 peer-checked:after:trangray-x-full peer-checked:after:border-white peer-focus:outline-none"></div>
+          <span className="ml-3 select-none text-gray-600">Switch</span>
+        </label>
+        <label className="relative inline-flex cursor-pointer items-center">
+          <input type="checkbox" value="" className="peer sr-only" />
+          <div className="h-6 w-11 rounded-full bg-white after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-gray-900 after:transition-all after:content-[''] peer-checked:bg-gray-900 peer-checked:after:trangray-x-full peer-checked:after:border-white peer-checked:after:bg-white peer-focus:outline-none"></div>
+          <span className="ml-3 select-none text-gray-600">Switch</span>
+        </label>
+        <label className="relative inline-flex cursor-pointer items-center">
+          <input type="checkbox" value="" className="peer sr-only" />
+          <div className="peer h-6 w-11 rounded-full bg-gray-200 after:absolute after:top-0.5 after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-gray-100 after:transition-all after:content-[''] peer-checked:bg-gray-900 peer-checked:after:trangray-x-full peer-checked:after:border-white"></div>
+          <span className="ml-3 select-none text-gray-600">Switch</span>
+        </label>
+      </div>
+    </div>
+  );
+};
+
+// ------------textarea Dark--------------
+export const SwitchLight = () => {
+  return (
+    <div>
+      <div className="flex flex-col items-center justify-center gap-2 py-5">
+        <label className="relative inline-flex cursor-pointer items-center">
+          <input type="checkbox" value="" className="peer sr-only" />
+          <div className="h-6 w-11 rounded-full border border-blue-600 bg-blue-600 after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none"></div>
+          <span className="ml-3 select-none text-gray-600">Switch</span>
+        </label>
+        <label className="relative inline-flex cursor-pointer items-center">
+          <input type="checkbox" value="" className="peer sr-only" />
+          <div className="h-6 w-11 rounded-full border border-blue-600 after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-400 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none"></div>
+          <span className="ml-3 select-none text-gray-600">Switch</span>
+        </label>
+        <label className="relative inline-flex cursor-pointer items-center">
+          <input type="checkbox" value="" className="peer sr-only" />
+          <div className="h-6 w-11 rounded-full bg-white after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-blue-600 after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-checked:after:bg-white peer-focus:outline-none"></div>
+          <span className="ml-3 select-none text-gray-600">Switch</span>
+        </label>
+        <label className="relative inline-flex cursor-pointer items-center">
+          <input type="checkbox" value="" className="peer sr-only" />
+          <div className="peer h-6 w-11 rounded-full bg-gray-200 after:absolute after:top-0.5 after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-gray-100 after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white"></div>
+          <span className="ml-3 select-none text-gray-600">Switch</span>
+        </label>
       </div>
     </div>
   );

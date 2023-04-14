@@ -12,7 +12,8 @@ ErrorRoundedLight, ErrorRoundedDark,
 SuccessDark, SuccessLight,
 SuccessRoundedDark, SuccessRoundedLight,
 TextareaLight, TextareaDark,
-TextareaRoundedLight, TextareaRoundedDark} from '../../../database/forms/forms.tsx'
+TextareaRoundedLight, TextareaRoundedDark,
+SwitchLight, SwitchDark} from '../../../database/forms/forms.tsx'
 
 
 ## Checkbox 
@@ -180,3 +181,18 @@ export const TextareaRounded = () => {
 };
 
 <TextareaRounded/>
+
+## Switch
+import switchMetaData from '../../../database/forms/switchMetaData.ts';
+
+export const Switch = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={switchMetaData} componentsArray={[<SwitchDark />, <SwitchLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Switch/>
