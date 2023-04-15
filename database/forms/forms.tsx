@@ -414,22 +414,22 @@ export const ChooseFile0RoundedLight = () => {
 export const EmailRoundedDark = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid outline-none gap-5 w-[600px]">
         <input
           type="email"
-          className="w-full rounded-full bg-[#121225] p-2 pl-5 text-sm text-[400] text-white placeholder-gray-400 outline-none focus:border-blue-600 disabled:border-gray-300 disabled:bg-gray-300"
+          className="w-full rounded-full outline-none focus:outline-none bg-[#121225] p-2 pl-5 text-sm text-[400] text-white placeholder-gray-400 "
           placeholder="Email *"
         />
 
         <input
           type="email"
-          className="text-md w-full rounded-full bg-[#121225] p-3 pl-6 text-white placeholder-gray-400 outline-none focus:border-blue-600 disabled:border-gray-300 disabled:bg-gray-300"
+          className="text-md w-full rounded-full bg-[#121225] focus:outline-none p-3 pl-6 text-white placeholder-gray-400 outline-none focus:border-blue-600 disabled:border-gray-300 disabled:bg-gray-300"
           placeholder="Email *"
         />
 
         <input
           type="email"
-          className="w-full rounded-full bg-[#121225] p-5 pl-8 text-lg text-white placeholder-gray-400 outline-none focus:border-blue-600 disabled:border-gray-300 disabled:bg-gray-300"
+          className="w-full rounded-full bg-[#121225] p-5 pl-8 text-lg focus:outline-none text-white placeholder-gray-400 outline-none focus:border-blue-600 disabled:border-gray-300 disabled:bg-gray-300"
           placeholder="Email *"
         />
       </div>
@@ -471,19 +471,19 @@ export const EmailDark = () => {
       <div className="grid gap-5 w-[600px]">
         <input
           type="email"
-          className="w-full rounded-lg bg-[#121225] p-2 pl-5 text-sm text-[400] text-white placeholder-gray-400 outline-none focus:border-blue-600 disabled:border-gray-300 disabled:bg-gray-300"
+          className="w-full rounded-lg outline-none focus:outline-none bg-[#121225] p-2 pl-5 text-sm text-[400] text-white placeholder-gray-400 disabled:border-gray-300 disabled:bg-gray-300"
           placeholder="Email *"
         />
 
         <input
           type="email"
-          className="text-md w-full rounded-lg bg-[#121225] p-3 pl-6 text-white placeholder-gray-400 outline-none focus:border-blue-600 disabled:border-gray-300 disabled:bg-gray-300"
+          className="text-md w-full focus:outline-none rounded-lg bg-[#121225] p-3 pl-6 text-white placeholder-gray-400 outline-none focus:border-blue-600 disabled:border-gray-300 disabled:bg-gray-300"
           placeholder="Email *"
         />
 
         <input
           type="email"
-          className="w-full rounded-lg bg-[#121225] p-5 pl-8 text-lg text-white placeholder-gray-400 outline-none focus:border-blue-600 disabled:border-gray-300 disabled:bg-gray-300"
+          className="w-full rounded-lg focus:outline-none bg-[#121225] p-5 pl-8 text-lg text-white placeholder-gray-400 outline-none focus:border-blue-600 disabled:border-gray-300 disabled:bg-gray-300"
           placeholder="Email *"
         />
       </div>
