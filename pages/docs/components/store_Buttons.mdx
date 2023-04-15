@@ -1,0 +1,37 @@
+# Store Buttons 
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {AmazonDark, AmazonBlue, AmazonLight,
+AppleDark, AppleBlue, AppleLight} from '../../../database/storeButtons/storeButtons.tsx'
+
+
+## Amazon Button
+import amazonMetaData from '../../../database/storeButtons/amazonMetaData.ts';
+
+export const Amazon = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={amazonMetaData} componentsArray={[<AmazonDark />, <AmazonBlue/>, <AmazonLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Amazon/>
+
+## Apple Button
+import appleMetaData from '../../../database/storeButtons/appleMetaData.ts';
+
+export const Apple = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={appleMetaData} componentsArray={[<AppleDark />, <AppleBlue/>, <AppleLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Apple/>
