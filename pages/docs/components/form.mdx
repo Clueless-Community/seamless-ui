@@ -14,7 +14,8 @@ SuccessRoundedDark, SuccessRoundedLight,
 TextareaLight, TextareaDark,
 TextareaRoundedLight, TextareaRoundedDark,
 SwitchLight, SwitchDark,
-SearchRoundedLight, SearchRoundedDark} from '../../../database/forms/forms.tsx'
+SearchRoundedLight, SearchRoundedDark,
+SearchLight, SearchDark} from '../../../database/forms/forms.tsx'
 
 
 ## Checkbox 
@@ -197,6 +198,21 @@ export const Switch = () => {
 };
 
 <Switch/> */}
+
+## Search 
+import searchMetaData from '../../../database/forms/searchMetaData.ts';
+
+export const Search = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={searchMetaData} componentsArray={[<SearchDark />, <SearchLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Search/>
 
 ## Search Rounded
 import searchRoundedMetaData from '../../../database/forms/searchRoundedMetaData.ts';
