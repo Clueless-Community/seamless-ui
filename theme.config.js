@@ -66,6 +66,11 @@ export default {
   editLink: {
     text: "Edit this page on GitHub",
   },
+  docsRepositoryBase: "https://github.com/Clueless-Community/seamless-ui/tree/website-dev/",
+  feedback: {
+    content: 'Question? Give us feedback →',
+    labels: 'feedback'
+  },
   useNextSeoProps() {
     return {
       titleTemplate: "%s – SeamLess UI",
