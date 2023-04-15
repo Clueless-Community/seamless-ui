@@ -3,5 +3,6 @@
   "AlertsDesignSystem": "Alerts",
   "AvatarDesignSystem": "Avatar",
   "BadgesDesignSystem": "Badges",
-  "BreadcrumbDesignSystem": "Breadrumb"
+  "BreadcrumbDesignSystem": "Breadrumb",
+  "ButtonDesignSystem": "Button"
 }
