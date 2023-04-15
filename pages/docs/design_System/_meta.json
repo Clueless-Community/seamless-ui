@@ -1,5 +1,8 @@
 {
   "AccordionDesignSystem": "Accordion",
   "AlertsDesignSystem": "Alerts",
-  "AvatarDesignSystem": "Avatar"
+  "AvatarDesignSystem": "Avatar",
+  "BadgesDesignSystem": "Badges",
+  "BreadcrumbDesignSystem": "Breadrumb",
+  "ButtonDesignSystem": "Button"
 }
