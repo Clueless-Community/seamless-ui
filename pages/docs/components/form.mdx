@@ -15,7 +15,8 @@ TextareaLight, TextareaDark,
 TextareaRoundedLight, TextareaRoundedDark,
 SwitchLight, SwitchDark,
 SearchRoundedLight, SearchRoundedDark,
-SearchLight, SearchDark} from '../../../database/forms/forms.tsx'
+SearchLight, SearchDark,
+SelectLight, SelectDark} from '../../../database/forms/forms.tsx'
 
 
 ## Checkbox 
@@ -228,3 +229,18 @@ export const SearchRounded = () => {
 };
 
 <SearchRounded/>
+
+## Select
+import selectMetaData from '../../../database/forms/selectMetaData.ts';
+
+export const Select = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={selectMetaData} componentsArray={[<SelectDark />, <SelectLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Select/>
