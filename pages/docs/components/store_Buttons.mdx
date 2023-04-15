@@ -3,7 +3,8 @@
 import React from "react";
 import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
 import {AmazonDark, AmazonBlue, AmazonLight,
-AppleDark, AppleBlue, AppleLight} from '../../../database/storeButtons/storeButtons.tsx'
+AppleDark, AppleBlue, AppleLight,
+WindowsDark, WindowsBlue, WindowsLight} from '../../../database/storeButtons/storeButtons.tsx'
 
 
 ## Amazon Button
@@ -35,3 +36,19 @@ export const Apple = () => {
 };
 
 <Apple/>
+
+## Windows Button
+import windowsMetaData from '../../../database/storeButtons/windowsMetaData.ts';
+
+export const Windows = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={windowsMetaData} componentsArray={[<WindowsDark />, <WindowsBlue/>, <WindowsLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Windows/>
+
