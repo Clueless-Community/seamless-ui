@@ -4,7 +4,8 @@ import React from "react";
 import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
 import {AmazonDark, AmazonBlue, AmazonLight,
 AppleDark, AppleBlue, AppleLight,
-WindowsDark, WindowsBlue, WindowsLight} from '../../../database/storeButtons/storeButtons.tsx'
+WindowsDark, WindowsBlue, WindowsLight,
+GooglePlayDark, GooglePlayBlue, GooglePlayLight} from '../../../database/storeButtons/storeButtons.tsx'
 
 
 ## Amazon Button
@@ -51,4 +52,20 @@ export const Windows = () => {
 };
 
 <Windows/>
+
+## Google Play Button
+import googlePLayMetaData from '../../../database/storeButtons/googlePLayMetaData.ts';
+
+export const GooglePlay = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={googlePLayMetaData} componentsArray={[<GooglePlayDark />, <GooglePlayBlue/>, <GooglePlayLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<GooglePlay/>
+
 
