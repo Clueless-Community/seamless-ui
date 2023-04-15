@@ -4,5 +4,6 @@
   "AvatarDesignSystem": "Avatar",
   "BadgesDesignSystem": "Badges",
   "BreadcrumbDesignSystem": "Breadrumb",
-  "ButtonDesignSystem": "Button"
+  "ButtonDesignSystem": "Button",
+  "FeatureCardDesignSystem": "Feature Card"
 }
