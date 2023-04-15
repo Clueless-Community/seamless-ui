@@ -813,22 +813,38 @@ export const SwitchDark = () => {
       <div className="flex flex-col items-center justify-center gap-2 py-5">
         <label className="relative inline-flex cursor-pointer items-center">
           <input type="checkbox" value="" className="peer sr-only" />
-          <div className="h-6 w-11 rounded-full border border-gray-900 bg-gray-900 after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:after:trangray-x-full peer-checked:after:border-white peer-focus:outline-none"></div>
+          <div
+            className="fmRadio h-6 w-11 rounded-full border border-gray-900 bg-gray-900 after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 
+          after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:after:translate-x-full
+           peer-checked:after:border-white peer-focus:outline-none"
+          ></div>
           <span className="ml-3 select-none text-gray-600">Switch</span>
         </label>
         <label className="relative inline-flex cursor-pointer items-center">
           <input type="checkbox" value="" className="peer sr-only" />
-          <div className="h-6 w-11 rounded-full border border-gray-900 after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-400 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-900 peer-checked:after:trangray-x-full peer-checked:after:border-white peer-focus:outline-none"></div>
+          <div
+            className="fmRadio h-6 w-11 rounded-full border border-gray-900 after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full
+           after:border after:border-gray-400 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-900 peer-checked:after:translate-x-full
+            peer-checked:after:border-white peer-focus:outline-none"
+          ></div>
           <span className="ml-3 select-none text-gray-600">Switch</span>
         </label>
         <label className="relative inline-flex cursor-pointer items-center">
           <input type="checkbox" value="" className="peer sr-only" />
-          <div className="h-6 w-11 rounded-full bg-white after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-gray-900 after:transition-all after:content-[''] peer-checked:bg-gray-900 peer-checked:after:trangray-x-full peer-checked:after:border-white peer-checked:after:bg-white peer-focus:outline-none"></div>
+          <div
+            className="fmRadio h-6 w-11 rounded-full bg-white after:absolute after:top-[2px] after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border
+           after:border-gray-300 after:bg-gray-900 after:transition-all after:content-[''] peer-checked:bg-gray-900 peer-checked:after:translate-x-full
+            peer-checked:after:border-white peer-checked:after:bg-white peer-focus:outline-none"
+          ></div>
           <span className="ml-3 select-none text-gray-600">Switch</span>
         </label>
         <label className="relative inline-flex cursor-pointer items-center">
           <input type="checkbox" value="" className="peer sr-only" />
-          <div className="peer h-6 w-11 rounded-full bg-gray-200 after:absolute after:top-0.5 after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-gray-100 after:transition-all after:content-[''] peer-checked:bg-gray-900 peer-checked:after:trangray-x-full peer-checked:after:border-white"></div>
+          <div
+            className="fmRadio h-6 w-11 rounded-full bg-gray-200 after:absolute after:top-0.5 after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border
+           after:border-gray-300 after:bg-gray-100 after:transition-all after:content-[''] peer-checked:bg-gray-900 peer-checked:after:translate-x-full
+            peer-checked:after:border-white"
+          ></div>
           <span className="ml-3 select-none text-gray-600">Switch</span>
         </label>
       </div>
@@ -861,6 +877,116 @@ export const SwitchLight = () => {
           <div className="peer h-6 w-11 rounded-full bg-gray-200 after:absolute after:top-0.5 after:left-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-gray-100 after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white"></div>
           <span className="ml-3 select-none text-gray-600">Switch</span>
         </label>
+      </div>
+    </div>
+  );
+};
+
+// ------------Search Light--------------
+export const SearchRoundedDark = () => {
+  return (
+    <div>
+      <div className="relative mb-6">
+        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-6">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.4601 10.3188L15.7639 14.6226C15.9151 14.7739 16.0001 14.9792 16 15.1932C15.9999 15.4072 15.9148 15.6124 15.7635 15.7637C15.6121 15.915 15.4068 15.9999 15.1928 15.9998C14.9788 15.9998 14.7736 15.9147 14.6223 15.7633L10.3185 11.4595C9.03194 12.456 7.41407 12.9249 5.79403 12.7709C4.17398 12.6169 2.67346 11.8515 1.59771 10.6304C0.521957 9.40936 -0.0482098 7.82433 0.00319691 6.19779C0.0546036 4.57125 0.723722 3.02539 1.87443 1.87468C3.02514 0.723966 4.57101 0.0548478 6.19754 0.00344105C7.82408 -0.0479657 9.40911 0.522201 10.6302 1.59795C11.8513 2.6737 12.6167 4.17423 12.7707 5.79427C12.9247 7.41432 12.4558 9.03219 11.4593 10.3188H11.4601ZM6.4003 11.1995C7.67328 11.1995 8.89412 10.6938 9.79425 9.7937C10.6944 8.89356 11.2001 7.67272 11.2001 6.39974C11.2001 5.12676 10.6944 3.90592 9.79425 3.00579C8.89412 2.10565 7.67328 1.59997 6.4003 1.59997C5.12732 1.59997 3.90648 2.10565 3.00634 3.00579C2.10621 3.90592 1.60052 5.12676 1.60052 6.39974C1.60052 7.67272 2.10621 8.89356 3.00634 9.7937C3.90648 10.6938 5.12732 11.1995 6.4003 11.1995V11.1995Z"
+              fill="gray"
+            />
+          </svg>
+        </div>
+        <input
+          type="text"
+          className="w-full rounded-full border-2 border-gray-900 bg-gray-900 px-72 py-2 pl-16 text-base text-white placeholder-gray-400 focus:border-gray-400"
+          placeholder="Search"
+        />
+      </div>
+
+      <div className="relative mb-6">
+        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-6">
+          <svg
+            width="18"
+            height="20"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.4601 10.3188L15.7639 14.6226C15.9151 14.7739 16.0001 14.9792 16 15.1932C15.9999 15.4072 15.9148 15.6124 15.7635 15.7637C15.6121 15.915 15.4068 15.9999 15.1928 15.9998C14.9788 15.9998 14.7736 15.9147 14.6223 15.7633L10.3185 11.4595C9.03194 12.456 7.41407 12.9249 5.79403 12.7709C4.17398 12.6169 2.67346 11.8515 1.59771 10.6304C0.521957 9.40936 -0.0482098 7.82433 0.00319691 6.19779C0.0546036 4.57125 0.723722 3.02539 1.87443 1.87468C3.02514 0.723966 4.57101 0.0548478 6.19754 0.00344105C7.82408 -0.0479657 9.40911 0.522201 10.6302 1.59795C11.8513 2.6737 12.6167 4.17423 12.7707 5.79427C12.9247 7.41432 12.4558 9.03219 11.4593 10.3188H11.4601ZM6.4003 11.1995C7.67328 11.1995 8.89412 10.6938 9.79425 9.7937C10.6944 8.89356 11.2001 7.67272 11.2001 6.39974C11.2001 5.12676 10.6944 3.90592 9.79425 3.00579C8.89412 2.10565 7.67328 1.59997 6.4003 1.59997C5.12732 1.59997 3.90648 2.10565 3.00634 3.00579C2.10621 3.90592 1.60052 5.12676 1.60052 6.39974C1.60052 7.67272 2.10621 8.89356 3.00634 9.7937C3.90648 10.6938 5.12732 11.1995 6.4003 11.1995V11.1995Z"
+              fill="gray"
+            />
+          </svg>
+        </div>
+        <input
+          type="text"
+          className="w-full rounded-full border-2 border-gray-900 bg-gray-900 px-72 py-4 pl-16 text-lg text-white placeholder-gray-400 focus:border-gray-600"
+          placeholder="Search"
+        />
+      </div>
+    </div>
+  );
+};
+
+// ------------Search Dark--------------
+export const SearchRoundedLight = () => {
+  return (
+    <div>
+      <div className="relative mb-6">
+        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-6">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.4601 10.3188L15.7639 14.6226C15.9151 14.7739 16.0001 14.9792 16 15.1932C15.9999 15.4072 15.9148 15.6124 15.7635 15.7637C15.6121 15.915 15.4068 15.9999 15.1928 15.9998C14.9788 15.9998 14.7736 15.9147 14.6223 15.7633L10.3185 11.4595C9.03194 12.456 7.41407 12.9249 5.79403 12.7709C4.17398 12.6169 2.67346 11.8515 1.59771 10.6304C0.521957 9.40936 -0.0482098 7.82433 0.00319691 6.19779C0.0546036 4.57125 0.723722 3.02539 1.87443 1.87468C3.02514 0.723966 4.57101 0.0548478 6.19754 0.00344105C7.82408 -0.0479657 9.40911 0.522201 10.6302 1.59795C11.8513 2.6737 12.6167 4.17423 12.7707 5.79427C12.9247 7.41432 12.4558 9.03219 11.4593 10.3188H11.4601ZM6.4003 11.1995C7.67328 11.1995 8.89412 10.6938 9.79425 9.7937C10.6944 8.89356 11.2001 7.67272 11.2001 6.39974C11.2001 5.12676 10.6944 3.90592 9.79425 3.00579C8.89412 2.10565 7.67328 1.59997 6.4003 1.59997C5.12732 1.59997 3.90648 2.10565 3.00634 3.00579C2.10621 3.90592 1.60052 5.12676 1.60052 6.39974C1.60052 7.67272 2.10621 8.89356 3.00634 9.7937C3.90648 10.6938 5.12732 11.1995 6.4003 11.1995V11.1995Z"
+              fill="gray"
+            />
+          </svg>
+        </div>
+        <input
+          type="text"
+          className="w-full rounded-full border-2 bg-white px-72 py-2 pl-16 text-base text-black placeholder-gray-400 focus:border-gray-400"
+          placeholder="Search"
+        />
+      </div>
+
+      <div className="relative mb-6">
+        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-6">
+          <svg
+            width="18"
+            height="20"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.4601 10.3188L15.7639 14.6226C15.9151 14.7739 16.0001 14.9792 16 15.1932C15.9999 15.4072 15.9148 15.6124 15.7635 15.7637C15.6121 15.915 15.4068 15.9999 15.1928 15.9998C14.9788 15.9998 14.7736 15.9147 14.6223 15.7633L10.3185 11.4595C9.03194 12.456 7.41407 12.9249 5.79403 12.7709C4.17398 12.6169 2.67346 11.8515 1.59771 10.6304C0.521957 9.40936 -0.0482098 7.82433 0.00319691 6.19779C0.0546036 4.57125 0.723722 3.02539 1.87443 1.87468C3.02514 0.723966 4.57101 0.0548478 6.19754 0.00344105C7.82408 -0.0479657 9.40911 0.522201 10.6302 1.59795C11.8513 2.6737 12.6167 4.17423 12.7707 5.79427C12.9247 7.41432 12.4558 9.03219 11.4593 10.3188H11.4601ZM6.4003 11.1995C7.67328 11.1995 8.89412 10.6938 9.79425 9.7937C10.6944 8.89356 11.2001 7.67272 11.2001 6.39974C11.2001 5.12676 10.6944 3.90592 9.79425 3.00579C8.89412 2.10565 7.67328 1.59997 6.4003 1.59997C5.12732 1.59997 3.90648 2.10565 3.00634 3.00579C2.10621 3.90592 1.60052 5.12676 1.60052 6.39974C1.60052 7.67272 2.10621 8.89356 3.00634 9.7937C3.90648 10.6938 5.12732 11.1995 6.4003 11.1995V11.1995Z"
+              fill="gray"
+            />
+          </svg>
+        </div>
+        <input
+          type="text"
+          className="w-full rounded-full border-2 bg-white px-72 py-4 pl-16 text-lg text-black placeholder-gray-400 focus:border-gray-600"
+          placeholder="Search"
+        />
       </div>
     </div>
   );
