@@ -104,6 +104,9 @@ export default {
       </span>
     </>
   ),
+  sidebar: {
+    toggleButton: true,
+  },
   footer: {
     text: () => (
       <a

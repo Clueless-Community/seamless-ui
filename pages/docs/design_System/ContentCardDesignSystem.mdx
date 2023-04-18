@@ -1,0 +1,105 @@
+# 📒 Content Card Design System ⭐
+Contact card component is very much similar with Product card but only difference make between them to stand out as two different component as the content cover by the product card totally different as it Content-card doesn't cover the price or related stuff rating is exceptional.
+
+So content card is one another componet that covers the picture and related content along with component. It can be used in every context like testominal, product card all are subset of it as you can refer.
+
+![image](https://user-images.githubusercontent.com/98400348/232878436-445d146d-6628-47f8-a237-084300222867.png)
+
+## General convention to follow :
+
+### **Border-radius** :
+
+Border radius of each card is `rounded-2xl` 
+
+### Hover Color
+
+For one of different design of this same component the hover color of buttton is:- <br/>
+**`hover:bg-blue-700`** for Blue theme Button, <br/>
+**`hover:bg-slate-800`** for Dark theme Button, and  <br/>
+**`hover:bg-slate-200`** for White theme Button <br/>
+
+### **Overlay:**
+-Image overlay color with opacity in same feature `bg-gray-800/50` 
+
+### **Paddings :**
+
+The padding could be variable depending on the card sizes and UI requirements but normally it is `p-6`
+
+### Font :
+
+|  | heading | Normal text | sub text | badge type |
+| --- | --- | --- | --- | --- |
+| size | text-2xl | text-lg | text-sm | text-sm / text-md |
+| font-weight | semi-bold | semibold / normal | normal | normal |
+
+### Color :
+
+|  | Dark | Blue | White |
+| --- | --- | --- | --- |
+| Background Color | bg-slate-900 | bg-white | bg-white |
+| text color | text-white | text-blue-600/text-slate-900 | text-slate-900 |
+
+### Width & heights :
+
+The width of the component totally depends on the design.
+
+But we usually use these 3 widths 🔽
+
+- `w-48` → for small components
+- `w-72` → for medium components
+- `w-96` → for big components
+
+The height of the components depends on the amount of content on it. We need to make it fluid. **Giving a fixed height is not recommended at all.** 
+
+---
+
+### Anchor tag :
+
+- **color** : `text-blue-600`
+- **underline** : On hover there is an underline → `hover:underline`
+- **underline offset** : `underline-offset-4`
+
+### Buttons :
+
+We need to use the already built buttons for this. **[Buttons](https://github.com/Clueless-Community/seamless-ui/tree/main/Buttons)** 🔗 . But you can coustomise it accordingly.
+
+### Icons :
+
+Icons must be used from **[Heroicons](https://heroicons.com/)** 🖇️
+
+**Note :** You need to use a solid 24X24 SVG form heroicons.
+
+### Images :
+
+You can use this image kink as an demo image : [`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfRyndmlRtGCgq2lnd32z0OgTVIQnmLLsUzw&usqp=CAU`](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfRyndmlRtGCgq2lnd32z0OgTVIQnmLLsUzw&usqp=CAU)
+
+## Example Code :
+This is the example code of the `content-card-2-white.html`
+
+```html
+<div class='rounded-2xl  w-72 text-white bg-white rounded-t-3xl rounded-b-3xl' >
+<img class="rounded-t-3xl " src="https://live.staticflickr.com/65535/52680953849_d3e9252ca7_z.jpg" alt="img" />
+<div class=' p-6'>
+  <h1 class=' font-bold text-2xl text-black mt-2 leading-8'> What is web3?</h1>
+  <h1 class=' text-sm mb-5 mt-1 	text-gray-600  leading-4'>Slate helps you see how  many more days you need to work to reach. Slate helps you see how many
+      more days .</h1>
+  <button class="bg-slate-900 px-4 py-1 mr-2 rounded-full text-white text-sm font-normal font-sans text-center text-bg-gray-200 hover:bg-black transition-all disabled:bg-gray-400">Tags</button>
+  <button class="bg-slate-900 px-4 py-1 mr-2 rounded-full text-white text-sm font-normal font-sans text-center text-bg-gray-200 hover:bg-black transition-all disabled:bg-gray-400">Google</button>
+  <button class="bg-slate-900 px-4 py-1 rounded-full text-white text-sm font-normal font-sans text-center text-bg-gray-200 hover:bg-black transition-all disabled:bg-gray-400">Nvdia</button>
+  <a href="/" target="_blank">
+    <div class=" h-5 mt-3 mb-4 underline font-normal tracking-tight text-neutral-900">Know more
+      <img
+      class=" -mt-4 ml-20 w-2 h-3 opacity-90"
+      alt=""
+      src="https://live.staticflickr.com/65535/52681660092_5916e32cfc_s.jpg"/>
+    </div>
+  </a>
+</div>
+</div>
+```
+
+---
+
+## Having some problem ? 😕
+
+If you still have a problem understanding this please join our [discord server](https://discord.gg/zrVMjGW8sB) to get help.
