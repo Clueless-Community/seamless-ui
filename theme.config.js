@@ -99,6 +99,9 @@ export default {
     dark: 120,
     light: 120,
   },
+  sidebar: {
+    toggleButton: true,
+  },
   footer: {
     text: () => (
       <a

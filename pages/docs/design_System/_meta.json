@@ -5,5 +5,10 @@
   "BadgesDesignSystem": "Badges",
   "BreadcrumbDesignSystem": "Breadrumb",
   "ButtonDesignSystem": "Button",
-  "FeatureCardDesignSystem": "Feature Card"
+  "FeatureCardDesignSystem": "Feature Card",
+  "ContentCardDesignSystem": "Content Card",
+  "ProductCardsDesignSystem": "Product Card",
+  "PricingCardsDesignsystem": "Pricing Card",
+  "StoreButtonDesignSystem": "Store Button",
+  "TestimonialDesignSystem": "Testimonial"
 }
