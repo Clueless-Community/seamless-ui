@@ -2,38 +2,43 @@
 
 Tailwind CSS Pricing component highlights different packages of a website's offerings at various price points. They can be used to highlight the features and benefits that the user would be getting in a package. The pricing Tailwind component category has 10 different variations of feature sections for various use cases. The components are easily customizable so users can make any styling changes or even come up with something themselves using these components or their elements as a base.
 
-![image](https://i.postimg.cc/05d4z4jP/Screenshot-2022-12-31-at-2-41-43-PM.png)
+![image](https://user-images.githubusercontent.com/98400348/232882821-98b6050e-ce40-462d-a3f9-98b21cfd61d3.png)
+
 
 ## General convention to follow :
 
+
 ### **Border-radius** :
 
-Border radius of each card is `rounded`.
+Border radius of each card is `rounded-2xl` 
 
-### **Margin :**
+### Hover Color
 
-Generally for the margin we use. `m-4`
+For one of different design of this same component the hover color of buttton is:- <br/>
+**`hover:bg-blue-700`** for Blue theme Button, <br/>
+**`hover:bg-slate-800`** for Dark theme Button, and  <br/>
+**`hover:bg-slate-200`** for White theme Button <br/>
+
+### **Overlay:**
+-Image overlay color with opacity in same feature `bg-gray-800/50` 
+
+### **Paddings :**
+
+The padding could be variable depending on the card sizes and UI requirements but normally it is `p-6`
 
 ### Font :
 
-For Pricing component font is : **`font-medium`**
+|  | heading | Normal text | sub text | badge type |
+| --- | --- | --- | --- | --- |
+| size | text-2xl | text-lg | text-sm | text-sm / text-md |
+| font-weight | semi-bold | semibold / normal | normal | normal |
 
-### Color 🎨
+### Color :
 
-
-|  | Background | Border |
-| --- | --- | --- |
-| Color Code in Tailwind | bg-white | border-blue-400 |
-
-
-Color of `bg` is generally used as white
-
-Color of `text` will depend on the `bg` color
-|Color | Text |
-| --- | --- | 
-| Code in Tailwind | text-white | text-[color]-800 | text-black | text-dark-blue-600 | text-gray-600 |
-
-
+|  | Dark | Blue | White |
+| --- | --- | --- | --- |
+| Background Color | bg-slate-900 | bg-white | bg-white |
+| text color | text-white | text-blue-600/text-slate-900 | text-slate-900 |
 
 `Note` : Color of the text `[color]` will depend on the color of the background
 
