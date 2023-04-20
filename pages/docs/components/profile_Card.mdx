@@ -1,0 +1,55 @@
+# Profile Card
+
+> 👤 A Profile Card Component is a user interface element that is used to display a summary of a user's profile information on a website or application. It typically includes a profile image, a brief bio, and links to the user's social media accounts or website. 
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {Testimonial3Light, Testimonial3Blue, Testimonial3Dark,
+Testimonial7Light, Testimonial7Blue, Testimonial7Dark,
+Testimonial8Light, Testimonial8Blue, Testimonial8Dark} from '../../../database/testimonials/testimonials.tsx'
+
+## User's Social Handles
+import testimonial3MetaData from '../../../database/testimonials/testimonial3MetaData.ts';
+
+export const Testimonial3 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={testimonial3MetaData} componentsArray={[<Testimonial3Light />, <Testimonial3Blue/>, <Testimonial3Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Testimonial3/>
+
+## Mini Profile Card
+import testimonial7MetaData from '../../../database/testimonials/testimonial7MetaData.ts';
+
+export const Testimonial7 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={testimonial7MetaData} componentsArray={[<Testimonial7Light />, <Testimonial7Blue/>, <Testimonial7Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Testimonial7/>
+
+
+## User Designation Card
+import testimonial8MetaData from '../../../database/testimonials/testimonial8MetaData.ts';
+
+export const Testimonial8 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={testimonial8MetaData} componentsArray={[<Testimonial8Light />, <Testimonial8Blue/>, <Testimonial8Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Testimonial8/>
