@@ -25,7 +25,7 @@ function Web() {
                             <h1 className={` font-bold mb-2 text-2xl text-${theme}`}> What is web 3?</h1>
                             <span className='text-red-500'></span>
                             <span className='text-blue-500'></span>
-                            <p className='mb-4 text-md'>
+                            <p className='mb-4 text-black text-md'>
                                 Slate helps you see how
                                 many more days you need
                                 to work to reach. Slate helps you

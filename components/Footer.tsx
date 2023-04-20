@@ -28,9 +28,12 @@ function Footer() {
               About Us
             </p>
           </Link>
-          <p className="md:text-xl text-md text-white mb-5 md:mb-0 hover:text-[#7EE787] transition-all cursor-pointer">
-            Our goal
-          </p>
+
+          <Link href="/docs/introduction">
+            <p className="md:text-xl text-md text-white mb-5 md:mb-0 hover:text-[#7EE787] transition-all cursor-pointer">
+              Our goal
+            </p>
+          </Link>
         </div>
         <div className="grid grid-row-3 ">
           <p className="text-2xl md:text-[#7EE787] text-white gap-2 cursor-pointer">
@@ -49,13 +52,13 @@ function Footer() {
         </div>
 
         <div className="grid grid-row-5 gap-4">
-            <p className="text-2xl text-[#7EE787] mb-2 hidden md:block gap-2 cursor-pointer">
-              Quick links
-            </p>
-          <Tooltip label="Coming soon...">
-          <p className="text-xl text-white hidden md:block hover:text-[#7EE787] transition-all cursor-pointer">
-            Events
+          <p className="text-2xl text-[#7EE787] mb-2 hidden md:block gap-2 cursor-pointer">
+            Quick links
           </p>
+          <Tooltip label="Coming soon...">
+            <p className="text-xl text-white hidden md:block hover:text-[#7EE787] transition-all cursor-pointer">
+              Events
+            </p>
           </Tooltip>
           <Tooltip label="Coming soon...">
             <p className="text-xl text-white hidden md:block hover:text-[#7EE787] transition-all cursor-pointer">
@@ -83,9 +86,15 @@ function Footer() {
               Contact us
             </p>
           </Link>
-          <p className="md:text-xl text-md text-white hover:text-[#7EE787] transition-all cursor-pointer">
-            Report an Issue
-          </p>
+          <Link
+            href={
+              "https://github.com/Clueless-Community/seamless-ui/issues/new?title=Report%20an%20Issue%20%3F&labels=feedback"
+            } target={"_blank"}
+          >
+            <p className="md:text-xl text-md text-white hover:text-[#7EE787] transition-all cursor-pointer">
+              Report an Issue
+            </p>
+          </Link>
           <div className="flex md:justify-between mt-4 justify-center gap-5 md:gap-0">
             <a
               href="https://discord.gg/zrVMjGW8sB"
