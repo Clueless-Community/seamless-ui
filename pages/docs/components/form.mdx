@@ -21,6 +21,22 @@ SearchLight, SearchDark,
 SelectLight, SelectDark,
 SelectRoundedLight, SelectRoundedDark} from '../../../database/forms/forms.tsx'
 
+## Switch
+import switchMetaData from '../../../database/forms/switchMetaData.ts';
+
+export const Switch = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={switchMetaData} componentsArray={[<SwitchDark />, <SwitchLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Switch/>
+
+
 
 ## Checkbox 
 import checkbox0MetaData from '../../../database/forms/checkbox0MetaData.ts';
@@ -188,20 +204,6 @@ export const TextareaRounded = () => {
 
 <TextareaRounded/>
 
-{/* ## Switch
-import switchMetaData from '../../../database/forms/switchMetaData.ts';
-
-export const Switch = () => {
-  return (
-    <>
-    <div className='mb-20'>
-        <ExampleComponent theme={'light'} codeMetaData={switchMetaData} componentsArray={[<SwitchDark />, <SwitchLight/>]}/>
-    </div>
-    </>
-  );
-};
-
-<Switch/> */}
 
 ## Search 
 import searchMetaData from '../../../database/forms/searchMetaData.ts';
