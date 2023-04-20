@@ -1,40 +1,141 @@
-import React from "react"
-import Navbar from 'components/Navbar'
-import Footer from "components/Footer"
+import Footer from 'components/Footer';
+import Navbar from 'components/Navbar';
+import { Head } from 'next/document';
+import React, { useState } from 'react'
+
+const ContactUs = () => {
+    const maxSubjectInputLength = 150;
+    const handleReset = () => {
+        setEmail('');
+        setSubject('');
+        setMessage('');
+    };
+
+    function handleSubmit() {
+        fetch('https://formsubmit.co/ajax/official.cluelesscommunity@gmail.com', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                Accept: 'application/json',
+            },
+            body: JSON.stringify({
+                email,
+                subject,
+                message,
+            }),
+        })
+            .then((response) => response.json()).then(handleReset)
+            .catch((error) => console.log(error));
+    }
 
 
-const Home = () => (
-    <div className='index-bg '>
-        <Navbar />
-        <div className="relative w-full">
-            <div className="flex md:flex-row flex-col-reverse justify-between items-center md:px-36 -mt-40 md:-mb-28 py-10">
-                <div className="mb-28 md:mb-0 p-4">
-                    <h1 className="font-bold md:text-5xl text-white md:mb-4 text-3xl mb-2">Contact Us</h1>
-                    <p className=" text-[#7EE787] mb-8 md:text-lg">Have any questions? We’d love to hear from you.</p>
-                    <div className="gap-0">
+    const [email, setEmail] = useState<string | undefined>();
+    const [subject, setSubject] = useState<string | undefined>();
+    const [message, setMessage] = useState<string | undefined>();
 
-                        <p className="text-white -mb-2 ">Email</p>
-                        <input placeholder="Enter the Email" className=" border-2 w-full border-[#7EE787] md:p-3 p-1 rounded-lg my-3 index-bg text-white md:mr-96"></input>
-                    </div>
-                    <div>
+    return (
+        <div className='index-bg overflow-hidden '>
+                <Navbar />
+            <div className="relative px-20">
+                <div className="green-gradient absolute z-0 opacity-70 sm:top-60 top-[40%] left-10 sm:-left-64 "></div>
+                <div className="green-gradient absolute z-0 opacity-70 sm:-right-52 sm:bottom-0 hidden sm:block "></div>
+                {/* <div className="green-gradient absolute z-0 left-[40%] scale-70 opacity-50 top-[30%]"></div> */}
+                <div className=" mb-12 mr-4 pl-6">
+                    <div className=" flex flex-col md:hidden items-start justify-start px-0 ">
+                        <h1 className="text-white text-4xl font-semibold sm:text-3xl sm:font-semibold md:text-5xl md:font-bold pt-7">
+                            Contact Us
+                        </h1>
+                        <p className="text-green-400 font-normal text-[18px] sm:text-xl mt-5 mb-[13%]">
+                            Have any questions? We would love to hear from you
+                        </p>
+            </div>
 
-                        <p className="text-white -mb-2">Subject</p>
-                        <input placeholder="Enter the Subject" className="border-2 w-full border-[#7EE787] md:p-3  p-1 rounded-lg my-3 index-bg text-white md:mr-96 "></input>
-                    </div>
-                    <div>
-                        <div className="green-gradient  absolute md:left-84 left-0 md:block hidden"></div>
-                        <div className="green-gradient  absolute md:right-84 md:top-72 right-0"></div>
-                        <p className="text-white -mb-2">Write here</p>
-                        <input placeholder="How can we help you" className="border-2 w-full border-[#7EE787] md:p-3 p-1  rounded-lg my-3 md:pb-32  index-bg pb-28 text-white md:mr-96"></input>
+                    <div className="flex flex-col-reverse md:flex-row items-center  w-full  justify-between pt-[4%]">
+                        <div className=" w-full md:w-[50%] lg:w-[35%]">
+                            <h1 className="hidden md:block text-white text-2xl font-semibold md:text-3xl sm:font-semibold lg:text-5xl md:font-bold">
+                                Contact Us
+                            </h1>
+                            <p className="hidden md:block text-green-400 font-normal md:text-base lg:text-xl mt-5 mb-[7%] ">
+                                Have any questions? We would love to hear from you
+                            </p>
+                            <form
+                                onSubmit={(e: React.FormEvent<HTMLFormElement>): void => {
+                                    e.preventDefault();
+                                    handleReset();
+                                    handleSubmit();
+                                }}
+                            >
+                                <div className="flex flex-col w-full md:w-[80%] lg:w-full">
+                                    <input
+                                        className="inp-secondary mt-[5%]"
+                                        name="email"
+                                        type="email"
+                                        placeholder="Write your Email"
+                                        value={email}
+                                        required
+                                        onChange={(
+                                            e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
+                                        ): void => {
+                                            setEmail(e.target.value);
+                                        }}
+                                    />
+
+                                    <input
+                                        className="inp-secondary mt-[8%]"
+                                        type="text"
+                                        placeholder="Enter the subject"
+                                        id="outlined-textarea"
+                                        name="Subject"
+                                        required
+                                        value={subject}
+                                        onChange={(
+                                            e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
+                                        ): void => {
+                                            setSubject(e.target.value);
+                                        }}
+                                        maxLength={maxSubjectInputLength}
+                                    />
+
+                                    <textarea
+                                        className="inp-secondary mt-[8%]"
+                                        rows={7}
+                                        placeholder="How can we help you?"
+                                        id="outlined-textarea"
+                                        name="Feedback"
+                                        required
+                                        value={message}
+                                        onChange={(
+                                            e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
+                                        ): void => {
+                                            setMessage(e.target.value);
+                                        }}
+                                    />
+                                    <div className="flex items-center justify-center md:block">
+                                        <button
+                                            className="h-[40px] w-[150px] text-base items-center  mt-6 bg-green-500 text-white border rounded-lg border-green-500"
+                                            type="submit"
+                                        >
+                                            Submit
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        {/* <div className='flex  justify-center mb-[70px] md:mb-0 md:w-[70%] '> */}
+
+                        <img
+                            className="w-[80%] sm:w-[70%] mb-[70px] md:mt-[110px] md:w-[46%] mr-[0] lg:mr-[35px] lg:w-[40%] "
+                            src="/input.png"
+                            alt=""
+                        />
+                        {/* </div> */}
                     </div>
                 </div>
-                <img src="/input.png" className="md:w-7/12 md:mb-40  -ml-20 my-28 md:my-0" />
             </div>
+            <Footer />
         </div>
-        <Footer />
-    </div>
+    )
+}
 
-)
-
-
-export default Home
+export default ContactUs

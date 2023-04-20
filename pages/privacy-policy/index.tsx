@@ -1,17 +1,18 @@
 import React from "react";
 import Navbar from "components/Navbar";
+import Footer from "components/Footer";
 
 const Home = () => (
-  <div className="index-bg ">
+  <div className="index-bg overflow-hidden">
     <Navbar />
     <div className="relative flex flex-col justify-center items-center ">
-      <div className="md:px-52  py-24  text-justify">
+      <div className="md:px-24 px-7 py-24  text-justify">
         <h1 className="text-[#7EE787] font-bold md:text-4xl text-2xl pb-8 underline">
           Privacy Policy
         </h1>
         <div className="green-gradient  absolute md:left-84 left-0 "></div>
         <div className="green-gradient  absolute md:right-84 md:top-72 right-0"></div>
-        <p className="text-white pb-10 md:w-[1300px] text-lg w-80">
+        <p className="text-white pb-10 text-lg">
           At ClueLess, accessible from clueless.tech, one of our main priorities
           is the privacy of our visitors. This Privacy Policy document contains
           types of information that is collected and recorded by ClueLess and
@@ -27,14 +28,14 @@ const Home = () => (
         <h1 className="text-white font-semibold text-2xl underline pb-5">
           Consent
         </h1>
-        <p className="text-white pb-10 md:w-[1300px] text-lg w-80   ">
+        <p className="text-white pb-10 text-lg   ">
           By using our website, you hereby consent to our Privacy Policy and
           agree to its terms.
         </p>
         <h1 className="text-white font-semibold text-2xl underline pb-5">
           Information we collect
         </h1>
-        <p className="text-white pb-10 md:w-[1300px] text-lg w-80">
+        <p className="text-white pb-10 text-lg">
           The personal information that you are asked to provide, and the
           reasons why you are asked to provide it, will be made clear to you at
           the point we ask you to provide your personal information. If you
@@ -48,7 +49,7 @@ const Home = () => (
         <h1 className="text-white font-semibold text-2xl underline pb-5">
           How we use your information
         </h1>
-        <p className="text-white md:pb-8 pb-10 md:w-[1300px] text-lg w-80">
+        <p className="text-white md:pb-8 pb-10 text-lg">
           We use the information we collect in various ways, including to:
         </p>
         <div className=" text-white mb-10">
@@ -71,7 +72,7 @@ const Home = () => (
         <h1 className="text-white font-semibold text-2xl underline pb-5">
           Log Files
         </h1>
-        <p className="text-white pb-10 md:w-[1300px] text-lg w-80   ">
+        <p className="text-white pb-10 text-lg   ">
           ClueLess follows a standard procedure of using log files. These files
           log visitors when they visit websites. All hosting companies do this
           and a part of hosting services' analytics. The information collected
@@ -85,7 +86,7 @@ const Home = () => (
         <h1 className="text-white font-semibold text-2xl underline pb-5">
           Cookies and Web Beacons
         </h1>
-        <p className="text-white pb-10 md:w-[1300px] text-lg w-80   ">
+        <p className="text-white pb-10 text-lg   ">
           Like any other website, ClueLess uses 'cookies'. These cookies are
           used to store information including visitors' preferences, and the
           pages on the website that the visitor accessed or visited. The
@@ -97,7 +98,7 @@ const Home = () => (
         <h1 className="text-white font-semibold text-2xl underline pb-5">
           Google DoubleClick DART Cookie
         </h1>
-        <p className="text-white pb-10 md:w-[1300px] text-lg w-80   ">
+        <p className="text-white pb-10 text-lg   ">
           Google is one of a third-party vendor on our site. It also uses
           cookies, known as DART cookies, to serve ads to our site visitors
           based upon their visit to www.website.com and other sites on the
@@ -108,7 +109,7 @@ const Home = () => (
         <h1 className="text-white font-semibold text-2xl underline pb-5">
           Advertising Partners Privacy Policies
         </h1>
-        <p className="text-white pb-10 md:w-[1300px] text-lg w-80   ">
+        <p className="text-white pb-10 text-lg   ">
           You may consult this list to find the Privacy Policy for each of the
           advertising partners of ClueLess. Third-party ad servers or ad
           networks uses technologies like cookies, JavaScript, or Web Beacons
@@ -124,7 +125,7 @@ const Home = () => (
         <h1 className="text-white font-semibold text-2xl underline pb-5">
           Third Party Privacy Policies
         </h1>
-        <p className="text-white pb-10 md:w-[1300px] text-lg w-80   ">
+        <p className="text-white pb-10 text-lg   ">
           ClueLess's Privacy Policy does not apply to other advertisers or
           websites. Thus, we are advising you to consult the respective Privacy
           Policies of these third-party ad servers for more detailed
@@ -141,7 +142,7 @@ const Home = () => (
         <h1 className="text-white font-semibold text-2xl underline pb-5">
           CCPA Privacy Rights (Do Not Sell My Personal Information)
         </h1>
-        <p className="text-white pb-10 md:w-[1300px] text-lg w-80   ">
+        <p className="text-white pb-10 text-lg   ">
           ClueLess's Privacy Policy does not apply to other advertisers or
           websites. Thus, we are advising you to consult the respective Privacy
           Policies of these third-party ad servers for more detailed
@@ -177,7 +178,7 @@ const Home = () => (
         <h1 className="text-white font-semibold text-2xl underline pb-5">
           GDPR Data Protection Rights
         </h1>
-        <p className="text-white pb-10 md:w-[1300px] text-lg w-80   ">
+        <p className="text-white pb-10 text-lg   ">
           ClueLess's Privacy Policy does not apply to other advertisers or
           websites. Thus, we are advising you to consult the respective Privacy
           Policies of these third-party ad servers for more detailed
@@ -237,7 +238,7 @@ const Home = () => (
         </h1>
         <div className="green-gradient  absolute md:left-80 left-0 "></div>
         <div className="green-gradient  absolute md:right-80 md:top-72 right-0"></div>
-        <p className="text-white pb-10 md:w-[1300px] text-lg w-80   ">
+        <p className="text-white pb-10 text-lg   ">
           ClueLess's Privacy Policy does not apply to other advertisers or
           websites. Thus, we are advising you to consult the respective Privacy
           Policies of these third-party ad servers for more detailed
@@ -260,6 +261,7 @@ const Home = () => (
         
       </div>
     </div>
+      <Footer />
   </div>
 );
 

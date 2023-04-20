@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Time() {
@@ -10,8 +11,9 @@ function Time() {
                 <p className='text-white lg:w-[1000px] text-xl  '>built with the vision to encourage open-source enthusiasts!
                     built with the vision to encourage open-source enthusiasts!
                 </p>
+                <Link href='/docs/components/accordion'>
                 <button className='bg-[#7EE787] p-2 px-4 text-lg rounded-lg mt-10 font-semibold  hover:bg-green-800 transition-all'>Explore components</button>
-
+                </Link>
             </div>
             <img src='/Group ui.png' className='w-11/12 md:hidden  pt-10' draggable={false} />
             <img src='/Group 271.png' className='w-11/12 hidden md:block ' draggable={false} />

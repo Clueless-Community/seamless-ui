@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "components/Navbar";
+import Footer from "components/Footer";
 
 const Home = () => (
     <div className="index-bg ">
         <Navbar />
         <div className="relative flex flex-col justify-center items-center ">
-            <div className="md:px-52  py-24  text-justify">
+            <div className="md:px-24 px-7  py-24  text-justify">
                 <div className="green-gradient  absolute md:left-84 left-0 "></div>
                 <div className="green-gradient  absolute md:right-84 md:top-72 right-0"></div>
                 <h1 className="text-[#7EE787] font-bold md:text-4xl text-2xl    pb-8 underline">
@@ -16,7 +17,7 @@ const Home = () => (
                 <h1 className="text-white font-semibold text-2xl underline pb-5">
                     1. Terms
                 </h1>
-                <p className="text-white pb-10 md:w-[1300px] w-80 text-lg">
+                <p className="text-white pb-10 text-lg">
                     By accessing this Website, accessible from clueless.tech, you are
                     agreeing to be bound by these Website Terms and Conditions of Use and
                     agree that you are responsible for the agreement with any applicable
@@ -27,7 +28,7 @@ const Home = () => (
                 <h1 className="text-white font-semibold text-2xl underline pb-5">
                     2. User License
                 </h1>
-                <p className="text-white pb-10 md:w-[1300px] w-80 text-lg">
+                <p className="text-white pb-10 text-lg">
                     Permission is granted to temporarily download one copy of the
                     materials on ClueLess's Website for personal, non-commercial
                     transitory viewing only. This is the grant of a license, not a
@@ -46,7 +47,7 @@ const Home = () => (
                 <h1 className="text-white font-semibold text-2xl underline pb-5">
                     3. Disclaimer
                 </h1>
-                <p className="text-white pb-10 md:w-[1300px] w-80 text-lg">
+                <p className="text-white pb-10 text-lg">
                     All the materials on ClueLess’s Website are provided "as is". ClueLess
                     makes no warranties, may it be expressed or implied, therefore negates
                     all other warranties. Furthermore, ClueLess does not make any
@@ -57,7 +58,7 @@ const Home = () => (
                 <h1 className="text-white font-semibold text-2xl underline pb-5">
                     4. Limitations
                 </h1>
-                <p className="text-white pb-10 md:w-[1300px] w-80 text-lg">
+                <p className="text-white pb-10 text-lg">
                     ClueLess or its suppliers will not be hold accountable for any damages
                     that will arise with the use or inability to use the materials on
                     ClueLess’s Website, even if ClueLess or an authorize representative of
@@ -69,7 +70,7 @@ const Home = () => (
                 <h1 className="text-white font-semibold text-2xl underline pb-5">
                     5. Revisions and Errata
                 </h1>
-                <p className="text-white pb-10 md:w-[1300px] w-80 text-lg">
+                <p className="text-white pb-10 text-lg">
                     The materials appearing on ClueLess’s Website may include technical,
                     typographical, or photographic errors. ClueLess will not promise that
                     any of the materials in this Website are accurate, complete, or
@@ -80,7 +81,7 @@ const Home = () => (
                 <h1 className="text-white font-semibold text-2xl underline pb-5">
                     6. Links
                 </h1>
-                <p className="text-white pb-10 md:w-[1300px] w-80 text-lg">
+                <p className="text-white pb-10 text-lg">
                     ClueLess has not reviewed all of the sites linked to its Website and
                     is not responsible for the contents of any such linked site. The
                     presence of any link does not imply endorsement by ClueLess of the
@@ -89,13 +90,14 @@ const Home = () => (
                 <h1 className="text-white font-semibold text-2xl underline pb-5">
                     7. Site Terms of Use Modifications
                 </h1>
-                <p className="text-white pb-10 md:w-[1300px] w-80 text-lg">
+                <p className="text-white pb-10 text-lg">
                     ClueLess may revise these Terms of Use for its Website at any time
                     without prior notice. By using this Website, you are agreeing to be
                     bound by the current version of these Terms and Conditions of Use.
                 </p>
             </div>
         </div>
+        <Footer />
     </div>
 );
 

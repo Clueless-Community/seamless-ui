@@ -22,7 +22,7 @@ const ExampleComponent: React.FC<Props> = ({ codeMetaData, componentsArray, them
         <>
             {reload ? (
                 <>
-                    {/* Componet Reders Here */}
+                    {/* Component Renders Here */}
                     {reRender ? (
                         <div className={`flex my-8 justify-center border border-gray-600 rounded-xl py-16 items-center relative ${theme === 'light' ? 'bg-gray-400' : 'bg-gray-800'}  `}>
                             <Tooltip label="Reload" >
@@ -54,7 +54,7 @@ const ExampleComponent: React.FC<Props> = ({ codeMetaData, componentsArray, them
                         </div>
                     ) : (
                         <div className={`flex my-8 justify-center border border-gray-600 rounded-xl py-16 items-center relative ${theme === 'light' ? 'bg-gray-400' : 'bg-gray-800'}  `}>
-                            <div className="hidden">re-redner</div>
+                            <div className="hidden">re-render</div>
                             <Tooltip label="Reload">
                                 <button className="absolute cursor-pointer right-3 top-3" onClick={() => setReRender(!reRender)}>
                                     <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="h-5 w-5">

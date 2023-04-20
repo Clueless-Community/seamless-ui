@@ -13,9 +13,9 @@ function Product() {
                         We provide the best resources, conducts weekly contests to test your skills, a guide to Open-source, and help you build projects.
 
                     </p>
-                    <Link href='www.https://clueless.tech/' target={'_blank'} rel="noreferrer" > 
+                    <a href='https://clueless.live/' target='_blank' rel="noreferrer" > 
                     <button className='bg-[#7EE787] p-2 px-6 my-9 md:my-9 font-semibold rounded-lg mt-10 hover:bg-green-800 transition-all text-xl'>Visit ClueLess</button>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>

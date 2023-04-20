@@ -7,6 +7,7 @@ import Maintainers from 'components/Maintainers'
 import Product from 'components/Product'
 import Footer from 'components/Footer'
 import Navbar from 'components/Navbar'
+import Contributors from 'components/Contributors'
 
 
 
@@ -19,6 +20,7 @@ const Home = () => (
      <Time /> 
     <Explore />
     <Maintainers />
+    <Contributors />
     <Product />
     <Footer />
   </div>
