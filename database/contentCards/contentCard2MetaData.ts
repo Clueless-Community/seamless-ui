@@ -1,6 +1,6 @@
 const contentCard2MetaData = [
 {
-label: 'Card 2',
+label: 'Card',
 content: `<div class="h-[206px] w-[582px] rounded-3xl bg-[url('https://i.ibb.co/5kwrPtY/bg.png')] bg-contain bg-no-repeat">
 <div class="grid h-full justify-center rounded-3xl bg-black bg-opacity-70 py-8">
   <h1 class="text-2xl font-bold text-white">WaivlyFunds</h1>
