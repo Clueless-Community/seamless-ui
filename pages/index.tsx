@@ -9,9 +9,6 @@ import Footer from 'components/Footer'
 import Navbar from 'components/Navbar'
 import Contributors from 'components/Contributors'
 
-
-
-
 const Home = () => (
   <div className='index-bg'>
     <Navbar />
