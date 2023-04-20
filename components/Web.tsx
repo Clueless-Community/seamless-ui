@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React, { useState } from 'react'
 
 function Web() {
@@ -12,7 +13,9 @@ function Web() {
                         static website or a React, Vue, Angular or Next.js Complex app.</span>
                     <span className='text-white text-xl font-bold mb-7 ml-1'>Zero JS and no-plugins installed.</span>
                 </div>
+                <Link href='/docs/components/accordion'>
                 <button className=' bg-[#7EE787] rounded-xl p-2 px-7  hover:bg-green-800 transition-all font-semibold text-lg '>Explore</button>
+                </Link>
             </div>
             <div className='p-8 md:w-[430px]  '>
                 <div className=' flex-col bg-[#282E36] items-center justify-center flex mx-auto w-full md:p-10 p-5 rounded-xl mt-2 ring-1 ring-white'>
