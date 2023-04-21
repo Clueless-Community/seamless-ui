@@ -24,13 +24,6 @@
 <p align='center'> <b An open-source UI library built using HTML and CSS and maintained by Clueless Community</b><p>
 
 
-<h1 align='center'>Contribute to this project under JWoC 2023.</h1>
-
-![image](https://user-images.githubusercontent.com/93156825/218812396-11adb7dd-7d59-4d99-bd0b-651bcd00f22d.png)
-
-JWoC (JGEC Winter of Code) is a beginner friendly open-source coding event organised annually by JGEC which helps students to plunge into Open Source contribution and get the realm of Software Development.
-
-
 ## Important Note
 
 This is not a repo where you can come and dump any UI code. You need to make proper components from the [Figma File](https://www.figma.com/file/qzwugAfEB1GL4FgWXw9R3Z/SeamLess-UI-Dev?node-id=0%3A1&t=qRahoepdI3B98cVA-1), which maintains proper design system and will be converted to a proper UI library along the way. We have just started out. 
