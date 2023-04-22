@@ -1,0 +1,71 @@
+# Store Buttons 
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {AmazonDark, AmazonBlue, AmazonLight,
+AppleDark, AppleBlue, AppleLight,
+WindowsDark, WindowsBlue, WindowsLight,
+GooglePlayDark, GooglePlayBlue, GooglePlayLight} from '../../../database/storeButtons/storeButtons.tsx'
+
+
+## Amazon Button
+import amazonMetaData from '../../../database/storeButtons/amazonMetaData.ts';
+
+export const Amazon = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={amazonMetaData} componentsArray={[<AmazonDark />, <AmazonBlue/>, <AmazonLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Amazon/>
+
+## Apple Button
+import appleMetaData from '../../../database/storeButtons/appleMetaData.ts';
+
+export const Apple = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={appleMetaData} componentsArray={[<AppleDark />, <AppleBlue/>, <AppleLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Apple/>
+
+## Windows Button
+import windowsMetaData from '../../../database/storeButtons/windowsMetaData.ts';
+
+export const Windows = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={windowsMetaData} componentsArray={[<WindowsDark />, <WindowsBlue/>, <WindowsLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Windows/>
+
+## Google Play Button
+import googlePLayMetaData from '../../../database/storeButtons/googlePLayMetaData.ts';
+
+export const GooglePlay = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={googlePLayMetaData} componentsArray={[<GooglePlayDark />, <GooglePlayBlue/>, <GooglePlayLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<GooglePlay/>
+
+

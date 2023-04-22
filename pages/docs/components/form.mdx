@@ -1,0 +1,282 @@
+# Form Component
+
+> Form elements in a webpage are graphical elements that allow users to input and submit information. They include various types of fields, such as text input, dropdown menus, checkboxes, and radio buttons, and are often used to collect user data or preferences. Form elements can also include buttons to submit or reset the form, as well as validation messages to ensure the user enters the correct information.
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {Checkbox0Dark, Checkbox0Light,
+ChooseFile0Dark, ChooseFile0Light, 
+ChooseFile0RoundedDark, ChooseFile0RoundedLight,
+EmailRoundedDark, EmailRoundedLight,
+EmailLight, EmailDark,
+ErrorLight, ErrorDark,
+ErrorRoundedLight, ErrorRoundedDark,
+SuccessDark, SuccessLight,
+SuccessRoundedDark, SuccessRoundedLight,
+TextareaLight, TextareaDark,
+TextareaRoundedLight, TextareaRoundedDark,
+SwitchLight, SwitchDark,
+SearchRoundedLight, SearchRoundedDark,
+SearchLight, SearchDark,
+SelectLight, SelectDark,
+SelectRoundedLight, SelectRoundedDark,
+RadioDark, RadioBlue} from '../../../database/forms/forms.tsx'
+
+{/* ## Radio
+import radioMetaData from '../../../database/forms/radioMetaData.ts';
+
+export const Radio = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={radioMetaData} componentsArray={[<RadioDark />, <RadioBlue/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Radio/> */}
+
+## Switch
+import switchMetaData from '../../../database/forms/switchMetaData.ts';
+
+export const Switch = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={switchMetaData} componentsArray={[<SwitchDark />, <SwitchLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Switch/>
+
+
+
+## Checkbox 
+import checkbox0MetaData from '../../../database/forms/checkbox0MetaData.ts';
+
+export const Checkbox0 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={checkbox0MetaData} componentsArray={[<Checkbox0Dark />, <Checkbox0Light/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Checkbox0/>
+
+## Choose File Rounded
+import chooseFile0MetaData from '../../../database/forms/chooseFile0MetaData.ts';
+
+export const ChooseFile0 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={chooseFile0MetaData} componentsArray={[<ChooseFile0Dark />, <ChooseFile0Light/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ChooseFile0/>
+
+## Choose File Boxed
+import chooseFile0RoundedMetaData from '../../../database/forms/chooseFile0RoundedMetaData.ts';
+
+export const ChooseFile0Rounded = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={chooseFile0RoundedMetaData} componentsArray={[<ChooseFile0RoundedDark />, <ChooseFile0RoundedLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ChooseFile0Rounded/>
+
+## Email Input Rounded
+import emailRoundedMetaData from '../../../database/forms/emailRoundedMetaData.ts';
+
+export const EmailRounded = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={emailRoundedMetaData} componentsArray={[<EmailRoundedDark />, <EmailRoundedLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<EmailRounded/>
+
+## Email Input Boxed
+import emailMetaData from '../../../database/forms/emailMetaData.ts';
+
+export const Email = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={emailMetaData} componentsArray={[<EmailDark />, <EmailLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Email/>
+
+## Error
+import errorMetaData from '../../../database/forms/errorMetaData.ts';
+
+export const Error = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={errorMetaData} componentsArray={[<ErrorDark />, <ErrorLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Error/>
+
+## Error Rounded
+import errorRoundedMetaData from '../../../database/forms/errorRoundedMetaData.ts';
+
+export const ErrorRounded = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={errorRoundedMetaData} componentsArray={[<ErrorRoundedDark />, <ErrorRoundedLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ErrorRounded/>
+
+## Success
+import successMetaData from '../../../database/forms/successMetaData.ts';
+
+export const Success = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={successMetaData} componentsArray={[<SuccessDark />, <SuccessLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Success/>
+
+
+## Success Rounded
+import successRoundedMetaData from '../../../database/forms/successRoundedMetaData.ts';
+
+export const SuccessRounded = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={successRoundedMetaData} componentsArray={[<SuccessRoundedDark />, <SuccessRoundedLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<SuccessRounded/>
+
+## Textarea
+import textareaMetaData from '../../../database/forms/textareaMetaData.ts';
+
+export const Textarea = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={textareaMetaData} componentsArray={[<TextareaDark />, <TextareaLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Textarea/>
+
+## Textarea Rounded
+import textareaRoundedMetaData from '../../../database/forms/textareaRoundedMetaData.ts';
+
+export const TextareaRounded = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={textareaRoundedMetaData} componentsArray={[<TextareaRoundedDark />, <TextareaRoundedLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<TextareaRounded/>
+
+
+## Search 
+import searchMetaData from '../../../database/forms/searchMetaData.ts';
+
+export const Search = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={searchMetaData} componentsArray={[<SearchDark />, <SearchLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Search/>
+
+## Search Rounded
+import searchRoundedMetaData from '../../../database/forms/searchRoundedMetaData.ts';
+
+export const SearchRounded = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={searchRoundedMetaData} componentsArray={[<SearchRoundedDark />, <SearchRoundedLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<SearchRounded/>
+
+## Select
+import selectMetaData from '../../../database/forms/selectMetaData.ts';
+
+export const Select = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={selectMetaData} componentsArray={[<SelectDark />, <SelectLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Select/>
+
+## Select Rounded
+import selectRoundedMetaData from '../../../database/forms/selectRoundedMetaData.ts';
+
+export const SelectRounded = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={selectRoundedMetaData} componentsArray={[<SelectRoundedDark />, <SelectRoundedLight/>]}/>
+    </div>
+    </>
+  );
+};
+
+<SelectRounded/>

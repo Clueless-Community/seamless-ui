@@ -1,8 +1,0 @@
-{
-  "cli": "@swc/cli",
-  "core": "@swc/core",
-  "wasm": "@swc/wasm",
-  "jest": "@swc/jest",
-  "swc-loader": "swc-loader",
-  "bundling": "Bundling"
-}

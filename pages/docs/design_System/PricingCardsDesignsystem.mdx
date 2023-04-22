@@ -1,0 +1,143 @@
+# 📒 Pricing Component Design System 
+
+Tailwind CSS Pricing component highlights different packages of a website's offerings at various price points. They can be used to highlight the features and benefits that the user would be getting in a package. The pricing Tailwind component category has 10 different variations of feature sections for various use cases. The components are easily customizable so users can make any styling changes or even come up with something themselves using these components or their elements as a base.
+
+![image](https://user-images.githubusercontent.com/98400348/232882821-98b6050e-ce40-462d-a3f9-98b21cfd61d3.png)
+
+
+## General convention to follow :
+
+
+### **Border-radius** :
+
+Border radius of each card is `rounded-2xl` 
+
+### Hover Color
+
+For one of different design of this same component the hover color of buttton is:- <br/>
+**`hover:bg-blue-700`** for Blue theme Button, <br/>
+**`hover:bg-slate-800`** for Dark theme Button, and  <br/>
+**`hover:bg-slate-200`** for White theme Button <br/>
+
+### **Overlay:**
+-Image overlay color with opacity in same feature `bg-gray-800/50` 
+
+### **Paddings :**
+
+The padding could be variable depending on the card sizes and UI requirements but normally it is `p-6`
+
+### Font :
+
+|  | heading | Normal text | sub text | badge type |
+| --- | --- | --- | --- | --- |
+| size | text-2xl | text-lg | text-sm | text-sm / text-md |
+| font-weight | semi-bold | semibold / normal | normal | normal |
+
+### Color :
+
+|  | Dark | Blue | White |
+| --- | --- | --- | --- |
+| Background Color | bg-slate-900 | bg-white | bg-white |
+| text color | text-white | text-blue-600/text-slate-900 | text-slate-900 |
+
+`Note` : Color of the text `[color]` will depend on the color of the background
+
+### Width & heights :
+
+The width of the component totally depends on the design.
+
+The height of the components depends on the amount of content on it. We need to make it auto. **Giving a fixed height is not recommended at all.** 
+
+---
+
+### Buttons :
+
+We need to use the already built buttons for this. **[Buttons](https://github.com/Clueless-Community/seamless-ui/tree/main/Buttons)** 🔗 . Don’t use any buttons outside this.
+
+### Star Ratings :
+
+We need to use the already built ratings for this. **[Ratings](https://github.com/Clueless-Community/seamless-ui/tree/main/Rating)** 🔗 . Don’t use any ratings outside this.
+
+### Icons :
+
+Icons must be used from **[Heroicons](https://heroicons.com/)** 
+
+**Note :** You need to use a solid 24X24 SVG form heroicons.
+
+### Add to Favourite
+
+For this we will use button given below.
+
+## Example Code :
+This is the example code of the `Product Cards/src/product-card-1.html`
+
+```html
+
+<!-- Light theme -->
+<div class="w-fit rounded-2xl bg-white px-10 py-8 max-[640px]:px-3 sm:flex md:flex lg:flex">
+<div class="md:max-w-56 mt-4 md:mr-6 lg:mr-9">
+  <h1 class="text-2xl font-bold text-slate-900 max-[640px]:text-center">STANDARD</h1>
+  <p class="text-md mb-5 mt-5 font-normal text-gray-600 max-[640px]:w-72 max-[640px]:text-center sm:w-72">Slate helps you see how many more days you need to work to reach. Slate helps you how many more days.</p>
+</div>
+<div>
+  <div class="ml-1 mt-1 flex justify-center text-slate-900">
+    <p class="text-6xl font-semibold">0</p>
+    <div class="ml-2 mt-1 flex flex-col">
+      <p class="text-xl font-bold">$</p>
+      <p class="text-xl font-bold">per Month</p>
+    </div>
+  </div>
+  <div class="mt-9 flex justify-center">
+    <button class="w-fit rounded-md bg-slate-900 px-10 py-2 font-semibold text-white transition-all ease-out hover:scale-105 hover:shadow-lg">Try For Free</button>
+  </div>
+</div>
+</div>
+
+<!-- Blue Theme -->
+<div class="w-fit rounded-2xl bg-white px-10 py-8 max-[640px]:px-3 sm:flex md:flex lg:flex">
+<div class="md:max-w-56 mt-4 md:mr-6 lg:mr-9">
+  <h1 class="text-2xl font-bold text-blue-600 max-[640px]:text-center">STANDARD</h1>
+  <p class="text-md mb-5 mt-5 font-normal text-gray-600 max-[640px]:w-72 max-[640px]:text-center sm:w-72">Slate helps you see how many more days you need to work to reach. Slate helps you how many more days.</p>
+</div>
+<div>
+  <div class="ml-1 mt-1 flex justify-center text-blue-600">
+    <p class="text-6xl font-semibold">0</p>
+    <div class="ml-2 mt-1 flex flex-col">
+      <p class="text-xl font-bold">$</p>
+      <p class="text-xl font-bold">per Month</p>
+    </div>
+  </div>
+  <div class="mt-9 flex justify-center">
+    <button class="w-fit rounded-md bg-blue-600 px-10 py-2 font-semibold text-white hover:shadow-lg">Try For Free</button>
+  </div>
+</div>
+</div>
+
+<!-- Dark Theme -->
+<div class="w-fit rounded-2xl bg-slate-900 px-10 py-8 max-[640px]:px-3 sm:flex md:flex lg:flex">
+<div class="md:max-w-56 mt-4 md:mr-6 lg:mr-9">
+  <h1 class="text-2xl font-bold text-white max-[640px]:text-center">STANDARD</h1>
+  <p class="text-md mb-5 mt-5 font-normal text-gray-400 max-[640px]:w-72 max-[640px]:text-center sm:w-72">Slate helps you see how many more days you need to work to reach. Slate helps you how many more days.</p>
+</div>
+<div>
+  <div class="ml-1 mt-1 flex justify-center text-white">
+    <p class="text-6xl font-semibold">0</p>
+    <div class="ml-2 mt-1 flex flex-col">
+      <p class="text-xl font-bold">$</p>
+      <p class="text-xl font-bold">per Month</p>
+    </div>
+  </div>
+  <div class="mt-9 flex justify-center">
+    <button class="w-fit rounded-md bg-white px-10 py-2 font-semibold text-slate-900">Try For Free</button>
+  </div>
+</div>
+</div>
+```
+
+---
+
+## Having some problem ? 😕
+
+If you still have a problem understanding this please join our [discord server](https://discord.gg/zrVMjGW8sB) to get help.
+  
+

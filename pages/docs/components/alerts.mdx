@@ -1,0 +1,103 @@
+# Alert Component
+> An alert box in a webpage is a graphical element that displays important messages to the user, such as warnings, errors, or confirmations. It usually requires user interaction to dismiss the alert and proceed with the action.
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {AlertGeneral, AlertInfo, AlertError, AlertSuccess, AlertWarning, AlertModern} from '../../../database/alerts/alerts.tsx'
+
+### General Alert
+
+import alertGeneralMetaData from '../../../database/alerts/alertGeneralMetaData.ts';
+
+export const AlertsGeneral = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={alertGeneralMetaData} componentsArray={[<AlertGeneral />]} reload={true}/>
+    </div>
+    </>
+  );
+};
+
+<AlertsGeneral/>
+
+### Information Alert
+
+import alertInfoMetaData from '../../../database/alerts/alertInfoMetaData.ts';
+
+export const AlertsInfo = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={alertInfoMetaData} componentsArray={[<AlertInfo />]} reload={true}/>
+    </div>
+    </>
+  );
+};
+
+<AlertsInfo/>
+
+### Error Alert
+
+import alertErrorMetaData from '../../../database/alerts/alertErrorMetaData.ts';
+
+export const AlertsError = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={alertErrorMetaData} componentsArray={[<AlertError />]} reload={true}/>
+    </div>
+    </>
+  );
+};
+
+<AlertsError/>
+
+### Success Alert
+
+import alertSuccessMetaData from '../../../database/alerts/alertSuccessMetaData.ts';
+
+export const AlertsSuccess = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={alertSuccessMetaData} componentsArray={[<AlertSuccess />]} reload={true}/>
+    </div>
+    </>
+  );
+};
+
+<AlertsSuccess/>
+
+### Warning Alert
+
+import alertWarningMetaData from '../../../database/alerts/alertWarningMetaData.ts';
+
+export const AlertsWarning = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={alertWarningMetaData} componentsArray={[<AlertWarning />]} reload={true}/>
+    </div>
+    </>
+  );
+};
+
+<AlertsWarning/>
+
+### Modern Alert
+
+import alertModernMetaData from '../../../database/alerts/alertModernMetaData.ts';
+
+export const AlertsModern = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={alertModernMetaData} componentsArray={[<AlertModern />]}/>
+    </div>
+    </>
+  );
+};
+
+<AlertsModern/>
+

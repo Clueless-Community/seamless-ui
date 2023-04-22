@@ -1,0 +1,183 @@
+
+# 📒 Developer style guide for Breadcrumbs
+
+Breadcrumbs consist of a list of links that help a user visualize a page's location within the hierarchical structure of a website, and allow navigation up to any of its "ancestors".
+
+It is quite similar to the navbar or even it is kind of navbar but main diffrence is that here whatever links and content will be mention in hierarchical manner one after pervious. It allow user to interact more efficiently with webpage as it let them know where he is in page.
+
+
+![Screenshot (52)](https://user-images.githubusercontent.com/73521123/206210245-3b26419d-bd2f-43cd-8bd0-67cf18ece4b3.png)
+
+## General must known design system guideline :
+
+### Color 🎨
+
+| Color | Primary | Secondary |
+| --- | --- | --- | 
+| Code in Tailwind | bg-blue-600 | bg-gray-200 |
+
+Color of `bg` is generally used as shade of 100 / 700 
+
+Color of `text` will depend on the `bg` color
+| Background | Dark | Light |
+| --- | --- | --- |
+| Text | Light | Dark |
+| Code in Tailwind | text-white | text-gray-200 text-slate-500|
+
+### Transition ( `transition-all` )
+
+whenever there is a hover effect, one must use `transition-all` class with it.
+
+### Font
+
+For all buttons font is : **`font-medium`**
+
+### Hover Color
+
+For all Breadcumbs component the hover color is **`hover:bg-blue-600`**.
+
+### SVG And Path
+SVG stands for Scalable Vector Graphic. It can be used to make graphics and animations like in HTML canvas.  Path is always used within the svg tag to set the actual coordinate.
+Wihin the tag we give the some propety as what with be the co-ordinate, fill color, outer stroke, and some styling within class attribute.
+
+### Border Radius 🔲
+
+The normal border-radius for the components are `rounded-l-lg rounded-r-lg`. However this does not apply in many cases like buttons, input boxes and all.
+
+---
+
+## Basic Breadcrumbs with Text ✅
+
+This Breadcrumbs is not variant with `button` it is with just normal text
+Every type of button has two variants `Normal` and `Rounded`. 
+
+`Color` : The Basic Breadcrumbs main color is **`bg-blue-600`**
+
+`Text color` : The text color for Basic Breadcrumbs is **`text-white`**
+
+### Basic Breadcrumbs guidelines :
+
+|  | Display | Text Color | font |
+| --- | --- | --- | --- |
+| Breadcrumbs | flex | text-slate-500 | font-semibold |
+
+`Exceptions` : SVG button has a padding from x-axis to seperate from the text like giving some space between text and SVG
+
+---
+
+## Active last Breadcrumbs Button ✅
+
+
+`font` : The font is **`font-semibold`**
+
+`transion timing function` : while hovering the button background will be changed in s **`ease-in-out`**
+
+`Background color` : The Active last Breadcrumbs background color is **`bg-blue-600`**
+
+`Text color` : The text color for Active last Breadcrumbs is **`text-gray-200`**
+
+`Border Radius` : The border radius to the Active last Breadcrumbs is **`rounded-l-lg`**
+
+`Hover text color` : The text color for Active last Breadcrumbs is **`hover:text-white`**
+
+### Active last breadcrumb Button :
+
+|  | Display | Text Color | font |Backgound-color | Border-radius| transion timing function |
+| --- | --- | --- | --- |--- |--- |--- |
+| Breadcrumbs | flex | text-slate-500 | font-semibold | bg-blue-600 | rounded-l-lg |ease-in-out |
+
+---
+
+## Basic Breadcrumbs with Text👇
+
+This is the way we have all the breadcumbs. 
+
+Like in the `Breadcrumbs.html` file you can find the Breadcrumbs with simiple text this which maintains the design system above and also have a disabled state.
+
+Want to see this buttons in action? Try copy pasting this code in [Tailwind Playground](https://play.tailwindcss.com/). 💥
+
+```html
+<!-- Breadcumbs 1 -->
+<div class="my-4">
+  <div class="inline-flex flex-wrap">
+    <a class="text-slate-500 font-semibold" href="#">
+      <span>Dashboard</span>
+    </a>
+  </div>
+</div>
+
+<!-- Breadcumbs 2 -->
+<div class="my-4">
+  <div class="inline-flex items-center flex-wrap">
+    <a class="text-slate-500 font-semibold" href="#">
+      <span>Dashboard</span>
+    </a>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-4 h-4 mx-3 text-slate-500"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+      />
+    </svg>
+    <a class="text-slate-500 font-semibold" href="#">
+      <span>Components</span>
+    </a>
+  </div>
+</div>
+
+<!-- Breadcumbs 3 -->
+<div class="my-4">
+  <div class="inline-flex items-center flex-wrap">
+    <a class="text-slate-500 font-semibold" href="#">
+      <span>Dashboard</span>
+    </a>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-4 h-4 mx-3 text-slate-500"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+      />
+    </svg>
+    <a class="text-slate-500 font-semibold" href="#">
+      <span>Components</span>
+    </a>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-4 h-4 mx-3 text-slate-500"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+      />
+    </svg>
+    <a class="text-blue-600 active font-semibold" href="#">
+      <span>Breadcumbs</span>
+    </a>
+  </div>
+</div>
+```
+
+---
+
+## Having some problem ? 😕
+
+If you still have a problem understanding this please join our [discord server](https://discord.gg/zrVMjGW8sB) to get help.

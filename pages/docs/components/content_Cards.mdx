@@ -1,0 +1,167 @@
+# Content Cards Component
+
+> Content cards in a webpage are graphical elements that display bite-sized information or media, often in a grid layout. They can be used to showcase a variety of content, such as articles, products, or images, and are designed to be easily scannable and engaging for users. Content cards can also include interactive elements, such as buttons or links, to encourage users to take action.
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {ContentCard0Light, ContentCard0Blue, ContentCard0Dark,
+ContentCard1Light, ContentCard1Blue, ContentCard1Dark,
+ContentCard2, ContentCard3, ContentCard4, ContentCard5,ContentCard6,
+ContentCard7Light, ContentCard7Blue, ContentCard7Dark,
+ContentCard8Light, ContentCard8Blue, ContentCard8Dark,
+ContentCard9Light, ContentCard9Blue, ContentCard9Dark,} from '../../../database/contentCards/contentCards.tsx'
+
+## Technology 
+import contentCard0MetaData from '../../../database/contentCards/contentCard0MetaData.ts';
+
+export const ContentCard0 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={contentCard0MetaData} componentsArray={[<ContentCard0Light />, <ContentCard0Blue/>, <ContentCard0Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard0/>
+
+## Card with Badges
+
+import contentCard1MetaData from '../../../database/contentCards/contentCard1MetaData.ts';
+
+export const ContentCard1 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={contentCard1MetaData} componentsArray={[<ContentCard1Light />, <ContentCard1Blue/>, <ContentCard1Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard1/>
+
+## Smoke Background image 1
+
+import contentCard2MetaData from '../../../database/contentCards/contentCard2MetaData.ts';
+
+export const ContentCard2s = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={contentCard2MetaData} componentsArray={[<ContentCard2 />]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard2s/>
+
+
+## Smoke Background image 2
+import contentCard3MetaData from '../../../database/contentCards/contentCard3MetaData.ts';
+
+export const ContentCard3s = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={contentCard3MetaData} componentsArray={[<ContentCard3 />]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard3s/>
+
+
+## Smoke Background image 3
+import contentCard4MetaData from '../../../database/contentCards/contentCard4MetaData.ts';
+
+export const ContentCard4s = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={contentCard4MetaData} componentsArray={[<ContentCard4 />]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard4s/>
+
+
+## Smoke Background image 4
+import contentCard5MetaData from '../../../database/contentCards/contentCard5MetaData.ts';
+
+export const ContentCard5s = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={contentCard5MetaData} componentsArray={[<ContentCard5 />]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard5s/>
+
+## Smoke Background image 5
+import contentCard6MetaData from '../../../database/contentCards/contentCard6MetaData.ts';
+
+export const ContentCard6s = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={contentCard6MetaData} componentsArray={[<ContentCard6 />]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard6s/>
+
+## Card with Badges (Mobile View)
+import contentCard7MetaData from '../../../database/contentCards/contentCard7MetaData.ts';
+
+export const ContentCard7 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={contentCard7MetaData} componentsArray={[<ContentCard7Light />, <ContentCard7Blue/>, <ContentCard7Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard7/>
+
+## Short Intro of Article
+import contentCard8MetaData from '../../../database/contentCards/contentCard8MetaData.ts';
+
+export const ContentCard8 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={contentCard8MetaData} componentsArray={[<ContentCard8Light />, <ContentCard8Blue/>, <ContentCard8Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard8/>
+
+## Feature Card
+import contentCard9MetaData from '../../../database/contentCards/contentCard9MetaData.ts';
+
+export const ContentCard9 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={contentCard9MetaData} componentsArray={[<ContentCard9Light />, <ContentCard9Blue/>, <ContentCard9Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<ContentCard9/>

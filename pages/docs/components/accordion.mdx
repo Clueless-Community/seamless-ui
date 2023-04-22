@@ -1,0 +1,41 @@
+# Accordion Component
+
+>An accordion in a webpage is a graphical element that allows for the vertical expansion and contraction of content sections, allowing users to toggle between showing or hiding content.
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import { AccordionAutoCloses, AccordionLight, AccordionBlue, AccordionDark } from '../../../database/accordion/AccordionComponent.tsx'
+
+
+## Accordion
+
+import accordionMetaData from '../../../database/accordion/accordionMetaData.ts';
+
+export const Accordion = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={accordionMetaData} componentsArray={[<AccordionLight/>, <AccordionBlue/>, <AccordionDark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<Accordion/>
+
+
+## Auto Close Accordion
+
+import accordionAutoCloseMetaData from '../../../database/accordion/accordionAutoCloseMetaData.ts';
+
+export const AccordionAutoClose = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={accordionAutoCloseMetaData} componentsArray={[<AccordionAutoCloses />]}/>
+    </div>
+    </>
+  );
+};
+
+<AccordionAutoClose/>

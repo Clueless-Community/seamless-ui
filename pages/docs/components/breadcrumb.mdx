@@ -1,0 +1,55 @@
+# Breadcrumb Component
+
+> A breadcrumb in a webpage is a navigational aid that displays the user's location within a website's hierarchy. It typically appears as a horizontal trail of links, starting with the homepage and leading to the current page. Breadcrumbs can help users orient themselves within the website's structure and easily navigate back to previous pages.
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {NormalBreadcrumb, IconBreadcrumb, BoxedBreadcrumb} from '../../../database/breadcrumb/breadcrumb.tsx'
+
+### Icon Breadcrumb
+
+import iconBreadcrumbMetadata from '../../../database/breadcrumb/iconBreadcrumbMetadata.ts';
+
+export const IconBreadcrumbs = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent reload={true} codeMetaData={iconBreadcrumbMetadata} componentsArray={[<IconBreadcrumb />]}/>
+    </div>
+    </>
+  );
+};
+
+<IconBreadcrumbs/>
+
+### Normal Breadcrumb
+
+import normalBreadcrumbMetaData from '../../../database/breadcrumb/normalBreadcrumbMetaData.ts';
+
+export const Normalbreadcrumbs = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent reload={true} codeMetaData={normalBreadcrumbMetaData} componentsArray={[<NormalBreadcrumb />]}/>
+    </div>
+    </>
+  );
+};
+
+<Normalbreadcrumbs/>
+
+### Boxed Breadcrumb
+
+import boxedBreadcrumbMetadata from '../../../database/breadcrumb/boxedBreadcrumbMetadata.ts';
+
+export const BoxedBreadcrumbs = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent reload={true} codeMetaData={boxedBreadcrumbMetadata} componentsArray={[<BoxedBreadcrumb />]}/>
+    </div>
+    </>
+  );
+};
+
+<BoxedBreadcrumbs/>

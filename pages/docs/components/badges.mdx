@@ -1,0 +1,87 @@
+# Badge Component
+
+> A badge in a webpage is a graphical element that displays information, such as a status or a number, in a small and prominent manner. Badges are commonly used to highlight important updates, notifications, or achievements to the user.
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {Badge1, Badge2, Badge3, Badge4, Badge5} from '../../../database/badges/badges.tsx'
+
+### Badge 1
+
+import badge1MetaData from '../../../database/badges/badge1MetaData.ts';
+
+export const Badges1 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={badge1MetaData} componentsArray={[<Badge1 />]}/>
+    </div>
+    </>
+  );
+};
+
+<Badges1/>
+
+### Badge 2
+
+import badge2MetaData from '../../../database/badges/badge2MetaData.ts';
+
+export const Badges2 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={badge2MetaData} componentsArray={[<Badge2 />]}/>
+    </div>
+    </>
+  );
+};
+
+<Badges2/>
+
+### Badge 3
+
+import badge3MetaData from '../../../database/badges/badge3MetaData.ts';
+
+export const Badges3 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={badge3MetaData} componentsArray={[<Badge3 />]}/>
+    </div>
+    </>
+  );
+};
+
+<Badges3/>
+
+### Badge 4
+
+import badge4MetaData from '../../../database/badges/badge4MetaData.ts';
+
+export const Badges4 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={badge4MetaData} componentsArray={[<Badge4 />]}/>
+    </div>
+    </>
+  );
+};
+
+<Badges4/>
+
+### Badge 5
+
+import badge5MetaData from '../../../database/badges/badge5MetaData.ts';
+
+export const Badges5 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent theme={'light'} codeMetaData={badge5MetaData} componentsArray={[<Badge5 />]}/>
+    </div>
+    </>
+  );
+};
+
+<Badges5/>

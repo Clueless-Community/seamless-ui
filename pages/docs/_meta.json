@@ -1,8 +1,6 @@
 {
-  "getting-started": "Getting Started",
-  "usage": "Usage",
-  "configuration": "Configuration",
-  "plugin": "Plugin",
-  "benchmarks": "Benchmarks",
-  "migrating-from-babel": "Migrating from Babel"
+  "introduction" : "💡 Introduction",
+  "getting-started": "🚀 Getting Started",
+  "components": "💻 | Components",
+  "design_System": "🎨 | Design Systems"
 }

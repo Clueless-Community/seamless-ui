@@ -1,0 +1,102 @@
+# Pricing Cards Component
+
+> Pricing cards in a webpage are graphical elements that display different pricing plans or packages for a product or service. They often include a title, description, features, and price of each plan, and are designed to help users make an informed decision based on their budget and needs. Pricing cards can also include calls-to-action such as "Buy Now" or "Sign Up" to encourage users to take action.
+
+import React from "react";
+import ExampleComponent from '../../../components/shared/ExampleComponent.tsx'
+import {PricingCard0Light, PricingCard0Blue, PricingCard0Dark,
+PricingCard1Light, PricingCard1Blue, PricingCard1Dark,
+PricingCard2Light, PricingCard2Blue, PricingCard2Dark,
+PricingCard3Light, PricingCard3Blue, PricingCard3Dark,
+PricingCard4Light, PricingCard4Blue, PricingCard4Dark,
+PricingCard5Light, PricingCard5Blue, PricingCard5Dark,} from '../../../database/pricingCards/pricingCards.tsx'
+
+## Pricing With Key Features 1
+import pricingCard0MetaData from '../../../database/pricingCards/pricingCard0MetaData.ts';
+
+export const PricingCard0 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={pricingCard0MetaData} componentsArray={[<PricingCard0Light />, <PricingCard0Blue/>, <PricingCard0Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<PricingCard0/>
+
+## Pricing With Short Product Intro
+import pricingCard1MetaData from '../../../database/pricingCards/pricingCard1MetaData.ts';
+
+export const PricingCard1 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={pricingCard1MetaData} componentsArray={[<PricingCard1Light />, <PricingCard1Blue/>, <PricingCard1Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<PricingCard1/>
+
+## Pricing With Key Features 2
+import pricingCard2MetaData from '../../../database/pricingCards/pricingCard2MetaData.ts';
+
+export const PricingCard2 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={pricingCard2MetaData} componentsArray={[<PricingCard2Light />, <PricingCard2Blue/>, <PricingCard2Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<PricingCard2/>
+
+## Free Trial of Product 1
+import pricingCard3MetaData from '../../../database/pricingCards/pricingCard3MetaData.ts';
+
+export const PricingCard3 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={pricingCard3MetaData} componentsArray={[<PricingCard3Light />, <PricingCard3Blue/>, <PricingCard3Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<PricingCard3/>
+
+## Free Trial of Product 2
+import pricingCard4MetaData from '../../../database/pricingCards/pricingCard4MetaData.ts';
+
+export const PricingCard4 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={pricingCard4MetaData} componentsArray={[<PricingCard4Light />, <PricingCard4Blue/>, <PricingCard4Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<PricingCard4/>
+
+## Horizontal Card of Free Trial of Product
+import pricingCard5MetaData from '../../../database/pricingCards/pricingCard5MetaData.ts';
+
+export const PricingCard5 = () => {
+  return (
+    <>
+    <div className='mb-20'>
+        <ExampleComponent codeMetaData={pricingCard5MetaData} componentsArray={[<PricingCard5Light />, <PricingCard5Blue/>, <PricingCard5Dark/>]}/>
+    </div>
+    </>
+  );
+};
+
+<PricingCard5/>
