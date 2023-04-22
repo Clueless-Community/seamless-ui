@@ -8,7 +8,7 @@ import {NormalBreadcrumb, IconBreadcrumb, BoxedBreadcrumb} from '../../../databa
 
 ### Icon Breadcrumb
 
-import IconBreadcrumbMetadata from '../../../database/breadcrumb/iconBreadcrumbMetadata.ts';
+import IconBreadcrumbMetadata from '../../../database/breadcrumb/iconBreadcrumbMetaData.ts';
 
 export const IconBreadcrumbs = () => {
   return (
@@ -40,13 +40,13 @@ export const Normalbreadcrumbs = () => {
 
 ### Boxed Breadcrumb
 
-import boxedBreadcrumbMetadata from '../../../database/breadcrumb/boxedBreadcrumbMetadata.ts';
+import boxedBreadcrumbMetaData from '../../../database/breadcrumb/boxedBreadcrumbMetadata.ts';
 
 export const BoxedBreadcrumbs = () => {
   return (
     <>
     <div className='mb-20'>
-        <ExampleComponent reload={true} codeMetaData={boxedBreadcrumbMetadata} componentsArray={[<BoxedBreadcrumb />]}/>
+        <ExampleComponent reload={true} codeMetaData={boxedBreadcrumbMetaData} componentsArray={[<BoxedBreadcrumb />]}/>
     </div>
     </>
   );
