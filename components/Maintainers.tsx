@@ -12,7 +12,7 @@ function Maintainers() {
             </div>
             <div>
 
-                <div className='flex justify-between items-center mt-20 flex-col md:flex-row'>
+                <div className='flex justify-between items-center mt-20 flex-col lg:flex-row'>
                     <div className=' flex  flex-col md:flex-row relative bg-[#282E36] md:p-10 mx-6 md:w-[600px] rounded-xl  ring-1 ring-white md:ml-20  mb-10'>
                         <div className='p-9 md:p-0'>
 
@@ -43,15 +43,15 @@ function Maintainers() {
                         </a>
                     </div>
                     <div className=''>
-                        <img src='Group 274.png' className='w-72 md:mr-28 ' draggable={false} />
+                        <img src='Group 274.png' className='w-72 lg:mr-28 ' draggable={false} />
                     </div>
                     <div className="green-gradient absolute right-80 top-72 "></div>
                 </div>
                 
             </div>
-            <div className='flex flex-col-reverse md:flex-row justify-center items-center md:gap-20 gap-10  md:ml-96  mt-7'>
-                <h1 className='text-4xl text-[#7EE787] md:pl-32 md:mt-40   text-center'>Meet the maintainers</h1>
-                <img src='/pipe.png' className='w-96 mr-9 hidden md:block ' draggable={false} />
+            <div className='flex flex-col-reverse md:flex-row justify-center items-center md:gap-20 gap-10  lg:ml-96  mt-7'>
+                <h1 className='text-4xl text-[#7EE787] lg:pl-32 lg:mt-40 mt-5   text-center'>Meet the maintainers</h1>
+                <img src='/pipe.png' className='w-96 mr-9 hidden lg:block ' draggable={false} />
                 <img src='/Group 273.png' className=' h-36 md:hidden' />
             </div>
         </div>
