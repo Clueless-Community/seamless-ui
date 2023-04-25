@@ -7,8 +7,8 @@ const Hero = () => {
       <div className="relative px-2">
         <div className="green-gradient  absolute md:left-80 left-0 "></div>
         <div className="green-gradient  absolute md:right-80 md:top-72 right-0"></div>
-        <h1 className=" text-center text-white md:text-7xl text-4xl font-bold md:pt-36  pt-16 lg:w-full mx-auto -mt-6 md:-mt-0">
-          The Open-source UI library You always wanted
+        <h1 className=" text-center text-white md:text-7xl text-4xl font-bold md:pt-36  pt-16 md:w-[1000px] mx-auto">
+          The Open-source UI library <br /> You always wanted
         </h1>
         <h2 className=" text-center pt-9 text-white md:w-[750px] mx-auto ">
           The next gen UI made with simple HTML and Tailwind CSS. It's
