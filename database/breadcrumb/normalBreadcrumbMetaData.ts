@@ -1,4 +1,4 @@
-const boxedBreadcrumbMetaData = [
+const normalBreadcrumbMetaData = [
 {
 label: 'Normal Breadcrumb',
 content: `<div class="my-4">
@@ -45,4 +45,4 @@ content: `<div class="my-4">
 }
 ]
 
-export default boxedBreadcrumbMetaData;
+export default normalBreadcrumbMetaData;

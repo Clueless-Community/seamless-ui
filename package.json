@@ -11,6 +11,7 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@reach/skip-nav": "^0.16.0",
+    "@vercel/analytics": "^1.0.0",
     "chart.js": "^3.7.1",
     "focus-visible": "^5.2.0",
     "framer-motion": "^10.10.0",

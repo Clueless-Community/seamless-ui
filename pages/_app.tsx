@@ -1,11 +1,12 @@
 import "../styles.css";
 import "nextra-theme-docs/style.css";
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider } from "@chakra-ui/react";
 
 import { useEffect } from "react";
 import Script from "next/script";
 import { useRouter } from "next/router";
 import * as gtag from "lib/gtag";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Nextra({ Component, pageProps }) {
   const router = useRouter();
@@ -45,7 +46,9 @@ export default function Nextra({ Component, pageProps }) {
       {getLayout(
         <ChakraProvider>
           <Component {...pageProps} />
-        </ChakraProvider>)}
+          <Analytics />
+        </ChakraProvider>
+      )}
     </>
   );
 }
