@@ -71,7 +71,7 @@ As for an intro to CSS video [***Web Dev Simplified***](https://www.youtube.com/
 
 Here is a link to the Tailwind Documentation, starting with a [page that shows the difference between traditional HTML and CSS and the use of Tailwind](https://Tailwindcss.com/docs/utility-first).
 
-If you are interested here is the [Tailwind Git](https://github.com/Tailwindlabs/Tailwindcss).
+If you are interested here is the [Tailwind CSS repository](https://github.com/Tailwindlabs/Tailwindcss).
 
 Here is a video to introduce you to Tailwind and to get you started with one of [the most convenient CSS frameworks around!](https://www.youtube.com/watch?v=UBOj6rqRUME)
 
