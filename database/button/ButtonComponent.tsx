@@ -3,7 +3,7 @@ import React from "react";
 // ------------Primary Text Button--------------
 export const PrimaryTextButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button
         className="rounded-md bg-white px-4 py-2 text-sm font-medium text-black transition-all 
     hover:bg-white/80 disabled:bg-gray-400"
@@ -30,7 +30,7 @@ export const PrimaryTextButtonLight = () => {
 
 export const PrimaryTextButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button
         className="bg-blue-600 px-4 py-2 rounded-md text-white text-sm text-center hover:bg-blue-700 
 transition-all disabled:bg-gray-400"
@@ -57,7 +57,7 @@ transition-all disabled:bg-gray-400"
 
 export const PrimaryTextButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button
         className="rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-all
 hover:bg-black disabled:bg-gray-400"
@@ -85,7 +85,7 @@ hover:bg-black disabled:bg-gray-400"
 // ------------Primary Rounded Text Button--------------//
 export const PrimaryRoundedTextButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded-full bg-white px-4 py-2 text-sm font-medium text-black transition-all hover:bg-white/80 disabled:bg-gray-400">
         Button
       </button>
@@ -103,7 +103,7 @@ export const PrimaryRoundedTextButtonLight = () => {
 
 export const PrimaryRoundedTextButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button
         className="bg-blue-600 px-4 py-2 rounded-full text-white text-sm font-normal font-sans
 text-center text-bg-gray-200 hover:bg-blue-700 transition-all disabled:bg-gray-400"
@@ -130,7 +130,7 @@ transition-all disabled:bg-gray-400"
 
 export const PrimaryRoundedTextButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button
         className="hover:bg-black px-4 py-2 rounded-full text-white text-sm font-normal bg-gray-900
 transition-all disabled:bg-gray-400 font-sans text-center text-bg-gray-200"
@@ -158,7 +158,7 @@ transition-all disabled:bg-gray-400 font-sans text-center  text-bg-gray-200"
 // ------------Secondary Text Button--------------//
 export const SecondaryTextButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className=" border-2 border-white px-4 py-2 rounded-md text-white text-sm font-medium  hover:bg-white hover:text-black transition-all disabled:bg-gray-400 bg-transparent font-sans text-center">
         Button
       </button>
@@ -176,7 +176,7 @@ export const SecondaryTextButtonLight = () => {
 
 export const SecondaryTextButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className=" border-2 border-blue-600 px-4 py-2 rounded-md text-blue-600 text-sm font-medium  hover:bg-blue-700 hover:text-white transition-all disabled:bg-gray-400 bg-transparent font-sans text-center">
         Button
       </button>
@@ -192,7 +192,7 @@ export const SecondaryTextButtonBlue = () => {
 
 export const SecondaryTextButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="text-sm rounded-md border-2 border-black text-black px-4 py-2 transition-all hover:bg-black hover:text-white">
         Button
       </button>
@@ -209,7 +209,7 @@ export const SecondaryTextButtonDark = () => {
 // ------------Secondary Rounded Text Button--------------//
 export const SecondaryRoundedTextButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="border-white-90 rounded-full border-2 px-4 py-2 text-sm font-medium text-white/90 transition-all hover:bg-white hover:text-black disabled:bg-gray-400 disabled:text-white disabled:opacity-75">
         Button
       </button>
@@ -227,7 +227,7 @@ export const SecondaryRoundedTextButtonLight = () => {
 
 export const SecondaryRoundedTextButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded-full border-2 border-blue-600 bg-transparent px-4 py-2 text-center font-sans text-sm font-medium text-blue-600 transition-all hover:bg-blue-700 hover:text-white">
         Button
       </button>
@@ -245,16 +245,16 @@ export const SecondaryRoundedTextButtonBlue = () => {
 
 export const SecondaryRoundedTextButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
-      <button className="rounded-full border-2 border-black bg-transparent  text-black px-4 py-2 text-center font-sans text-sm font-medium text-slate-900 transition-all hover:bg-black hover:text-white disabled:bg-gray-400 disabled:text-white disabled:opacity-75">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
+      <button className="rounded-full border-2 border-black bg-transparent px-4 py-2 text-center font-sans text-sm font-medium text-slate-900 transition-all hover:bg-black hover:text-white disabled:bg-gray-400 disabled:text-white disabled:opacity-75">
         Button
       </button>
 
-      <button className="text-lg rounded-full border-2 border-black text-black  bg-transparent px-8 py-2.5 text-center font-sans font-medium text-slate-900 transition-all hover:bg-black hover:text-white disabled:bg-gray-400 disabled:text-white disabled:opacity-75">
+      <button className="text-lg rounded-full border-2 border-black bg-transparent px-8 py-2.5 text-center font-sans font-medium text-slate-900 transition-all hover:bg-black hover:text-white disabled:bg-gray-400 disabled:text-white disabled:opacity-75">
         Button
       </button>
 
-      <button className="rounded-full border-2 border-black bg-transparent text-black  px-10 py-3 text-center font-sans text-2xl font-medium text-slate-900 transition-all hover:bg-black hover:text-white disabled:bg-gray-400 disabled:text-white disabled:text-white/90">
+      <button className="rounded-full border-2 border-black bg-transparent px-10 py-3 text-center font-sans text-2xl font-medium text-slate-900 transition-all hover:bg-black hover:text-white disabled:bg-gray-400 disabled:text-white disabled:text-white/90">
         Button
       </button>
     </div>
@@ -264,7 +264,7 @@ export const SecondaryRoundedTextButtonDark = () => {
 // ------------Group Button--------------//
 export const GroupButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <div className="mr-2 inline-flex">
         <button className="bg-white text-black px-4 py-2 border border-black hover:bg-black hover:text-white focus:text-white focus:bg-black">
           Left
@@ -294,7 +294,7 @@ export const GroupButtonLight = () => {
 
 export const GroupButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <div className="mr-2 inline-flex">
         <button className="border border-blue-700 bg-blue-500 px-4 py-2 text-gray-100 hover:border-blue-600 hover:bg-blue-600 hover:text-white hover:ring-0 focus:border-blue-600 focus:bg-blue-600 focus:ring-0">
           Left
@@ -324,7 +324,7 @@ export const GroupButtonBlue = () => {
 
 export const GroupButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <div className="mr-2 inline-flex" role="group">
         <button className="border border-white bg-black px-4 py-2 text-white hover:bg-white hover:text-black hover:ring-0 focus:border-black focus:bg-white focus:text-black focus:ring-0">
           Left
@@ -355,7 +355,7 @@ export const GroupButtonDark = () => {
 //-------------Primary Icon Button---------------//
 export const PrimaryIconButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded bg-white p-2 text-black transition-all hover:bg-white/80 disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -410,7 +410,7 @@ export const PrimaryIconButtonLight = () => {
 
 export const PrimaryIconButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded bg-blue-600 hover:bg-blue-700 p-2 text-white transition-all disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -465,7 +465,7 @@ export const PrimaryIconButtonBlue = () => {
 
 export const PrimaryIconButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded bg-gray-900 hover:bg-black p-2 text-white transition-all disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -521,7 +521,7 @@ export const PrimaryIconButtonDark = () => {
 //-------------Primary Icon Button---------------//
 export const PrimaryRoundedIconButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded-full bg-white hover:bg-white/80 p-2 text-black transition-all disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -578,7 +578,7 @@ export const PrimaryRoundedIconButtonLight = () => {
 
 export const PrimaryRoundedIconButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded-full bg-blue-600 hover:bg-blue-700 p-2 text-white transition-all disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -635,7 +635,7 @@ export const PrimaryRoundedIconButtonBlue = () => {
 
 export const PrimaryRoundedIconButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded-full bg-gray-900 hover:bg-black p-2 text-white transition-all disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -693,7 +693,7 @@ export const PrimaryRoundedIconButtonDark = () => {
 //-------------Secondary Icon Button-----------------//
 export const SecondaryIconButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded bg-transparent border-2 border-white p-2 text-white hover:bg-white hover:text-black transition-all disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -750,7 +750,7 @@ export const SecondaryIconButtonLight = () => {
 
 export const SecondaryIconButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded bg-transparent border-2 border-blue-600 hover:bg-blue-600 p-2 hover:text-white text-blue-600 transition-all disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -807,7 +807,7 @@ export const SecondaryIconButtonBlue = () => {
 
 export const SecondaryIconButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded bg-transparent border-2 border-black hover:bg-black p-2 hover:text-white text-black transition-all disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -865,7 +865,7 @@ export const SecondaryIconButtonDark = () => {
 //-------------Secondary Rounded Icon Button-----------------//
 export const SecondaryRoundedIconButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded-full bg-transparent border-2 border-white p-2 text-white hover:bg-white hover:text-black transition-all disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -922,7 +922,7 @@ export const SecondaryRoundedIconButtonLight = () => {
 
 export const SecondaryRoundedIconButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded-full bg-transparent border-2 border-blue-600 hover:bg-blue-600 p-2 hover:text-white text-blue-600 transition-all disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -979,7 +979,7 @@ export const SecondaryRoundedIconButtonBlue = () => {
 
 export const SecondaryRoundedIconButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="rounded-full bg-transparent border-2 border-black hover:bg-black p-2 hover:text-white text-black transition-all disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1037,7 +1037,7 @@ export const SecondaryRoundedIconButtonDark = () => {
 //-----------primaryTextIconFrontButton-----------------//
 export const PrimaryTextIconFrontButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-md bg-white px-4 py-2 text-sm font-medium text-black transition-all hover:bg-white/80 disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1085,7 +1085,7 @@ export const PrimaryTextIconFrontButtonLight = () => {
 
 export const PrimaryTextIconFrontButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-blue-700 disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1133,7 +1133,7 @@ export const PrimaryTextIconFrontButtonBlue = () => {
 
 export const PrimaryTextIconFrontButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-black disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1182,7 +1182,7 @@ export const PrimaryTextIconFrontButtonDark = () => {
 //-----------primaryRoundedTextIconFrontButton-----------------//
 export const PrimaryRoundedTextIconFrontButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-full bg-white px-4 py-2 text-sm font-medium text-black transition-all hover:bg-white/80 disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1230,7 +1230,7 @@ export const PrimaryRoundedTextIconFrontButtonLight = () => {
 
 export const PrimaryRoundedTextIconFrontButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-full bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-blue-700 disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1278,7 +1278,7 @@ export const PrimaryRoundedTextIconFrontButtonBlue = () => {
 
 export const PrimaryRoundedTextIconFrontButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-full bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-black disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1327,7 +1327,7 @@ export const PrimaryRoundedTextIconFrontButtonDark = () => {
 //-----------SecondaryTextIconFrontButton-----------------//
 export const SecondaryTextIconFrontButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-md bg-transparent border-2 border-white px-4 py-2 text-sm font-medium text-white hover:text-black transition-all hover:bg-white disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1375,7 +1375,7 @@ export const SecondaryTextIconFrontButtonLight = () => {
 
 export const SecondaryTextIconFrontButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-md bg-transparent border-2 border-blue-600 px-4 py-2 text-sm font-medium text-blue-600 hover:text-white transition-all hover:bg-blue-600 disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1423,7 +1423,7 @@ export const SecondaryTextIconFrontButtonBlue = () => {
 
 export const SecondaryTextIconFrontButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-md bg-transparent border-2 border-black px-4 py-2 text-sm font-medium text-black transition-all hover:bg-black hover:text-white disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1472,7 +1472,7 @@ export const SecondaryTextIconFrontButtonDark = () => {
 //-----------SecondaryRoundedTextIconFrontButton-----------------//
 export const SecondaryRoundedTextIconFrontButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-full bg-transparent border-2 border-white px-4 py-2 text-sm font-medium hover:text-black text-white transition-all hover:bg-white disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1520,7 +1520,7 @@ export const SecondaryRoundedTextIconFrontButtonLight = () => {
 
 export const SecondaryRoundedTextIconFrontButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-full bg-transparent border-2 border-blue-600 px-4 py-2 text-sm font-medium hover:text-white text-blue-600 transition-all hover:bg-blue-600 disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1568,7 +1568,7 @@ export const SecondaryRoundedTextIconFrontButtonBlue = () => {
 
 export const SecondaryRoundedTextIconFrontButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-full bg-transaprent border-2 border-black px-4 py-2 text-sm font-medium hover:text-white text-black transition-all hover:bg-black disabled:bg-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1617,7 +1617,7 @@ export const SecondaryRoundedTextIconFrontButtonDark = () => {
 //-----------primaryTextIconRearButton-----------------//
 export const PrimaryTextIconRearButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-md bg-white px-4 py-2 text-sm font-medium text-black transition-all hover:bg-white/80 disabled:bg-gray-300">
         <span>Tag</span>
         <svg
@@ -1669,7 +1669,7 @@ export const PrimaryTextIconRearButtonLight = () => {
 
 export const PrimaryTextIconRearButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-blue-700 hover:text-white disabled:bg-gray-300">
         <span>Tag</span>
         <svg
@@ -1721,7 +1721,7 @@ export const PrimaryTextIconRearButtonBlue = () => {
 
 export const PrimaryTextIconRearButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-black disabled:bg-gray-300">
         <span>Tag</span>
         <svg
@@ -1774,7 +1774,7 @@ export const PrimaryTextIconRearButtonDark = () => {
 //-----------primaryRoundedTextIconRearButton-----------------//
 export const PrimaryRoundedTextIconRearButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-full bg-white px-4 py-2 text-sm font-medium text-black transition-all hover:bg-white/80 disabled:bg-gray-300">
         <span>Tag</span>
         <svg
@@ -1826,7 +1826,7 @@ export const PrimaryRoundedTextIconRearButtonLight = () => {
 
 export const PrimaryRoundedTextIconRearButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-full bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-blue-700 hover:text-white disabled:bg-gray-300">
         <span>Tag</span>
         <svg
@@ -1878,7 +1878,7 @@ export const PrimaryRoundedTextIconRearButtonBlue = () => {
 
 export const PrimaryRoundedTextIconRearButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-full bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-black disabled:bg-gray-300">
         <span>Tag</span>
         <svg
@@ -1931,7 +1931,7 @@ export const PrimaryRoundedTextIconRearButtonDark = () => {
 //-----------Secondary TextIconRearButton-----------------//
 export const SecondaryTextIconRearButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-md bg-transparent border-2 border-white px-4 py-2 text-sm font-medium text-white hover:text-black transition-all hover:bg-white/80 disabled:bg-gray-300">
         <span>Tag</span>
         <svg
@@ -1983,7 +1983,7 @@ export const SecondaryTextIconRearButtonLight = () => {
 
 export const SecondaryTextIconRearButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-md bg-transparent border-2 border-blue-600 px-4 py-2 text-sm font-medium text-blue-600 transition-all hover:bg-blue-600 hover:text-white disabled:bg-gray-300">
         <span>Tag</span>
         <svg
@@ -2035,7 +2035,7 @@ export const SecondaryTextIconRearButtonBlue = () => {
 
 export const SecondaryTextIconRearButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-md text-black bg-transparent border-2 border-black px-4 py-2 text-sm font-medium hover:text-white  transition-all hover:bg-black disabled:bg-gray-300">
         <span>Tag</span>
         <svg
@@ -2088,7 +2088,7 @@ export const SecondaryTextIconRearButtonDark = () => {
 //-----------Secondary Rounded TextIconRearButton-----------------//
 export const SecondaryRoundedTextIconRearButtonLight = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-full bg-transparent border-2 border-white px-4 py-2 text-sm font-medium text-white hover:text-black transition-all hover:bg-white/80 disabled:bg-gray-300">
         <span>Tag</span>
         <svg
@@ -2140,7 +2140,7 @@ export const SecondaryRoundedTextIconRearButtonLight = () => {
 
 export const SecondaryRoundedTextIconRearButtonBlue = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-full bg-transparent border-2 border-blue-600 px-4 py-2 text-sm font-medium text-blue-600 transition-all hover:bg-blue-600 hover:text-white disabled:bg-gray-300">
         <span>Tag</span>
         <svg
@@ -2192,7 +2192,7 @@ export const SecondaryRoundedTextIconRearButtonBlue = () => {
 
 export const SecondaryRoundedTextIconRearButtonDark = () => {
   return (
-    <div className=" flex gap-10 items-center">
+    <div className=" flex sm:flex-row flex-col gap-10 items-center">
       <button className="flex items-center rounded-full text-black bg-transparent border-2 border-black px-4 py-2 text-sm font-medium hover:text-white  transition-all hover:bg-black disabled:bg-gray-300">
         <span>Tag</span>
         <svg
@@ -2245,7 +2245,7 @@ export const SecondaryRoundedTextIconRearButtonDark = () => {
 //------------------Gradient Buttons-----------------------//
 export const GradientButtons = () => {
   return (
-    <div className=" grid grid-cols-4 gap-x-10 gap-y-4  ">
+    <div className=" grid sm:grid-cols-4 grid-cols-2 place-items-center gap-x-10 gap-y-4 px-2 ">
       <button className="text-white bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
         Blue
       </button>
@@ -2284,7 +2284,7 @@ export const GradientButtons = () => {
 //----------------Payment Buttons------------------//
 export const SocialButtons = () => {
   return (
-    <div className="grid grid-cols-3 gap-2">
+    <div className="grid lg:grid-cols-3 grid-cols-2 place-items-center gap-2">
       <button className="text-white bg-[#3b5998] hover:bg-[#3b5898cb] focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2 mb-2">
         <svg
           className="mr-2 -ml-1 w-4 h-4"
