@@ -2,17 +2,16 @@ import React from "react";
 
 export const AlertGeneral = () => {
   return (
-    <div className="w-[600px]">
+    <div className="lg:w-[600px] sm:w-[450px] w-[300px]">
       <div className="relative w-full">
         <input
           type="radio"
           className="peer opacity-0 absolute cursor-pointer right-8 top-5 h-5 w-5"
         />
-        <div className="peer flex cursor-default items-center rounded-2xl border border-solid border-[#D6D3D1] bg-[#F4F4F5] px-8 py-4 transition-all duration-300 hover:shadow-lg hover:shadow-[#D6D3D1] peer-checked:hidden">
+        <div className="peer flex cursor-default items-center rounded-2xl border border-solid border-[#D6D3D1] bg-[#F4F4F5] sm:px-8 px-4 sm:py-4 py-2 transition-all duration-300 hover:shadow-lg hover:shadow-[#D6D3D1] peer-checked:hidden">
           <div className="items-center justify-items-center">
             <svg
-              width="28"
-              height="28"
+              className="w-6 mt-1 h-6 sm:w-8 sm:h-8"
               viewBox="0 0 28 28"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +24,7 @@ export const AlertGeneral = () => {
               />
             </svg>
           </div>
-          <div className="ml-5 items-center justify-items-center text-lg font-semibold text-[#737373]">
+          <div className="ml-5 items-center justify-items-center sm:text-lg text-base font-semibold text-[#737373]">
             This is a message
           </div>
           <div className="ml-auto items-center justify-items-center">
@@ -50,13 +49,13 @@ export const AlertGeneral = () => {
 
 export const AlertInfo = () => {
   return (
-    <div className="w-[600px]">
+    <div className="lg:w-[600px] sm:w-[450px] w-[300px]">
       <div className="relative w-full">
         <input
           type="radio"
           className="peer opacity-0 absolute cursor-pointer right-8 top-5 h-5 w-5"
         />
-        <div className="peer flex cursor-default items-center rounded-2xl border border-solid border-blue-700 bg-blue-100 px-8 py-4 transition-all duration-300 hover:shadow-lg hover:shadow-blue-100 peer-checked:hidden">
+        <div className="peer flex cursor-default items-center rounded-2xl border border-solid border-blue-700 bg-blue-100 sm:px-8 px-4 sm:py-4 py-2 transition-all duration-300 hover:shadow-lg hover:shadow-blue-100 peer-checked:hidden">
           <div className="items-center justify-items-center">
             <svg
               width="28"
@@ -73,7 +72,7 @@ export const AlertInfo = () => {
               />
             </svg>
           </div>
-          <div className="ml-5 items-center justify-items-center text-lg font-semibold text-blue-600">
+          <div className="sm:ml-5 ml-2 items-center justify-items-center sm:text-lg text-sm font-semibold text-blue-600">
             This is an information message
           </div>
           <div className="ml-auto items-center justify-items-center">
@@ -98,13 +97,13 @@ export const AlertInfo = () => {
 
 export const AlertError = () => {
   return (
-    <div className="w-[600px]">
+    <div className="lg:w-[600px] sm:w-[450px] w-[300px]">
       <div className="relative w-full">
         <input
           type="radio"
           className="peer opacity-0 absolute cursor-pointer right-8 top-5 h-5 w-5"
         />
-        <div className="peer flex cursor-default items-center rounded-2xl border border-solid border-red-600 bg-red-100 px-8 py-4 transition-all duration-300 hover:shadow-lg hover:shadow-red-100 peer-checked:hidden">
+        <div className="peer flex cursor-default items-center  rounded-2xl border border-solid border-red-600 bg-red-100 sm:px-8 px-4 sm:py-4 py-2 transition-all duration-300 hover:shadow-lg hover:shadow-red-100 peer-checked:hidden">
           <div className="items-center justify-items-center">
             <svg
               width="28"
@@ -121,7 +120,7 @@ export const AlertError = () => {
               />
             </svg>
           </div>
-          <div className="ml-5 items-center justify-items-center text-lg font-semibold text-red-500">
+          <div className="ml-5 items-center justify-items-center sm:text-lg text-base font-semibold text-red-500">
             This is an error message
           </div>
           <div className="ml-auto items-center justify-items-center">
@@ -146,13 +145,13 @@ export const AlertError = () => {
 
 export const AlertSuccess = () => {
   return (
-    <div className="w-[600px]">
+    <div className="lg:w-[600px] sm:w-[450px] w-[300px]">
       <div className="relative w-full">
         <input
           type="radio"
           className="peer opacity-0 absolute cursor-pointer right-8 top-5 h-5 w-5"
         />
-        <div className="peer flex cursor-default items-center rounded-2xl border border-solid border-[#6EE7B7] bg-green-50 px-8 py-4 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-100 peer-checked:hidden">
+        <div className="peer flex cursor-default items-center rounded-2xl border border-solid border-[#6EE7B7] bg-green-50 sm:px-8 px-4 sm:py-4 py-2 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-100 peer-checked:hidden">
           <div className="items-center justify-items-center">
             <svg
               width="28"
@@ -169,7 +168,7 @@ export const AlertSuccess = () => {
               />
             </svg>
           </div>
-          <div className="ml-5 items-center justify-items-center text-lg font-semibold text-[#34D399]">
+          <div className="ml-5 items-center justify-items-center sm:text-lg text-base font-semibold text-[#34D399]">
             This is a success message
           </div>
           <div className="ml-auto items-center justify-items-center">
@@ -194,13 +193,13 @@ export const AlertSuccess = () => {
 
 export const AlertWarning = () => {
   return (
-    <div className="w-[600px]">
+    <div className="lg:w-[600px] sm:w-[450px] w-[300px]">
       <div className="relative w-full">
         <input
           type="radio"
           className="peer opacity-0 absolute cursor-pointer right-8 top-5 h-5 w-5"
         />
-        <div className="peer flex cursor-default items-center rounded-2xl border border-[#FB923C] nx-bg-orange-50 px-8 py-4 transition-all duration-300 hover:shadow-lg hover:shadow-[#FB923C] peer-checked:hidden">
+        <div className="peer flex cursor-default items-center rounded-2xl border border-[#FB923C] nx-bg-orange-50 px-8 sm:py-4 py-2 transition-all duration-300 hover:shadow-lg hover:shadow-[#FB923C] peer-checked:hidden">
           <div className="items-center justify-items-center">
             <svg
               width="28"
@@ -215,7 +214,7 @@ export const AlertWarning = () => {
               />
             </svg>
           </div>
-          <div className="ml-5 items-center justify-items-center text-lg font-semibold text-[#F97316]">
+          <div className="ml-5 items-center justify-items-center sm:text-lg text-base font-semibold text-[#F97316]">
             This is a warning
           </div>
           <div className="ml-auto items-center justify-items-center">
@@ -240,8 +239,8 @@ export const AlertWarning = () => {
 
 export const AlertModern = () => {
   return (
-    <div className="w-[600px]">
-      <div className="bg-indigo-900 text-center py-4 lg:px-4">
+    <div className="lg:w-[600px] sm:w-[450px] w-[300px]">
+      <div className="bg-indigo-900 text-center py-4 lg:px-4 px-2">
         <div
           className="p-2 w-full rounded-3xl cursor-pointer bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
           role="alert"
