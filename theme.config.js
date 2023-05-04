@@ -82,7 +82,7 @@ export default {
   head: <Head />,
   logo: () => (
     <>
-      <img src="/logo.png" width="50px" loading="lazy" />
+      <img src="/logo.svg" width="50px" loading="lazy" />
       <span className="mx-2 font-extrabold hidden md:inline select-none">
         SeamLess UI
       </span>
