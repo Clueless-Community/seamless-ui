@@ -3,7 +3,7 @@ import React from "react";
 export const IconBreadcrumb = () => {
   return (
     <div>
-      <div className="flex items-center overflow-x-auto whitespace-nowrap py-4">
+      <div className="flex flex-wrap space-y-2 sm:space-y-0 px-5 lg:px-0 items-center overflow-x-auto whitespace-nowrap py-4">
         <a href="#icon" className="text-white focus:text-blue-600">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -249,7 +249,7 @@ export const BoxedBreadcrumb = () => {
       </div>
 
       <div className="my-4 mx-4">
-        <div className="inline-flex items-center flex-wrap">
+        <div className="inline-flex items-center flex-wrap space-y-3 sm:space-y-0">
           <a
             className="text-gray-500 font-semibold bg-gray-200 px-5 py-2 rounded-l-lg rounded-r-lg hover:text-white hover:ease-in-out hover:bg-blue-600 focus:bg-blue-600 transition focus:ease-in-out focus:text-white"
             href="#boxed"
