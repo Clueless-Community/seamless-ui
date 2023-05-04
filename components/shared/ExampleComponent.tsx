@@ -85,7 +85,7 @@ const ExampleComponent: React.FC<Props> = ({ codeMetaData, componentsArray, them
                     )}
                 </>
             ) : (
-                <div className={`flex my-8 justify-center border border-gray-600 rounded-xl py-16 items-center relative ${theme === 'light' ? 'bg-gray-400' : 'bg-gray-800'}  `}>
+                <div className={`flex my-8 justify-center border border-gray-600 rounded-xl py-16 items-center relative ${theme === 'light' ? 'bg-gray-400' : 'bg-gray-800'} `}>
                     <Tabs
                         size="md"
                         variant="enclosed"

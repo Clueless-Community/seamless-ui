@@ -2,7 +2,7 @@ import React from "react";
 
 export const AccordionLight = () => {
   return (
-    <div className="mx-10">
+    <div className="md:mx-10 sm:mx-5 mx-3">
       <div className="p-5 bg-gray-200">
         <div className="relative border border-gray-300 rounded-md my-1">
           <input
@@ -122,7 +122,7 @@ export const AccordionLight = () => {
 
 export const AccordionBlue = () => {
   return (
-    <div className="mx-10">
+    <div className="md:mx-10 sm:mx-5 mx-3">
       <div className="bg-white p-5">
         <div className="relative my-1">
           <input
@@ -246,7 +246,7 @@ export const AccordionBlue = () => {
 
 export const AccordionDark = () => {
   return (
-    <div className="mx-10">
+    <div className="md:mx-10 sm:mx-5 mx-3">
       <div className="p-5 bg-gray-900">
         <div className="relative my-1">
           <input
@@ -367,7 +367,7 @@ export const AccordionDark = () => {
 
 export const AccordionAutoCloses = () => {
   return (
-    <div className="px-10">
+    <div className="md:mx-10 sm:mx-5 mx-3">
       <div className="bg-gray-900 p-5">
         <div className="relative my-1 w-full">
           <input
