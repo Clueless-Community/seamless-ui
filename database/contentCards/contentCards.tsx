@@ -172,22 +172,22 @@ export const ContentCard2 = () => {
     <div>
       <div
         style={{ backgroundImage: 'url("https://i.ibb.co/5kwrPtY/bg.png")' }}
-        className="h-[206px] w-[582px] rounded-3xl bg-contain bg-no-repeat"
+        className="lg:h-[206px] sm:h-[180px] h-[200px] lg:w-[582px] sm:w-[440px] w-[280px] rounded-3xl lg:bg-contain bg-no-repeat"
       >
         <div className="grid h-full justify-center rounded-3xl bg-black bg-opacity-70 py-8">
-          <h1 className="text-2xl font-bold text-white">WaivlyFunds</h1>
-          <h1 className="text-gray-300">
-            Slate helps you see how many more days you need to <br />
+          <h1 className="lg:text-2xl text-xl font-bold text-white text-center sm:text-left">WaivlyFunds</h1>
+          <h1 className="text-gray-300 text-sm lg:text-base text-center sm:text-left w-60 sm:w-auto">
+            Slate helps you see how many more days you need to <br className="hidden sm:block" />
             work to reach. Slate helps you see how many more days.
           </h1>
-          <div className="flex flex-row gap-1 items-center justify-start">
-            <button className="text-md rounded-full bg-white px-3 py-0 text-center font-sans text-black transition-all hover:bg-white/90 disabled:bg-gray-400">
+          <div className="flex flex-row gap-1 items-center sm:justify-start justify-center">
+            <button className="lg:text-md text-sm rounded-full bg-white px-3 py-0 text-center font-sans text-black transition-all hover:bg-white/90 disabled:bg-gray-400">
               Tags
             </button>
-            <button className="text-md rounded-full bg-white px-3 py-0 text-center font-sans text-black transition-all hover:bg-white/90 disabled:bg-gray-400">
+            <button className="lg:text-md text-sm rounded-full bg-white px-3 py-0 text-center font-sans text-black transition-all hover:bg-white/90 disabled:bg-gray-400">
               Google
             </button>
-            <button className="text-md rounded-full bg-white px-3 py-0 text-center font-sans text-black transition-all hover:bg-white/90 disabled:bg-gray-400">
+            <button className="lg:text-md text-sm rounded-full bg-white px-3 py-0 text-center font-sans text-black transition-all hover:bg-white/90 disabled:bg-gray-400">
               Nvdia
             </button>
           </div>
