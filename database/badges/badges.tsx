@@ -2,7 +2,7 @@ import React from "react";
 
 export const Badge1 = () => {
   return (
-    <div className="flex gap-5">
+    <div className="grid px-5 lg:grid-cols-8 sm:grid-cols-4 grid-cols-2 place-items-center gap-5">
       <span className="mr-2 rounded cursor-pointer bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800 dark:bg-blue-200 dark:text-blue-800">
         Default
       </span>
@@ -33,7 +33,7 @@ export const Badge1 = () => {
 
 export const Badge2 = () => {
   return (
-    <div className="flex gap-5">
+    <div className="grid lg:grid-cols-4 grid-cols-2 place-items-center gap-4">
       <span className="inline-flex cursor-default items-center rounded bg-gray-600 px-2.5 py-0.5 text-xs font-medium text-gray-300 dark:bg-gray-700 dark:text-gray-300">
         <svg
           aria-hidden="true"
@@ -112,7 +112,7 @@ export const Badge2 = () => {
 
 export const Badge3 = () => {
   return (
-    <div className=" flex gap-10">
+    <div className="grid sm:grid-cols-3 grid-cols-1 place-items-center gap-10">
       <button
         className="inline-flex items-center rounded-lg bg-green-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-green-800 focus:outline-none dark:bg-green-600 dark:hover:bg-green-700"
       >
@@ -227,7 +227,7 @@ export const Badge4 = () => {
 
 export const Badge5 = () => {
   return (
-    <div className="grid grid-cols-4 gap-5">
+    <div className="grid lg:grid-cols-4 grid-cols-2 gap-5">
       <button
         className="text-white bg-blue-700 px-5 py-2.5 hover:bg-blue-800 font-medium rounded-full text-sm text-center"
       >
