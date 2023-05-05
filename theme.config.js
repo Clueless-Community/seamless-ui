@@ -34,7 +34,7 @@ const Head = () => {
         name="twitter:image"
         content={
           frontMatter.image ||
-          "https://user-images.githubusercontent.com/98400348/236498280-8cf79210-fb05-411d-92a6-4352aebda365.png"
+          "https://user-images.githubusercontent.com/98400348/236500880-7e777463-23a6-4b09-81e0-e83b7b843652.png"
         }
       />
       <meta
@@ -45,7 +45,7 @@ const Head = () => {
         name="og:image"
         content={
           frontMatter.image ||
-          "https://user-images.githubusercontent.com/98400348/236498280-8cf79210-fb05-411d-92a6-4352aebda365.png"
+          "https://user-images.githubusercontent.com/98400348/236500880-7e777463-23a6-4b09-81e0-e83b7b843652.png"
         }
       />
       <meta name="apple-mobile-web-app-title" content="Seamless UI" />
