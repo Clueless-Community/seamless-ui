@@ -4,10 +4,9 @@ import React from "react";
 export const FeatureCard0Light = () => {
   return (
     <div>
-      <div className="flex w-fit flex-row items-center gap-8 rounded-2xl bg-white px-8 py-9">
+      <div className="flex w-fit flex-row items-center gap-8 rounded-2xl bg-white sm:px-8 px-6 sm:py-9 pb-10 pt-5 ">
         <svg
-          width="66"
-          height="84"
+          className="sm:w-[66px] sm:h-[84px] w-12"
           viewBox="0 0 66 84"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -18,8 +17,8 @@ export const FeatureCard0Light = () => {
           />
         </svg>
         <div>
-          <p className="text-2xl font-bold leading-8 text-black">Brand Name</p>
-          <p className="mt-2 h-12 w-60 font-normal leading-4 text-gray-600">
+          <p className="sm:text-2xl text-lg font-bold sm:leading-8 text-black">Brand Name</p>
+          <p className="mt-2 h-12 text-sm sm:text-[16px] sm:w-60 w-40 font-normal leading-4 text-gray-600">
             Slate helps you see how many more days you need ve helps you see how
             many more days.
           </p>
@@ -1203,6 +1202,7 @@ export const FeatureCard14Light = () => {
           viewBox="0 0 58 54"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          className="h-12 sm:h-auto sm:w-auto w-12"
         >
           <path
             d="M57.1024 24.186C54.2374 38.874 39.1804 49.191 32.8414 52.947C31.6534 53.646 30.3244 54 28.9954 54C27.6664 54 26.3374 53.649 25.1494 52.947C18.8074 49.188 3.75043 38.874 0.885428 24.186C-0.311572 18.045 1.31743 11.535 5.24443 6.765C8.83843 2.403 13.8334 0 19.3114 0C22.7584 0 26.0854 0.873 28.9954 2.532C31.9054 0.873 35.2324 0 38.6794 0C44.1574 0 49.1524 2.403 52.7464 6.765C56.6734 11.535 58.3054 18.045 57.1054 24.186H57.1024Z"
@@ -1211,10 +1211,10 @@ export const FeatureCard14Light = () => {
         </svg>
 
         <div>
-          <p className="text-2xl font-bold leading-8 text-black">
+          <p className="sm:text-2xl text-xl font-bold leading-8 text-black">
             What is Web3?
           </p>
-          <p className="mt-2 h-12 w-96 font-normal leading-4 text-gray-600">
+          <p className="sm:mt-2 w-48 text-sm sm:text-[16px] h-12 sm:w-96 font-normal leading-4 text-gray-600">
             Slate helps you see how many more days you need ve helps you how
             many more days
           </p>
@@ -1233,7 +1233,7 @@ export const FeatureCard14Blue = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          className="h-16 w-16"
+          className="sm:h-16 h-12 sm:w-16 w-12"
         >
           <path
             fill="#2D70F3"
@@ -1242,10 +1242,10 @@ export const FeatureCard14Blue = () => {
         </svg>
 
         <div>
-          <p className="text-2xl font-bold leading-8 text-blue-600">
+          <p className="sm:text-2xl text-xl font-bold leading-8 text-blue-600">
             What is Web3?
           </p>
-          <p className="mt-2 h-12 w-96 font-normal leading-4 text-gray-600">
+          <p className="sm:mt-2 w-48 text-sm sm:text-[16px] h-12 sm:w-96 font-normal leading-4 text-gray-600">
             Slate helps you see how many more days you need ve helps you how
             many more days
           </p>
@@ -1264,7 +1264,7 @@ export const FeatureCard14Dark = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          className="h-16 w-16"
+          className="sm:h-16 h-12 sm:w-16 w-12"
         >
           <path
             fill="white"
@@ -1273,10 +1273,10 @@ export const FeatureCard14Dark = () => {
         </svg>
 
         <div>
-          <p className="text-2xl font-bold leading-8 text-white">
+          <p className="sm:text-2xl text-xl font-bold leading-8 text-white">
             What is Web3?
           </p>
-          <p className="mt-2 h-12 w-96 font-normal leading-4 text-gray-400">
+          <p className="sm:mt-2 w-48 text-sm md:text-[16px] h-12 lg:w-96 md:w-72 font-normal leading-4 text-gray-400">
             Slate helps you see how many more days you need ve helps you how
             many more days
           </p>
@@ -1389,7 +1389,7 @@ export const FeatureCard16Light = () => {
             New UI Ideas
           </p>
         </div>
-        <p className="mb-5 ml-4 mt-2 h-12 w-72 font-normal leading-5 text-gray-600">
+        <p className="mb-5 ml-4 mt-2 h-12 sm:w-72 w-60 text-sm sm:text-[16px] font-normal leading-5 text-gray-600">
           Slate helps you see how many more days you need to work to reach.
           Slate helps you see how many more days.
         </p>
@@ -1420,7 +1420,7 @@ export const FeatureCard16Blue = () => {
             New UI Ideas
           </p>
         </div>
-        <p className="mb-5 ml-4 mt-2 h-12 w-72 font-normal leading-5 text-gray-600">
+        <p className="mb-5 ml-4 mt-2 h-12 sm:w-72 w-60 text-sm sm:text-[16px] font-normal leading-5 text-gray-600">
           Slate helps you see how many more days you need to work to reach.
           Slate helps you see how many more days.
         </p>
@@ -1448,7 +1448,7 @@ export const FeatureCard16Dark = () => {
             New UI Ideas
           </p>
         </div>
-        <p className="mb-5 ml-4 mt-2 h-12 w-72 font-normal leading-5 text-white">
+        <p className="mb-5 ml-4 mt-2 h-12 sm:w-72 w-60 text-sm sm:text-[16px] font-normal leading-5 text-white">
           Slate helps you see how many more days you need to work to reach.
           Slate helps you see how many more days.
         </p>
