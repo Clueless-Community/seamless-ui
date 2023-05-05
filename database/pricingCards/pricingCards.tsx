@@ -418,12 +418,12 @@ export const PricingCard1Dark = () => {
 export const PricingCard2Light = () => {
   return (
     <div>
-      <div className="relative w-80 rounded-[20px] bg-white px-[40px] py-[50px]">
+      <div className="relative sm:w-80 w-72 rounded-[20px] bg-white px-[40px] py-[50px]">
         <div className="flex w-full flex-col items-center justify-center gap-[15px] tracking-[0.2px]">
           <h1 className="text-[24px] font-bold leading-[32px] text-black">
             Free
           </h1>
-          <h2 className="text-center font-sans text-lg text-black">
+          <h2 className="text-center font-sans text-base sm:text-lg text-black">
             Slate helps you see how many more days you need
           </h2>
           <div className="my-0 flex justify-between px-5 font-semibold text-black">
@@ -575,12 +575,12 @@ export const PricingCard2Light = () => {
 export const PricingCard2Blue = () => {
   return (
     <div>
-      <div className="relative w-80 rounded-[20px] bg-white px-[40px] py-[50px]">
+      <div className="relative sm:w-80 w-72 rounded-[20px] bg-white px-[40px] py-[50px]">
         <div className="flex w-full flex-col items-center justify-center gap-[15px] tracking-[0.2px]">
           <h1 className="text-[24px] font-bold leading-[32px] text-blue-600">
             Free
           </h1>
-          <h2 className="text-center font-sans text-lg text-black">
+          <h2 className="text-center font-sans text-base sm:text-lg text-black">
             Slate helps you see how many more days you need
           </h2>
           <div className="my-0 flex justify-between px-5 font-semibold text-blue-600">
@@ -732,13 +732,13 @@ export const PricingCard2Blue = () => {
 export const PricingCard2Dark = () => {
   return (
     <div>
-      <div className="relative w-80 rounded-[20px] bg-black px-[40px] py-[50px]">
+      <div className="relative sm:w-80 w-72 rounded-[20px] bg-black px-[40px] py-[50px]">
         <div className="flex w-full flex-col items-center justify-center gap-[15px] tracking-[0.2px]">
           <h1 className="text-[24px] font-bold leading-[32px] text-white">
             Free
           </h1>
 
-          <h2 className="text-center font-sans text-lg text-[#B5B5B5]">
+          <h2 className="text-center font-sans sm:text-lg text-base text-[#B5B5B5]">
             Slate helps you see how many more days you need
           </h2>
 
@@ -969,12 +969,12 @@ export const PricingCard4Light = () => {
   return (
     <div>
       <div className="flex w-fit">
-        <div className="rounded-2xl bg-white px-10 py-10 shadow-md">
+        <div className="rounded-2xl bg-white sm:px-10 px-9 py-8 shadow-md">
           <div className="mt-2 flex flex-col">
             <p className="ml-2 mt-1 w-52 text-center text-lg font-medium text-gray-600">
               Organize across the world
             </p>
-            <h1 className="mt-8 text-center text-4xl text-black font-bold text-slate-900">
+            <h1 className="mt-8 text-center text-4xl font-bold text-slate-900">
               FREE
             </h1>
           </div>
@@ -986,7 +986,7 @@ export const PricingCard4Light = () => {
             </p>
           </div>
 
-          <div className="mb-3 ml-1 mt-6 text-black flex justify-center text-slate-900">
+          <div className="mb-3 ml-1 mt-6 flex justify-center text-slate-900">
             <p className="text-6xl font-semibold">0</p>
             <div className="ml-2 mt-1 flex flex-col">
               <p className="text-lg font-bold">$</p>
@@ -1004,7 +1004,7 @@ export const PricingCard4Blue = () => {
   return (
     <div>
       <div className="flex w-fit">
-        <div className="rounded-2xl bg-white px-10 py-8 shadow-md">
+        <div className="rounded-2xl bg-white sm:px-10 px-9 py-8 shadow-md">
           <div className="mt-2 flex flex-col">
             <p className="ml-2 mt-1 w-52 text-center text-lg font-medium text-gray-600">
               Organize across the world
@@ -1038,10 +1038,10 @@ export const PricingCard4Blue = () => {
 export const PricingCard4Dark = () => {
   return (
     <div>
-      <div className="flex w-[280px]">
-        <div className="rounded-2xl bg-[#121225] px-10 py-8 shadow-md">
+      <div className="flex w-fit">
+        <div className="rounded-2xl bg-slate-900 sm:px-10 px-9 py-8 shadow-md">
           <div className="mt-2 flex flex-col">
-            <p className="ml-2 mt-1 w-52 text-center text-lg font-medium text-[#B5B5B5]">
+            <p className="ml-2 mt-1 w-52 text-center text-lg font-medium text-gray-400">
               Organize across the world
             </p>
             <h1 className="mt-8 text-center text-4xl font-bold text-white">
@@ -1050,7 +1050,7 @@ export const PricingCard4Dark = () => {
           </div>
 
           <div>
-            <p className="mt-6 w-56 text-center text-sm text-[#B5B5B5]">
+            <p className="mt-6 w-56 text-center text-sm text-gray-400">
               Slate helps you see how many days you need to work to reach.Slate
               helps you see how many days.
             </p>
@@ -1078,13 +1078,13 @@ export const PricingCard5Light = () => {
           <h1 className="text-2xl font-bold text-gray-900 max-[640px]:text-center">
             STANDARD
           </h1>
-          <p className="text-md mb-5 mt-5 font-normal text-gray-600 max-[640px]:w-72 max-[640px]:text-center sm:w-72">
+          <p className="sm:text-[16px] text-[14px] mb-5 mt-5 font-normal text-gray-600 max-[640px]:text-center lg:w-72 md:w-40 px-2 sm:px-0 w-64">
             Slate helps you see how many more days you need to work to reach.
             Slate helps you how many more days.
           </p>
         </div>
         <div>
-          <div className="ml-1 mt-1 flex text-gray-900 justify-center text-slate-900">
+          <div className="ml-1 mt-1 flex justify-center text-slate-900">
             <p className="text-6xl font-semibold">0</p>
             <div className="ml-2 mt-1 flex flex-col">
               <p className="text-xl font-bold">$</p>
@@ -1092,7 +1092,7 @@ export const PricingCard5Light = () => {
             </div>
           </div>
           <div className="mt-9 flex justify-center">
-            <button className="w-fit rounded-md bg-slate-900 px-10 py-2 hover:bg-gray-700 font-semibold bg-gray-900 text-white transition-all ease-out hover:scale-105 hover:shadow-lg">
+            <button className="w-fit rounded-md bg-slate-900 px-10 py-2 hover:bg-gray-700 font-semibold text-white transition-all ease-out hover:scale-105 hover:shadow-lg">
               Try For Free
             </button>
           </div>
@@ -1111,7 +1111,7 @@ export const PricingCard5Blue = () => {
           <h1 className="text-2xl font-bold text-blue-600 max-[640px]:text-center">
             STANDARD
           </h1>
-          <p className="text-md mb-5 mt-5 font-normal text-gray-600 max-[640px]:w-72 max-[640px]:text-center sm:w-72">
+          <p className="sm:text-[16px] text-[14px] mb-5 mt-5 font-normal text-gray-600 max-[640px]:text-center lg:w-72 md:w-40 px-2 sm:px-0 w-64">
             Slate helps you see how many more days you need to work to reach.
             Slate helps you how many more days.
           </p>
@@ -1144,7 +1144,7 @@ export const PricingCard5Dark = () => {
           <h1 className="text-2xl font-bold text-white max-[640px]:text-center">
             STANDARD
           </h1>
-          <p className="text-md mb-5 mt-5 font-normal text-gray-400 max-[640px]:w-72 max-[640px]:text-center sm:w-72">
+          <p className="sm:text-[16px] text-[14px] mb-5 mt-5 font-normal text-gray-400 max-[640px]:text-center lg:w-72 md:w-40 px-2 sm:px-0 w-64">
             Slate helps you see how many more days you need to work to reach.
             Slate helps you how many more days.
           </p>
