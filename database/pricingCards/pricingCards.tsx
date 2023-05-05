@@ -1158,7 +1158,7 @@ export const PricingCard5Dark = () => {
             </div>
           </div>
           <div className="mt-9 flex justify-center">
-            <button className="w-fit rounded-md bg-white text-gray-900 hover:bg-gray-300 px-10 py-2 font-semibold text-slate-900">
+            <button className="w-fit rounded-md bg-white hover:bg-gray-300 px-10 py-2 font-semibold text-slate-900">
               Try For Free
             </button>
           </div>
