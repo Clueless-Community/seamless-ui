@@ -34,21 +34,21 @@ const Head = () => {
         name="twitter:image"
         content={
           frontMatter.image ||
-          "https://user-images.githubusercontent.com/9113740/140682117-5e9f460e-c8f1-447c-88a0-e75f80779260.png"
+          "https://user-images.githubusercontent.com/98400348/236495956-df8db2f3-0b06-42a7-90ec-ddcbaa138248.png"
         }
       />
       <meta
         name="og:title"
-        content={title ? title + " – SWC" : "SWC: Speedy Web Compiler"}
+        content={title ? title + " – Seamless UI" : "Seamless UI"}
       />
       <meta
         name="og:image"
         content={
           frontMatter.image ||
-          "https://user-images.githubusercontent.com/9113740/140682117-5e9f460e-c8f1-447c-88a0-e75f80779260.png"
+          "https://user-images.githubusercontent.com/98400348/236495956-df8db2f3-0b06-42a7-90ec-ddcbaa138248.png"
         }
       />
-      <meta name="apple-mobile-web-app-title" content="SWC" />
+      <meta name="apple-mobile-web-app-title" content="Seamless UI" />
       <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"
