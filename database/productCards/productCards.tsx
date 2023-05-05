@@ -4,7 +4,7 @@ import React from "react";
 export const ProductCard0Light = () => {
   return (
     <div>
-      <div className="relative flex w-[331px] flex-col gap-y-4 bg-white rounded-2xl bg-[FFFFFF] p-8 text-black">
+      <div className="relative flex sm:w-[331px] w-[290px] flex-col gap-y-4 bg-white rounded-2xl bg-[FFFFFF] p-8 text-black">
         <button className="group absolute right-10 top-10 z-10 m-1 rounded-full border-[#fff] bg-[#fff] p-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -185,7 +185,7 @@ export const ProductCard0Light = () => {
 export const ProductCard0Blue = () => {
   return (
     <div>
-      <div className="relative flex w-[331px] bg-white flex-col gap-y-4 rounded-2xl bg-[FFFFFF] p-8 text-black">
+      <div className="relative flex sm:w-[331px] w-[290px] bg-white flex-col gap-y-4 rounded-2xl bg-[FFFFFF] p-8 text-black">
         <button className="group absolute right-10 top-10 z-10 m-1 rounded-full border-[#fff] bg-[#fff] p-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -367,7 +367,7 @@ export const ProductCard0Blue = () => {
 export const ProductCard0Dark = () => {
   return (
     <div>
-      <div className="relative flex w-[331px] flex-col gap-y-4 rounded-2xl bg-gray-900 p-8 text-white">
+      <div className="relative flex sm:w-[331px] w-[290px] flex-col gap-y-4 rounded-2xl bg-gray-900 p-8 text-white">
         <button className="group absolute right-10 top-10 z-10 m-1 rounded-full border-white bg-white p-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -496,7 +496,7 @@ export const ProductCard0Dark = () => {
 
           <p className="text-bold ml-2 text-sm text-white">15 Sales</p>
         </div>
-        <div className="flex items-center justify-center gap-x-4">
+        <div className="flex items-center justify-center gap-x-2 sm:gap-x-4">
           <div className="rounded-2xl border px-5 py-2 text-sm font-bold hover:cursor-pointer hover:bg-white hover:text-black">
             XL
           </div>
