@@ -247,9 +247,9 @@ export const RadioBlue = () => {
 // ------------Choose File 0 Light--------------
 export const ChooseFile0Dark = () => {
   return (
-    <div>
+    <div className="px-2">
       <div className="grid gap-5">
-        <div className="w-[600px]">
+        <div className="lg:w-[600px] sm:w-[440px] w-[280px]">
           <div className="relative flex w-full">
             <div className="absolute inset-y-0 flex items-center pl-5">
               <svg
@@ -325,9 +325,9 @@ export const ChooseFile0Dark = () => {
 // ------------Choose File 0 Blue--------------
 export const ChooseFile0Light = () => {
   return (
-    <div>
+    <div className="px-2">
       <div className="grid gap-5">
-        <div className="w-[600px]">
+        <div className="lg:w-[600px] sm:w-[440px] w-[280px]">
           <div className="relative flex w-full">
             <div className="absolute inset-y-0 flex items-center pl-5">
               <svg
@@ -401,7 +401,7 @@ export const ChooseFile0Light = () => {
 export const ChooseFile0RoundedDark = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <div className="w-full">
           <div className="relative flex w-full">
             <div className="absolute inset-y-0 flex cursor-pointer items-center pl-5">
@@ -476,7 +476,7 @@ export const ChooseFile0RoundedDark = () => {
 export const ChooseFile0RoundedLight = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <div className="w-full">
           <div className="relative flex w-full">
             <div className="absolute inset-y-0 flex cursor-pointer items-center pl-5">
@@ -554,7 +554,7 @@ export const ChooseFile0RoundedLight = () => {
 export const EmailRoundedDark = () => {
   return (
     <div>
-      <div className="grid outline-none gap-5 w-[600px]">
+      <div className="grid outline-none gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <input
           type="email"
           className="w-full rounded-full outline-none focus:outline-none bg-[#121225] p-2 pl-5 text-sm text-[400] text-white placeholder-gray-400 "
@@ -581,7 +581,7 @@ export const EmailRoundedDark = () => {
 export const EmailRoundedLight = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <input
           type="email"
           className="w-full rounded-full border-[#DADADA] bg-[#F9F9F9] p-2 pl-5 text-sm text-[400] text-black placeholder-[#737373]"
@@ -608,7 +608,7 @@ export const EmailRoundedLight = () => {
 export const EmailDark = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <input
           type="email"
           className="w-full rounded-lg outline-none focus:outline-none bg-[#121225] p-2 pl-5 text-sm text-[400] text-white placeholder-gray-400 disabled:border-gray-300 disabled:bg-gray-300"
@@ -635,7 +635,7 @@ export const EmailDark = () => {
 export const EmailLight = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <input
           type="email"
           className="w-full rounded-lg border-2 border-gray-200 bg-white p-2 pl-5 text-sm text-[400] text-black placeholder-[#737373]"
@@ -662,7 +662,7 @@ export const EmailLight = () => {
 export const ErrorLight = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <input
           type="text"
           className="w-full rounded-md border-2 border-red-500 bg-gray-100 p-2 text-sm outline-none"
@@ -689,7 +689,7 @@ export const ErrorLight = () => {
 export const ErrorDark = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <input
           type="text"
           className="w-full rounded-md border-2 border-red-500 bg-gray-900 p-2 text-sm outline-none"
@@ -716,7 +716,7 @@ export const ErrorDark = () => {
 export const ErrorRoundedLight = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <input
           type="text"
           className="w-full rounded-full border-2 border-red-500 bg-gray-100 p-2 text-sm outline-none"
@@ -743,7 +743,7 @@ export const ErrorRoundedLight = () => {
 export const ErrorRoundedDark = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <input
           type="text"
           className="w-full rounded-full border-2 border-red-500 bg-gray-900 p-2 text-sm outline-none"
@@ -770,7 +770,7 @@ export const ErrorRoundedDark = () => {
 export const SuccessLight = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <input
           type="text"
           className="w-full rounded-md border-2 border-green-500 bg-gray-100 p-2 text-sm outline-none"
@@ -797,7 +797,7 @@ export const SuccessLight = () => {
 export const SuccessDark = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <input
           type="text"
           className="w-full rounded-md border-2 border-green-500 bg-gray-900 p-2 text-sm outline-none"
@@ -824,7 +824,7 @@ export const SuccessDark = () => {
 export const SuccessRoundedLight = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <input
           type="text"
           className="w-full rounded-full border-2 border-green-500 bg-gray-100 p-2 text-sm outline-none"
@@ -851,7 +851,7 @@ export const SuccessRoundedLight = () => {
 export const SuccessRoundedDark = () => {
   return (
     <div>
-      <div className="grid gap-5 w-[600px]">
+      <div className="grid gap-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <input
           type="text"
           className="w-full rounded-full border-2 border-green-500 bg-gray-900 p-2 text-sm outline-none"
@@ -1025,7 +1025,7 @@ export const SwitchLight = () => {
 // ------------Search Light--------------
 export const SearchRoundedDark = () => {
   return (
-    <div>
+    <div className="px-2">
       <div className="relative mb-6">
         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-6">
           <svg
@@ -1045,7 +1045,7 @@ export const SearchRoundedDark = () => {
         </div>
         <input
           type="text"
-          className="w-full rounded-full border-2 border-gray-900 bg-gray-900 px-72 py-2 pl-16 text-base text-white placeholder-gray-400 focus:border-gray-400"
+          className="lg:w-[600px] sm:w-[440px] w-[280px] rounded-full border-2 border-gray-900 bg-gray-900 px-2 py-2 pl-16 text-base text-white placeholder-gray-400 focus:border-gray-400"
           placeholder="Search"
         />
       </div>
@@ -1069,7 +1069,7 @@ export const SearchRoundedDark = () => {
         </div>
         <input
           type="text"
-          className="w-full rounded-full border-2 border-gray-900 bg-gray-900 px-72 py-4 pl-16 text-lg text-white placeholder-gray-400 focus:border-gray-600"
+          className="lg:w-[600px] sm:w-[440px] w-[280px] rounded-full border-2 border-gray-900 bg-gray-900 px-2 py-4 pl-16 text-lg text-white placeholder-gray-400 focus:border-gray-600"
           placeholder="Search"
         />
       </div>
@@ -1080,7 +1080,7 @@ export const SearchRoundedDark = () => {
 // ------------Search Dark--------------
 export const SearchRoundedLight = () => {
   return (
-    <div>
+    <div className="px-2">
       <div className="relative mb-6">
         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-6">
           <svg
@@ -1100,7 +1100,7 @@ export const SearchRoundedLight = () => {
         </div>
         <input
           type="text"
-          className="w-full rounded-full border-2 bg-white px-72 py-2 pl-16 text-base text-black placeholder-gray-400 focus:border-gray-400"
+          className="lg:w-[600px] sm:w-[440px] w-[280px] rounded-full border-2 bg-white px-2 py-2 pl-16 text-base text-black placeholder-gray-400 focus:border-gray-400"
           placeholder="Search"
         />
       </div>
@@ -1124,7 +1124,7 @@ export const SearchRoundedLight = () => {
         </div>
         <input
           type="text"
-          className="w-full rounded-full border-2 bg-white px-72 py-4 pl-16 text-lg text-black placeholder-gray-400 focus:border-gray-600"
+          className="lg:w-[600px] sm:w-[440px] w-[280px] rounded-full border-2 bg-white px-2 py-4 pl-16 text-lg text-black placeholder-gray-400 focus:border-gray-600"
           placeholder="Search"
         />
       </div>
@@ -1155,7 +1155,7 @@ export const SearchDark = () => {
         </div>
         <input
           type="text"
-          className="w-full rounded-md border-2 border-gray-900 bg-gray-900 px-72 py-2 pl-16 text-base text-white placeholder-gray-400 focus:border-gray-400"
+          className="lg:w-[600px] sm:w-[440px] w-[280px] rounded-md border-2 border-gray-900 bg-gray-900 px-2 py-2 pl-16 text-base text-white placeholder-gray-400 focus:border-gray-400"
           placeholder="Search"
         />
       </div>
@@ -1179,7 +1179,7 @@ export const SearchDark = () => {
         </div>
         <input
           type="text"
-          className="w-full rounded-md border-2 border-gray-900 bg-gray-900 px-72 py-4 pl-16 text-lg text-white placeholder-gray-400 focus:border-gray-600"
+          className="lg:w-[600px] sm:w-[440px] w-[280px] rounded-md border-2 border-gray-900 bg-gray-900 px-2 py-4 pl-16 text-lg text-white placeholder-gray-400 focus:border-gray-600"
           placeholder="Search"
         />
       </div>
@@ -1210,7 +1210,7 @@ export const SearchLight = () => {
         </div>
         <input
           type="text"
-          className="w-full rounded-md border-2 bg-white px-72 py-2 pl-16 text-base text-white placeholder-gray-400 focus:border-gray-400"
+          className="lg:w-[600px] sm:w-[440px] w-[280px] rounded-md border-2 bg-white px-2 py-2 pl-16 text-base text-white placeholder-gray-400 focus:border-gray-400"
           placeholder="Search"
         />
       </div>
@@ -1234,7 +1234,7 @@ export const SearchLight = () => {
         </div>
         <input
           type="text"
-          className="w-full rounded-md border-2 bg-white px-72 py-4 pl-16 text-lg text-white placeholder-gray-400 focus:border-gray-600"
+          className="lg:w-[600px] sm:w-[440px] w-[280px] rounded-md border-2 bg-white px-2 py-4 pl-16 text-lg text-white placeholder-gray-400 focus:border-gray-600"
           placeholder="Search"
         />
       </div>
@@ -1247,7 +1247,7 @@ export const SelectDark = () => {
   return (
     <div>
       <div className="grid gap-5 p-5">
-        <div className="relative w-[600px]">
+        <div className="relative lg:w-[600px] sm:w-[440px] w-[280px]">
           <select className="block w-full appearance-none rounded-md border-2 border-gray-200 bg-gray-900 p-2 text-sm text-gray-300 outline-none focus:border-blue-600 disabled:bg-gray-300">
             <option selected>Select</option>
             <option>Tailwind</option>
@@ -1315,7 +1315,7 @@ export const SelectDark = () => {
 export const SelectLight = () => {
   return (
     <div>
-      <div className="grid gap-5 p-5 w-[600px]">
+      <div className="grid gap-5 p-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <div className="relative">
           <select className="block w-full appearance-none rounded-md border-2 border-gray-200 bg-white p-2 text-sm text-gray-500 outline-none focus:border-blue-600 disabled:bg-gray-300">
             <option selected>Select</option>
@@ -1381,7 +1381,7 @@ export const SelectLight = () => {
 export const SelectRoundedDark = () => {
   return (
     <div>
-      <div className="grid gap-5 p-5 w-[600px]">
+      <div className="grid gap-5 p-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <div className="relative">
           <select className="block w-full appearance-none rounded-full border-2 border-gray-200 bg-gray-900 p-2 pl-5 text-sm text-gray-100 outline-none focus:border-blue-600 disabled:bg-gray-300">
             <option selected>Select</option>
@@ -1450,7 +1450,7 @@ export const SelectRoundedDark = () => {
 export const SelectRoundedLight = () => {
   return (
     <div>
-      <div className="grid gap-5 p-5 w-[600px]">
+      <div className="grid gap-5 p-5 lg:w-[600px] sm:w-[440px] w-[280px]">
         <div className="relative">
           <select className="block w-full appearance-none rounded-full border-2 border-gray-200 bg-gray-100 p-2 text-sm text-gray-600 outline-none pl-5 focus:border-blue-600 disabled:bg-gray-300">
             <option selected>Select</option>
