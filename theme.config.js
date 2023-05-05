@@ -91,16 +91,9 @@ export default {
       </span>
     </>
   ),
-  darkMode: true,
-  nextThemes: {
-    defaultTheme: "dark",
-  },
   primaryHue: {
     dark: 120,
     light: 120,
-  },
-  sidebar: {
-    toggleButton: true,
   },
   footer: {
     text: () => (
