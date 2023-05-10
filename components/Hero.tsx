@@ -32,35 +32,35 @@ const Hero = () => {
         <h1 className=" text-center md:text-2xl text-4xl font-semibold mt-7 mb-4 text-white">
           SeamLess UI in all frameworks
         </h1>
-        <div className=" flex flex-wrap w-full sm:justify-between mt-16 pl-16 md:px-36 xl:px-80 pb-40 gap-3 md:gap-0  ">
-          <img
-            src="/Vue.js_Logo_2 1 1.png"
-            alt=""
-            className="w-20 h-20"
-            draggable={false}
-          />
-          <img
-            src="/next-js 1 2.png"
-            alt=""
-            className="w-20 h-20"
-            draggable={false}
-          />
+        <div className="mt-16 flex w-full flex-wrap justify-center gap-12 px-8 pb-40 sm:justify-evenly sm:px-20 md:gap-6 md:px-36 xl:px-80">
           <img
             src="/download 2 3.png"
-            alt=""
-            className="w-20 h-20"
+            alt="HTML5 Logo"
+            className="md:w-18 md:h-18 h-14 w-14 lg:h-20 lg:w-20"
             draggable={false}
           />
           <img
             src="/image 20 4.png"
-            alt=""
-            className="w-20 h-20 mt-6 md:mt-0 ml-12 md:ml-0"
+            alt="ReactJS Logo"
+            className="md:w-18 md:h-18 h-14 w-14 lg:h-20 lg:w-20"
+            draggable={false}
+          />
+          <img
+            src="/next-js 1 2.png"
+            alt="NextJS Logo"
+            className="md:w-18 md:h-18 h-14 w-14 lg:h-20 lg:w-20"
             draggable={false}
           />
           <img
             src="/svelte 1 5.png"
-            alt=""
-            className="w-20 h-20 mt-6 md:mt-0"
+            alt="SvelteJS Logo"
+            className="md:w-18 md:h-18 h-14 w-14 lg:h-20 lg:w-20"
+            draggable={false}
+          />
+          <img
+            src="/Vue.js_Logo_2 1 1.png"
+            alt="VueJS Logo"
+            className="md:w-18 md:h-18 h-14 w-14 lg:h-20 lg:w-20"
             draggable={false}
           />
         </div>
