@@ -1,18 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import { Tooltip } from "@chakra-ui/react";
+import { Tooltip } from '@chakra-ui/react';
 import Link from 'next/link';
 
 const NavBar = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    if (window.screen.width < 1024) {
-      setIsMobile(true);
-    }
-  }, []);
 
   return (
     <>
