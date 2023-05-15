@@ -109,3 +109,28 @@ article > main + div a.font-semibold {
   color: black;
 }
 
+/* Customizing the scrollbar */
+
+/* For Webkit-based browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #414141;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background: #4BB74A;
+}
+
+/* For Firefox */
+scrollbar-width: thin;
+scrollbar-color: #414141 #000;
+
