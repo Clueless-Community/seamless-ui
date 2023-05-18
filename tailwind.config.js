@@ -12,4 +12,12 @@ module.exports = {
     "./theme.config.js",
     "./styles.css",
   ],
+  theme: {
+    extend: {
+      screens: {
+        'xs': '360px',
+        // => @media (min-width: 992px) { ... }
+      },
+    },
+  },
 };
