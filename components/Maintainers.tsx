@@ -3,11 +3,11 @@ import React from 'react'
 function Maintainers() {
     return (
         <div className='relative mt-20'>
-            <div className='flex md:justify-between items-center p-15  '>
+            <div className='flex  flex-col md:flex-row md:justify-between items-center p-15  '>
                 <h1 className='text-4xl text-[#7EE787] md:pl-20  text-center'>All of these seems interesting?</h1>
                 <a href='https://github.com/Clueless-Community/seamless-ui' target={'_blank'} rel="noreferrer" >
 
-                <button className='bg-[#7EE787] p-2 pl-3 pr-3 rounded-lg text-xl mr-20 font-semibold  hover:bg-green-800 transition-all hidden md:block'>Contribute Now</button>
+                <button className='bg-[#7EE787] p-2 pl-3 pr-3 rounded-lg text-xl md:mr-20 font-semibold  hover:bg-green-800 transition-all  md:mt-0 mt-10 mx-auto'>Contribute Now</button>
                 </a>
             </div>
             <div>
