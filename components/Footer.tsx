@@ -1,7 +1,12 @@
 import { Tooltip } from "@chakra-ui/react";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
 function Footer() {
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
   return (
     <div className="p-10 bg-[#1B1B1B] space-y-8">
       <div className="flex justify-between p-5 flex-col md:flex-row md:text-left text-center space-y-1">
@@ -89,7 +94,8 @@ function Footer() {
           <Link
             href={
               "https://github.com/Clueless-Community/seamless-ui/issues/new?title=Report%20an%20Issue%20%3F&labels=feedback"
-            } target={"_blank"}
+            }
+            target={"_blank"}
           >
             <p className="md:text-xl text-md text-white hover:text-[#7EE787] transition-all cursor-pointer">
               Report an Issue
@@ -131,9 +137,27 @@ function Footer() {
       <div className="-mx-10 md:-mx-0 ">
         <div className="md:flex md:justify-between text-center md:px-6 ">
           <p className="bg-[#7EE787] md:bg-transparent text-white py-2">
-            Copyright 2023 by ClueLess
+            &copy; {currentYear} by{" "}
+            <a
+              href="https://www.clueless.live/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold"
+            >
+              ClueLess
+            </a>
           </p>
-          <p className="text-white hidden md:block">Powered by Clueless</p>
+          <p className="text-white hidden md:block">
+            Powered by{" "}
+            <a
+              href="https://www.clueless.live/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold"
+            >
+              ClueLess
+            </a>
+          </p>
         </div>
       </div>
     </div>
