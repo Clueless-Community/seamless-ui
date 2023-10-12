@@ -122,7 +122,7 @@ function Footer() {
               target={"_blank"}
               rel="noreferrer"
             >
-              <img src="/Twitter.png" draggable={false} />
+              <img className="h-5 mt-1" src="/x.png" draggable={false} />
             </a>
             <a
               href="https://github.com/Clueless-Community/seamless-ui/"
