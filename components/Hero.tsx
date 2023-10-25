@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
         <div className=" flex flex-col md:flex-row pt-10 md:justify-center items-center  md:space-x-7 space-y-7 md:space-y-0 pb-28">
           <Link href="/docs/getting-started">
-            <button className="w-fit bg-[#7EE787] border-2 border-[#7EE787] hover:bg-green-800 transition-all hover:border-green-800 active:scale-95 p-2 rounded-lg px-6 font-semibold">
+            <button className="text-black hover:text-white w-fit bg-[#7EE787] border-2 border-[#7EE787] hover:bg-green-800 transition-all hover:border-green-800 active:scale-95 p-2 rounded-lg px-6 font-semibold">
               Getting Started
             </button>
           </Link>
