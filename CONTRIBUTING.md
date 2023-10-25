@@ -62,12 +62,12 @@ This is super easy. 👍
 # Project setup in local
 ## Fork and clone the repository
 ```bash
-git clone https://github.com/Clueless-Community/web-ui-kit.git
+git clone https://github.com/Clueless-Community/seamless-ui.git
 ```
 
 ## Change the directory
 ```bash
-cd web-ui-kit
+cd seamless-ui
 
 ```
 
