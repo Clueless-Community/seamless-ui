@@ -6,8 +6,8 @@ const Hero = () => {
     <>
       <div>
         <div className="relative px-2">
-          <div className="green-gradient  absolute md:left-80 left-0 "></div>
-          <div className="green-gradient  absolute md:right-80 md:top-72 right-0"></div>
+          <div className="green-gradient  absolute z-0 md:left-80 left-0 "></div>
+          <div className="green-gradient  absolute z-0 md:right-80 md:top-72 right-0"></div>
           <h1 className="text-center text-white md:text-7xl text-4xl font-bold md:pt-36 pt-16 lg:w-full mx-auto -mt-6 md:-mt-0">
             The Open-source UI library <br /> You always wanted
           </h1>
@@ -19,12 +19,12 @@ const Hero = () => {
         </div>
         <div className=" flex flex-col md:flex-row pt-10 md:justify-center items-center  md:space-x-7 space-y-7 md:space-y-0 pb-28">
           <Link href="/docs/getting-started">
-            <button className="text-black hover:text-white w-fit bg-[#7EE787] border-2 border-[#7EE787] hover:bg-green-800 transition-all hover:border-green-800 active:scale-95 p-2 rounded-lg px-6 font-semibold">
+            <button className="text-black hover:text-white relative z-10 w-fit bg-[#7EE787] border-2 border-[#7EE787] hover:bg-green-800 transition-all hover:border-green-800 active:scale-95 p-2 rounded-lg px-6 font-semibold">
               Getting Started
             </button>
           </Link>
           <Link href="/docs/components/accordion">
-            <button className=" text-white border-2 border-[#7EE787] hover:border-green-800 hover:bg-green-800 active:scale-95 transition-all p-2 rounded-lg px-4 font-semibold">
+            <button className=" text-white border-2 relative z-10 border-[#7EE787] hover:border-green-800 hover:bg-green-800 active:scale-95 transition-all p-2 rounded-lg px-4 font-semibold">
               Explore Components
             </button>
           </Link>
