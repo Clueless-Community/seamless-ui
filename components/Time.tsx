@@ -29,7 +29,7 @@ function Time() {
       />
       <img
         src="/Group 271.png"
-        className="mt-28 lg:mt-0 w-11/12 hidden md:block  "
+        className="mt-72 lg:mt-0 w-11/12 hidden md:block  "
         draggable={false}
       />
     </div>
