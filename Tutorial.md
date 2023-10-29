@@ -53,7 +53,7 @@ A great resource to learn the fundamentals of HTML is [W3 Schools](https://www.w
 
 &nbsp;&nbsp;&nbsp;&nbsp;CSS stands for Cascading Style Sheets and they are what gives style to the HTML elements. The presentation of a piece of software is very important to the end user experience and it is often dictated by the CSS, but have no fear getting started is easy (mastering it is altogether different). Just like with HTML othere are some great resources on the web to help you start writing your first CSS, among them are [***Mozilla's intorductory guide***](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started) and once again our friends at [***W3 Schools***](https://www.w3schools.com/css/). 
 
-<img src="https://heretto.com/wp-content/uploads/2020/12/CSS-Feature-Image-1080x675.jpg" alt="https://heretto.com/wp-content/uploads/2020/12/CSS-Feature-Image-1080x675.jpg" width="480"/>
+<img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png" alt="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png" width="480"/>
 
 As for an intro to CSS video [***Web Dev Simplified***](https://www.youtube.com/watch?v=1PnVor36_40) has a great video to show you the basics.
 
