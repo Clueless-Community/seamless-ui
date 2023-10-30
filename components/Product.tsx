@@ -14,7 +14,7 @@ function Product() {
 
                     </p>
                     <a href='https://clueless.live/' target='_blank' rel="noreferrer" > 
-                    <button className='bg-[#7EE787] p-2 px-6 my-9 md:my-9 font-semibold rounded-lg mt-10 hover:bg-green-800 transition-all text-xl'>Visit ClueLess</button>
+                    <button className='bg-[#7EE787] p-2 px-6 my-9 md:my-9 text-black hover:text-white font-semibold rounded-lg mt-10 hover:bg-green-800 transition-all text-xl'>Visit ClueLess</button>
                     </a>
                 </div>
             </div>
