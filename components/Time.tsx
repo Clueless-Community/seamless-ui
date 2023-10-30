@@ -17,7 +17,7 @@ function Time() {
           the vision to encourage open-source enthusiasts!
         </p>
         <Link href="/docs/components/accordion">
-          <button className="bg-[#7EE787] p-2 px-4 text-lg rounded-lg mt-10 font-semibold  hover:bg-green-800 transition-all">
+          <button className="bg-[#7EE787] p-2 px-4 text-black hover:text-white text-lg rounded-lg mt-10 font-semibold  hover:bg-green-800 transition-all">
             Explore components
           </button>
         </Link>
