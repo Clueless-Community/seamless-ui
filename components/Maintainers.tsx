@@ -12,7 +12,7 @@ function Maintainers() {
           target={"_blank"}
           rel="noreferrer"
         >
-          <button className="bg-[#7EE787] p-2 pl-3 pr-3 rounded-lg text-xl md:mr-20 font-semibold  hover:bg-green-800 transition-all  md:mt-0 mt-10 mx-auto">
+          <button className="bg-[#7EE787] text-black hover:text-white p-2 pl-3 pr-3 rounded-lg text-xl md:mr-20 font-semibold  hover:bg-green-800 transition-all  md:mt-0 mt-10 mx-auto">
             Contribute Now
           </button>
         </a>
@@ -26,10 +26,10 @@ function Maintainers() {
                   <h1 className="text-white text-2xl font-semibold mb-3">
                     SeamLess UI
                   </h1>
-                  <button className="bg-[#7EE787] p-1 px-3 mr-3 rounded-lg font-semibold hover:bg-green-800 transition-all">
+                  <button className="bg-[#7EE787] text-black hover:text-white p-1 px-3 mr-3 rounded-lg font-semibold hover:bg-green-800 transition-all">
                     HTML
                   </button>
-                  <button className="bg-[#7EE787] p-1 px-3 rounded-lg font-semibold hover:bg-green-800 transition-all">
+                  <button className="bg-[#7EE787] text-black hover:text-white p-1 px-3 rounded-lg font-semibold hover:bg-green-800 transition-all">
                     Tailwind CSS
                   </button>
                 </div>
@@ -45,13 +45,12 @@ function Maintainers() {
               target={"_blank"}
               rel="noreferrer"
             >
-              <button className="bg-[#7EE787] hidden md:block  absolute right-0 h-full top-0 p-4 rounded-r-xl hover:bg-green-800 transition-all">
+              <button className="bg-[#7EE787] hidden md:block stroke-black hover:stroke-white absolute right-0 h-full top-0 p-4 rounded-r-xl hover:bg-green-800 transition-all">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
-                  stroke="currentColor"
                   className="w-6 h-6"
                 >
                   <path

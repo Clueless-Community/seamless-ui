@@ -14,7 +14,7 @@ function Web() {
                     <span className='text-white text-xl font-bold mb-7 ml-1'>Zero JS and no-plugins installed.</span>
                 </div>
                 <Link href='/docs/components/accordion'>
-                <button className=' bg-[#7EE787] rounded-xl p-2 px-7  hover:bg-green-800 transition-all font-semibold text-lg '>Explore</button>
+                <button className=' bg-[#7EE787] rounded-xl p-2 px-7 text-black hover:text-white hover:bg-green-800 transition-all font-semibold text-lg '>Explore</button>
                 </Link>
             </div>
             <div className='p-8 md:w-[430px]  '>
