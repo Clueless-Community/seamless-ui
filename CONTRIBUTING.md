@@ -30,7 +30,7 @@ One can easily make a contribution to this repository without setting this up lo
 
 ### Step 2:
 
-&nbsp; Build the UI componet using `HTML` and `Tailwind CSS`.
+&nbsp; Build the UI component using `HTML` and `Tailwind CSS`.
 
 ### Setup 3:
 
