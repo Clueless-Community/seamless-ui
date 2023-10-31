@@ -41,7 +41,7 @@ We highly recommend you to go through the [CONTRIBUTING.md](https://github.com/C
 ## What is the purpose of this project?
     
 
-We want to build the best and most simple UI Kit for frontend developer which you can use irrespective of tech stack you are using, be it a plain HTML CSS static page or React, Vue or Angular. One should be always  able to use this UI kit in a fullly fledged manner.
+We want to build the best and most simple UI Kit for frontend developer which you can use irrespective of tech stack you are using, be it a plain HTML CSS static page or React, Vue or Angular. One should be always  able to use this UI kit in a fully fledged manner.
 
 ---
 <h2 align='center'> Project maintainers </h2>
