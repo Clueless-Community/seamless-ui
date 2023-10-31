@@ -23,12 +23,12 @@ function Time() {
         </Link>
       </div>
       <img
-        src="/Group ui.png"
+        src="/timelineSM.png"
         className="md:hidden pt-10 w-60 sm:w-72 mx-auto"
         draggable={false}
       />
       <img
-        src="/Group 271.png"
+        src="/timelineXL.png"
         className="mt-72 lg:mt-0 w-11/12 hidden md:block  "
         draggable={false}
       />
