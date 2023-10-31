@@ -1,13 +1,28 @@
 <h1 align=center> For the contributors 🫂 </h1>
 
+
+
+
 ### Haven't made your first-contribution yet? 😢
 Do check our [First Contribution](https://github.com/Clueless-Community/first-contribution) repository, where we have provided the guidelines to set up Git and how to make a pull request !
 
 ---
+## Table of Content
+> [How to contribute?](https://github.com/Clueless-Community/seamless-ui/edit/main/CONTRIBUTING.md#how-to-contribute--you-must-use-tailwind-css-)
+
+> [Raise an issue and build a component you want to build.](https://github.com/Clueless-Community/seamless-ui/edit/main/CONTRIBUTING.md#raise-an-issue-and-build-a-component-you-want-to-build)
+
+> [FAQ](https://github.com/Clueless-Community/seamless-ui/edit/main/CONTRIBUTING.md#faq)
+
+> [Project setup in local](https://github.com/Clueless-Community/seamless-ui/edit/main/CONTRIBUTING.md#project-setup-in-local-1)
+
+> [Project setup for `website-dev` branch](https://github.com/Clueless-Community/seamless-ui/edit/main/CONTRIBUTING.md#project-setup-for-website-dev-branch-1)
+
+
 # How to contribute? ( You must use tailwind CSS )
 ## Using Tailwind playground.
 
-One can easily make a contribution to this repository without setting this up locally. If you are building a new UI component then follow the steps written below.
+One can easily make a contribution to this repository without setting it up locally. If you are building a new UI component, then follow the steps written below.
 
 ### Step 1:
 
@@ -15,9 +30,9 @@ One can easily make a contribution to this repository without setting this up lo
 
 ### Step 2:
 
-&nbsp; Build the UI componet using `HTML` and `Tailwind CSS`.
+&nbsp; Build the UI component using `HTML` and `Tailwind CSS`.
 
-### Setup 3:
+### Step 3:
 
 &nbsp; Add your code to the mentioned path and make a new PR.
 
@@ -44,7 +59,7 @@ If you are solving any other issue, make your own PR. don't need to follow this 
 - Click on the "New issue" button. ![New Issue Badge](https://img.shields.io/badge/-New%20Issue-brightgreen)
 - Then create an issue using the `New Component` issue template.
 - Provide a descriptive title for the issue.
-- Take a screenshot of the component you want to build from the [figma file](https://www.figma.com/file/qzwugAfEB1GL4FgWXw9R3Z/SeamLess-UI-Dev?node-id=0%3A1&t=qRahoepdI3B98cVA-1) and paste it in the issue description. Make sure the component is not already built.
+- Take a screenshot of the component you want to build from the [figma file](https://www.figma.com/file/qzwugAfEB1GL4FgWXw9R3Z/SeamLess-UI-Dev?node-id=0%3A1&t=qRahoepdI3B98cVA-1), and paste it in the issue description. Make sure the component is not already built.
 -  Get assigned and build it.
 
 This is super easy. 👍 
@@ -81,7 +96,7 @@ git checkout -b <branch_name>
 git add .
 ```
 
-## Commit your change with a proper messagge
+## Commit your change with a proper message
 ```
 git commit -m "Enter your message here"
 ```
@@ -89,4 +104,25 @@ git commit -m "Enter your message here"
 ## Make the Pull Request
 ```
 git push origin <branch_name>
+```
+
+---
+
+# Project setup for `website-dev` branch
+
+> To make any changes in the website, you have to push your code to `website-dev` branch only.
+
+### After Forking > Cloning > Change branch to `website-dev`
+```
+git checkout website-dev
+```
+
+### To install all the dependencies
+```
+pnpm i
+```
+
+### To start the dev server
+```
+pnpm run dev
 ```
