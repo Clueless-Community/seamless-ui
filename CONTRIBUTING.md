@@ -1,9 +1,24 @@
 <h1 align=center> For the contributors 🫂 </h1>
 
+
+
+
 ### Haven't made your first-contribution yet? 😢
 Do check our [First Contribution](https://github.com/Clueless-Community/first-contribution) repository, where we have provided the guidelines to set up Git and how to make a pull request !
 
 ---
+## Table of Content
+> [How to contribute?](https://github.com/Clueless-Community/seamless-ui/edit/main/CONTRIBUTING.md#how-to-contribute--you-must-use-tailwind-css-)
+
+> [Raise an issue and build a component you want to build.](https://github.com/Clueless-Community/seamless-ui/edit/main/CONTRIBUTING.md#raise-an-issue-and-build-a-component-you-want-to-build)
+
+> [FAQ](https://github.com/Clueless-Community/seamless-ui/edit/main/CONTRIBUTING.md#faq)
+
+> [Project setup in local](https://github.com/Clueless-Community/seamless-ui/edit/main/CONTRIBUTING.md#project-setup-in-local-1)
+
+> [Project setup for `website-dev` branch](https://github.com/Clueless-Community/seamless-ui/edit/main/CONTRIBUTING.md#project-setup-for-website-dev-branch-1)
+
+
 # How to contribute? ( You must use tailwind CSS )
 ## Using Tailwind playground.
 
@@ -89,4 +104,25 @@ git commit -m "Enter your message here"
 ## Make the Pull Request
 ```
 git push origin <branch_name>
+```
+
+---
+
+# Project setup for `website-dev` branch
+
+> To make any changes in the website, you have to push your code to `website-dev` branch only.
+
+### After Forking > Cloning > Change branch to `website-dev`
+```
+git checkout website-dev
+```
+
+### To install all the dependencies
+```
+pnpm i
+```
+
+### To start the dev server
+```
+pnpm run dev
 ```
