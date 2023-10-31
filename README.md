@@ -21,7 +21,7 @@
  </div>
 
 <h2 align='center'>A UI kit which you always wanted⭐</h2>
-<p align='center'> <b An open-source UI library built using HTML and CSS and maintained by Clueless Community</b><p>
+<p align='center'> <b> An open-source UI library built using HTML and CSS and maintained by Clueless Community</b><p>
 
 
 ## Important Note
