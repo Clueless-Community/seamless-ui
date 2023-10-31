@@ -22,7 +22,7 @@ Do check our [First Contribution](https://github.com/Clueless-Community/first-co
 # How to contribute? ( You must use tailwind CSS )
 ## Using Tailwind playground.
 
-One can easily make a contribution to this repository without setting this up locally. If you are building a new UI component then follow the steps written below.
+One can easily make a contribution to this repository without setting it up locally. If you are building a new UI component, then follow the steps written below.
 
 ### Step 1:
 
@@ -32,7 +32,7 @@ One can easily make a contribution to this repository without setting this up lo
 
 &nbsp; Build the UI component using `HTML` and `Tailwind CSS`.
 
-### Setup 3:
+### Step 3:
 
 &nbsp; Add your code to the mentioned path and make a new PR.
 
@@ -59,7 +59,7 @@ If you are solving any other issue, make your own PR. don't need to follow this 
 - Click on the "New issue" button. ![New Issue Badge](https://img.shields.io/badge/-New%20Issue-brightgreen)
 - Then create an issue using the `New Component` issue template.
 - Provide a descriptive title for the issue.
-- Take a screenshot of the component you want to build from the [figma file](https://www.figma.com/file/qzwugAfEB1GL4FgWXw9R3Z/SeamLess-UI-Dev?node-id=0%3A1&t=qRahoepdI3B98cVA-1) and paste it in the issue description. Make sure the component is not already built.
+- Take a screenshot of the component you want to build from the [figma file](https://www.figma.com/file/qzwugAfEB1GL4FgWXw9R3Z/SeamLess-UI-Dev?node-id=0%3A1&t=qRahoepdI3B98cVA-1), and paste it in the issue description. Make sure the component is not already built.
 -  Get assigned and build it.
 
 This is super easy. 👍 
@@ -96,7 +96,7 @@ git checkout -b <branch_name>
 git add .
 ```
 
-## Commit your change with a proper messagge
+## Commit your change with a proper message
 ```
 git commit -m "Enter your message here"
 ```
