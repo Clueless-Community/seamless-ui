@@ -17,7 +17,7 @@ function Web() {
                 <button className=' bg-[#7EE787] rounded-xl p-2 px-7 text-black hover:text-white hover:bg-green-800 transition-all font-semibold text-lg '>Explore</button>
                 </Link>
             </div>
-            <div className='p-8 md:w-[430px]  '>
+            <div className='p-8 w-[360px] mx-auto sm:w-[430px]'>
                 <div className=' flex-col bg-[#282E36] items-center justify-center flex mx-auto w-full md:p-10 p-5 rounded-xl mt-2 ring-1 ring-white'>
                     <img src='/web3.png' className=' md:w-[270px] max-w-full' draggable={false} />
                     <div className='bg-white rounded-b-xl md:w-[270px] max-w-full'>
