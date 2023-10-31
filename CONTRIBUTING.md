@@ -81,7 +81,7 @@ git checkout -b <branch_name>
 git add .
 ```
 
-## Commit your change with a proper messagge
+## Commit your change with a proper message
 ```
 git commit -m "Enter your message here"
 ```
