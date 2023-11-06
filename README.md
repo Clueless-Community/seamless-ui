@@ -31,8 +31,8 @@ This is not a repo where you can come and dump any UI code. You need to make pro
 ## How to contribute?
 
 We highly recommend you to go through the [CONTRIBUTING.md](https://github.com/Clueless-Community/web-ui-kit/blob/main/CONTRIBUTING.md) file, where we have guided you step by step to make your contribution meaningful and in the correct manner.
-
-##### Once the pull request is merged, you will be given points according to the difficulty of the contribution. If you top the leaderboard you will be winning amazing swags and t-shirts from `ClueLess Community`
+ 
+<!--- ##### Once the pull request is merged, you will be given points according to the difficulty of the contribution. If you top the leaderboard you will be winning amazing swags and t-shirts from `ClueLess Community`-->
 ---
 ## Don't know about Tailwind CSS ,HTML, git and github.
     
